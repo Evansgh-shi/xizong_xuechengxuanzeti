@@ -1,0 +1,2749 @@
+{
+  "course": "surgery",
+  "entries": [
+    {
+      "key": "thyroid-drug-actions",
+      "text": "别合成、别释放、别来刺激我心脏",
+      "meaning": "抗甲状腺药抑制合成；碘剂主要抑制释放；普萘洛尔控制β受体相关心脏表现。为讲义药物作用配伍，不是临床独立处方。",
+      "page": 2,
+      "questionIds": [
+        "surg-01-pharmacology-q1",
+        "surg-01-pharmacology-q2",
+        "surg-01-pharmacology-q3",
+        "surg-01-x-crisis-drugs-q1"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "thyroid-preop-sequence",
+      "text": "抗甲状腺药把甲状腺搞大了、通过碘剂给它擦屁股",
+      "meaning": "仅按讲义原发性甲亢术前准备：先抗甲状腺药，后加碘剂2周，使腺体缩小变硬、充血减轻。",
+      "page": 2,
+      "questionIds": [
+        "surg-01-x-sequence-q1"
+      ],
+      "rationale": "仅适用题中原发性甲亢路径，不附到继发性甲亢题。"
+    },
+    {
+      "key": "papillary-frequency",
+      "text": "小时候100分、长大60分就是幸福",
+      "meaning": "讲义以儿童甲状腺癌约100%、成人约60%为乳头状癌的记忆数字，只作该讲义的类型分布记忆。",
+      "page": 2,
+      "questionIds": [
+        "surg-01-cancers-q1"
+      ],
+      "rationale": "乳头状癌的年龄分布与最常见类型关系。"
+    },
+    {
+      "key": "papillary-morphology",
+      "text": "多个乳头脱毛要杀菌",
+      "meaning": "乳头状癌：多中心病灶、乳头结构、毛玻璃样核与核沟、砂粒体。",
+      "page": 2,
+      "questionIds": [
+        "surg-01-cancers-q2"
+      ],
+      "rationale": "对应形态识别题，不附到降钙素等不同癌型。"
+    },
+    {
+      "key": "medullary-amyloid",
+      "text": "水一点",
+      "meaning": "髓样癌的间质可有淀粉样变性；“水”借谐音联系髓样癌，“点”联系淀粉样物。",
+      "page": 2,
+      "questionIds": [
+        "surg-01-cancers-q4"
+      ],
+      "rationale": "仅髓样癌来源及间质题。"
+    },
+    {
+      "key": "anaplastic-types",
+      "text": "小说剧情混乱",
+      "meaning": "未分化癌的小细胞、梭形细胞、巨细胞及混合细胞型。",
+      "page": 2,
+      "questionIds": [
+        "surg-01-cancers-q6"
+      ],
+      "rationale": "原文紧邻四种细胞类型。"
+    },
+    {
+      "key": "thyroid-small-surgery",
+      "text": "＜1和五个无",
+      "meaning": "讲义小于1cm的分化型癌，患侧叶加峡部切除还要求无临床淋巴结转移、无远转、无腺外侵犯、无放射史、无不良病理类型；须全部满足。",
+      "page": 3,
+      "questionIds": [
+        "surg-01-x-extent-q3"
+      ],
+      "rationale": "限定该讲义手术范围简表，不把口诀当普遍临床指征。"
+    },
+    {
+      "key": "thyroid-tsh-target",
+      "text": "一五得五、二五一十",
+      "meaning": "讲义中危TSH目标0.1–0.5，低危0.5–2；高危另为小于0.1。",
+      "page": 3,
+      "questionIds": [
+        "surg-01-tsh-q1",
+        "surg-01-tsh-q2",
+        "surg-01-tsh-q3"
+      ],
+      "rationale": "数字对应TSH目标表；不能用于抑制时长。"
+    },
+    {
+      "key": "subacute-thyroid-pain",
+      "text": "先咽痛再脖子痛",
+      "meaning": "亚急性甲状腺炎可先有病毒样前驱感染，随后甲状腺疼痛性迅速肿大；结合激素与摄碘分离鉴别。",
+      "page": 3,
+      "questionIds": [
+        "surg-01-differential-q2"
+      ],
+      "rationale": "同一疾病临床先后关系。"
+    },
+    {
+      "key": "thyroid-surgical-indications",
+      "text": "我高中姐凶呀",
+      "meaning": "讲义甲状腺手术指征记忆：恶变、高功能腺瘤、中重度原发性甲亢、结甲等继发甲亢、胸骨后甲状腺肿及压迫症状。",
+      "page": 4,
+      "questionIds": [
+        "surg-01-x-surgical-indications-q1"
+      ],
+      "rationale": "对应原文六类指征，不用于禁忌题。"
+    },
+    {
+      "key": "pregnancy-middle",
+      "text": "早晚要出事",
+      "meaning": "已具手术适应证且无禁忌时，本讲义选妊娠中期4–6月；不是对所有孕期手术的绝对判断。",
+      "page": 4,
+      "questionIds": [
+        "surg-01-x-timing-q1"
+      ],
+      "rationale": "与妊娠手术时机直接相关。"
+    },
+    {
+      "key": "laryngeal-branches",
+      "text": "喝水向里面、说话向外面；一侧嘶、双侧死",
+      "meaning": "喉上神经内支损伤饮水呛咳，外支损伤音调降低；一侧喉返神经损伤声音嘶哑，双侧可失声、呼吸困难。“死”是记忆用语，不代表必然死亡。",
+      "page": 4,
+      "questionIds": [
+        "surg-01-nerves-q1",
+        "surg-01-nerves-q2",
+        "surg-01-nerves-q3",
+        "surg-01-nerves-q4"
+      ],
+      "rationale": "四个神经侧别/分支的同一鉴别表。"
+    },
+    {
+      "key": "thyroid-artery-protection",
+      "text": "拍马屁留后路",
+      "meaning": "结扎甲状腺上动脉紧贴上极以护喉上神经；下动脉远离下极并保护腺体背面以护喉返神经。",
+      "page": 5,
+      "questionIds": [
+        "surg-01-x-protection-q1"
+      ],
+      "rationale": "前次移出题干的口诀，须留在答后解析。"
+    },
+    {
+      "key": "low-calcium-ct",
+      "text": "CT征",
+      "meaning": "低钙相关Chvostek征与Trousseau征的首字母组合；此处CT不是影像检查。",
+      "page": 5,
+      "questionIds": [
+        "surg-01-x-postop-complications-q2"
+      ],
+      "rationale": "低钙性手足搐搦的体征。"
+    },
+    {
+      "key": "esophageal-gross",
+      "text": "阳伞虽窄、胸中有水",
+      "meaning": "溃疡型、蕈伞型、髓质型、缩窄型；讲义中晚期食管癌以髓质型最常见。",
+      "page": 12,
+      "questionIds": [
+        "surg-02-morphology-q1",
+        "surg-02-morphology-q2",
+        "surg-02-morphology-q3",
+        "surg-02-morphology-q4"
+      ],
+      "rationale": "同一食管癌大体类型鉴别表。"
+    },
+    {
+      "key": "breast-nonspecial",
+      "text": "无水咸蛋小阴道",
+      "meaning": "外科讲义所列非特殊浸润癌：无大量淋巴细胞浸润的髓样癌、腺癌、单纯癌、硬癌、小叶癌、导管癌；材料提示该分类与病理学讲义不同。",
+      "page": 15,
+      "questionIds": [
+        "surg-03-x-pathology-q1",
+        "surg-03-x-pathology-q2"
+      ],
+      "rationale": "仅该材料病理类别对比，不混同现代分子分型。"
+    },
+    {
+      "key": "breast-t4",
+      "text": "肤鼻炎",
+      "meaning": "T4不论大小，按讲义为侵犯皮肤、胸壁或炎性乳癌；单纯粘附胸肌不属本表T4。",
+      "page": 15,
+      "questionIds": [
+        "surg-03-tstage-q4",
+        "surg-03-tstage-q5"
+      ],
+      "rationale": "T4结构条件及其例外。"
+    },
+    {
+      "key": "breast-n1",
+      "text": "没融合就是光棍-1",
+      "meaning": "同侧腋窝无痛肿大淋巴结可推动、未融合固定，按讲义简表对应N1；融合推不动为N2。",
+      "page": 15,
+      "questionIds": [
+        "surg-03-nstage-q2",
+        "surg-03-nstage-q3"
+      ],
+      "rationale": "只对应腋结移动性字段。"
+    },
+    {
+      "key": "breast-ca153",
+      "text": "五年高考三年模拟忍辱负重",
+      "meaning": "以15、3和乳的谐音记乳腺癌CA15-3，用于辅助疗效、预后与复发监测，而非单独确诊。",
+      "page": 16,
+      "questionIds": [
+        "surg-03-x-breast-markers-q1"
+      ],
+      "rationale": "肿瘤标志物名称与用途。"
+    },
+    {
+      "key": "breast-bcs-margin",
+      "text": "Ⅰ、Ⅱ对应1-2",
+      "meaning": "讲义Ⅰ、Ⅱ期可考虑保乳者，切肿块及周围1–2cm组织；仍须乳房体积等前提，多中心者不适用。",
+      "page": 17,
+      "questionIds": [
+        "surg-03-surgery-q3"
+      ],
+      "rationale": "仅保乳术式结构题。"
+    },
+    {
+      "key": "breast-tamoxifen",
+      "text": "吃他三",
+      "meaning": "本页ER阳性、绝经前：他莫昔芬/三苯氧胺，属于雌激素受体拮抗剂。",
+      "page": 18,
+      "questionIds": [
+        "surg-03-r3-receptor-therapy-q1",
+        "surg-03-adjuvant-q1"
+      ],
+      "rationale": "药名、类别和绝经状态。"
+    },
+    {
+      "key": "breast-ai",
+      "text": "阿姨",
+      "meaning": "本页ER阳性、绝经后：阿那曲唑、依西美坦，属于芳香化酶抑制剂。",
+      "page": 18,
+      "questionIds": [
+        "surg-03-r3-receptor-therapy-q2",
+        "surg-03-adjuvant-q2"
+      ],
+      "rationale": "药物名首字与绝经状态。"
+    },
+    {
+      "key": "trastuzumab",
+      "text": "去喝",
+      "meaning": "HER2阳性对应曲妥珠单抗/赫赛汀，记曲/赫的读音；不代表完整治疗方案。",
+      "page": 18,
+      "questionIds": [
+        "surg-03-r3-receptor-therapy-q3",
+        "surg-03-adjuvant-q3",
+        "surg-03-x-receptor-combinations-q2"
+      ],
+      "rationale": "相关三题均考HER2靶点—药物关系。"
+    },
+    {
+      "key": "lactation-antimicrobials",
+      "text": "四黄同堂",
+      "meaning": "讲义哺乳相关用药不良影响：四环素—永久牙变色，磺胺—核黄疸，喹诺酮—软骨，氨基糖苷—耳和肾毒性；仅作本表记忆。",
+      "page": 18,
+      "questionIds": [
+        "surg-03-r3-lactation-drugs-q1",
+        "surg-03-r3-lactation-drugs-q2",
+        "surg-03-r3-lactation-drugs-q3",
+        "surg-03-r3-lactation-drugs-q4"
+      ],
+      "rationale": "四类同表药物影响。"
+    },
+    {
+      "key": "nipple-inversion",
+      "text": "天酱陷爱河",
+      "meaning": "乳头先天发育不良、浆细胞乳腺炎、乳腺癌、乳腺结核，可导致乳头凹陷。",
+      "page": 19,
+      "questionIds": [
+        "surg-03-x-inversion-causes-q1"
+      ],
+      "rationale": "前次去掉题干提示后的完整口诀。"
+    },
+    {
+      "key": "rib-four-seven",
+      "text": "死期到了",
+      "meaning": "以四、七谐音记第4–7肋最容易骨折。",
+      "page": 22,
+      "questionIds": [
+        "surg-04-x-rib-sites-q1"
+      ],
+      "rationale": "节段界值。"
+    },
+    {
+      "key": "traumatic-asphyxia",
+      "text": "纸老虎",
+      "meaning": "单纯创伤性窒息可外观瘀点明显，但本页主要对症处理，出血多2–3周自行吸收；须先排除合并胸内伤。",
+      "page": 23,
+      "questionIds": [
+        "surg-04-x-rib-treatment-q3",
+        "surg-04-injury-q2"
+      ],
+      "rationale": "为该条目的教学比喻，不能推广为一切胸伤很轻。"
+    },
+    {
+      "key": "mediastinum",
+      "text": "前鸡胸胸后发神经",
+      "meaning": "前纵隔：畸胎瘤/皮样囊肿、胸腺瘤、胸骨后甲状腺肿；后纵隔多神经源性肿瘤；中纵隔另有心包/支气管囊肿及淋巴瘤。",
+      "page": 23,
+      "questionIds": [
+        "surg-04-mediastinum-q1",
+        "surg-04-mediastinum-q3"
+      ],
+      "rationale": "仅前后定位的助记语。"
+    },
+    {
+      "key": "thoracotomy",
+      "text": "金莲哥、休心气",
+      "meaning": "讲义急诊开胸探查：进行性血胸、胸腹联合伤、膈肌损伤/膈疝、休克、心脏压塞、严重气管内出血。",
+      "page": 23,
+      "questionIds": [
+        "surg-04-x-rib-treatment-q4"
+      ],
+      "rationale": "已存在开胸指征场景题。"
+    },
+    {
+      "key": "gastric-small",
+      "text": "威武、小时",
+      "meaning": "微小癌≤5mm，小胃癌6–10mm；“威武”“小时”记5与10。",
+      "page": 25,
+      "questionIds": [
+        "surg-05-x-small-threshold-q1"
+      ],
+      "rationale": "反映完整规定界值，不把更宽区间当定义。"
+    },
+    {
+      "key": "gastric-endoscopic",
+      "text": "小二分手内心无愧",
+      "meaning": "讲义简化条件：小于2cm、分化型、黏膜内、无溃疡，考虑内镜切除/剥离并随访。",
+      "page": 25,
+      "questionIds": [
+        "surg-05-x-endoscopic-set-q1"
+      ],
+      "rationale": "材料内四字段适应证。"
+    },
+    {
+      "key": "borrmann",
+      "text": "一肿二三溃四弥漫",
+      "meaning": "Ⅰ肿块/息肉型；Ⅱ局限溃疡；Ⅲ浸润溃疡；Ⅳ弥漫浸润。",
+      "page": 25,
+      "questionIds": [
+        "surg-05-gross-q1",
+        "surg-05-gross-q2",
+        "surg-05-gross-q3",
+        "surg-05-gross-q4"
+      ],
+      "rationale": "Borrmann四型。"
+    },
+    {
+      "key": "gastric-d2-excluded",
+      "text": "医生你牛——以后场上不请介种辅助",
+      "meaning": "13–16组：胰头后、肠系膜上血管旁、结肠中血管旁、腹主动脉旁；按本讲义列为一般D2不清扫组，不扩展成所有现代术式标准。",
+      "page": 26,
+      "questionIds": [
+        "surg-05-x-outside-d2-q1"
+      ],
+      "rationale": "原文完整短句及其解剖展开。"
+    },
+    {
+      "key": "gastric-nodal-poem",
+      "text": "贲门右左小大弯、幽门上下胃左肝、腹腔动脉脾门动、肝蒂胰后肠系膜、结肠中、腹主旁等",
+      "meaning": "按讲义依次记胃周淋巴结编号1–16的解剖名称；脾门为10组、脾动脉旁为11组。",
+      "page": 26,
+      "questionIds": [
+        "surg-05-x-lymph-names-1-q1",
+        "surg-05-x-lymph-names-2-q1",
+        "surg-05-x-lymph-names-3-q1",
+        "surg-05-x-lymph-names-4-q1",
+        "surg-05-x-lymph-names-5-q1",
+        "surg-05-x-lymph-names-6-q1"
+      ],
+      "rationale": "诗句本身覆盖相邻编号，可用于六道两字段编号题。"
+    },
+    {
+      "key": "targets-table",
+      "text": "E-厄、吉他-HE；小不点Hello Kitty做胃镜；二美丽；去喝；肠息肉；肝索",
+      "meaning": "本页依次联结EGFR与厄洛/吉非替尼，ABL/KIT与伊马替尼，CD20与利妥昔单抗/美罗华，HER2与曲妥珠单抗/赫赛汀，大肠癌与西妥昔单抗，肝癌与索拉菲尼。",
+      "page": 27,
+      "questionIds": [
+        "surg-05-x-target-drugs-q1",
+        "surg-05-x-target-drugs-q2",
+        "surg-05-x-target-drugs-q3",
+        "surg-05-x-target-drugs-q4",
+        "surg-05-x-target-drugs-q5",
+        "surg-05-x-target-drugs-q6"
+      ],
+      "rationale": "同一靶向药横向比较表，保留原本混排的英文音节。"
+    },
+    {
+      "key": "peritonitis-worse",
+      "text": "凉了",
+      "meaning": "腹胀加重、脉快却体温下降可提示腹膜炎恶化，不能仅以退热认定好转。",
+      "page": 29,
+      "questionIds": [
+        "surg-06-x-peritonitis-severity-q2"
+      ],
+      "rationale": "转归题。"
+    },
+    {
+      "key": "peritonitis-blood",
+      "text": "血联姻",
+      "meaning": "血行播散、链球菌、婴幼儿，作为本讲义原发性腹膜炎的一组对应。",
+      "page": 29,
+      "questionIds": [
+        "surg-06-r3-peritonitis-pathogen-q1"
+      ],
+      "rationale": "途径—病原—人群三字段。"
+    },
+    {
+      "key": "peritonitis-cirrhosis",
+      "text": "大硬币",
+      "meaning": "大肠杆菌、肝硬化腹水、透壁性原发性腹膜炎的讲义对应。",
+      "page": 29,
+      "questionIds": [
+        "surg-06-r3-peritonitis-pathogen-q3"
+      ],
+      "rationale": "与血联姻近邻比较。"
+    },
+    {
+      "key": "abdominal-trauma-frequency",
+      "text": "开干、其它都是屁",
+      "meaning": "讲义腹部器官损伤：开放伤以肝最常见，闭合伤以脾最常见。“其它”不可照字面扩展到所有损伤类别。",
+      "page": 31,
+      "questionIds": [
+        "surg-07-x-trauma-frequency-q1"
+      ],
+      "rationale": "频率比较题。"
+    },
+    {
+      "key": "intussusception",
+      "text": "2岁弹杯子装的果酱；222儿",
+      "meaning": "肠套叠多见≤2岁，果酱样血便；钡灌肠可见弹簧/杯口征并兼治疗，本页病程超过2天以手术为主。",
+      "page": 37,
+      "questionIds": [
+        "surg-08-obstruction-q3"
+      ],
+      "rationale": "该病例的年龄—影像—便性状关系；治疗时限为讲义记忆。"
+    },
+    {
+      "key": "volvulus-age",
+      "text": "青年人打篮球-小肠-年龄小；老年人打太极-大肠-年龄大",
+      "meaning": "青年饱餐后剧烈活动多联小肠扭转；老年便秘背景多联乙状结肠扭转。",
+      "page": 39,
+      "questionIds": [
+        "surg-08-obstruction-q4",
+        "surg-08-obstruction-q5"
+      ],
+      "rationale": "两类肠扭转病例鉴别。"
+    },
+    {
+      "key": "psoas-test",
+      "text": "PS做神猴",
+      "meaning": "Psoas腰大肌试验用左侧卧位，提示较深的盲肠后位/腹膜后位阑尾。",
+      "page": 43,
+      "questionIds": [
+        "surg-09-signs-q2"
+      ],
+      "rationale": "试验名和阑尾位置。"
+    },
+    {
+      "key": "obturator-test",
+      "text": "闭b-仰-低",
+      "meaning": "闭孔内肌试验、仰卧位、位置较低的盆位阑尾。",
+      "page": 43,
+      "questionIds": [
+        "surg-09-signs-q3"
+      ],
+      "rationale": "同一体位与位置对应。"
+    },
+    {
+      "key": "atypical-appendicitis",
+      "text": "老幼病孕；很能忍、只会哭",
+      "meaning": "讲义特殊阑尾炎人群；老年人感觉迟钝而症状可轻，新生儿难描述且最易穿孔，不能因表现不典型排除。",
+      "page": 45,
+      "questionIds": [
+        "surg-09-x-appendix-treatment-q1",
+        "surg-09-r3-atypical-hosts-q1",
+        "surg-09-r3-atypical-hosts-q2"
+      ],
+      "rationale": "不把整句贴到HIV白细胞题等不同机制。"
+    },
+    {
+      "key": "colon-sides",
+      "text": "左亲右拢",
+      "meaning": "左侧多浸润型，以梗阻/便血突出；右侧多隆起型，以肿块及全身症状突出。",
+      "page": 48,
+      "questionIds": [
+        "surg-10-r3-colon-sides-q1",
+        "surg-10-r3-colon-sides-q2"
+      ],
+      "rationale": "左右两字段比较。"
+    },
+    {
+      "key": "colon-margin",
+      "text": "师姐",
+      "meaning": "以十谐音记本讲义结肠癌远端距切缘≥10cm，仅为材料内界值。",
+      "page": 48,
+      "questionIds": [
+        "surg-10-x-margins-q1"
+      ],
+      "rationale": "明确不是直肠癌所有术式的统一切缘。"
+    },
+    {
+      "key": "miles",
+      "text": "mei肛门",
+      "meaning": "Miles腹会阴切除术不保肛；本页与外括约肌、肛提肌受累相联系。",
+      "page": 49,
+      "questionIds": [
+        "surg-10-operations-q1",
+        "surg-10-x-miles-indication-q1"
+      ],
+      "rationale": "手术结构后果。"
+    },
+    {
+      "key": "dixon-low",
+      "text": "远近都可以打滴滴",
+      "meaning": "按本页较强调解剖前提的表述，未累及外括约肌和肛提肌者，即使低位也可考虑低位/超低位保肛吻合；须评估具体条件。",
+      "page": 49,
+      "questionIds": [
+        "surg-10-operations-q2",
+        "surg-10-operations-q3"
+      ],
+      "rationale": "不把随后旧距离分层口诀当作无条件现代标准。"
+    },
+    {
+      "key": "hemorrhoid-grade",
+      "text": "空挡-自动挡-手动挡-挡坏了",
+      "meaning": "Ⅰ度仅出血；Ⅱ度脱出可自行回纳；Ⅲ度需手法回纳；Ⅳ度不能回纳或回纳后再次脱出。",
+      "page": 54,
+      "questionIds": [
+        "surg-11-hemorrhoids-q1",
+        "surg-11-hemorrhoids-q2",
+        "surg-11-hemorrhoids-q3",
+        "surg-11-hemorrhoids-q4"
+      ],
+      "rationale": "完整分度助记。"
+    },
+    {
+      "key": "anal-clock",
+      "text": "姐是打光棍的女生；肛门在后面、石榴",
+      "meaning": "内痔好发截石位3、7、11点；典型肛裂在后正中，截石位6点、膝胸位12点；必须先辨体位。",
+      "page": 54,
+      "questionIds": [
+        "surg-11-x-clock-q1"
+      ],
+      "rationale": "钟点题完整对应。"
+    },
+    {
+      "key": "fissure-triad",
+      "text": "前列腺肥大",
+      "meaning": "本句借谐音记肛裂、前哨痔/皮垂、肛乳头肥大，并非指真正前列腺病变。",
+      "page": 54,
+      "questionIds": [
+        "surg-11-x-fissure-triad-q1"
+      ],
+      "rationale": "避免字面误解。"
+    },
+    {
+      "key": "perianal-abscess-level",
+      "text": "越靠上全身越重、越往下局部越重；中间的坐骨都明显",
+      "meaning": "骨盆直肠间隙脓肿全身症状明显而局部不明显；肛周脓肿局部明显；坐骨直肠间隙局部和全身均明显。",
+      "page": 55,
+      "questionIds": [
+        "surg-11-anal-q4",
+        "surg-11-anal-q5",
+        "surg-11-anal-q6"
+      ],
+      "rationale": "三种脓肿必须以实际原题对应为准，整合一张比较表。"
+    },
+    {
+      "key": "fistula-treatment",
+      "text": "挂线万能，只有低位单纯能切除；复杂就要切开",
+      "meaning": "仅概括本讲义肛瘘治疗简表：低位单纯可切除或挂线，低位复杂切开或切开加挂线，高位单纯挂线，高位复杂切开加挂线；须保护括约肌，不是实际患者一律挂线。",
+      "page": 55,
+      "questionIds": [
+        "surg-11-r3-fistula-table-q1"
+      ],
+      "rationale": "明确简表范围和口诀夸张用词。"
+    },
+    {
+      "key": "hernia-contents",
+      "text": "小的难忘",
+      "meaning": "易复疝最常见内容物为小肠，难复疝最常见为大网膜；小/网谐音。",
+      "page": 60,
+      "questionIds": [
+        "surg-12-x-contents-frequency-q1"
+      ],
+      "rationale": "同两字段频率比较。"
+    },
+    {
+      "key": "hernia-sliding",
+      "text": "滑啊滑滑成了疝囊的一部分",
+      "meaning": "滑动性疝：疝内容物参与形成疝囊壁，切疝囊时应防误伤。",
+      "page": 60,
+      "questionIds": [
+        "surg-12-x-clinical-types-q5"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "richter",
+      "text": "人民币",
+      "meaning": "Richter肠管壁疝：嵌顿仅部分肠壁，局部肿块和梗阻可不明显。",
+      "page": 60,
+      "questionIds": [
+        "surg-12-contents-q1"
+      ],
+      "rationale": "名称—内容物。"
+    },
+    {
+      "key": "hernia-conservative",
+      "text": "小脐没必要；结扎大一窄",
+      "meaning": "本讲义小于1岁腹股沟疝、小于2岁脐疝及不能耐受手术者偏保守；大于1岁婴幼儿或绞窄疝涉及高位结扎路径。只按讲义分层复习。",
+      "page": 61,
+      "questionIds": [
+        "surg-12-x-repair-indications-q1",
+        "surg-12-x-repair-indications-q2"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "mcvay",
+      "text": "摸屁股严重可耻",
+      "meaning": "McVay法联系股疝、腹壁严重薄弱者，缝至耻骨梳韧带。",
+      "page": 61,
+      "questionIds": [
+        "surg-12-repair-q2"
+      ],
+      "rationale": "方法靶结构。"
+    },
+    {
+      "key": "shouldice",
+      "text": "应该大鞋子、横S征",
+      "meaning": "Shouldice法联系成人大斜疝与直疝，重点修补腹横筋膜和内环。",
+      "page": 61,
+      "questionIds": [
+        "surg-12-repair-q3"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "hernia-cord-position",
+      "text": "小孩喜欢滑梯-精索是滑梯；老直男喜欢顶-把精索顶出来",
+      "meaning": "斜疝精索在疝囊后方；直疝精索在疝囊前外方。",
+      "page": 62,
+      "questionIds": [
+        "surg-12-x-cord-q1"
+      ],
+      "rationale": "只附精索相对位置，不整池套用。"
+    },
+    {
+      "key": "hepatic-abscess-small-multiple",
+      "text": "小耳朵",
+      "meaning": "小而多发的细菌性肝脓肿，本页首选三代头孢加甲硝唑等抗菌药物治疗；较大单发者另考虑引流。",
+      "page": 66,
+      "questionIds": [
+        "surg-13-x-management-q1"
+      ],
+      "rationale": "小/而/多音节。"
+    },
+    {
+      "key": "liver-sheath",
+      "text": "格格没有的、我察贵人有、我有2个静脉",
+      "meaning": "Glisson鞘包括肝内胆管、肝动脉、门静脉，不含肝静脉；Couinaud分段依据肝静脉和门静脉。",
+      "page": 66,
+      "questionIds": [
+        "surg-13-anatomy-q1",
+        "surg-13-anatomy-q2"
+      ],
+      "rationale": "同一解剖对照。"
+    },
+    {
+      "key": "portal-tributaries",
+      "text": "上下左右大脾气",
+      "meaning": "肠系膜上、下静脉，胃左、右静脉，胆囊静脉、脾静脉、附脐静脉回流入门静脉。",
+      "page": 68,
+      "questionIds": [
+        "surg-14-x-portal-anatomy-q1"
+      ],
+      "rationale": "回流组成。"
+    },
+    {
+      "key": "portal-diameter",
+      "text": "门像1.3",
+      "meaning": "以门字形记本讲义门静脉主干增宽＞1.3cm；另列压力＞25cmH₂O。",
+      "page": 68,
+      "questionIds": [
+        "surg-14-x-portal-threshold-q1"
+      ],
+      "rationale": "讲义定义阈值。"
+    },
+    {
+      "key": "variceal-therapy",
+      "text": "3P治生态",
+      "meaning": "讲义曲张静脉出血小结联系局部止血和生长抑素/奥曲肽等综合路径；低血压先重视血容量。",
+      "page": 69,
+      "questionIds": [
+        "surg-14-x-local-variceal-q1",
+        "surg-14-x-variceal-drugs-q1"
+      ],
+      "rationale": "本句中治/生/肽只作本页辅助记忆，不猜写未能从短句独立确认的3P展开。"
+    },
+    {
+      "key": "vasopressin-cautions",
+      "text": "高官运衰",
+      "meaning": "本页血管升压素/垂体加压素相关禁忌：高血压、冠心病、孕妇、心衰。",
+      "page": 69,
+      "questionIds": [
+        "surg-14-x-vasopressin-q1"
+      ],
+      "rationale": "仅材料内用药限制。"
+    },
+    {
+      "key": "child-pugh",
+      "text": "白富美单干",
+      "meaning": "白/清蛋白、腹水、凝血酶原延长时间、胆红素、肝性脑病。",
+      "page": 69,
+      "questionIds": [
+        "surg-14-child-q1"
+      ],
+      "rationale": "五个评分项目。"
+    },
+    {
+      "key": "devascularization",
+      "text": "管哥断后",
+      "meaning": "贲周离断对应胃冠状、左膈下、胃短、胃后静脉。",
+      "page": 70,
+      "questionIds": [
+        "surg-14-x-devessels-q1"
+      ],
+      "rationale": "不附到非选择性分流血流方向题。"
+    },
+    {
+      "key": "courvoisier",
+      "text": "憋大的",
+      "meaning": "讲义梗阻性黄疸的库瓦急埃征：深吸气可触及无痛、光滑、肿大的胆囊。",
+      "page": 74,
+      "questionIds": [
+        "surg-15-tumor-q1"
+      ],
+      "rationale": "典型晚出表现，不能代替最早症状。"
+    },
+    {
+      "key": "gemcitabine",
+      "text": "给姨弹个吉他",
+      "meaning": "本讲义胰腺导管腺癌化疗条目列吉西他滨。",
+      "page": 75,
+      "questionIds": [
+        "surg-15-x-gemcitabine-q1"
+      ],
+      "rationale": "药名谐音。"
+    },
+    {
+      "key": "insulinoma-fast",
+      "text": "饿吧",
+      "meaning": "无低血糖症状当场发作时，本页列72小时饥饿试验；仅复习讲义功能检查关系。",
+      "page": 76,
+      "questionIds": [
+        "surg-15-x-endocrine-test-q1"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "whipple-sites",
+      "text": "下蛋1年喂一壶",
+      "meaning": "胰头十二指肠切除涉及下段胆管癌、十二指肠癌、胃泌素瘤、胰头癌、壶腹癌的讲义适用部位集合。",
+      "page": 76,
+      "questionIds": [
+        "surg-15-x-whipple-sites-q1"
+      ],
+      "rationale": "不把所有胰体尾病变强行归入Whipple。"
+    },
+    {
+      "key": "black-stones",
+      "text": "小黑屋",
+      "meaning": "黑色素结石几乎在胆囊；棕色结石多在胆管。",
+      "page": 78,
+      "questionIds": [
+        "surg-16-x-stone-material-q3"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "bile-duct-dilation",
+      "text": "室内室外",
+      "meaning": "讲义超声扩张阈值：肝内胆管＞4mm，肝外胆管＞10mm。",
+      "page": 79,
+      "questionIds": [
+        "surg-16-x-sono-threshold-q1"
+      ],
+      "rationale": "四、十的音节。"
+    },
+    {
+      "key": "t-tube-time",
+      "text": "250-2B是吧",
+      "meaning": "本页T管管理：术后2周造影，普通无残石者术后4周拔管，残石可在4–8周经窦道胆管镜取石；仍按讲义时程，不能凭口语替代临床评估。",
+      "page": 80,
+      "questionIds": [
+        "surg-16-x-tube-times-q1",
+        "surg-16-x-tube-times-q2",
+        "surg-16-x-tube-times-q3"
+      ],
+      "rationale": "图表原数字与蓝字混排，保留整句原意。"
+    },
+    {
+      "key": "mirizzi",
+      "text": "M像伴行",
+      "meaning": "Mirizzi综合征联系胆囊管与肝总管伴行过长/汇合过低，结石嵌顿压迫肝总管；胆总管可不扩张。",
+      "page": 81,
+      "questionIds": [
+        "surg-16-differential-q6"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "prophylactic-cholecystectomy",
+      "text": "123盖茨慢糖心",
+      "meaning": "本讲义预防性胆囊切除因素：多发或≥2–3cm结石、≥1cm息肉、瓷性胆囊、慢性胆囊炎/壁增厚、糖尿病、心肺功能障碍。此为本讲义旧清单，不是对真实患者的一律手术建议。",
+      "page": 82,
+      "questionIds": [
+        "surg-16-x-lc-risk-list-q1",
+        "surg-16-x-lc-indications-q3",
+        "surg-16-x-lc-indications-q4"
+      ],
+      "rationale": "保留材料边界。"
+    },
+    {
+      "key": "reynolds",
+      "text": "疼-黄-烧-很烧、烧傻了烧休克了",
+      "meaning": "胆绞痛、黄疸、寒战高热为Charcot三联；加中枢抑制和休克为Reynolds五联。",
+      "page": 85,
+      "questionIds": [
+        "surg-16-x-aosc-timing-q1"
+      ],
+      "rationale": "AOSC五联及紧迫性。"
+    },
+    {
+      "key": "biliary-treatment",
+      "text": "胆囊结石切胆囊、胆管结石取石头、AOSC要减压",
+      "meaning": "本页三个治疗目标的概括；具体方案仍取决于梗阻、感染、循环与可操作条件。",
+      "page": 85,
+      "questionIds": [
+        "surg-16-x-biliary-key-rule-q1",
+        "surg-16-x-biliary-key-rule-q2",
+        "surg-16-x-biliary-key-rule-q3",
+        "surg-16-x-aosc-timing-q1"
+      ],
+      "rationale": "三个场景均为已设题核心目标。"
+    },
+    {
+      "key": "cholangiocarcinoma-risk",
+      "text": "胆管结石硬、U先扩吻合",
+      "meaning": "胆管结石、硬化性胆管炎、溃疡性结肠炎、先天性胆管扩张及胆管囊肿空肠吻合术后为本页危险背景。",
+      "page": 85,
+      "questionIds": [
+        "surg-16-x-cholangiocarcinoma-q1"
+      ],
+      "rationale": "风险集合。"
+    },
+    {
+      "key": "bismuth-sides",
+      "text": "a的一竖在右边、b在左边",
+      "meaning": "肝门部胆管癌Bismuth分型Ⅲa累及右肝管，Ⅲb累及左肝管。",
+      "page": 86,
+      "questionIds": [
+        "surg-16-x-bismuth-q3",
+        "surg-16-x-bismuth-q4"
+      ],
+      "rationale": "字形记左右。"
+    },
+    {
+      "key": "atresia",
+      "text": "胆肝门",
+      "meaning": "Ⅰ胆总管，Ⅱ肝管，Ⅲ肝门部胆管闭锁。",
+      "page": 87,
+      "questionIds": [
+        "surg-16-x-atresia-q1",
+        "surg-16-x-atresia-q2",
+        "surg-16-x-atresia-q3"
+      ],
+      "rationale": "三个编号。"
+    },
+    {
+      "key": "kasai",
+      "text": "闭锁-开塞露-肛门-肝门",
+      "meaning": "Kasai借开塞露谐音记肝门空肠RY吻合；前提为肝门闭锁但肝内仍有可引流胆管腔。",
+      "page": 87,
+      "questionIds": [
+        "surg-16-x-atresia-treatment-q1"
+      ],
+      "rationale": "不是所有闭锁或完全无腔均可套用。"
+    },
+    {
+      "key": "biliary-cysts",
+      "text": "2B有包；123；死；燃烧我的卡路里-内",
+      "meaning": "本页扩张分型：Ⅱ胆总管侧壁憩室样；Ⅲ十二指肠壁内段；Ⅳ肝内外；ⅤCaroli仅肝内多发扩张，伴肝纤维化。",
+      "page": 87,
+      "questionIds": [
+        "surg-16-dilation-q2",
+        "surg-16-dilation-q3",
+        "surg-16-dilation-q4",
+        "surg-16-dilation-q5"
+      ],
+      "rationale": "图片题提交后才显示，图片本身不加答案字样。"
+    },
+    {
+      "key": "raynaud",
+      "text": "美甲；瓜瓜一定摆平",
+      "meaning": "雷诺综合征青壮年女性、手指多见；本页药物举胍乙啶、利血平，提醒避免普萘洛尔。",
+      "page": 100,
+      "questionIds": [
+        "surg-17-vascular-q1",
+        "surg-17-x-raynaud-drugs-q1"
+      ],
+      "rationale": "同一雷诺条目，人群和药物区别。"
+    },
+    {
+      "key": "five-p",
+      "text": "痛骂白无常",
+      "meaning": "急性动脉栓塞5P：疼痛、麻痹、苍白、无脉、感觉异常。",
+      "page": 100,
+      "questionIds": [
+        "surg-17-vascular-q2",
+        "surg-17-x-fogarty-q1"
+      ],
+      "rationale": "症状集合及其对应病变。"
+    },
+    {
+      "key": "fontaine",
+      "text": "一麻二跛三静四坏",
+      "meaning": "讲义慢性动脉缺血四期：Ⅰ麻木寒冷，Ⅱ间歇性跛行，Ⅲ静息/夜间痛，Ⅳ坏疽。",
+      "page": 100,
+      "questionIds": [
+        "surg-17-stage-q1",
+        "surg-17-stage-q2",
+        "surg-17-stage-q3",
+        "surg-17-stage-q4",
+        "surg-17-x-abi-q1"
+      ],
+      "rationale": "不与Rutherford六级混用。"
+    },
+    {
+      "key": "abi",
+      "text": "酒干吗；Ⅱ-200",
+      "meaning": "ABI＜0.9；讲义Ⅱa跛行距离＞200m、Ⅱb＜200m。",
+      "page": 100,
+      "questionIds": [
+        "surg-17-x-abi-q1"
+      ],
+      "rationale": "数值分层。"
+    },
+    {
+      "key": "rutherford-four",
+      "text": "静夜思",
+      "meaning": "本页Rutherford第4级为静息痛、夜间痛，不能误等同上一张四期表的Ⅳ期坏疽。",
+      "page": 100,
+      "questionIds": [
+        "surg-17-x-rutherford-q4"
+      ],
+      "rationale": "保留分期系统边界。"
+    },
+    {
+      "key": "buerger-smoker",
+      "text": "爱吸烟的小伙子",
+      "meaning": "血栓闭塞性脉管炎多青壮年男性、与吸烟相关；本表比较动脉硬化闭塞症。",
+      "page": 101,
+      "questionIds": [
+        "surg-17-r3-aso-buerger-q2"
+      ],
+      "rationale": "同字段病因鉴别。"
+    },
+    {
+      "key": "limb-posture",
+      "text": "动低静高",
+      "meaning": "讲义动脉供血不足下垂患肢；静脉回流障碍抬高患肢。具体场景仍须完整循环评估。",
+      "page": 101,
+      "questionIds": [
+        "surg-17-r3-artery-vein-fields-q1",
+        "surg-17-r3-artery-vein-fields-q2"
+      ],
+      "rationale": "体位对照，不给题干预提示。"
+    },
+    {
+      "key": "vascular-tests",
+      "text": "英文单词最长对应人体最长的浅静脉；tt-交替；男神的小腿",
+      "meaning": "Trendelenburg—大隐静脉瓣膜；Pratt—交通静脉瓣膜；Homans—踝背伸诱发小腿痛的传统试验。",
+      "page": 102,
+      "questionIds": [
+        "surg-17-tests-q1",
+        "surg-17-tests-q2",
+        "surg-17-tests-q4"
+      ],
+      "rationale": "三个测试名与目的，不把传统体征当单独确诊。"
+    },
+    {
+      "key": "renal-tb",
+      "text": "病变在肾、表现却在膀胱",
+      "meaning": "肾结核可先有慢性膀胱刺激症，血尿常随后出现；要结合尿路病变证据。",
+      "page": 104,
+      "questionIds": [
+        "surg-18-diseases-q1",
+        "surg-18-x-hematuria-q2"
+      ],
+      "rationale": "源文原句为教学总结。"
+    },
+    {
+      "key": "prostate-tests",
+      "text": "摸前列腺好酸爽",
+      "meaning": "前列腺癌条目：直肠指检硬结、PSA和酸性磷酸酶；成骨性骨转移时另可伴碱性磷酸酶升高。",
+      "page": 106,
+      "questionIds": [
+        "surg-18-x-prostate-evidence-q1",
+        "surg-18-x-prostate-enzymes-q1"
+      ],
+      "rationale": "同检测条目，不凭一种指标确诊。"
+    },
+    {
+      "key": "prostate-zones",
+      "text": "曾毅爱粥",
+      "meaning": "前列腺增生好发移行带；前列腺癌好发外周带，增生与癌不是必然递进。",
+      "page": 108,
+      "questionIds": [
+        "surg-19-bph-stones-q1",
+        "surg-19-bph-stones-q2"
+      ],
+      "rationale": "增移、癌周谐音。"
+    },
+    {
+      "key": "stone-calcium-oxalate",
+      "text": "小草常见、喝了伤心",
+      "meaning": "草酸钙最常见；质硬、粗糙、桑葚样、棕褐色。",
+      "page": 108,
+      "questionIds": [
+        "surg-19-x-stone-surface-q1"
+      ],
+      "rationale": "成分与肉眼形态。"
+    },
+    {
+      "key": "stone-phosphate",
+      "text": "鹿角易掰碎；灵感",
+      "meaning": "本页磷酸钙结石易碎、粗糙、灰白、鹿角样；本页处理联系酸化尿液加抗感染，限材料表。",
+      "page": 108,
+      "questionIds": [
+        "surg-19-x-stone-surface-q2"
+      ],
+      "rationale": "不将鹿角样形态脱离本表当唯一结石成分诊断。"
+    },
+    {
+      "key": "uric-stone",
+      "text": "颗颗血尿",
+      "meaning": "尿酸盐结石硬、光滑、颗粒状、红色；X线常不显影。",
+      "page": 108,
+      "questionIds": [
+        "surg-19-x-stone-surface-q3"
+      ],
+      "rationale": "肉眼形态对应。"
+    },
+    {
+      "key": "cystine-stone",
+      "text": "辣黄瓜",
+      "meaning": "胱氨酸结石光滑、蜡样、黄色。",
+      "page": 108,
+      "questionIds": [
+        "surg-19-x-stone-surface-q4"
+      ],
+      "rationale": "蜡、黄、胱的谐音。"
+    },
+    {
+      "key": "stone-small-eswl",
+      "text": "遛出去了；饿/2死我了",
+      "meaning": "本讲义＜0.6cm先药物与饮水等保守；0.6–2cm肾结石/上段输尿管结石联系ESWL，须无需要急诊解除梗阻等特殊情况。",
+      "page": 109,
+      "questionIds": [
+        "surg-19-x-stone-procedure-q1",
+        "surg-19-x-stone-procedure-q2"
+      ],
+      "rationale": "材料内数值与方法对应。"
+    },
+    {
+      "key": "stone-priority",
+      "text": "害怕输尿管结石",
+      "meaning": "多发尿路结石时：双肾先易取侧；双输尿管梗阻重视解除梗阻；肾与对侧输尿管结石先输尿管；肾功能极差先造瘘。",
+      "page": 109,
+      "questionIds": [
+        "surg-19-x-stone-priority-q1"
+      ],
+      "rationale": "按本讲义完整四场景比较。"
+    },
+    {
+      "key": "urethra-trauma",
+      "text": "前骑球、后骨膜",
+      "meaning": "前尿道骑跨伤多球部、尿生殖膈以下；后尿道骨盆骨折多膜部、尿生殖膈以上。",
+      "page": 110,
+      "questionIds": [
+        "surg-19-r3-urethral-fields-q1",
+        "surg-19-r3-urethral-fields-q2"
+      ],
+      "rationale": "两题均考完整解剖字段。"
+    },
+    {
+      "key": "ddh-pathology",
+      "text": "鞋-鞋带-脚",
+      "meaning": "以髋臼浅平、关节囊/韧带松弛、股骨头较小等对应站立前期解剖变化；本页还列股骨颈前倾角增大。",
+      "page": 115,
+      "questionIds": [
+        "surg-20-x-ddh-pathology-q1",
+        "surg-20-deformity-q2"
+      ],
+      "rationale": "病理组合，不从比喻补造精确解剖。"
+    },
+    {
+      "key": "ddh-tests",
+      "text": "欧巴外面去给三阿哥打气；T像单足站立、TT打气使你站立",
+      "meaning": "关联Ortolani、Barlow、外展、Allis及行走期Trendelenburg单足站立、打气筒征；必须分清站立前和行走期。",
+      "page": 115,
+      "questionIds": [
+        "surg-20-hip-tests-q1",
+        "surg-20-hip-tests-q2",
+        "surg-20-hip-tests-q3",
+        "surg-20-hip-tests-q4",
+        "surg-20-x-ddh-stages-q1",
+        "surg-20-x-ddh-stages-q2"
+      ],
+      "rationale": "本页连续体检口诀，以阶段限制避免乱套。"
+    },
+    {
+      "key": "pavlik",
+      "text": "六味地黄丸、外面去拍拍",
+      "meaning": "0–6个月为讲义黄金期，Pavlik吊带使髋屈曲外展。",
+      "page": 116,
+      "questionIds": [
+        "surg-20-x-ddh-treatment-q1"
+      ],
+      "rationale": "年龄、方法和姿势。"
+    },
+    {
+      "key": "nonstructural-scoliosis",
+      "text": "神医说知无不言",
+      "meaning": "神经根刺激、癔症、髋关节挛缩、姿势不当、下肢不等长、炎症为本页非结构性侧凸例子；去除原因后可消除。",
+      "page": 116,
+      "questionIds": [
+        "surg-20-x-nonstructural-q1",
+        "surg-20-deformity-q4"
+      ],
+      "rationale": "不是最常见结构性类型的答案提示。"
+    },
+    {
+      "key": "cobb-brace",
+      "text": "恐怖四肢两对",
+      "meaning": "Cobb角＞10°诊断，＜20°随访，20–40°支具，＞40°手术，均按本讲义简表。",
+      "page": 116,
+      "questionIds": [
+        "surg-20-x-scoliosis-angle-q1",
+        "surg-20-x-scoliosis-angle-q2",
+        "surg-20-x-scoliosis-angle-q3"
+      ],
+      "rationale": "角度阈值与处理分层。"
+    },
+    {
+      "key": "frozen-shoulder-motion",
+      "text": "梳头发、挠后背痒痒",
+      "meaning": "肩关节外旋外展与内旋后伸的生活动作，粘连性肩关节囊炎可出现疼痛受限。",
+      "page": 119,
+      "questionIds": [
+        "surg-21-chronic-q1"
+      ],
+      "rationale": "动作展开，但不把这些直接写回题干新增提示。"
+    },
+    {
+      "key": "tennis-elbow",
+      "text": "别动碗里的蜜汁肘子",
+      "meaning": "肱骨外上髁炎联系Mills征、肘外侧痛及限制腕关节相关活动。",
+      "page": 119,
+      "questionIds": [
+        "surg-21-chronic-q2",
+        "surg-21-x-tennis-rest-q1"
+      ],
+      "rationale": "痛在肘但限制腕部动作。"
+    },
+    {
+      "key": "patella-tibia-steroid",
+      "text": "髌软软和胫骨骨相敬如宾不GC",
+      "meaning": "本页胫骨结节骨软骨病不宜局部注射激素；髌骨软骨软化症等注射也须材料所列谨慎条件，不把口诀当普遍用药禁忌。",
+      "page": 120,
+      "questionIds": [
+        "surg-21-x-steroid-caution-q1"
+      ],
+      "rationale": "只附共同谨慎用药题。"
+    },
+    {
+      "key": "femoral-head-causes",
+      "text": "GC地易建联",
+      "meaning": "非创伤性股骨头坏死背景：糖皮质激素、地中海贫血等血红蛋白病、乙醇、减压/潜水员病。",
+      "page": 123,
+      "questionIds": [
+        "surg-22-x-necrosis-causes-q1"
+      ],
+      "rationale": "材料中所列完整集合。"
+    },
+    {
+      "key": "figure-four",
+      "text": "4字是姑姑的盒子",
+      "meaning": "股内收肌损伤、股骨头坏死、髋关节结核、强直性脊柱炎可联系4字试验；不是单个阳性就能确诊。",
+      "page": 124,
+      "questionIds": [
+        "surg-22-x-figure-four-q1",
+        "surg-23-x-hip-tb-test-q1"
+      ],
+      "rationale": "P134重复同口诀，第二题以完整检查集合为目标。"
+    },
+    {
+      "key": "head-necrosis-stages",
+      "text": "约-硬-头塌-头脱",
+      "meaning": "按本讲义X线编号：Ⅰ软骨下溶解/新月征，Ⅱ修复硬化带，Ⅲ头塌陷，Ⅳ头脱位及关节改变；勿混用其他分期体系。",
+      "page": 124,
+      "questionIds": [
+        "surg-22-x-necrosis-stage-q1",
+        "surg-22-x-necrosis-stage-q2",
+        "surg-22-x-necrosis-stage-q3",
+        "surg-22-x-necrosis-stage-q4"
+      ],
+      "rationale": "四题同一源表。"
+    },
+    {
+      "key": "meniscus-bucket",
+      "text": "放纵吃饼",
+      "meaning": "桶柄状撕裂是穿过半月板全层的纵行撕裂。",
+      "page": 125,
+      "questionIds": [
+        "surg-22-x-bucket-handle-q1"
+      ],
+      "rationale": "纵、柄谐音。"
+    },
+    {
+      "key": "donoghue",
+      "text": "DD前面是内内",
+      "meaning": "Donoghue三联：前交叉韧带、内侧副韧带、内侧半月板。",
+      "page": 125,
+      "questionIds": [
+        "surg-22-x-knee-triad-q1"
+      ],
+      "rationale": "三种结构位置。"
+    },
+    {
+      "key": "meniscal-tests",
+      "text": "麦旋风、广播体操",
+      "meaning": "McMurray旋转挤压、过伸过屈和蹲走试验联系半月板。",
+      "page": 125,
+      "questionIds": [
+        "surg-22-x-knee-tests-q1"
+      ],
+      "rationale": "不把浮髌或轴移混作半月板。"
+    },
+    {
+      "key": "collateral-tests",
+      "text": "扮演/play伏地魔",
+      "meaning": "Apley研磨及侧方应力联系侧副韧带；检查意义须结合具体操作。",
+      "page": 125,
+      "questionIds": [
+        "surg-22-x-knee-tests-q2"
+      ],
+      "rationale": "侧副韧带相关试验助记。"
+    },
+    {
+      "key": "cruciate-tests",
+      "text": "拉抽屉；以前很轴",
+      "meaning": "Lachman和抽屉联系交叉韧带，前拉增大偏前交叉、后推增大偏后交叉；轴移联系前交叉断裂后不稳定。",
+      "page": 125,
+      "questionIds": [
+        "surg-22-knee-q2",
+        "surg-22-knee-q3",
+        "surg-22-x-knee-tests-q3"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "tinel",
+      "text": "太太再生",
+      "meaning": "Tinel征在本页称神经再生征。",
+      "page": 125,
+      "questionIds": [
+        "surg-22-x-allen-q2"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "wing-square-shoulder",
+      "text": "咦胸长的叶芳",
+      "meaning": "翼状肩—胸长神经/前锯肌；方肩—腋神经/三角肌。",
+      "page": 125,
+      "questionIds": [
+        "surg-22-nerves-q5",
+        "surg-22-nerves-q6"
+      ],
+      "rationale": "两个神经肌肉外形对应，不混同所有方肩病因。"
+    },
+    {
+      "key": "brachial-root",
+      "text": "鸡中翅呢；五一",
+      "meaning": "臂丛主要终末分支含肌皮、正中、尺、桡等；神经根范围C5–T1。",
+      "page": 125,
+      "questionIds": [
+        "surg-22-x-plexus-roots-q1",
+        "surg-22-x-plexus-branches-q1",
+        "surg-22-x-plexus-branches-q2",
+        "surg-22-x-plexus-branches-q3"
+      ],
+      "rationale": "根范围及终末分支相关题，非纯神经束来源题。"
+    },
+    {
+      "key": "peripheral-motor-poem",
+      "text": "中原迟早闹炊烟、金钩飞马夜方肩",
+      "meaning": "用正中、尺、桡、胫、腓、腋等神经与对应手足/肩运动体征串联；正式判断以本页表的具体损伤平面为准。",
+      "page": 127,
+      "questionIds": [
+        "surg-22-x-peripheral-motor-q1",
+        "surg-22-x-peripheral-motor-q2",
+        "surg-22-x-peripheral-motor-q3",
+        "surg-22-x-peripheral-motor-q5",
+        "surg-22-x-peripheral-motor-q6"
+      ],
+      "rationale": "整首就是同一神经运动表的助记，不能用于未画清楚的感觉分布。"
+    },
+    {
+      "key": "nerve-entrapment",
+      "text": "飞轮海中谁是腕；吃肘子；坐在梨子",
+      "meaning": "腕管—正中神经/Phalen屈腕，肘管—尺神经，梨状肌—坐骨神经。",
+      "page": 128,
+      "questionIds": [
+        "surg-22-nerves-q1",
+        "surg-22-nerves-q2",
+        "surg-22-nerves-q4"
+      ],
+      "rationale": "三种卡压位置，不附旋后肌桡神经深支题。"
+    },
+    {
+      "key": "tb-sites",
+      "text": "鸡西宽冷面",
+      "meaning": "骨关节结核常见顺序：脊柱、膝、髋；并联系寒性/冷脓肿。",
+      "page": 133,
+      "questionIds": [
+        "surg-23-x-tb-sites-q1"
+      ],
+      "rationale": "部位频率顺序。"
+    },
+    {
+      "key": "spinal-tb-child",
+      "text": "儿童在心中",
+      "meaning": "儿童胸椎结核以中心型多见；成人腰椎常边缘型并累及椎间盘。",
+      "page": 134,
+      "questionIds": [
+        "surg-23-vertebral-sites-q1",
+        "surg-23-vertebral-sites-q2"
+      ],
+      "rationale": "两类人群、部位和形态比较。"
+    },
+    {
+      "key": "active-tb-paralysis",
+      "text": "侬干死",
+      "meaning": "活动型结核截瘫可由脓液、干酪样坏死物、死骨进入椎管压迫；迟发静止型另与瘢痕、脱位、后凸等有关。",
+      "page": 134,
+      "questionIds": [
+        "surg-23-paralysis-q1",
+        "surg-23-paralysis-q2"
+      ],
+      "rationale": "时相—压迫内容物比较。"
+    },
+    {
+      "key": "spinal-tb-surgery",
+      "text": "鸡大不豆芽",
+      "meaning": "本页病灶清除考虑抗结核无缓解、严重后凸、较大死骨/冷脓肿、窦道不愈、不稳定、脊髓/马尾受压。",
+      "page": 134,
+      "questionIds": [
+        "surg-23-x-spinal-tb-indications-q1"
+      ],
+      "rationale": "只按讲义结构因素清单复习。"
+    },
+    {
+      "key": "hip-tb-tests",
+      "text": "能屈能伸能死；髋髋恰恰骨软骨",
+      "meaning": "髋结核可查4字、过伸、屈曲挛缩/Thomas；Thomas也可与髋前关节囊、髂腰肌、髂股韧带挛缩及股骨头骨软骨病相关。",
+      "page": 134,
+      "questionIds": [
+        "surg-23-x-hip-tb-test-q1"
+      ],
+      "rationale": "检查集合，不能由阳性反推唯一病因。"
+    },
+    {
+      "key": "oa-nodules",
+      "text": "方脑壳哈ber、HB按字母表顺序记",
+      "meaning": "骨关节炎可有方形手，Heberden在远端指间，Bouchard在近端指间。",
+      "page": 139,
+      "questionIds": [
+        "surg-24-nodules-q1",
+        "surg-24-nodules-q2"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "oa-hard",
+      "text": "硬碰硬",
+      "meaning": "关节软骨退变后，软骨下骨硬化/囊变、非对称间隙狭窄及边缘骨赘为本页骨关节炎关系。",
+      "page": 139,
+      "questionIds": [
+        "surg-24-arthritis-q1",
+        "surg-24-r3-oa-ra-fields-q1"
+      ],
+      "rationale": "始于软骨的退变与继发骨改变。"
+    },
+    {
+      "key": "as-enthesis",
+      "text": "富强",
+      "meaning": "强直性脊柱炎的附着点炎，借附、强谐音。",
+      "page": 140,
+      "questionIds": [
+        "surg-24-x-arthritis-origin-q3"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "as-rest-activity",
+      "text": "竹节伦能弹钢琴；竹节伦穿海澜之家不停开演唱会、因为休息后会加重",
+      "meaning": "本页强直性脊柱炎以男性多见、较少累及手关节、休息后加重而活动后减轻为对照；类风湿晨僵更明显持久。",
+      "page": 140,
+      "questionIds": [
+        "surg-24-x-exercise-pattern-q1",
+        "surg-24-x-stiffness-q1"
+      ],
+      "rationale": "原文比喻用于活动节律和晨僵对比，未扩展为所有关节炎。"
+    },
+    {
+      "key": "as-song",
+      "text": "为你弹奏（驼背的样子）肖邦（Schober征）的夜曲（休息后加重）；纪念我死（4字试验）去的爱情（HLA-B27）",
+      "meaning": "本页联结驼背、Schober征、夜间/休息后加重、4字试验及HLA-B27；须按正文逐项理解，不凭歌句诊断。",
+      "page": 140,
+      "questionIds": [
+        "surg-24-arthritis-q3",
+        "surg-24-x-arthritis-markers-q1",
+        "surg-24-x-as-spread-q1"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "bone-metastatic-origin",
+      "text": "甲乳fei省钱",
+      "meaning": "甲状腺、乳腺、肺、肾、前列腺癌为本讲义重点常见骨转移来源。",
+      "page": 143,
+      "questionIds": [
+        "surg-25-x-bone-metastatic-origin-q2"
+      ],
+      "rationale": "原题移出题干的首字口诀。"
+    },
+    {
+      "key": "giant-cell",
+      "text": "年龄界于青少年和中老年之间；巨偏心、看肥皂剧、打乒乓-单打双打",
+      "meaning": "骨巨细胞瘤多20–40岁、长骨骨端、偏心肥皂泡样病变，可有乒乓球感；成分含单核基质与多核巨细胞。",
+      "page": 144,
+      "questionIds": [
+        "surg-25-tumors-q2",
+        "surg-25-x-giant-cell-q1"
+      ],
+      "rationale": "需验证tumors-q1对应骨巨细胞瘤；不能整池附加。"
+    },
+    {
+      "key": "giant-cell-radiation",
+      "text": "肉放变质了",
+      "meaning": "本页骨巨细胞瘤放疗存在肉瘤变风险，不能把难手术情境与放疗安全性混为一谈。",
+      "page": 144,
+      "questionIds": [
+        "surg-25-x-giant-radiation-q1"
+      ],
+      "rationale": "放疗风险。"
+    },
+    {
+      "key": "osteosarcoma-poem",
+      "text": "Cod三角日光线；手术放在化疗间；碱性磷酶拍胸片",
+      "meaning": "骨肉瘤影像Codman三角/日光射线；本页治疗为化疗-根治手术-化疗；可升碱性磷酸酶、易肺转移而术前胸部检查。",
+      "page": 144,
+      "questionIds": [
+        "surg-25-r3-sarcoma-fields-q1",
+        "surg-25-x-bone-tumor-therapies-q1",
+        "surg-25-x-lung-metastases-q1",
+        "surg-25-x-bone-labs-q1"
+      ],
+      "rationale": "完整原创咏骨肉瘤，分别对应同一疾病的四个已考关系。"
+    },
+    {
+      "key": "ewing-image",
+      "text": "幼儿园儿童喜欢吃三种口味的葱油饼、多放葱，用盆和面、长的擀面杖擀面、煎饼",
+      "meaning": "本页尤因肉瘤儿童多见，长骨骨干、骨盆/肩胛骨，葱皮样骨膜反应；放疗极敏感，另化疗与手术。",
+      "page": 144,
+      "questionIds": [
+        "surg-25-r3-sarcoma-fields-q2",
+        "surg-25-x-bone-tumor-therapies-q2"
+      ],
+      "rationale": "表格文字跨行已目视确认，保留原句不虚构“三种口味”的单独医学字段。"
+    },
+    {
+      "key": "cartilage-tumors",
+      "text": "又短又软；盆装肉软骨",
+      "meaning": "软骨瘤多手足短管骨；软骨肉瘤联系骨盆，两者可有软骨性钙化。",
+      "page": 144,
+      "questionIds": [
+        "surg-25-x-other-bone-tumors-q3",
+        "surg-25-x-other-bone-tumors-q4"
+      ],
+      "rationale": "两种相近肿瘤的部位比较。"
+    },
+    {
+      "key": "bone-lymphoma",
+      "text": "冰柠檬",
+      "meaning": "本页骨淋巴瘤联系融冰征。",
+      "page": 145,
+      "questionIds": [
+        "surg-25-x-other-bone-tumors-q5"
+      ],
+      "rationale": "影像名对应。"
+    },
+    {
+      "key": "chordoma",
+      "text": "吾上下求索边泡妞-恶心",
+      "meaning": "脊索瘤常见颅底、骶尾椎，气泡样细胞和黏液基质，为恶性肿瘤但可无骨膜反应。",
+      "page": 145,
+      "questionIds": [
+        "surg-25-tumors-q7"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "osteoma-osteoid",
+      "text": "骨肿瘤学得脑袋尖尖；小样还痛啊",
+      "meaning": "骨瘤可隆起颅骨骨面；骨样骨瘤夜间痛明显且阿司匹林可缓解，不能因名字相近而混同。",
+      "page": 145,
+      "questionIds": [
+        "surg-25-x-other-bone-tumors-q6",
+        "surg-25-tumors-q5"
+      ],
+      "rationale": "两类良性成骨病变。"
+    },
+    {
+      "key": "bone-cyst-steroid",
+      "text": "亚狮龙",
+      "meaning": "本页小于14岁骨囊肿可囊内注入甲泼尼龙，为该表治疗选择。",
+      "page": 145,
+      "questionIds": [
+        "surg-25-x-cyst-treatment-q1"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "spinal-destruction",
+      "text": "转移瘤3个字-椎弓根3个字；结核2个字-椎体2个字",
+      "meaning": "骨转移瘤联系椎弓根与椎体破坏而椎间隙正常；腰椎结核联系椎体破坏、椎间隙窄与冷脓肿。",
+      "page": 148,
+      "questionIds": [
+        "surg-25-x-vertebra-differential-q1",
+        "surg-25-x-vertebra-differential-q2"
+      ],
+      "rationale": "教学字数记忆，不声称转移瘤绝对从不累及椎间盘。"
+    },
+    {
+      "key": "spinal-fracture-level",
+      "text": "012",
+      "meaning": "脊柱骨折好发T10–L2。该数字为蓝色但无汉字，不能被只筛中文的样式扫描漏掉。",
+      "page": 151,
+      "questionIds": [
+        "surg-26-x-fracture-site-q1"
+      ],
+      "rationale": "前次复核已确认源文数字助记。"
+    },
+    {
+      "key": "soft-tissue-mri",
+      "text": "软软的",
+      "meaning": "脊髓、神经、韧带、半月板等软组织损伤优先MRI，与骨折常规X线不同。",
+      "page": 151,
+      "questionIds": [
+        "surg-26-x-imaging-transfer-q3",
+        "surg-22-x-knee-imaging-q1"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "jefferson-hangman",
+      "text": "嬛嬛减肥；二叔上吊",
+      "meaning": "Jefferson为C1寰椎前后弓双侧骨折；Hangman/缢死者为C2枢椎椎弓根骨折。",
+      "page": 152,
+      "questionIds": [
+        "surg-26-fracture-q1",
+        "surg-26-fracture-q2"
+      ],
+      "rationale": "两种命名骨折。"
+    },
+    {
+      "key": "odontoid-conservative",
+      "text": "一山无二虎、神奇的6-8和123",
+      "meaning": "本页齿状突Ⅰ、Ⅲ及无移位Ⅱ型可Halo固定；一般6–8周，Ⅲ型12周。仅按本页传统保守条件表。",
+      "page": 152,
+      "questionIds": [
+        "surg-26-x-odontoid-types-q1"
+      ],
+      "rationale": "保守条件与固定时程。"
+    },
+    {
+      "key": "chance",
+      "text": "切水果连切-偶然",
+      "meaning": "Chance骨折是经椎体、椎弓、棘突的横向撕裂性骨折。",
+      "page": 153,
+      "questionIds": [
+        "surg-26-fracture-q3"
+      ],
+      "rationale": "命名与贯穿结构。"
+    },
+    {
+      "key": "cord-posterior",
+      "text": "本是同根生、后-深",
+      "meaning": "后脊髓综合征损害本体深感觉，运动及痛温觉可保留。",
+      "page": 154,
+      "questionIds": [
+        "surg-26-cord-q1"
+      ],
+      "rationale": "后索功能。"
+    },
+    {
+      "key": "cord-central",
+      "text": "中央-上级、不分离",
+      "meaning": "颈椎过伸后的中央脊髓综合征可上肢瘫痪重于下肢；本讲义不把它写作脊髓空洞症式感觉分离。",
+      "page": 154,
+      "questionIds": [
+        "surg-26-cord-q2"
+      ],
+      "rationale": "与前后束及脊髓空洞症区别。"
+    },
+    {
+      "key": "brown-sequard",
+      "text": "一同运动感情深、对面感情浅",
+      "meaning": "脊髓半切：同侧运动、本体深感觉障碍；对侧痛温浅感觉障碍。",
+      "page": 154,
+      "questionIds": [
+        "surg-26-cord-q3"
+      ],
+      "rationale": "两侧传导束关系。"
+    },
+    {
+      "key": "conus",
+      "text": "圆桌会议",
+      "meaning": "圆锥/马尾损伤会阴/鞍区感觉及括约肌障碍；讲义圆锥损伤下肢运动可保留，马尾伴软瘫。",
+      "page": 155,
+      "questionIds": [
+        "surg-26-cord-q4",
+        "surg-26-cord-q5"
+      ],
+      "rationale": "会阴、括约肌与下肢的对比。"
+    },
+    {
+      "key": "cord-surgical-indications",
+      "text": "拖布入血",
+      "meaning": "脊柱骨折脱位、复位不满意、碎骨片突入椎管、椎管内活动性出血为本讲义手术评估结构因素。",
+      "page": 155,
+      "questionIds": [
+        "surg-26-x-cord-indications-q1"
+      ],
+      "rationale": "不附带本页有争议的激素急救时程。"
+    },
+    {
+      "key": "cervical-six-lumbar-five",
+      "text": "我的脖子好6；我的腰",
+      "meaning": "本讲义颈椎病好发C5–6，腰椎间盘突出好发L4–5及L5–S1。",
+      "page": 159,
+      "questionIds": [
+        "surg-27-x-common-level-q1"
+      ],
+      "rationale": "节段数值比较。"
+    },
+    {
+      "key": "cervical-myelopathy",
+      "text": "飘、可硬瘫、范围广、哈巴儿",
+      "meaning": "脊髓型颈椎病可踩棉花感、四肢广泛感觉运动障碍、Hoffmann及Babinski征，并可有二便障碍。",
+      "page": 159,
+      "questionIds": [
+        "surg-27-x-myelopathy-composite-q1",
+        "surg-27-x-cervical-safety-q1"
+      ],
+      "rationale": "仅脊髓受压定位，不套用神经根型。"
+    },
+    {
+      "key": "syringomyelia",
+      "text": "心已空不知冷暖",
+      "meaning": "脊髓空洞症可痛温觉消失而触觉及深感觉存在，属于感觉分离。",
+      "page": 160,
+      "questionIds": [
+        "surg-27-x-differential-q2"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "sciatic-scoliosis",
+      "text": "内奸外患",
+      "meaning": "按本页髓核—神经根相对位置，内侧突出侧凸向健侧，外侧突出侧凸向患侧。",
+      "page": 160,
+      "questionIds": [
+        "surg-27-x-sciatic-scoliosis-q1"
+      ],
+      "rationale": "完整两种位置与代偿方向。"
+    },
+    {
+      "key": "lumbosacral-root-function",
+      "text": "L4L5S1伸膝伸足屈足、膝反射没有踝反射；4-股四头肌-伸膝",
+      "meaning": "本表L4联系伸膝与膝反射，L5联系伸踝伸足、无特定深反射，S1联系屈踝屈足与踝反射；按本讲义组合复习。",
+      "page": 161,
+      "questionIds": [
+        "surg-27-roots-q1",
+        "surg-27-roots-q2",
+        "surg-27-roots-q3"
+      ],
+      "rationale": "同一神经根运动/反射表。"
+    },
+    {
+      "key": "slr-differential",
+      "text": "紧箍不许摸不许碰；急粒来不及加强",
+      "meaning": "本表膨出、Schmorl/经骨突出常无神经根受压，直腿及加强均阴性；急性腰扭伤、梨状肌综合征可直腿阳性而加强阴性。",
+      "page": 161,
+      "questionIds": [
+        "surg-27-x-leg-tests-q1",
+        "surg-27-x-leg-tests-q2",
+        "surg-27-x-leg-tests-q3"
+      ],
+      "rationale": "完整试验组合，不把单次阴性排除所有病变。"
+    },
+    {
+      "key": "symptom-sign-mismatch",
+      "text": "123交警逮到要赔偿",
+      "meaning": "本页症征不符列十二指肠2/3部损伤、交感型颈椎病、胆道蛔虫、腰椎管狭窄、急性肠系膜动脉血栓/栓塞。",
+      "page": 162,
+      "questionIds": [
+        "surg-07-injury-q4",
+        "surg-08-x-mesenteric-q1",
+        "surg-27-x-differential-q4"
+      ],
+      "rationale": "分别附到实际列举相同关系的题；不得整页附加。"
+    },
+    {
+      "key": "dugas",
+      "text": "监督",
+      "meaning": "Dugas搭肩试验：肘贴胸不能搭健侧肩，搭肩时肘不能贴胸，联系肩关节脱位。",
+      "page": 169,
+      "questionIds": [
+        "surg-28-dislocations-q1"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "humerus-neer",
+      "text": "你老公近",
+      "meaning": "Neer分型用于肱骨近端骨折，按头、干、大小结节的移位程度；本页移位＞1cm或成角＞45°。",
+      "page": 170,
+      "questionIds": [
+        "surg-28-x-fracture-anatomy-q1"
+      ],
+      "rationale": "只附分型阈值题。"
+    },
+    {
+      "key": "humerus-shift",
+      "text": "金钱缘尽：近折端-前、远折端-近，三角肌内、三角肌外",
+      "meaning": "本页肱骨干骨折按三角肌止点上下比较近远折端移位；复位以远折端找近折端，须结合牵拉肌群。",
+      "page": 170,
+      "questionIds": [
+        "surg-28-x-humeral-displace-q1",
+        "surg-28-x-humeral-displace-q2"
+      ],
+      "rationale": "两题均是同一表的移位组合。"
+    },
+    {
+      "key": "radial-head-three-not",
+      "text": "饶了我不、三个不",
+      "meaning": "桡骨头半脱位本页特点：X线可阴性，复位常不需麻醉，成功后不需固定；不能将这句用于所有脱位。",
+      "page": 172,
+      "questionIds": [
+        "surg-28-x-radial-head-management-q1"
+      ],
+      "rationale": "用户提醒后保留在解析，不置题干。"
+    },
+    {
+      "key": "galeazzi-monteggia",
+      "text": "桡下痒痒；痴人说梦",
+      "meaning": "Galeazzi为桡骨干下1/3骨折加尺骨头脱位；Monteggia为尺骨干上1/3骨折加桡骨头脱位，先复位桡骨。",
+      "page": 172,
+      "questionIds": [
+        "surg-28-forearm-q4",
+        "surg-28-forearm-q5"
+      ],
+      "rationale": "命名骨折两种组成。"
+    },
+    {
+      "key": "forearm-reduction",
+      "text": "挠下痒痒",
+      "meaning": "前臂双骨折均不稳定时，本页下段先复位桡骨、中上段先复位尺骨；另先处理稳定骨折。",
+      "page": 173,
+      "questionIds": [
+        "surg-28-x-forearm-reduction-q1"
+      ],
+      "rationale": "该题为完整复位原则时才附；旋转时程只作本表拓展解释。"
+    },
+    {
+      "key": "colles-smith",
+      "text": "正面拼刺刀；come的手背离得远、stop的手掌离得远",
+      "meaning": "Colles远折端背侧移位，正位枪刺刀、侧位餐叉，固定方向与移位相反；Smith远折端掌侧移位。",
+      "page": 174,
+      "questionIds": [
+        "surg-28-x-wrist-shape-q1",
+        "surg-28-forearm-q1",
+        "surg-28-forearm-q2"
+      ],
+      "rationale": "腕部同字段比较；P173亦有正面拼刺刀。"
+    },
+    {
+      "key": "epstein",
+      "text": "12345小大粉顶股",
+      "meaning": "Epstein髋后脱位：Ⅰ无/小后壁骨片，Ⅱ大后壁骨片，Ⅲ后壁粉碎，Ⅳ髋臼顶，Ⅴ股骨头骨折。",
+      "page": 175,
+      "questionIds": [
+        "surg-28-x-epstein-q1",
+        "surg-28-x-epstein-q2",
+        "surg-28-x-epstein-q3",
+        "surg-28-x-epstein-q4",
+        "surg-28-x-epstein-q5"
+      ],
+      "rationale": "分型5种关节内骨折关系。"
+    },
+    {
+      "key": "hip-dislocation",
+      "text": "尿急；脱衣前是外衣、脱衣后是内衣",
+      "meaning": "髋后脱位屈曲内收内旋，髋前脱位屈曲外展外旋；需结合股骨头位置和影像，不靠单一姿势定诊。",
+      "page": 175,
+      "questionIds": [
+        "surg-28-r3-hip-cases-q3",
+        "surg-28-r3-hip-cases-q4",
+        "surg-28-r4-hip-reverse-q1"
+      ],
+      "rationale": "前后髋脱位反向体征比较。"
+    },
+    {
+      "key": "allis-hip",
+      "text": "脱衣后遇到爱丽丝、让穿丁字的她给你提拉一下，丁2笔画",
+      "meaning": "本页髋后脱位EpsteinⅠ型联系Allis提拉复位与皮牵引/丁字鞋2–3周；属讲义术式记忆，不是自助复位指导。",
+      "page": 175,
+      "questionIds": [
+        "surg-28-x-shoulder-methods-q2"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "pauwels",
+      "text": "外面泡小三、内人打我",
+      "meaning": "本讲义Pauwels外展型＜30°较稳定，内收型＞50°不稳定；按该讲义角度定义复习。",
+      "page": 176,
+      "questionIds": [
+        "surg-28-x-pauwels-q1",
+        "surg-28-x-pauwels-q2"
+      ],
+      "rationale": "两个角度界值。"
+    },
+    {
+      "key": "neck-shaft-angle",
+      "text": "小医大四",
+      "meaning": "讲义髋内翻颈干角≤110°，髋外翻≥140°。",
+      "page": 176,
+      "questionIds": [
+        "surg-28-x-normal-angles-q2"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "femoral-neck-rotation",
+      "text": "老人爱在外面xuan",
+      "meaning": "本页股骨颈骨折外旋45–60°；转子间骨折外旋可达90°，还要结合必要鉴别条件。",
+      "page": 177,
+      "questionIds": [
+        "surg-28-r3-hip-rotation-q1"
+      ],
+      "rationale": "保留45–60与90的比较，不将角度当临床绝对诊断。"
+    },
+    {
+      "key": "hip-lines",
+      "text": "NBS科比5个冠军",
+      "meaning": "股骨颈骨折大转子上移可联系Nelaton线、Bryant三角底边缩短、Shoemaker征；本页Bryant底边＜5cm。",
+      "page": 177,
+      "questionIds": [
+        "surg-28-x-hip-lines-q1"
+      ],
+      "rationale": "测量征象，不附血供题。"
+    },
+    {
+      "key": "femur-shift",
+      "text": "外面的金丝猴、喜欢金钱的猿猴",
+      "meaning": "股骨干中1/3骨折可向外成角；下1/3近折端向前、远折端向后。",
+      "page": 178,
+      "questionIds": [
+        "surg-28-x-femoral-shift-q1"
+      ],
+      "rationale": "同一移位表。"
+    },
+    {
+      "key": "ankle-fixation",
+      "text": "内螺外板43后",
+      "meaning": "三踝骨折内踝螺钉、外踝接骨板；后踝影响胫骨1/4–1/3关节面时本页也需内固定。",
+      "page": 179,
+      "questionIds": [
+        "surg-28-x-ankle-fixation-q1"
+      ],
+      "rationale": "材料与固定指征组合。"
+    },
+    {
+      "key": "bohler",
+      "text": "宝贝跟我走",
+      "meaning": "跟骨骨折看Bohler跟骨结节关节角变化。",
+      "page": 179,
+      "questionIds": [
+        "surg-28-x-hip-lines-q2"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "fatigue-fracture",
+      "text": "123妃子累",
+      "meaning": "疲劳/行军骨折可在腓骨干下1/3、第2/3跖骨和肋骨；反复轻微外力积累性劳损。",
+      "page": 183,
+      "questionIds": [
+        "surg-29-x-mechanism-q1"
+      ],
+      "rationale": "仅疲劳骨折机制部位题。"
+    },
+    {
+      "key": "stable-fractures",
+      "text": "横青插裂压；吴青峰",
+      "meaning": "讲义稳定形态为横形、青枝、嵌插、裂缝、压缩；不完全骨折为青枝和裂缝。“吴青峰”记不完整、青枝、缝。",
+      "page": 183,
+      "questionIds": [
+        "surg-29-classification-q1",
+        "surg-29-classification-q2"
+      ],
+      "rationale": "形态分类须保留讲义条件，不能说这些真实病例永远稳定。"
+    },
+    {
+      "key": "open-fracture-debridement",
+      "text": "洗切保修",
+      "meaning": "清洗、切除污染失活组织、尽量保留骨外膜，并保留修复神经血管肌腱韧带等；不能过度去除仍与组织相连骨片。",
+      "page": 184,
+      "questionIds": [
+        "surg-29-x-healing-harm-q1"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "fractures-no-unique-signs",
+      "text": "横青插裂压去掉横、加上骨盆",
+      "meaning": "不完全、嵌插、脊柱及耻骨坐骨骨折可缺少骨折特有体征；未触及骨擦感不排除骨折。",
+      "page": 184,
+      "questionIds": [
+        "surg-29-x-no-unique-signs-q1"
+      ],
+      "rationale": "特有体征例外。"
+    },
+    {
+      "key": "fracture-healing-clinical",
+      "text": "不动不痛见骨痂",
+      "meaning": "临床愈合：无异常活动，无压痛和纵向叩痛，X线连续性梭形骨痂/骨折线模糊。",
+      "page": 184,
+      "questionIds": [
+        "surg-29-x-healing-criteria-q1"
+      ],
+      "rationale": "前次移出题干的完整标准助记。"
+    },
+    {
+      "key": "fracture-healing-time",
+      "text": "半月、半年、一年",
+      "meaning": "本页教学时程依次对应血肿机化约2周、原始骨痂3–6月、塑形后续阶段；并非每一患者固定愈合时间。",
+      "page": 184,
+      "questionIds": [
+        "surg-29-x-healing-time-q1",
+        "surg-29-x-healing-time-q2",
+        "surg-29-x-healing-time-q3"
+      ],
+      "rationale": "只按本表规定时程。"
+    },
+    {
+      "key": "early-fracture-complications",
+      "text": "休克脂栓脏器损、骨筋膜室综合征",
+      "meaning": "本页骨折早期并发症概括；长期卧床的静脉血栓与早期脂肪栓塞不能混同。",
+      "page": 185,
+      "questionIds": [
+        "surg-29-x-early-late-q1"
+      ],
+      "rationale": "早晚期分组。"
+    },
+    {
+      "key": "avascular-fracture-sites",
+      "text": "下头、月缺",
+      "meaning": "股骨颈头下型最易缺血性骨坏死；舟骨、月骨等也与局部供血风险相联。",
+      "page": 185,
+      "questionIds": [
+        "surg-29-complications-q4"
+      ],
+      "rationale": "本页缺血骨坏死条目。"
+    },
+    {
+      "key": "regional-pain",
+      "text": "骨折后因疼痛致交感神经紊乱-十指连心",
+      "meaning": "本页急性骨萎缩/交感神经性骨营养不良，常手足骨折后出现与损伤程度不一致的疼痛、血管舒缩紊乱和骨质疏松。",
+      "page": 185,
+      "questionIds": [
+        "surg-29-x-complex-regional-q1"
+      ],
+      "rationale": "相关疼痛综合征题。"
+    },
+    {
+      "key": "fracture-reduction",
+      "text": "选成分；1234、成人矮了不接受",
+      "meaning": "旋转、成角、分离移位须完全纠正；横形长骨干对位≥1/3、干骺端≥3/4；下肢缩短成人≤1cm、儿童≤2cm，均按本讲义功能复位表。",
+      "page": 185,
+      "questionIds": [
+        "surg-29-x-reduction-target-q1",
+        "surg-29-x-reduction-shortening-q1"
+      ],
+      "rationale": "同一功能复位数值表。"
+    },
+    {
+      "key": "open-reduction",
+      "text": "老开旧功能、内部多处嵌入和损伤",
+      "meaning": "本页切开复位指征概括：老年需早活动、开放/陈旧骨折、手法未达所需复位、关节内/不稳定/多处骨折、软组织嵌入及重要神经血管等损伤。",
+      "page": 186,
+      "questionIds": [
+        "surg-29-x-surgery-indications-q1"
+      ],
+      "rationale": "完整集合，而非只因年龄便手术。"
+    },
+    {
+      "key": "transfusion-reaction",
+      "text": "发热无低压、过敏无高热、溶血都有还腰痛",
+      "meaning": "本讲义典型输血反应比较：发热反应通常无低血压，过敏通常无高热，溶血可寒战高热/低压并腰痛、Hb尿等；实际异常不能凭口诀排除重症。",
+      "page": 189,
+      "questionIds": [
+        "surg-30-r3-transfusion-cases-q1",
+        "surg-30-r3-transfusion-cases-q2",
+        "surg-30-r3-transfusion-cases-q3"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "blood-products",
+      "text": "洗过肾更健康；翻白眼；伊芙琳；凝结成冰；你冷8冷",
+      "meaning": "本页洗涤红细胞联系少血浆及特定过敏/肾功能背景；去白联系反复输血；辐照灭活淋巴细胞预防GVHD；冰冻血浆联系凝血障碍；冷沉淀联系纤维蛋白原及Ⅷ因子。",
+      "page": 190,
+      "questionIds": [
+        "surg-30-products-q2",
+        "surg-30-products-q3",
+        "surg-30-products-q4",
+        "surg-30-products-q5",
+        "surg-30-products-q6",
+        "surg-30-x-products-more-q1",
+        "surg-30-x-products-more-q2"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "potassium-ecg",
+      "text": "高对高、低对低",
+      "meaning": "高钾联系高尖T波；低钾联系ST/T低平和明显U波等。本页简化形态比较不替代完整心电判读。",
+      "page": 192,
+      "questionIds": [
+        "surg-31-electrolytes-q1",
+        "surg-31-electrolytes-q2"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "potassium-acid-base",
+      "text": "高钾酸中毒、低钾碱中毒",
+      "meaning": "本页一般血钾与酸碱对应；库存血及原醛等另有例外，血与尿方向不能机械混同。",
+      "page": 191,
+      "questionIds": [
+        "surg-31-x-acid-potassium-q1",
+        "surg-31-x-acid-potassium-q2"
+      ],
+      "rationale": "限定本页一般规律与例外对照。"
+    },
+    {
+      "key": "potassium-replacement",
+      "text": "nong-4个字母、su-2个字母；见尿补钾；美甲",
+      "meaning": "本讲义补钾记浓度＜40mmol/L、速度＜20mmol/h、尿量＞40ml/h；补后未改善考虑低镁。只为讲义数值表记忆，非自行输液操作依据。",
+      "page": 193,
+      "questionIds": [
+        "surg-31-x-kcl-concentration-q1",
+        "surg-31-x-kcl-rate-q1",
+        "surg-31-x-kcl-urine-q1",
+        "surg-31-x-magnesium-q1"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "electrolyte-conversion",
+      "text": "17岁那年的雨季；医生世家",
+      "meaning": "本页17mmol Na⁺约1g NaCl，13.4mmol K⁺约1g KCl。",
+      "page": 194,
+      "questionIds": [
+        "surg-31-x-conversions-q1"
+      ],
+      "rationale": "单位换算。"
+    },
+    {
+      "key": "nutrition-proteins",
+      "text": "前转世；叶儿粑",
+      "meaning": "前白蛋白、转铁蛋白、视黄醇结合蛋白因半衰期较短较敏感；本页总淋巴细胞＜1.8×10⁹/L提示营养不良。",
+      "page": 196,
+      "questionIds": [
+        "surg-32-x-nutrition-evaluation-q1",
+        "surg-32-x-nutrition-thresholds-q1"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "refeeding",
+      "text": "贾玲美、汤唯帅",
+      "meaning": "再喂养综合征可低钾、低磷、低镁，维生素缺乏及心衰；低磷是本页标志。",
+      "page": 197,
+      "questionIds": [
+        "surg-32-complications-q4",
+        "surg-32-x-pn-bone-q2"
+      ],
+      "rationale": "不把旧术语糖耐受变化当完整诊断标准。"
+    },
+    {
+      "key": "burn-stress-ulcer",
+      "text": "r像小火苗、head",
+      "meaning": "Curling联系严重烧伤，Cushing联系严重脑病；本页应激溃疡多胃底胃体。",
+      "page": 200,
+      "questionIds": [
+        "surg-33-ulcer-q1",
+        "surg-33-ulcer-q2"
+      ],
+      "rationale": "名称病因对比。"
+    },
+    {
+      "key": "burn-depth",
+      "text": "Ⅰ浅Ⅱ疱Ⅲ全层、红红白白；发如雪",
+      "meaning": "本页烧伤深度按皮层、水疱、颜色、痛觉和愈合等综合比较；生发层、真皮网状层等须按原表，不单凭颜色定深度。",
+      "page": 201,
+      "questionIds": [
+        "surg-33-depth-q1",
+        "surg-33-depth-q2",
+        "surg-33-depth-q3",
+        "surg-33-depth-q4"
+      ],
+      "rationale": "四深度同字段表。"
+    },
+    {
+      "key": "burn-severity",
+      "text": "13 12 5 医生要爱我",
+      "meaning": "本页成人烧伤严重程度简表按Ⅱ/Ⅲ度面积及严重合并情况分级，Ⅰ度不计严重程度和补液面积；具体界值以该表为准。",
+      "page": 201,
+      "questionIds": [
+        "surg-33-x-severity-q1",
+        "surg-33-x-severity-q2",
+        "surg-33-x-severity-q3",
+        "surg-33-x-severity-q4"
+      ],
+      "rationale": "须对应真实成人严重程度题。"
+    },
+    {
+      "key": "burn-dressing",
+      "text": "油-滑",
+      "meaning": "本页敷料内层用油质纱布，避免纱布与创面粘连；浅Ⅱ度和深Ⅱ度疱皮处理另按原表比较。",
+      "page": 202,
+      "questionIds": [
+        "surg-33-x-wound-water-blister-q1"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "specific-infection",
+      "text": "凤姐真坏",
+      "meaning": "本页特异性感染：破伤风、结核、真菌感染、气性坏疽。",
+      "page": 204,
+      "questionIds": [
+        "surg-34-x-specific-infection-q1"
+      ],
+      "rationale": "分类集合。"
+    },
+    {
+      "key": "erysipelas",
+      "text": "单独；一片丹清红淡红",
+      "meaning": "丹毒为皮肤淋巴管网的非化脓性感染，边界清楚的片状红疹、周缘鲜红中央淡红；一般不切开引流。",
+      "page": 205,
+      "questionIds": [
+        "surg-34-r3-superficial-cases-q1",
+        "surg-34-x-erysipelas-q1",
+        "surg-34-x-erysipelas-features-q1"
+      ],
+      "rationale": "已逐项核对正式题干及正确选项；仅对应本条所述知识关系，不向同页其他题自动扩散。"
+    },
+    {
+      "key": "palmar-space",
+      "text": "掌中-中指；算命",
+      "meaning": "掌中间隙感染可掌心凹消失、3/4/5指受限；鱼际间隙1/2指受限、不能对掌。",
+      "page": 207,
+      "questionIds": [
+        "surg-34-superficial-q5",
+        "surg-34-superficial-q6"
+      ],
+      "rationale": "两个解剖间隙。"
+    },
+    {
+      "key": "clostridia",
+      "text": "气水交加；化粪池",
+      "meaning": "气性坏疽本页病原举产气荚膜杆菌、水肿杆菌等混合，联系肌坏死、恶臭、捻发感与组织气体；不是单凭气泡诊断。",
+      "page": 208,
+      "questionIds": [
+        "surg-34-organisms-q4",
+        "surg-34-x-clostridia-comparison-q1"
+      ],
+      "rationale": "病原与毒素对照。"
+    },
+    {
+      "key": "tetanus-clinical",
+      "text": "咀嚼了才知道是苦的",
+      "meaning": "破伤风以外伤背景和临床表现诊断，咀嚼肌等痉挛、苦笑面容等为本讲义记忆点。",
+      "page": 208,
+      "questionIds": [
+        "surg-34-x-tetanus-clinical-q1"
+      ],
+      "rationale": "原文对应典型表现。"
+    },
+    {
+      "key": "surgical-urgency",
+      "text": "要挂了、要转移了",
+      "meaning": "急诊处理威胁生命的绞窄、穿孔、完全梗阻、大血管破裂等；恶性肿瘤根治多属限期手术，良性无急症可择期。",
+      "page": 211,
+      "questionIds": [
+        "surg-35-x-urgency-q1",
+        "surg-35-x-urgency-q2",
+        "surg-35-x-urgency-q3"
+      ],
+      "rationale": "时机分类三题。"
+    },
+    {
+      "key": "preop-fast",
+      "text": "清母牛肉粉24686",
+      "meaning": "本页最短禁食饮：清饮料2h、母乳4h、牛奶6h、肉类脂肪8h、淀粉固体6h；须符合题中无特殊风险前提。",
+      "page": 211,
+      "questionIds": [
+        "surg-35-x-fasting-q1"
+      ],
+      "rationale": "原句顺序保持不改变数字。"
+    },
+    {
+      "key": "suture-removal",
+      "text": "双11剁手、心痛吧、我头痛死、起来遛下会阴、剪了要死",
+      "meaning": "四肢10–12天、其它躯干7–9天、头面颈4–5天、下腹会阴6–7天、减张14天；均为讲义一般参考。",
+      "page": 212,
+      "questionIds": [
+        "surg-35-x-suture-time-q1",
+        "surg-35-x-suture-time-q2",
+        "surg-35-x-suture-time-q3",
+        "surg-35-x-suture-time-q4",
+        "surg-35-x-suture-time-q5"
+      ],
+      "rationale": "五类部位与时程全对应。"
+    },
+    {
+      "key": "incision-healing",
+      "text": "三甲医院就是要让Ⅲ类切口甲级愈合",
+      "meaning": "切口污染类别Ⅰ/Ⅱ/Ⅲ与愈合质量甲/乙/丙是两条不同维度；Ⅲ类切口也可甲级愈合。",
+      "page": 213,
+      "questionIds": [
+        "surg-35-healing-q1",
+        "surg-35-healing-q2",
+        "surg-35-healing-q3"
+      ],
+      "rationale": "帮助避免把分类和愈合级别混同。"
+    },
+    {
+      "key": "inhaled-anesthesia",
+      "text": "笑气笑破肚子；心地善良；七里香对呼吸道影响小，闻着花香心情舒畅了血压也降低了",
+      "meaning": "本页氧化亚氮禁用于肠梗阻；地氟烷与心脏手术相关；七氟烷呼吸道刺激较小并可降压，均限本表比较。",
+      "page": 216,
+      "questionIds": [
+        "surg-36-x-inhaled-q1",
+        "surg-36-x-inhaled-q2",
+        "surg-36-x-inhaled-q3"
+      ],
+      "rationale": "三药同表，不声称其他麻药绝不用于心外科。"
+    },
+    {
+      "key": "iv-anesthesia",
+      "text": "衣脱心动；异-抑制；酮-儿童、儿童容易做噩梦、被绿了三压都高了；美中不足",
+      "meaning": "本页依托咪酯联系循环相对稳定，异丙酚抑制循环呼吸，氯胺酮联系小儿/镇痛/交感兴奋与幻觉及三压升高，右美托咪定联系中枢α₂受体。",
+      "page": 216,
+      "questionIds": [
+        "surg-36-iv-q1",
+        "surg-36-iv-q2",
+        "surg-36-iv-q3",
+        "surg-36-iv-q5"
+      ],
+      "rationale": "四个机制题对应表内四药，避免把口诀附咪达唑仑题。"
+    },
+    {
+      "key": "muscle-relaxants",
+      "text": "飞虎队；占着茅坑不拉屎、虎躯一震拉堵了",
+      "meaning": "琥珀胆碱为去极化型；筒箭毒碱、维库溴铵为竞争性/非去极化型；前者激动终板通道先肌震颤，后者阻断；新斯的明拮抗关系亦不同。",
+      "page": 217,
+      "questionIds": [
+        "surg-36-x-nm-classes-q1",
+        "surg-36-x-muscle-relax-q1"
+      ],
+      "rationale": "机制与分类两题。"
+    },
+    {
+      "key": "local-adrenaline",
+      "text": "延时减毒",
+      "meaning": "局部浸润麻醉加适宜肾上腺素可减慢局麻药吸收，延长作用、减轻全身毒性；特殊部位和患者另有前提。",
+      "page": 217,
+      "questionIds": [
+        "surg-36-x-adrenaline-effect-q1"
+      ],
+      "rationale": "目的题。"
+    },
+    {
+      "key": "local-anesthetic-poem",
+      "text": "酯类普丁胆碱解、其余酰胺少过敏；普卡安全不表麻、丁卡表麻毒性大；利多全能慎腰麻、神经阻滞起效快；罗哌尤适硬膜外、分娩镇痛萝卜拔",
+      "meaning": "本页局麻药类别/代谢、普鲁卡因与丁卡因黏膜穿透及毒性差异、利多卡因用途、罗哌卡因低浓度感觉阻滞和分娩镇痛等同表串联；简化语限讲义范围。",
+      "page": 218,
+      "questionIds": [
+        "surg-36-local-q1",
+        "surg-36-local-q2",
+        "surg-36-local-q3",
+        "surg-36-local-q4",
+        "surg-36-local-q5",
+        "surg-36-x-local-metabolism-q1",
+        "surg-36-x-local-metabolism-q2",
+        "surg-36-x-local-toxicity-q1",
+        "surg-36-x-local-toxicity-q2",
+        "surg-36-x-local-duration-q1"
+      ],
+      "rationale": "整首确为同一药物表的复习，原文蓝楷体已目视确认。"
+    },
+    {
+      "key": "local-max-dose",
+      "text": "和李医师钉死吧、摇我萝卜1000次",
+      "meaning": "本页一次限量mg：利多卡因表面100、浸润/神经阻滞400；丁卡因表面40、神经阻滞80；罗哌/布比150；普鲁1000。只复习讲义数值，不作实际用药依据。",
+      "page": 219,
+      "questionIds": [
+        "surg-36-x-local-dose-q1",
+        "surg-36-x-local-dose-q2",
+        "surg-36-x-local-dose-q3",
+        "surg-36-x-local-dose-q4",
+        "surg-36-x-local-dose-q5",
+        "surg-36-x-local-dose-q6"
+      ],
+      "rationale": "原句数字在不同字体混排，以整行正文补齐。"
+    },
+    {
+      "key": "neuraxial-order",
+      "text": "交朋友、有感觉、再运动、深入了解",
+      "meaning": "本讲义简化阻滞顺序：交感、再副交感、感觉、运动、本体感觉；消退顺序反向。并非所有临床条件的绝对时间顺序。",
+      "page": 219,
+      "questionIds": [
+        "surg-36-x-neuraxial-order-q1"
+      ],
+      "rationale": "前次去掉题干口诀，答后保留。"
+    },
+    {
+      "key": "anesthesia-dermatomes",
+      "text": "乳房四象限、六脉神剑、累吧、10像肚脐",
+      "meaning": "T4乳头，T6剑突，T8肋弓，T10脐，按本页体表定位表。",
+      "page": 219,
+      "questionIds": [
+        "surg-36-levels-q2",
+        "surg-36-levels-q3",
+        "surg-36-levels-q4",
+        "surg-36-levels-q5"
+      ],
+      "rationale": "不把T2胸骨角误附到T4乳头口诀。"
+    },
+    {
+      "key": "neuraxial-level",
+      "text": "硬膜外打哪最重要、腰麻打多少最重要",
+      "meaning": "本讲义硬膜外阻滞平面最看穿刺间隙高低，腰麻平面最看麻药剂量；其他因素仍可参与。",
+      "page": 220,
+      "questionIds": [
+        "surg-36-x-neuraxial-level-q1"
+      ],
+      "rationale": "最主要因素比较，不写成唯一影响因素。"
+    },
+    {
+      "key": "caudal-saddle",
+      "text": "躺着吃里脊、坐在马鞍上；扇我下马威",
+      "meaning": "骶管麻醉为硬膜外、骶管裂孔、侧卧或俯卧；鞍区为蛛网膜下腔、坐位、L3–L5穿刺，按本页表。",
+      "page": 220,
+      "questionIds": [
+        "surg-36-x-caudal-saddle-q1",
+        "surg-36-x-caudal-saddle-q2"
+      ],
+      "rationale": "两种术式本质、体位和定位。"
+    },
+    {
+      "key": "shock-dic",
+      "text": "红细胞2的很被撞烂了、1.5×2=3、8",
+      "meaning": "本页DIC数字联结破碎红细胞＞2%、纤维蛋白原＜1.5、PT延长＞3秒、血小板＜80等；只是讲义典型组合，不替代完整DIC诊断。",
+      "page": 223,
+      "questionIds": [
+        "surg-37-x-dic-q1"
+      ],
+      "rationale": "具体化验组合。"
+    },
+    {
+      "key": "warm-shock",
+      "text": "暖洋洋",
+      "meaning": "本页部分G⁺菌感染早期可暖休克，与典型低排高阻冷休克作对照；不是所有G⁺菌或所有早期感染必暖。",
+      "page": 225,
+      "questionIds": [
+        "surg-37-r3-cold-warm-cases-q2"
+      ],
+      "rationale": "冷暖模型限定。"
+    },
+    {
+      "key": "killip",
+      "text": "1无23啰4休克",
+      "meaning": "本讲义KillipⅠ无心衰、Ⅱ肺啰音＜50%、Ⅲ肺啰音＞50%/肺水肿、Ⅳ心源性休克。",
+      "page": 227,
+      "questionIds": [
+        "surg-37-x-killip-q1",
+        "surg-37-x-killip-q2",
+        "surg-37-x-killip-q3",
+        "surg-37-x-killip-q4"
+      ],
+      "rationale": "分级四题。"
+    },
+    {
+      "key": "sterilization",
+      "text": "蒸、煮、泡、低温料理、烧烤、微波炉；胰岛内分泌",
+      "meaning": "本页灭菌方法串联；不耐高温的仪器、导管、内镜联系化学气体/低温方法。须按具体物品、方法和规定条件，不把比喻当实际消毒步骤。",
+      "page": 228,
+      "questionIds": [
+        "surg-38-x-sterilization-q1"
+      ],
+      "rationale": "方法—物品性质比较。"
+    },
+    {
+      "key": "wound-primary-closure",
+      "text": "头皮一天都丝滑",
+      "meaning": "本讲义清创一期缝合的一般时程：伤后6–8h，头面12h、头皮24h可放宽；超过时间或重污染等不贸然一期缝合。",
+      "page": 228,
+      "questionIds": [
+        "surg-38-x-closure-q1"
+      ],
+      "rationale": "仅在此谨慎背景题解析说明，不作自行处理伤口指令。"
+    },
+    {
+      "key": "hyperacute-rejection",
+      "text": "我准备好了",
+      "meaning": "受者预先存在抗供者HLA或ABO相关抗体，联系超急性排斥反应。",
+      "page": 229,
+      "questionIds": [
+        "surg-38-x-transplant-q2"
+      ],
+      "rationale": "已有抗体的机制。"
+    },
+    {
+      "key": "gallbladder-body-fundus",
+      "text": "DT in the house",
+      "meaning": "本页胆囊癌好发底、体部；坏疽穿孔另多底、颈部，两个部位组合不能混同。",
+      "page": 83,
+      "questionIds": [
+        "surg-16-x-gallbladder-site-q1"
+      ],
+      "rationale": "纯英文非宋体助记由上下文和原行核对补回，不因中文筛选漏掉。"
+    },
+    {
+      "key": "torticollis-age",
+      "text": "斜颈割脖",
+      "meaning": "本页1岁后小结：先天性肌性斜颈需手术者，胸锁乳突肌切断最佳年龄1–4岁；1岁内先保守矫正。",
+      "page": 115,
+      "questionIds": [
+        "surg-20-x-torticollis-treatment-q1",
+        "surg-20-x-torticollis-treatment-q2"
+      ],
+      "rationale": "只拆出斜颈相关片段，不把同段隐睾治疗附到斜颈题。"
+    },
+    {
+      "key": "obese-nutrition-energy",
+      "text": "三十而胖随便吃吃吧吧",
+      "meaning": "本讲义BMI≥30肥胖者营养支持，能量供给参考一般需要的70–80%；不是任意限制所有肥胖者进食。",
+      "page": 196,
+      "questionIds": [
+        "surg-32-x-obesity-energy-q1"
+      ],
+      "rationale": "实际题明确询问同一比例。"
+    },
+    {
+      "key": "pn-indications",
+      "text": "上吐下泻肠炎瘘肾",
+      "meaning": "本页肠外营养适应背景包括持续不能进食/肠道无法满足需要时的严重呕吐、腹泻、肠炎、高位小肠瘘、短肠、胰腺炎、急性肾衰等；必须保留肠内不能达标的题干前提。",
+      "page": 197,
+      "questionIds": [
+        "surg-32-x-pn-needed-q1"
+      ],
+      "rationale": "与正式多选题明确的无法经肠道满足需要前提一致。"
+    },
+    {
+      "key": "burn-child-area",
+      "text": "大头儿子-幺儿",
+      "meaning": "12岁以下本讲义头面颈面积9＋（12−年龄），双下肢46−（12−年龄）；儿童头部比例相对更大。",
+      "page": 200,
+      "questionIds": [
+        "surg-33-x-child-area-q1"
+      ],
+      "rationale": "儿童烧伤面积校正的同公式题。"
+    },
+    {
+      "key": "basal-cell-carcinoma",
+      "text": "老头慢放羊、放老鼠药",
+      "meaning": "本页皮肤基底细胞癌多老年头面，浸润性慢生长、少转移，可鼠咬状溃疡，对放疗敏感，手术效果好。",
+      "page": 229,
+      "questionIds": [
+        "surg-38-lesions-q1"
+      ],
+      "rationale": "同一个体表肿物鉴别。"
+    }
+  ],
+  "deferred": [
+    {
+      "page": 169,
+      "text": "三八线",
+      "reason": "确为锁骨骨折三角巾/8字绷带治疗助记，但现有肩部治疗q1实际是肱骨近端骨折，不能因答案也有三角巾便错配；本轮无直接承载题。"
+    },
+    {
+      "page": 173,
+      "text": "九转大肠",
+      "reason": "对应前臂旋转锻炼8–10周且X线确认愈合；现有前臂题考复位次序而非锻炼时程，故不附无关时程。"
+    },
+    {
+      "page": 204,
+      "text": "金龙鱼",
+      "reason": "局限表浅疖的金黄散/鱼石脂软膏课堂记忆；当前抗菌药原则题没有这一具体治疗关系，不能仅因同章而附加。"
+    },
+    {
+      "page": 217,
+      "text": "琥珀-青色",
+      "reason": "清晰对应琥珀胆碱升眼压/青光眼，但当前不良反应题只考血钾和肌震颤；分类题已有飞虎队，不把眼部口诀当相关答案的解释。"
+    },
+    {
+      "page": 1,
+      "text": "注意先复习病理学；性感认识；89峡",
+      "reason": "复习顺序/课堂提示不是可逐项展开的知识口诀；89峡未在现有题单独考察。"
+    },
+    {
+      "page": 3,
+      "text": "前世今生",
+      "reason": "紧邻结节性甲状腺肿，但短语到知识字段的精确拆解没有明确正文说明，避免自行编造展开。"
+    },
+    {
+      "page": 13,
+      "text": "五八同城买食材；放了尔我",
+      "reason": "分别对应食管癌切缘5–8cm、上段放疗等本页旧条目；现有正式题未直接考该切缘或该旧适应证，不为加口诀而新增断言。"
+    },
+    {
+      "page": 16,
+      "text": "它不吃饭、不喝水都能活下来、生孩子能力还强",
+      "reason": "三阴性预后旧比喻，现有该题已改考三项检测指标，不应把无关生物学/预后比喻附到检测项目题。"
+    },
+    {
+      "page": 18,
+      "text": "抬杠；2分之2=1；每个月总有那么几天乳房胀痛、有肿块",
+      "reason": "前两条谐音拆解不清，后者是病例口语复述而非新的口诀；未作为确定口诀强行添加。"
+    },
+    {
+      "page": 26,
+      "text": "无端生事；喂伯伯喝尿",
+      "reason": "对应切断线/胃癌化疗条目，现有题无直接切缘或氟尿嘧啶联合顺铂考点，不能贴到无关手术分类。"
+    },
+    {
+      "page": 28,
+      "text": "大概率是答案",
+      "reason": "答题策略而不是医学知识，不应展示为口诀解析。"
+    },
+    {
+      "page": 31,
+      "text": "胃后十二水平降、胰输直下肾肾上",
+      "reason": "蓝楷体记腹膜后器官，但现有题主要考损伤表现与时相，未单独考完整器官集合，避免整页附加。"
+    },
+    {
+      "page": 33,
+      "text": "夫人早恋；有腹穿选腹穿",
+      "reason": "前者对应腹穿禁忌现无直接承载题；后者考试选项策略不可变成医学处理规则。"
+    },
+    {
+      "page": 49,
+      "text": "儿子二奶",
+      "reason": "本页旧距离分层与前段较新保肛解剖前提可能相冲突，当前正式题不据旧距离单独判分，故不借口诀恢复冲突。"
+    },
+    {
+      "page": 60,
+      "text": "粘住了、卡住了",
+      "reason": "普通病理解释/同义词而非需要额外标为口诀的短句，原解析已有。"
+    },
+    {
+      "page": 61,
+      "text": "没大事；亚狮龙/热死了；话最多",
+      "reason": "分别为嵌顿手法复位条件、无张力法名称及Bassini频率；现有题未直接承载完整口诀字段或短句拆解不明，留待精确源表题。"
+    },
+    {
+      "page": 62,
+      "text": "不鸣则已一鸣惊人；又来晚了；小孩子咳嗽就很害怕；等一等、催一催、最多等你到2岁",
+      "reason": "前几项为课堂联想，部分可与现有疝鉴别相关但未形成清楚完整字段；隐睾时程在现有题库无直接完整对应，避免把旧治疗时程附进疝题。"
+    },
+    {
+      "page": 69,
+      "text": "黄水；虫卵较大进不去肝血窦",
+      "reason": "普通病理解释或过度简化的手术边界；源文保留在原解析，不另标完整口诀。"
+    },
+    {
+      "page": 78,
+      "text": "胆汁",
+      "reason": "蛋白质＞脂肪＞糖的单词谐音，现有正式题未单独考该刺激强度顺序。"
+    },
+    {
+      "page": 83,
+      "text": "最后一个字是瘤",
+      "reason": "字面分类不是可靠的肿瘤性质判断，不将此课堂提醒当一般生物学规则。"
+    },
+    {
+      "page": 86,
+      "text": "一旦中了；虫子要休息",
+      "reason": "前者中段胆管切缘1cm无直接考题；后者系普通病程比喻，不新增为口诀。"
+    },
+    {
+      "page": 88,
+      "text": "蓄水池",
+      "reason": "间歇性黄疸比喻，现有扩张症题为图示分型/术式而非症状时相。"
+    },
+    {
+      "page": 101,
+      "text": "没形成则动、形成后别动",
+      "reason": "已形成DVT后的活动需完整临床条件；此简化口号可能被误解，现有题未考具体活动处方，不将其强作为普适解析。"
+    },
+    {
+      "page": 102,
+      "text": "B-闭塞；Perthes阳性——禁止结扎、person",
+      "reason": "Perthes括号在文本层断行且中英文混排，需更清楚来源才能照录；不补造拼读。"
+    },
+    {
+      "page": 108,
+      "text": "尿光了不显影",
+      "reason": "正文把胱氨酸结石X线显示过度简化；本轮不恢复有争议的绝对影像口诀。"
+    },
+    {
+      "page": 115,
+      "text": "后催睾降蛋",
+      "reason": "该串的斜颈部分已单独关联；隐睾字段不属于现有斜颈题，不整串附加跨病治疗。"
+    },
+    {
+      "page": 124,
+      "text": "核磁；半-半",
+      "reason": "普通检查简称/同义联想，不必单独标注口诀；相关检查解析已有明确说明。"
+    },
+    {
+      "page": 139,
+      "text": "B在字母表排前面",
+      "reason": "对应少数始于颈椎向下发展的Bechterew命名，当前无直接命名题，避免贴到典型上行传播题。"
+    },
+    {
+      "page": 154,
+      "text": "钱↓最严重",
+      "reason": "前脊髓综合征严重性简化句，当前仅有血管对应题而未直接比较严重程度。"
+    },
+    {
+      "page": 155,
+      "text": "想象肺肾脊柱两边、往外压、往内热",
+      "reason": "脊髓并发症完整清单当前题目未全部承载，不整页贴进骨盆损伤鉴别。"
+    },
+    {
+      "page": 165,
+      "text": "五十肩、秀肌肉、伸胳膊、你过来啊、大拇指666、期中7-中指、10肚脐、累吧、六脉神剑、乳房四象限",
+      "reason": "已目视整页皮节和神经节段手写图。T4/6/8/10已由P219同义口诀关联麻醉平面题；其余姿势涉及图示定位，现有题多考神经根组合，未凭整页图猜映射。"
+    },
+    {
+      "page": 169,
+      "text": "你是我的神",
+      "reason": "肩脱位复位后固定姿势联想的精确对应不清，不自行拆解。"
+    },
+    {
+      "page": 171,
+      "text": "01要我扇我；α第一笔是伸直型、第二笔是屈曲型",
+      "reason": "需要原图形笔画辅助；当前题只考综合移位，单独照录α字形会失去参照，不强贴。"
+    },
+    {
+      "page": 190,
+      "text": "三全凌汤圆：馅和皮各一半",
+      "reason": "对应旧大量失血输血比例模型，当前无单独此比例题，亦不当作现代复苏固定配方。"
+    },
+    {
+      "page": 196,
+      "text": "缺啥补啥",
+      "reason": "是组件型营养剂的普通解释，原解析已有，不需要单独再标为一条源文口诀。"
+    },
+    {
+      "page": 198,
+      "text": "家家苦、绝经老人在外关节骨碎骨萎",
+      "reason": "跨病骨质疏松清单篇幅长，现有题无完整集合承载，不为加口诀扩展题库。"
+    },
+    {
+      "page": 211,
+      "text": "烟酒死鬼；老二牛；C级黄水不手术、TIPS/TACE先过渡；3长1短素当天；san、七匹狼、石雷鹏；武术；二十大板",
+      "reason": "多个旧术前时程/输注阈值只在综合原则题部分出现。为避免把旧简化临床指令整批附到所有术前题，未无条件自动加入，需按现有具体题关系进一步核对。"
+    },
+    {
+      "page": 217,
+      "text": "维护心脏；细",
+      "reason": "维库溴铵心肌缺血相关无独立考题，“细”对不加肾部位解释不清。"
+    },
+    {
+      "page": 223,
+      "text": "看2",
+      "reason": "模糊课堂数字联想，不是可读的医学口诀。"
+    },
+    {
+      "page": 226,
+      "text": "按拢猛干；休克心衰、室颤心停、乳断心破、ST抬高；脑袋、创伤、血管",
+      "reason": "为内科急救跨科回顾，现有外科题并未逐项考其完整条件；不将旧简表作为新增诊疗指令。"
+    },
+    {
+      "page": 227,
+      "text": "三大师流脓真衰塞",
+      "reason": "感染性心内膜炎手术指征串，当前外科无完整承载题。"
+    },
+    {
+      "page": 228,
+      "text": "高钾血症气绿了；绿甘蔗真绿",
+      "reason": "对应特定病原物品处理的旧熏蒸/消毒方法，现有题考一般物品性质，不把旧特殊处置扩充成现代普适规则。"
+    }
+  ],
+  "notes": [
+    "完整扫描外科PDF230页，蓝色非SimSun主要为BCDKEE+KaiTi及BCDLEE+KaiTi，共477行候选；分块通读全部候选及上下文。颜色与字体仅用于候选发现，不将蓝标题、普通批注、课堂策略自动列为口诀。",
+    "目视完整PDF页P5、54、87、144、165、218，确认蓝楷体、跨行原句、图表位置；其他明确短句据样式抽取及完整上下文核读。",
+    "仅给现有题增加答后解释材料，题干、选项、答案、稳定题号均不得改动；不应清空任何已有作答。",
+    "部分临床旧清单保留本讲义范围，不作为对真实患者的绝对用药/手术建议。原文有冲突、图示参照不足、没有对应现有题的口诀列deferred，不冒称已覆盖。",
+    "最终逐项核对所有映射题号及其正确选项，修正旧分组编号；删除锁骨口诀错配肱骨治疗等弱关联，只保留与正式题实际考察关系一致的映射。"
+  ]
+}

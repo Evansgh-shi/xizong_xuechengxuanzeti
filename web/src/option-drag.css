@@ -1,0 +1,25 @@
+.option{touch-action:pan-y;-webkit-user-select:none;user-select:none}
+.option .handle{touch-action:none;cursor:grab}
+.option.option-drag-source{opacity:.5;border-style:dashed;border-color:#164b37;background:#eaf3e9;box-shadow:inset 0 0 0 1px #164b37}
+.option-drag-active,.option-drag-active *{cursor:grabbing!important}
+.option-drag-active .drop-zone{border-color:#5a8468;background:#f0f7ed}
+.option-drag-active .drop-zone.is-drag-target{border:2px solid #164b37;padding:9px;background:#dfeede;box-shadow:0 0 0 4px #164b3726;transform:translateY(-2px)}
+.option-drag-active .drop-zone.is-drag-target::after{content:'松开放入';position:absolute;right:8px;top:-15px;border:1px solid #164b37;border-radius:5px;background:#164b37;color:#fff;padding:2px 9px;font-size:13px;line-height:1.7;pointer-events:none}
+.card.is-drag-card{border-color:#164b37;box-shadow:0 5px 20px #164b371c}
+.option-drag-layer{position:fixed;inset:0;z-index:90;overflow:hidden;pointer-events:none;contain:strict}
+.option.drag-preview{position:absolute;left:0;top:0;margin:0;min-height:0;max-width:none;max-height:none;pointer-events:none;box-shadow:0 10px 28px #153d3a40;will-change:transform;opacity:.97}
+.option.drag-preview.over-target{border-color:#164b37;background:#eaf3e9;box-shadow:0 12px 30px #164b3745}
+.drag-live-status{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.drop-zone.drop-received{animation:option-land .4s ease-out}
+.drop-zone.drop-duplicate{animation:option-duplicate .3s ease-out}
+.chip.chip-arrived{animation:option-chip-in .3s cubic-bezier(.2,.8,.2,1)}
+@keyframes option-land{0%{box-shadow:0 0 0 6px #164b3740;background:#dfeede}100%{box-shadow:0 0 0 0 #164b3700}}
+@keyframes option-chip-in{0%{opacity:.3;transform:translateY(-9px) scale(.94)}70%{transform:translateY(1px) scale(1.02)}100%{opacity:1;transform:none}}
+@keyframes option-duplicate{0%,100%{transform:none}35%{transform:translateX(-3px)}70%{transform:translateX(3px)}}
+@media(max-width:700px){
+  .option{display:grid;grid-template-columns:24px minmax(0,1fr);gap:6px;align-items:center;padding:8px 6px}
+  .option .handle{display:grid;place-items:center;width:24px;min-height:44px;align-self:stretch;letter-spacing:0;font-size:23px;border-radius:4px;background:#edf3e8;color:#355d40;grid-column:1;grid-row:1}
+  .option .option-letter{display:none}.option .option-text{grid-column:2;grid-row:1;min-width:0;overflow-wrap:anywhere}
+  .option-drag-active .drop-zone.is-drag-target{padding:6px}
+}
+@media(prefers-reduced-motion:reduce){.drop-zone.drop-received,.drop-zone.drop-duplicate,.chip.chip-arrived{animation:none}.option-drag-active .drop-zone.is-drag-target{transform:none}.drop-zone{transition:none}}

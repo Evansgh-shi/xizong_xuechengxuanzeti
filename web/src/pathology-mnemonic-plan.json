@@ -1,0 +1,2168 @@
+{
+  "course": "pathology",
+  "entries": [
+    {
+      "key": "colon-metaplasia",
+      "text": "大2B",
+      "meaning": "记不完全型肠化生中的结肠型（Ⅱb型）与肠型胃癌相关；不把所有肠化生都作同等风险。",
+      "page": 2,
+      "questionIds": [
+        "path-01-metaplasia-risk-q1"
+      ],
+      "rationale": "对应特定肠化生亚型与癌风险。"
+    },
+    {
+      "key": "ulcer-age",
+      "text": "小老dou老胃病",
+      "meaning": "本页把中老年、小弯与胃溃疡联系；十二指肠溃疡多见青壮年、球部前壁。",
+      "page": 2,
+      "questionIds": [
+        "path-01-ulcer-age-q1",
+        "path-01-ulcer-sites-q1"
+      ],
+      "rationale": "完整行包含不同字体的dou，关联年龄和胃溃疡部位。"
+    },
+    {
+      "key": "du-front-back",
+      "text": "袜子—前面穿孔、后面出血",
+      "meaning": "十二指肠球部前壁多见急性游离性穿孔，后壁多见出血及慢性穿孔；不是胃溃疡的部位口诀。",
+      "page": 3,
+      "questionIds": [
+        "path-01-ulcer-sites-q2",
+        "path-01-ulcer-sites-q3",
+        "path-01-ulcer-sites-q4"
+      ],
+      "rationale": "仅映射DU穿孔/出血位置关系。"
+    },
+    {
+      "key": "pseudomembrane",
+      "text": "假的立白",
+      "meaning": "假膜性炎属于黏膜纤维素性炎，典型例子为细菌性痢疾和白喉。",
+      "page": 4,
+      "questionIds": [
+        "path-01-inflammation-patterns-q2",
+        "path-21-intestinal-four-q3",
+        "path-25-pseudomembrane-q1"
+      ],
+      "rationale": "P162重复同一口诀；跨章节对应同一炎症关系，不随意加给全部炎症题。"
+    },
+    {
+      "key": "hepatitis-damage",
+      "text": "水（水肿）解（溶解性坏死）脂肪（脂肪变性）酸（嗜酸性变和嗜酸性坏死）",
+      "meaning": "按本节把病毒性肝炎的主要变质性改变归纳为水样变、溶解性坏死、脂肪变和嗜酸性改变；不同题所问的具体形态仍分别判断。",
+      "page": 6,
+      "questionIds": [
+        "path-02-necrosis-q1",
+        "path-02-necrosis-q2",
+        "path-02-necrosis-q3",
+        "path-02-necrosis-q5",
+        "path-02-fat-droplet-q1",
+        "path-02-fat-droplet-q2",
+        "path-02-image-hepatocyte-q1"
+      ],
+      "rationale": "映射该口诀明确覆盖的病变类别，不附到病毒核酸和传播题。"
+    },
+    {
+      "key": "hepatitis-lysis",
+      "text": "淹死了",
+      "meaning": "用水解、崩解的形象记溶解性（液化性）坏死；肝炎的点状、界面性与桥接形态按各自部位区别。",
+      "page": 6,
+      "questionIds": [
+        "path-02-necrosis-q1",
+        "path-02-necrosis-q2",
+        "path-02-necrosis-q3"
+      ],
+      "rationale": "只用于本节肝细胞溶解性坏死形态题。"
+    },
+    {
+      "key": "interface-chronic",
+      "text": "慢慢越界",
+      "meaning": "肝小叶周边界板被破坏的界面性肝炎，提示进入慢性肝炎。",
+      "page": 6,
+      "questionIds": [
+        "path-02-necrosis-q2",
+        "path-02-clinical-types-q2"
+      ],
+      "rationale": "对应界板部位及慢性病程。"
+    },
+    {
+      "key": "lymph-mono",
+      "text": "林丹",
+      "meaning": "记淋巴细胞和单核细胞；在本讲病毒性肝炎、病毒性肺炎相关段落用于提示其主要炎细胞组合。",
+      "page": 7,
+      "questionIds": [
+        "path-02-hepatitis-cell-combination-q1",
+        "path-14-pneumonia-cells-q1",
+        "path-10-myocarditis-cell-combination-q1"
+      ],
+      "rationale": "P72、161同样列此记法；心肌炎题也直接考病毒性炎症的同一细胞组合，不加到所有病毒分类题。"
+    },
+    {
+      "key": "ordinary-acute-hepatitis",
+      "text": "水一点上普通学校",
+      "meaning": "急性普通型肝炎以广泛水样变性及轻微点状坏死为主，不是大块坏死和肝缩小。",
+      "page": 8,
+      "questionIds": [
+        "path-02-clinical-types-q1"
+      ],
+      "rationale": "对应该临床病理型的主体形态。"
+    },
+    {
+      "key": "acute-severe-color",
+      "text": "脂肪代谢—黄；肝血窦明显扩张充血出血—红",
+      "meaning": "辅助记急性重型肝炎黄红色切面背后的黄色与红色来源；需结合大块坏死、支架塌陷等判断。",
+      "page": 8,
+      "questionIds": [
+        "path-02-clinical-types-q3"
+      ],
+      "rationale": "属于本页形象记忆解释，不扩成单凭颜色定型。"
+    },
+    {
+      "key": "subacute-severe-color",
+      "text": "脂肪代谢—黄；纤维化致淤胆—绿",
+      "meaning": "辅助记亚急性重型肝炎黄绿色切面，并与亚大块坏死、再生结节和纤维化联系。",
+      "page": 9,
+      "questionIds": [
+        "path-02-clinical-types-q4"
+      ],
+      "rationale": "对应亚急性重型的形态组合。"
+    },
+    {
+      "key": "hav-hev",
+      "text": "甲午急",
+      "meaning": "一般记甲肝、戊肝以急性过程为主；本页明确补充免疫抑制者感染HEV可转慢性，必须连同例外记忆。",
+      "page": 9,
+      "questionIds": [
+        "path-02-viral-sets-q2"
+      ],
+      "rationale": "仅在直接考慢性可能及免疫抑制例外的题补充，不把口诀当绝对排除标准。"
+    },
+    {
+      "key": "hbv-glass",
+      "text": "乙—毛",
+      "meaning": "乙肝的毛玻璃样肝细胞与胞质HBsAg积聚及光面内质网增生相联系；不同于HBcAg积聚的砂粒样核。",
+      "page": 9,
+      "questionIds": [
+        "path-02-hbv-markers-q1",
+        "path-02-hbv-glass-details-q1"
+      ],
+      "rationale": "仅关联乙肝毛玻璃样细胞。"
+    },
+    {
+      "key": "hcv",
+      "text": "饼干泡面管饱、长胖、损伤",
+      "meaning": "“丙肝”联系门管区淋巴滤泡、脂肪变性及胆管损伤三项相对突出的镜下表现。",
+      "page": 10,
+      "questionIds": [
+        "path-02-hcv-features-q1"
+      ],
+      "rationale": "对应本节明确归纳的三项相对特异改变。"
+    },
+    {
+      "key": "fat-virus",
+      "text": "盯着饼干吃长胖",
+      "meaning": "把丁肝、丙肝与肝细胞脂肪变性这一特别列举的关联记在一起；不表示其他肝炎绝无脂肪变。",
+      "page": 135,
+      "questionIds": [
+        "path-02-fat-associated-virus-q1"
+      ],
+      "rationale": "跨节相同关系题；不把“长胖”误成患者肥胖诊断。"
+    },
+    {
+      "key": "alcohol-pattern",
+      "text": "早种芝麻",
+      "meaning": "酒精性肝炎的灶状坏死、中性粒细胞浸润、脂肪变性和Mallory小体；四项按正文名称复习。",
+      "page": 14,
+      "questionIds": [
+        "path-03-alcohol-features-q1"
+      ],
+      "rationale": "P135重复该记法，只映射酒精性形态集合。"
+    },
+    {
+      "key": "mallory",
+      "text": "酒干吗",
+      "meaning": "酒精性肝炎肝细胞中的Mallory小体为中间丝前角蛋白聚集，不是嗜酸性凋亡小体。",
+      "page": 14,
+      "questionIds": [
+        "path-03-bodies-q1",
+        "path-23-hyaline-bodies-q2"
+      ],
+      "rationale": "P136有同一表格记法，关系精确对应。"
+    },
+    {
+      "key": "feather-bile",
+      "text": "毛蛋",
+      "meaning": "羽毛状、网状肝细胞变性联系胆汁淤积与胆色素沉着。",
+      "page": 14,
+      "questionIds": [
+        "path-03-biliary-q1",
+        "path-23-pigments-q4"
+      ],
+      "rationale": "P137重复，映射变性及色素关系。"
+    },
+    {
+      "key": "pseudolobule",
+      "text": "套娃",
+      "meaning": "纤维间隔把肝细胞团分割包绕形成假小叶；假小叶不是肉眼肝表面结节的同义词。",
+      "page": 14,
+      "questionIds": [
+        "path-03-pseudolobule-q1"
+      ],
+      "rationale": "对应分割包绕的组织结构。"
+    },
+    {
+      "key": "postnecrotic-cirrhosis",
+      "text": "大坏蛋",
+      "meaning": "大结节性又称坏死后性肝硬化，可由亚急性重型肝炎、中毒性肝炎造成，间隔宽而不均。",
+      "page": 15,
+      "questionIds": [
+        "path-03-nodules-q2",
+        "path-03-cirrhosis-subtype-q2"
+      ],
+      "rationale": "对应名称、病因与结节组合。"
+    },
+    {
+      "key": "blood-cancer-exceptions",
+      "text": "先泡水溶C",
+      "meaning": "本讲把肺腺癌、甲状腺滤泡癌、肝细胞癌HCC和绒癌归为“癌多先淋巴转移”规律的血道转移例外；记忆用，不作真实患者绝对转移顺序。",
+      "page": 22,
+      "questionIds": [
+        "path-26-hematogenous-carcinoma-q1",
+        "path-04-liver-cancer-routes-q1",
+        "path-16-thyroid-cancers-q4",
+        "path-18-trophoblast-diagnosis-q6"
+      ],
+      "rationale": "P177同一小结；只映射实际在问例外转移关系的题。"
+    },
+    {
+      "key": "esophagus-gross",
+      "text": "阳伞虽窄、胸中有水",
+      "meaning": "记中晚期食管癌的溃疡、蕈伞、缩窄、髓质四类大体形态，胸中段最多见，髓质型最多见。",
+      "page": 24,
+      "questionIds": [
+        "path-05-esophagus-location-q1",
+        "path-05-esophagus-gross-q1",
+        "path-05-esophagus-gross-q2",
+        "path-05-esophagus-gross-q3"
+      ],
+      "rationale": "来源段落明确同时归纳部位和形态。"
+    },
+    {
+      "key": "soft-hard",
+      "text": "软软的、硬硬的",
+      "meaning": "食管癌髓质型纤维间质少而软，缩窄硬化型纤维间质多而硬；后者较易环形狭窄。",
+      "page": 22,
+      "questionIds": [
+        "path-05-esophagus-gross-q1",
+        "path-05-esophagus-gross-q2",
+        "path-26-adenocarcinoma-stroma-q1"
+      ],
+      "rationale": "P182髓样癌实质多于间质也标“软软的”，对应相同比例关系。"
+    },
+    {
+      "key": "small-gastric",
+      "text": "威武、小时",
+      "meaning": "记微小癌≤5mm、小胃癌6—10mm的讲义规定范围；与早期胃癌侵犯深度不是同一分类。",
+      "page": 25,
+      "questionIds": [
+        "path-05-small-gastric-q1"
+      ],
+      "rationale": "对应完整大小界值。"
+    },
+    {
+      "key": "benign-ulcer",
+      "text": "乖",
+      "meaning": "用“乖”记良性胃溃疡外形较规则、边缘整齐不隆起、底平、皱襞集中；大小深度等仍按对照表，不单凭一项定性。",
+      "page": 27,
+      "questionIds": [
+        "path-05-benign-malignant-shape-q1",
+        "path-05-benign-malignant-base-q1"
+      ],
+      "rationale": "只附规则形态的两个关系题，不把一个字扩成新临床判据。"
+    },
+    {
+      "key": "turcot",
+      "text": "桃胶",
+      "meaning": "Turcot胶质瘤息肉病综合征：肠息肉病与胶质瘤的特定组合命名。",
+      "page": 28,
+      "questionIds": [
+        "path-05-polyposis-q3",
+        "path-26-colorectal-precancer-q3"
+      ],
+      "rationale": "两个章节重复考同一命名关系。"
+    },
+    {
+      "key": "villous-adenoma",
+      "text": "惹毛了就癌变",
+      "meaning": "绒毛状腺瘤较易癌变；管状腺瘤更常见。口诀中的说法不是每个腺瘤都会癌变的个体预测。",
+      "page": 28,
+      "questionIds": [
+        "path-05-colon-adenoma-q1",
+        "path-05-colon-adenoma-q2"
+      ],
+      "rationale": "对应常见性与癌变倾向的近邻比较。"
+    },
+    {
+      "key": "colon-sides",
+      "text": "左亲右拢溃疡多",
+      "meaning": "左侧结肠癌浸润型较多、易梗阻和便血；右侧隆起型较多、肿块及全身症状突出；本讲大肠癌总体溃疡型最多。",
+      "page": 28,
+      "questionIds": [
+        "path-05-colon-gross-q1",
+        "path-05-colon-gross-q2"
+      ],
+      "rationale": "对应左右侧的同字段比较。"
+    },
+    {
+      "key": "colon-mucinous",
+      "text": "黏液胶样预后差",
+      "meaning": "本讲大肠癌组织学比较把黏液腺癌（胶样癌）列为预后较差类型；胶样是组织学名称，不是本页现行大体类型。",
+      "page": 28,
+      "questionIds": [
+        "path-05-colon-histology-q1"
+      ],
+      "rationale": "保留本讲比较范围。"
+    },
+    {
+      "key": "colon-suppressors",
+      "text": "墨督督app",
+      "meaning": "记本页抑癌基因MCC、DCC、DPC、APC、p16、p53；不与c-MYC、RAS、BRAF原癌基因混淆。",
+      "page": 29,
+      "questionIds": [
+        "path-05-genes-q2"
+      ],
+      "rationale": "完整行含不同字体app；只映射抑癌基因集合。"
+    },
+    {
+      "key": "lynch-repair",
+      "text": "非错不可霉死了",
+      "meaning": "遗传性非息肉病性大肠癌（Lynch）与MLH、MSH错配修复基因相联系；FAP则联系APC。",
+      "page": 29,
+      "questionIds": [
+        "path-05-hereditary-gene-q1",
+        "path-26-hereditary-genes-q2"
+      ],
+      "rationale": "映射同一遗传病—基因关系。"
+    },
+    {
+      "key": "viridans",
+      "text": "小草很弱",
+      "meaning": "亚急性感染性心内膜炎常见草绿色链球菌，毒力较弱，多在原有病变瓣膜基础上发生。",
+      "page": 32,
+      "questionIds": [
+        "path-06-endocarditis-bacteria-q2",
+        "path-06-endocarditis-valve-q2"
+      ],
+      "rationale": "对应病原和毒力/瓣膜基础。"
+    },
+    {
+      "key": "aschoff-nucleus",
+      "text": "o像眼、ff像毛虫",
+      "meaning": "风湿细胞核横切面似枭眼，纵切面似毛虫；不要把切面方向倒置。",
+      "page": 33,
+      "questionIds": [
+        "path-07-aschoff-nucleus-q1",
+        "path-25-granuloma-table-q7"
+      ],
+      "rationale": "完整原文含拉丁字母，与切面核形态关系直接对应。"
+    },
+    {
+      "key": "mccallum",
+      "text": "马后炮",
+      "meaning": "McCallum斑是反流冲击所致的心内膜局灶增厚，常在左心房后壁。",
+      "page": 34,
+      "questionIds": [
+        "path-07-mccallum-q1"
+      ],
+      "rationale": "只对应斑的位置和形成背景。"
+    },
+    {
+      "key": "rheumatic-types",
+      "text": "2个字、3个字",
+      "meaning": "本讲比较表将风湿对应Ⅱ型细胞毒反应、类风湿对应Ⅲ型免疫复合物反应；数字联想须限于本表，不代替完整免疫机制。",
+      "page": 35,
+      "questionIds": [
+        "path-07-rheumatic-mechanism-q1",
+        "path-17-rheumatic-hypersensitivity-q1"
+      ],
+      "rationale": "P86重复同一数字字数标记。"
+    },
+    {
+      "key": "rheumatic-joints",
+      "text": "二大爷；舔过关节咬住心脏",
+      "meaning": "本讲风湿关节病变多为大关节浆液性渗出、易吸收，通常不遗留畸形；风湿性心脏损害可更严重。类风湿常有纤维素渗出及畸形。",
+      "page": 35,
+      "questionIds": [
+        "path-07-rheumatic-joints-q1",
+        "path-07-rheumatic-joint-exudate-q1",
+        "path-17-rheumatic-compare-q1",
+        "path-17-rheumatic-compare-q5"
+      ],
+      "rationale": "只映射风湿关节范围、渗出和结局，不附到RF检测题。"
+    },
+    {
+      "key": "hyaline-mechanisms",
+      "text": "做鬼也不放过你",
+      "meaning": "按本页联系两项细动脉玻璃样变机制：血浆蛋白渗入血管壁，平滑肌细胞分泌胶原等细胞外基质。这里仅保留原讲义记忆语，不据谐音另造机制。",
+      "page": 37,
+      "questionIds": [
+        "path-08-hyaline-mechanisms-q1"
+      ],
+      "rationale": "对应明确列于口诀下方的两项机制。"
+    },
+    {
+      "key": "hypertensive-brain",
+      "text": "激豆内",
+      "meaning": "记高血压脑出血常见基底节、尤其豆状核及内囊；不是所有出血只能发生于此。",
+      "page": 37,
+      "questionIds": [
+        "path-08-hypertensive-brain-q1"
+      ],
+      "rationale": "对应脑出血定位组合。"
+    },
+    {
+      "key": "brain-as",
+      "text": "大鸡娃",
+      "meaning": "脑动脉粥样硬化常见大脑中动脉、基底动脉、Willis环。",
+      "page": 44,
+      "questionIds": [
+        "path-09-brain-vessels-q1"
+      ],
+      "rationale": "对应同一血管清单。"
+    },
+    {
+      "key": "renal-as",
+      "text": "肾伯伯竟主动开口",
+      "meaning": "肾动脉粥样硬化常累及开口处及主动脉近侧端，联系AS性大瘢痕肾。",
+      "page": 45,
+      "questionIds": [
+        "path-09-renal-as-site-q1"
+      ],
+      "rationale": "对应肾动脉好发位置。"
+    },
+    {
+      "key": "hcm-inheritance",
+      "text": "常显肥",
+      "meaning": "肥厚型心肌病在本讲对应常染色体显性遗传。",
+      "page": 47,
+      "questionIds": [
+        "path-10-myopathy-inheritance-q1"
+      ],
+      "rationale": "对应遗传方式，不泛加所有心肌病题。"
+    },
+    {
+      "key": "restriction-layers",
+      "text": "缩心炎外套太紧、限心病内衣太紧",
+      "meaning": "缩窄性心包炎限制主要在心包，限制型心肌病主要为心内膜及心内膜下心肌纤维化。",
+      "page": 49,
+      "questionIds": [
+        "path-10-myopathy-q3",
+        "path-10-restrictive-pericardial-q1"
+      ],
+      "rationale": "对应限制结构层次的比较。"
+    },
+    {
+      "key": "arvc",
+      "text": "幼稚",
+      "meaning": "用“右—脂”联想致心律失常性右室心肌病的右室心肌被脂肪或纤维脂肪组织替代。",
+      "page": 49,
+      "questionIds": [
+        "path-10-myopathy-q4"
+      ],
+      "rationale": "对应病变心室与替代物。"
+    },
+    {
+      "key": "airway-tree",
+      "text": "像树一样：从中央到周围、从管到泡",
+      "meaning": "顺气道树由较大气道向周围肺泡区理解传导区和呼吸区，不把终末细支气管与呼吸性细支气管混同。",
+      "page": 52,
+      "questionIds": [
+        "path-11-airway-level-q1",
+        "path-11-airway-level-q2",
+        "path-11-airway-level-q3"
+      ],
+      "rationale": "源文形象记忆语直接服务气道层级题。"
+    },
+    {
+      "key": "bronchitis-order",
+      "text": "烟是这样吸进来的",
+      "meaning": "慢支起始累及较大支气管，逐渐累及较小支气管；主要病变部位仍强调细支气管、小气道。",
+      "page": 57,
+      "questionIds": [
+        "path-11-bronchitis-basic-q1"
+      ],
+      "rationale": "对应起始与主要部位，避免混为一个问题。"
+    },
+    {
+      "key": "bronchitis-cells",
+      "text": "临江",
+      "meaning": "记慢性炎症中的淋巴细胞、浆细胞；不与病毒性段落“林丹”的淋巴、单核细胞混用。",
+      "page": 57,
+      "questionIds": [
+        "path-11-bronchitis-infiltrate-q1"
+      ],
+      "rationale": "对应慢支间质细胞组合。"
+    },
+    {
+      "key": "emphysema-sequence",
+      "text": "小气道—末梢肺组织—肺毛细血管",
+      "meaning": "按本讲顺序理解慢支到肺气肿再到肺循环阻力增加的病变链，不是解剖组织凭空依次消失。",
+      "page": 60,
+      "questionIds": [
+        "path-11-emphysema-chain-q1",
+        "path-11-cor-chain-q1"
+      ],
+      "rationale": "源文把病变顺序独立作记忆提示。"
+    },
+    {
+      "key": "airway-size-comparison",
+      "text": "大的越大、小的越小",
+      "meaning": "有软骨支撑的段、小支气管支撑结构破坏可持久扩张；终末及一级呼吸性细支气管病变则可狭窄，形成远端肺气肿。",
+      "page": 67,
+      "questionIds": [
+        "path-12-bronchiectasis-pair-q4",
+        "path-12-bronchiectasis-pair-q7",
+        "path-12-bronchiectasis-location-q1"
+      ],
+      "rationale": "仅附对应支撑结构及部位比较，非把所有大气道病变绝对化。"
+    },
+    {
+      "key": "silica-first",
+      "text": "先进门",
+      "meaning": "硅结节最早出现在肺门淋巴结。",
+      "page": 68,
+      "questionIds": [
+        "path-13-silicosis-sites-q1",
+        "path-13-silicosis-stage-q1"
+      ],
+      "rationale": "对应早期位置。"
+    },
+    {
+      "key": "interstitial-pneumonia",
+      "text": "煎饼之一",
+      "meaning": "“间—病—支—衣”联系间质性肺炎及病毒、支原体、衣原体这些本讲列举病原。",
+      "page": 70,
+      "questionIds": [
+        "path-14-pneumonia-pattern-q4"
+      ],
+      "rationale": "对应本讲间质性集合，不声称除此以外绝无间质损伤。"
+    },
+    {
+      "key": "pneumonia-no-pleura",
+      "text": "小子没胸",
+      "meaning": "本讲比较中小叶性肺炎、支原体肺炎一般不累及胸膜；“一般”不能改写为临床绝不累及。",
+      "page": 72,
+      "questionIds": [
+        "path-14-pneumonia-pattern-q5"
+      ],
+      "rationale": "现有题直接使用胸膜受累的鉴别条件。"
+    },
+    {
+      "key": "viral-hyaline",
+      "text": "县官流氓",
+      "meaning": "记腺病毒、冠状病毒、流感病毒、麻疹病毒所致肺炎可伴肺泡透明膜；范围以本页列举为准。",
+      "page": 72,
+      "questionIds": [
+        "path-14-viral-hyaline-q1"
+      ],
+      "rationale": "此前从题干移走的口诀，应完整回到该题解析。"
+    },
+    {
+      "key": "viral-inclusion",
+      "text": "密密麻麻；志同道合",
+      "meaning": "麻疹病毒包涵体可在胞核与胞质；呼吸道合胞病毒包涵体在胞质、呈嗜酸性。",
+      "page": 73,
+      "questionIds": [
+        "path-14-viral-inclusion-q1",
+        "path-14-viral-inclusion-stain-q1"
+      ],
+      "rationale": "两句在同一定位比较表，关联两道直接比较题。"
+    },
+    {
+      "key": "lung-adeno",
+      "text": "周边县城泡菜",
+      "meaning": "本讲用“周边—腺”联系肺腺癌多为周围型，并串联相应特殊腺癌类型；本题只需复习周围型与腺癌关系。",
+      "page": 75,
+      "questionIds": [
+        "path-15-lung-histology-q1"
+      ],
+      "rationale": "不把“泡菜”等尚未单独设题的类型强行扩为答案。"
+    },
+    {
+      "key": "squamous",
+      "text": "高龄华侨",
+      "meaning": "高分化鳞癌的角化珠与细胞间桥，注意“高龄”是谐音记法，不是在规定患者年龄。",
+      "page": 76,
+      "questionIds": [
+        "path-15-lung-histology-q2",
+        "path-26-histology-pattern-q1"
+      ],
+      "rationale": "P182重复，两个题均考同一形态关系。"
+    },
+    {
+      "key": "neuroendocrine-lung",
+      "text": "小大类；类似癌",
+      "meaning": "肺神经内分泌肿瘤包括小细胞癌、大细胞神经内分泌癌、类癌；本讲比较类癌恶性度相对最低。",
+      "page": 76,
+      "questionIds": [
+        "path-15-lung-histology-q5",
+        "path-15-lung-histology-q6"
+      ],
+      "rationale": "对应集合及相对恶性度。"
+    },
+    {
+      "key": "small-cell-lung",
+      "text": "人小鬼大还贪财、裸露菊花",
+      "meaning": "本页把该句作为小细胞肺癌的总括联想：细胞小、胞质少似裸核，可有假菊形团，恶性度高、易早期转移、对放化疗敏感；不逐字强解“贪财”，更不能把谐音当病理标准。",
+      "page": 76,
+      "questionIds": [
+        "path-15-lung-histology-q3",
+        "path-15-lung-histology-q4",
+        "path-15-lung-histology-q8"
+      ],
+      "rationale": "口诀对应同页小细胞癌的形态及生物行为，不加到腺鳞癌。"
+    },
+    {
+      "key": "ebv-cancers",
+      "text": "比伯穿CK",
+      "meaning": "记鼻咽癌、Burkitt淋巴瘤、经典型霍奇金淋巴瘤CHL与NK/T细胞淋巴瘤的EBV关联；按本讲小结，不作为单项病原诊断。",
+      "page": 77,
+      "questionIds": [
+        "path-15-ebv-tumors-q1",
+        "path-26-biologic-carcinogens-q5",
+        "path-26-ebv-associations-q1"
+      ],
+      "rationale": "P183重复同一记法，保留完整拉丁后缀。"
+    },
+    {
+      "key": "papillary-thyroid",
+      "text": "多个乳头脱毛要杀菌",
+      "meaning": "记甲状腺乳头状癌的多中心、乳头结构、毛玻璃样核、砂粒体及核沟等本页特征；不据一句口诀忽略正式核形态。",
+      "page": 79,
+      "questionIds": [
+        "path-16-thyroid-cancers-q1",
+        "path-16-thyroid-cancers-q2",
+        "path-16-thyroid-cancers-q5"
+      ],
+      "rationale": "只关联该癌核特征、分布及预后题，未附到滤泡癌。"
+    },
+    {
+      "key": "undifferentiated-thyroid",
+      "text": "小说剧情混乱",
+      "meaning": "甲状腺未分化癌的本讲类型：小细胞、梭形细胞、巨细胞、混合细胞型。",
+      "page": 79,
+      "questionIds": [
+        "path-16-thyroid-cancers-q6"
+      ],
+      "rationale": "对应形态分型清单。"
+    },
+    {
+      "key": "medullary-amyloid",
+      "text": "水一点",
+      "meaning": "“髓—淀”记甲状腺髓样癌间质淀粉样物质沉着，不把“水”当水样变性。",
+      "page": 80,
+      "questionIds": [
+        "path-16-thyroid-cancers-q7"
+      ],
+      "rationale": "P136也重复该记忆词，现有题准确考此关系。"
+    },
+    {
+      "key": "nodular-goiter-secondary",
+      "text": "前世今生",
+      "meaning": "本页把结节性甲状腺肿的囊性变、出血、坏死、钙化、瘢痕等继发改变联系记忆；滤泡增生与复旧可不一致。",
+      "page": 80,
+      "questionIds": [
+        "path-16-thyroid-benign-q7",
+        "path-16-nodule-dimensions-q3"
+      ],
+      "rationale": "限于两个直接考继发改变的题；不用于Graves病理集合。"
+    },
+    {
+      "key": "diabetes-amyloid",
+      "text": "两点一线",
+      "meaning": "“2—淀—胰腺”联系2型糖尿病胰岛的淀粉样变性；与1型的淋巴细胞浸润比较。",
+      "page": 82,
+      "questionIds": [
+        "path-16-diabetes-pair-q2"
+      ],
+      "rationale": "此前移出题干，现恢复到答案解析。"
+    },
+    {
+      "key": "apud",
+      "text": "小大类水一个",
+      "meaning": "本讲APUD小结包括小细胞肺癌、大细胞神经内分泌癌、类癌、甲状腺髓样癌、胰岛细胞瘤和嗜铬细胞瘤等；口诀不替代具体名称。",
+      "page": 82,
+      "questionIds": [
+        "path-16-apud-cross-q1",
+        "path-26-checked-carcinoid-q1"
+      ],
+      "rationale": "对应神经内分泌分化集合，补核类癌题也明确引用本小结。"
+    },
+    {
+      "key": "ra-nodule",
+      "text": "肉包皮蛋",
+      "meaning": "由外向内联想肉芽组织、栅栏/放射状上皮样细胞、中央纤维素样坏死；题目若问由内向外须反向排列。",
+      "page": 86,
+      "questionIds": [
+        "path-17-ra-structure-q2"
+      ],
+      "rationale": "严格标明方向，避免口诀顺序与题干中央向外相反。"
+    },
+    {
+      "key": "hiv-targets",
+      "text": "4叔单身没有B",
+      "meaning": "记CD4辅助T细胞、单核巨噬细胞、滤泡树突状细胞及神经系统为本页列举感染对象；本讲两类储备池为单核巨噬细胞、滤泡树突状细胞，不把B细胞当主要靶点。",
+      "page": 87,
+      "questionIds": [
+        "path-17-hiv-cells-q1",
+        "path-17-hiv-cell-roles-q1"
+      ],
+      "rationale": "完整行的4、B是拉丁字体，结合上下文恢复。"
+    },
+    {
+      "key": "aids-node-stage",
+      "text": "早期生机勃勃、晚期一片荒芜",
+      "meaning": "AIDS淋巴结早期淋巴滤泡增生，晚期淋巴细胞明显耗竭、仅余少量其他细胞和纤维血管组织。",
+      "page": 87,
+      "questionIds": [
+        "path-17-hiv-stage-q1"
+      ],
+      "rationale": "对应早晚期同字段比较。"
+    },
+    {
+      "key": "bruton",
+      "text": "隐蔽",
+      "meaning": "“隐—B”联想Bruton综合征为X连锁隐性遗传、B细胞及γ球蛋白缺陷。",
+      "page": 88,
+      "questionIds": [
+        "path-17-immune-defect-q2"
+      ],
+      "rationale": "对应遗传方式及细胞缺陷。"
+    },
+    {
+      "key": "gvhd",
+      "text": "倒反天罡",
+      "meaning": "移植物中免疫活性细胞攻击宿主，而不是宿主排斥移植物；需保留免疫缺陷宿主、含活性细胞移植物的背景。",
+      "page": 88,
+      "questionIds": [
+        "path-17-transplant-pattern-q6"
+      ],
+      "rationale": "对应攻击方向。"
+    },
+    {
+      "key": "hyperacute",
+      "text": "我准备好了；超级变态—变态反应太强",
+      "meaning": "超急性排斥与受者预先已有供者特异抗体或ABO不符有关，并可有急性小动脉炎、纤维素样坏死、血栓及缺血性坏死。",
+      "page": 88,
+      "questionIds": [
+        "path-17-transplant-pattern-q1",
+        "path-17-transplant-pattern-q2"
+      ],
+      "rationale": "同页两条记忆语分别服务既存抗体和血管形态。"
+    },
+    {
+      "key": "acute-vascular-rejection",
+      "text": "降个级",
+      "meaning": "本表急性排斥血管型主要为亚急性血管炎及内膜增厚，与超急性广泛纤维素样坏死比较。",
+      "page": 88,
+      "questionIds": [
+        "path-17-transplant-pattern-q3"
+      ],
+      "rationale": "记表内层次对比，非另设严重程度分级。"
+    },
+    {
+      "key": "hypersensitivity-order",
+      "text": "一速二毒三免血、四来迟，血管里的超级慢细胞",
+      "meaning": "按讲义表：Ⅰ速发、Ⅱ细胞毒、Ⅲ免疫复合物/血管炎、Ⅳ迟发；各具体疾病及急性排斥血管型、细胞型仍逐项按表区分，不按一句话一概归类。",
+      "page": 89,
+      "questionIds": [
+        "path-17-hypersensitivity-q1",
+        "path-17-hypersensitivity-q2",
+        "path-17-hypersensitivity-q3",
+        "path-17-hypersensitivity-q4",
+        "path-17-hypersensitivity-vascular-q1",
+        "path-17-hypersensitivity-vascular-q2"
+      ],
+      "rationale": "完整表对应的类型配伍题，均仅按本讲义范围。"
+    },
+    {
+      "key": "hpv-e6-e7",
+      "text": "5678",
+      "meaning": "按原文相邻关系记E6使p53失活、E7使RB失活；数字串仅为这两对蛋白的记忆辅助，不是宫颈癌分期。",
+      "page": 95,
+      "questionIds": [
+        "path-18-cervix-hpv-q1"
+      ],
+      "rationale": "已放大整页确认原文蓝色数字5678；不因抽取器只筛中文而遗漏。"
+    },
+    {
+      "key": "cervix-stage-three",
+      "text": "阴字偏旁像3",
+      "meaning": "本讲宫颈癌Ⅲ期包括累及阴道下1/3或盆腔壁；这是字形记忆，不能替代其余分期条件。",
+      "page": 95,
+      "questionIds": [
+        "path-18-cervix-staging-q3"
+      ],
+      "rationale": "原文含编辑提示“删我”，不把编辑提示作为口诀内容保留。"
+    },
+    {
+      "key": "choriocarcinoma-three-no",
+      "text": "三无产品：鱼香肉丝没有鱼、老婆饼没有老婆",
+      "meaning": "本表绒癌自身无绒毛、无间质、无血管；可直接侵犯母体血管而极易血道转移，并非因自身无血管就不能转移。",
+      "page": 98,
+      "questionIds": [
+        "path-18-trophoblast-diagnosis-q3",
+        "path-18-trophoblast-diagnosis-q6"
+      ],
+      "rationale": "逐字是比喻，医学展开严格使用表内“三无”。"
+    },
+    {
+      "key": "mole-ploidy",
+      "text": "完全2个字、不完全3个字",
+      "meaning": "记完全性葡萄胎通常为父源二倍体，部分性葡萄胎常三倍体；核型来源、p57及胎儿组织仍结合表中条件。",
+      "page": 99,
+      "questionIds": [
+        "path-18-mole-genetics-q1",
+        "path-18-mole-genetics-q2",
+        "path-18-mole-combinations-q1",
+        "path-18-mole-combinations-q2"
+      ],
+      "rationale": "只用于直接考倍体和完整组合的题，不把字数当独立诊断法。"
+    },
+    {
+      "key": "ovary-germ-cell",
+      "text": "膜内无鸡胚",
+      "meaning": "记卵巢生殖细胞肿瘤：绒毛膜癌、内胚窦/卵黄囊瘤、无性细胞瘤、畸胎瘤、胚胎性癌。",
+      "page": 100,
+      "questionIds": [
+        "path-18-ovary-type-q2"
+      ],
+      "rationale": "对应来源分类清单，不附到上皮性肿瘤。"
+    },
+    {
+      "key": "ovary-sex-cord",
+      "text": "支持一粒卵泡",
+      "meaning": "记支持-间质细胞瘤、粒层细胞瘤和卵泡膜细胞瘤这一性索间质来源集合。",
+      "page": 100,
+      "questionIds": [
+        "path-18-ovary-type-q3"
+      ],
+      "rationale": "对应本讲来源分类。"
+    },
+    {
+      "key": "serous-ovary",
+      "text": "双儒将",
+      "meaning": "“双—乳—浆”记浆液性卵巢肿瘤较多双侧、乳头较多；与黏液性多单侧、乳头少比较。",
+      "page": 100,
+      "questionIds": [
+        "path-18-ovary-epithelium-q1",
+        "path-18-ovary-epithelium-q2"
+      ],
+      "rationale": "两题为同字段正反比较。"
+    },
+    {
+      "key": "ovary-teratoma",
+      "text": "成熟懂事",
+      "meaning": "成熟畸胎瘤为本表良性类型，未成熟者恶性；“懂事”只是成熟度联想。",
+      "page": 101,
+      "questionIds": [
+        "path-18-ovary-specific-q2",
+        "path-18-ovary-specific-q3"
+      ],
+      "rationale": "对应成熟度与组织形态。"
+    },
+    {
+      "key": "granulosa-theca",
+      "text": "粒粒咖啡豆、卵脂",
+      "meaning": "粒层细胞瘤有核沟、咖啡豆样核和Call-Exner小体；卵泡膜细胞瘤胞质富脂呈空泡状。",
+      "page": 101,
+      "questionIds": [
+        "path-18-ovary-specific-q4",
+        "path-18-ovary-specific-q5"
+      ],
+      "rationale": "对应两种性索间质肿瘤的形态比较。"
+    },
+    {
+      "key": "prostate-zones",
+      "text": "曾毅爱粥",
+      "meaning": "“增—移、癌—周”记前列腺增生好发移行带，前列腺癌好发外周带。",
+      "page": 102,
+      "questionIds": [
+        "path-18-prostate-regions-q1"
+      ],
+      "rationale": "此前从题干移除，补回解析。"
+    },
+    {
+      "key": "prostate-markers",
+      "text": "摸前列腺好酸爽",
+      "meaning": "本讲将PSA及酸性磷酸酶联系前列腺癌；不以任一标志物单独代替临床诊断。",
+      "page": 102,
+      "questionIds": [
+        "path-18-prostate-spread-q1",
+        "path-26-enzymes-hormones-q1"
+      ],
+      "rationale": "对应本页及肿瘤标志物节的同一关系。"
+    },
+    {
+      "key": "ordinary-duct-hyperplasia",
+      "text": "水—普通",
+      "meaning": "乳腺普通型导管增生细胞呈流水样分布，与异型增生的单一、均匀分布比较。",
+      "page": 105,
+      "questionIds": [
+        "path-19-duct-hyperplasia-q1"
+      ],
+      "rationale": "对应分布差异。"
+    },
+    {
+      "key": "lobular-in-situ",
+      "text": "小这个字中间长、两边有点",
+      "meaning": "用字形记小叶原位癌癌变间期长，常双侧、多象限受累；不是在描述实际细胞形状。",
+      "page": 106,
+      "questionIds": [
+        "path-19-breast-types-q2"
+      ],
+      "rationale": "对应小叶原位癌的分布和病程。"
+    },
+    {
+      "key": "invasive-lobular",
+      "text": "小孩站一排、围成圈、泡水里玩",
+      "meaning": "浸润性小叶癌细胞可单行串珠/列兵样，或围绕导管呈靶环样排列，并可转移至浆膜、脑脊液等部位。",
+      "page": 106,
+      "questionIds": [
+        "path-19-breast-types-q4"
+      ],
+      "rationale": "现有题只考排列；解析可连同来源完整记忆语，但不改变答案。"
+    },
+    {
+      "key": "breast-medullary",
+      "text": "大清软软的",
+      "meaning": "本页髓样癌细胞大、边界清、间质少并有大量淋巴细胞浸润；注意不是普通浸润癌非特殊型。",
+      "page": 106,
+      "questionIds": [
+        "path-19-breast-types-q5"
+      ],
+      "rationale": "对应髓样癌形态。"
+    },
+    {
+      "key": "breast-good-prognosis",
+      "text": "软软的小实性；乳头分泌黏液",
+      "meaning": "本讲表中预后较好的特殊浸润类型有小管癌、髓样癌、黏液腺癌、分泌性癌、实性乳头状癌；记忆语须展开为表内类型而非仅凭词形判断。",
+      "page": 106,
+      "questionIds": [
+        "path-19-breast-types-q9",
+        "path-19-breast-prognosis-q1"
+      ],
+      "rationale": "恢复之前移出题干的预后类型口诀。"
+    },
+    {
+      "key": "lymphatic-edema",
+      "text": "橡皮虫",
+      "meaning": "本讲联想丹毒象皮肿、乳腺癌橘皮样变、丝虫病与淋巴回流受阻；乳癌酒窝征则为悬韧带受累。",
+      "page": 106,
+      "questionIds": [
+        "path-19-breast-signs-q1"
+      ],
+      "rationale": "只关联两种乳癌皮肤表现的机制比较。"
+    },
+    {
+      "key": "vertebral-cancers",
+      "text": "甲乳省钱",
+      "meaning": "记甲状腺癌、乳腺癌、肾癌、前列腺癌易经椎旁静脉发生骨转移这一讲义小结。",
+      "page": 106,
+      "questionIds": [
+        "path-19-paravertebral-q1",
+        "path-26-vertebral-route-q1",
+        "path-26-metastatic-destinations-q4",
+        "path-18-prostate-spread-q1"
+      ],
+      "rationale": "P177重复，小结仅附到椎旁通道及其肿瘤/靶点题。"
+    },
+    {
+      "key": "tb-granuloma-cells",
+      "text": "凌晨累死",
+      "meaning": "记典型结核结节的淋巴细胞、成纤维细胞、类上皮细胞及朗汉斯巨细胞；不是结节中央坏死物的成分口诀。",
+      "page": 108,
+      "questionIds": [
+        "path-20-tb-granuloma-cells-q1"
+      ],
+      "rationale": "P170专题表重复此词，现有题直接考细胞集合。"
+    },
+    {
+      "key": "primary-tb-spread",
+      "text": "TB嚣张",
+      "meaning": "原发肺结核主要可经淋巴道、血道播散；通常继发型主要经支气管播散，须区别背景。",
+      "page": 109,
+      "questionIds": [
+        "path-20-tb-spread-q1"
+      ],
+      "rationale": "对应主要播散通道的对照。"
+    },
+    {
+      "key": "secondary-tb-sites",
+      "text": "勾肩搭背hou基友",
+      "meaning": "记继发肺结核常见上叶尖后段、下叶背段和后基底段；“后”字为源行拉丁拼写的一部分。",
+      "page": 110,
+      "questionIds": [
+        "path-20-primary-secondary-site-q1"
+      ],
+      "rationale": "对应起始位置，未加到结核治疗题。"
+    },
+    {
+      "key": "cns-inflammation",
+      "text": "流脑流脓；变异",
+      "meaning": "流脑主要为软脑膜、软脊膜化脓性炎；乙脑主要为中枢神经系统变质性炎。",
+      "page": 116,
+      "questionIds": [
+        "path-21-cns-inflammation-q1",
+        "path-21-cns-cells-q4"
+      ],
+      "rationale": "对应炎症性质和脓性渗出优势细胞。"
+    },
+    {
+      "key": "encephalitis-glia",
+      "text": "小吃；突围",
+      "meaning": "小胶质细胞参与噬神经现象；本讲把卫星现象联系少突胶质细胞围绕神经元。",
+      "page": 116,
+      "questionIds": [
+        "path-21-cns-cells-q1",
+        "path-21-cns-cells-q2"
+      ],
+      "rationale": "保留本讲细胞对应，不把两种现象混为一个。"
+    },
+    {
+      "key": "encephalitis-summary",
+      "text": "变质大鸡屎、筛状软化灶、血管淋巴套、星巴小姐姐、噬神经卫星",
+      "meaning": "乙脑为变质性炎，累及大脑皮质、基底核、视丘等，并有筛状软化灶、血管周围淋巴细胞套及胶质细胞相关反应；逐项仍按正文区分细胞种类。",
+      "page": 116,
+      "questionIds": [
+        "path-21-encephalitis-q1",
+        "path-21-cns-cells-q3",
+        "path-21-cns-cells-q5"
+      ],
+      "rationale": "将跨行原口诀合并，映射其直接形态关系。"
+    },
+    {
+      "key": "typhoid-system",
+      "text": "全身冷",
+      "meaning": "记伤寒为全身单核—巨噬细胞系统增生，并非只限肠局部，也不是说患者低体温。",
+      "page": 117,
+      "questionIds": [
+        "path-21-intestinal-four-q2",
+        "path-21-typhoid-cell-q1"
+      ],
+      "rationale": "避免把口诀字面误解为临床体温。"
+    },
+    {
+      "key": "typhoid-ulcer",
+      "text": "小姐玛丽",
+      "meaning": "伤寒累及回肠末端淋巴小结，形成圆/椭圆溃疡，长轴与肠长轴平行，通常不致肠梗阻。",
+      "page": 117,
+      "questionIds": [
+        "path-21-intestinal-ulcer-direction-q2",
+        "path-21-intestinal-complications-q1",
+        "path-25-granuloma-table-q3"
+      ],
+      "rationale": "对应形态及梗阻倾向，不凭谐音增补病原事实。"
+    },
+    {
+      "key": "waxy-necrosis",
+      "text": "蜡烛—凝固",
+      "meaning": "伤寒所说横纹肌蜡样变性实质为凝固性坏死，不是可逆的物质蓄积性变性。",
+      "page": 117,
+      "questionIds": [
+        "path-21-typhoid-waxy-q1",
+        "path-23-necrosis-patterns-q6"
+      ],
+      "rationale": "P138重复，映射组织及坏死方式。"
+    },
+    {
+      "key": "amebic-ulcer",
+      "text": "烧瓶装果酱",
+      "meaning": "阿米巴肠病有口小底大的烧瓶状溃疡，临床常用果酱样便联想；本题关键仍是溃疡形态和滋养体。",
+      "page": 117,
+      "questionIds": [
+        "path-21-intestinal-ulcer-direction-q4",
+        "path-21-intestinal-four-q4"
+      ],
+      "rationale": "对应阿米巴的形态关系。"
+    },
+    {
+      "key": "schisto-schistosomula",
+      "text": "同学废",
+      "meaning": "“童—血—肺”记童虫引起血管及周围炎，肺损害较明显；虫卵才是主要最严重组织损害的阶段。",
+      "page": 118,
+      "questionIds": [
+        "path-21-schisto-stage-q2"
+      ],
+      "rationale": "只关联童虫阶段，防止误贴到主要虫卵阶段。"
+    },
+    {
+      "key": "acute-egg",
+      "text": "着急喝酸汤、cao、之后流眼泪",
+      "meaning": "急性血吸虫虫卵结节联系嗜酸性脓肿、放射状火焰样Hoeppli现象及Charcot-Leyden结晶；不把后两者互相调换。",
+      "page": 118,
+      "questionIds": [
+        "path-21-egg-reaction-q1",
+        "path-21-egg-abscess-cell-q1",
+        "path-25-leukocyte-cells-q5",
+        "path-25-abscess-exceptions-q5"
+      ],
+      "rationale": "完整抽取行含拉丁cao；仅展示原记忆语及正文对应，不额外解释粗俗谐音。"
+    },
+    {
+      "key": "chronic-egg-cells",
+      "text": "凌晨累异",
+      "meaning": "慢性虫卵结节以类上皮细胞为主，少量淋巴细胞、成纤维细胞、异物巨细胞；与结核的朗汉斯巨细胞比较。",
+      "page": 118,
+      "questionIds": [
+        "path-21-egg-granuloma-name-q1",
+        "path-21-chronic-egg-vs-tb-q1",
+        "path-25-granuloma-cells-q2",
+        "path-25-granuloma-table-q5"
+      ],
+      "rationale": "P170重复，精确对应慢性虫卵形态和细胞。"
+    },
+    {
+      "key": "schisto-tb-calcify",
+      "text": "学姐钙化",
+      "meaning": "“血—结”联系慢性血吸虫虫卵结节和结核结节均可钙化；梅毒树胶肿则极少钙化。",
+      "page": 118,
+      "questionIds": [
+        "path-21-chronic-egg-vs-tb-q1",
+        "path-25-granuloma-table-q1",
+        "path-25-granuloma-table-q5",
+        "path-23-calcification-examples-q2"
+      ],
+      "rationale": "P170重复，共同点与例外清楚区分。"
+    },
+    {
+      "key": "syphilis-basic",
+      "text": "周围塞车肿么办",
+      "meaning": "记梅毒的闭塞性动脉内膜炎、小血管周围炎、肉芽肿三项基本病变。",
+      "page": 119,
+      "questionIds": [
+        "path-21-syphilis-basic-q1"
+      ],
+      "rationale": "对应三项形态集合。"
+    },
+    {
+      "key": "syphilis-stages",
+      "text": "会阴周围摸了就传染；随便摸哪都容易传染；鞍鼻痴呆不想摸了",
+      "meaning": "本页分别联想一期硬下疳、二期梅毒疹且传染性最大、三期鞍鼻神经及心血管损害且传染性相对小；不能把摸一下当作真实传播方式说明。",
+      "page": 119,
+      "questionIds": [
+        "path-21-syphilis-stage-q1",
+        "path-21-syphilis-stage-q2",
+        "path-21-syphilis-infectivity-q1"
+      ],
+      "rationale": "严格标为本讲记忆联想，保留病变及相对传染倾向，防止传播机制误导。"
+    },
+    {
+      "key": "gumma-cells",
+      "text": "乌梅子酱",
+      "meaning": "“梅—浆”记梅毒树胶样肿内浆细胞恒定出现，伴淋巴细胞；中心为凝固性坏死且极少钙化。",
+      "page": 119,
+      "questionIds": [
+        "path-21-syphilis-tissue-q1",
+        "path-25-granuloma-cells-q3",
+        "path-25-granuloma-table-q4"
+      ],
+      "rationale": "对应肉芽肿特殊细胞和坏死组合。"
+    },
+    {
+      "key": "giant-cell-kinds",
+      "text": "姐妹们、套马的汉子威武雄壮；异甲虫",
+      "meaning": "结核、梅毒、麻风肉芽肿可见朗汉斯巨细胞，核呈周边环/马蹄/U形；异物、亚甲炎、慢性虫卵结节多为异物巨细胞，核杂乱。",
+      "page": 119,
+      "questionIds": [
+        "path-21-giant-cell-type-q1",
+        "path-25-giant-cells-q1",
+        "path-25-giant-cells-q2",
+        "path-20-image-giant-cell-q1"
+      ],
+      "rationale": "P163完整重复，对应类型和核排列。"
+    },
+    {
+      "key": "rectosigmoid",
+      "text": "吸血鬼哎",
+      "meaning": "记细菌性痢疾、血吸虫病、溃疡性结肠炎及大肠癌与直肠、乙状结肠的常见部位关系；具体类型仍看题干。",
+      "page": 121,
+      "questionIds": [
+        "path-21-intestinal-sites-q3",
+        "path-21-ulcer-broader-q1",
+        "path-21-ulcer-broader-q3",
+        "path-05-colon-location-q1",
+        "path-05-colon-location-q2"
+      ],
+      "rationale": "只映射实际考直乙部位的现有题。"
+    },
+    {
+      "key": "labile-cells",
+      "text": "三皮＋造血",
+      "meaning": "不稳定细胞包括表皮、黏膜被覆上皮、间皮，以及淋巴造血细胞；腺体细胞和血管内皮不因此都归到“三皮”。",
+      "page": 123,
+      "questionIds": [
+        "path-22-cell-potential-q1"
+      ],
+      "rationale": "对应本表再生潜能分类。"
+    },
+    {
+      "key": "permanent-cells",
+      "text": "永恒的原形股",
+      "meaning": "记永久细胞中的神经元、心肌、骨骼肌；不把神经纤维和神经胶质细胞等同神经元。",
+      "page": 123,
+      "questionIds": [
+        "path-22-cell-potential-q3"
+      ],
+      "rationale": "对应永久细胞集合并保留例外边界。"
+    },
+    {
+      "key": "nerve-repair",
+      "text": "异地恋、小三、分手",
+      "meaning": "神经断端相距过远、有瘢痕组织阻隔或失去远端时，再生神经纤维不能到达远端，与增生结缔组织卷曲混杂形成创伤性神经纤维瘤。",
+      "page": 123,
+      "questionIds": [
+        "path-22-nerve-repair-q1"
+      ],
+      "rationale": "口诀跨P123—124，明确是修复受阻条件而非肿瘤性增生。"
+    },
+    {
+      "key": "granulation-components",
+      "text": "新成员",
+      "meaning": "肉芽组织包括大量新生毛细血管、成纤维细胞及炎细胞，通常炎细胞以巨噬细胞为主。",
+      "page": 124,
+      "questionIds": [
+        "path-22-repair-cells-q1",
+        "path-22-repair-cells-q2",
+        "path-22-repair-cells-q3",
+        "path-22-repair-process-q1"
+      ],
+      "rationale": "对应主要结构及其细胞，不把整个同页无关骨折分期附上。"
+    },
+    {
+      "key": "fibrocyte-reactivation",
+      "text": "反方向的钟",
+      "meaning": "静止的纤维细胞在损伤时可逆向转为成纤维细胞，重新产生胶原参与修复。",
+      "page": 125,
+      "questionIds": [
+        "path-22-repair-cells-q1"
+      ],
+      "rationale": "对应该细胞的损伤后功能。"
+    },
+    {
+      "key": "granulation-scar",
+      "text": "新肉芽变老瘢痕",
+      "meaning": "肉芽组织成熟为瘢痕时胶原等基质增多，毛细血管、成纤维细胞、炎细胞及水分减少。",
+      "page": 125,
+      "questionIds": [
+        "path-22-granulation-composition-q1",
+        "path-22-repair-process-q2"
+      ],
+      "rationale": "对应成熟结局与成分变化。"
+    },
+    {
+      "key": "two-multitasking-cells",
+      "text": "两个不务正业的细胞",
+      "meaning": "肉芽组织的肌成纤维细胞能收缩，AS中平滑肌细胞能产生胶原；不是两种细胞互相变成彼此。",
+      "page": 126,
+      "questionIds": [
+        "path-22-repair-cells-q4",
+        "path-22-repair-cells-q6",
+        "path-09-as-cell-q3"
+      ],
+      "rationale": "同一形象比喻对应两个明确功能关系。"
+    },
+    {
+      "key": "wound-nutrition",
+      "text": "刘慈欣",
+      "meaning": "记含硫氨基酸、维生素C和锌与细胞外基质形成、伤口愈合强度有关。",
+      "page": 127,
+      "questionIds": [
+        "path-22-wound-strength-q1"
+      ],
+      "rationale": "对应同一营养因素集合。"
+    },
+    {
+      "key": "starvation-atrophy",
+      "text": "要瘦先瘦胸",
+      "meaning": "营养不良性萎缩先累及脂肪，后期才累及永久细胞；不是说所有减重都遵循单一身体部位顺序。",
+      "page": 131,
+      "questionIds": [
+        "path-23-atrophy-types-q1"
+      ],
+      "rationale": "保留教材组织层面的范围。"
+    },
+    {
+      "key": "lipofuscin",
+      "text": "我吃我自己",
+      "meaning": "脂褐素来自自噬溶酶体中未完全消化的细胞器残体，常见于萎缩心肌及肝细胞。",
+      "page": 132,
+      "questionIds": [
+        "path-23-pigments-q1",
+        "path-23-lysosome-relations-q1"
+      ],
+      "rationale": "P137重复，映射自噬与色素关系。"
+    },
+    {
+      "key": "metaplastic-ossification",
+      "text": "攻克上古籍",
+      "meaning": "本页把肱骨髁上骨折附近的损伤性骨化、骨化性肌炎作为间叶组织化生的例子。",
+      "page": 134,
+      "questionIds": [
+        "path-23-growth-adaptation-q3",
+        "path-23-metaplasia-examples-q1"
+      ],
+      "rationale": "只作为该多选题中实际包含的化生例子，非所有骨折都发生此改变。"
+    },
+    {
+      "key": "choristoma",
+      "text": "迷路了",
+      "meaning": "正常组织误位于异常部位称迷离瘤，如舌根甲状腺、胃内胰腺；不是一种成熟组织转变成另一种组织的化生。",
+      "page": 134,
+      "questionIds": [
+        "path-23-metaplasia-examples-q2",
+        "path-26-non-tumors-q2"
+      ],
+      "rationale": "P180重复，两个题分别对照化生和肿瘤。"
+    },
+    {
+      "key": "hydropic",
+      "text": "输了起哄",
+      "meaning": "本页用该语辅助记肝细胞水样变时胞质疏松、气球样变及肿胀细胞器造成的细颗粒；不是脂滴沉积。",
+      "page": 134,
+      "questionIds": [
+        "path-23-degeneration-types-q1",
+        "path-02-image-hepatocyte-q1"
+      ],
+      "rationale": "严格停留在本页并列形态，不逐字强行扩展。"
+    },
+    {
+      "key": "fat-heart",
+      "text": "胖虎；减肉you",
+      "meaning": "“胖虎”记虎斑心为心肌细胞内脂肪变，常在左室；原文“减肉you”联系脂肪心为心肌间质脂肪浸润，常在心尖及右室。",
+      "page": 135,
+      "questionIds": [
+        "path-23-heart-fat-q1",
+        "path-23-heart-fat-q2"
+      ],
+      "rationale": "两者必须对比解释，避免将脂肪浸润误称脂肪变。"
+    },
+    {
+      "key": "russell",
+      "text": "乳浆",
+      "meaning": "Russell小体位于浆细胞粗面内质网，蓄积免疫球蛋白；与肝细胞Mallory小体区别。",
+      "page": 136,
+      "questionIds": [
+        "path-23-hyaline-bodies-q3"
+      ],
+      "rationale": "对应定位及蓄积物。"
+    },
+    {
+      "key": "myxoid",
+      "text": "风到粥里就是粘、粘住间叶的葡萄",
+      "meaning": "本页黏液样变性例子串联风湿病、粥样斑块、甲减黏液性水肿、间叶肿瘤及葡萄胎；主体形态是星芒状细胞散在于黏液基质。",
+      "page": 136,
+      "questionIds": [
+        "path-23-degeneration-types-q5"
+      ],
+      "rationale": "题考变性类型，口诀仅作为答后同类例子的辅助，不另改答案。"
+    },
+    {
+      "key": "metastatic-calcification",
+      "text": "为省学费转学了",
+      "meaning": "记转移性钙化可沉积于胃、肾、血管、肺；与高钙血症背景相联系，区别坏死组织中的营养不良性钙化。",
+      "page": 137,
+      "questionIds": [
+        "path-23-calcification-q1"
+      ],
+      "rationale": "对应两种钙化的条件及部位。"
+    },
+    {
+      "key": "fibrinoid-examples",
+      "text": "高风亮节、喂狼超糖",
+      "meaning": "本讲纤维素样坏死例子包括急进型高血压、风湿/类风湿、结节性多动脉炎、胃溃疡、SLE、超急性排斥和1型糖尿病等；完整清单和限定以正文为准。",
+      "page": 139,
+      "questionIds": [
+        "path-23-fibrinoid-examples-q1",
+        "path-23-necrosis-patterns-q5"
+      ],
+      "rationale": "口诀是病例清单助记，不把慢性肺心病也纳入。"
+    },
+    {
+      "key": "wet-gangrene",
+      "text": "男子非常胆大",
+      "meaning": "记湿性坏疽常见阑尾、子宫、肺、肠、胆囊；典型为湿软肿大、污绿恶臭、界限不清。",
+      "page": 139,
+      "questionIds": [
+        "path-23-gangrene-features-q1"
+      ],
+      "rationale": "对应湿性坏疽的好发器官及形态。"
+    },
+    {
+      "key": "fistula",
+      "text": "吸管",
+      "meaning": "瘘管有两个相通开口，例如肠腔通向体表；窦道通常只有一个开口。",
+      "page": 141,
+      "questionIds": [
+        "path-23-necrotic-defects-q5"
+      ],
+      "rationale": "对应双端相通定义。"
+    },
+    {
+      "key": "necrosis-apoptosis",
+      "text": "他杀、自杀；脱水；遗容保留",
+      "meaning": "本页把典型坏死联想被动损伤、凋亡联想程序性主动死亡及细胞皱缩；凋亡膜结构相对保留、通常无内容物外溢性炎症。记忆比喻不代表所有死亡只分这两类。",
+      "page": 141,
+      "questionIds": [
+        "path-23-necrosis-apoptosis-q1",
+        "path-23-death-nuclear-q1",
+        "path-23-apoptosis-features-q1",
+        "path-23-apoptosis-mechanism-q1"
+      ],
+      "rationale": "保留该页传统对照范围，避免外推调节性坏死。"
+    },
+    {
+      "key": "thrombus-direction",
+      "text": "血栓向心脏方向形成",
+      "meaning": "据本讲延伸比较：动脉血栓延伸与血流方向相反，静脉血栓与血流方向相同；是教学概括而非任何位置的绝对生长轨迹。",
+      "page": 151,
+      "questionIds": [
+        "path-24-thrombus-direction-q1"
+      ],
+      "rationale": "对应延伸方向题。"
+    },
+    {
+      "key": "propagating-thrombus",
+      "text": "白刀子进、红刀子出",
+      "meaning": "记延续性血栓头部为白色血栓、体部为混合血栓、尾部为红色血栓。",
+      "page": 151,
+      "questionIds": [
+        "path-24-thrombus-classes-q3",
+        "path-24-thrombus-classes-q5",
+        "path-24-thrombus-classes-q6"
+      ],
+      "rationale": "只用于延续性血栓分段组成。"
+    },
+    {
+      "key": "mural-thrombus",
+      "text": "这一层有混球附着",
+      "meaning": "记层状、球状及附壁血栓常为混合血栓；相应血小板小梁与红细胞/纤维素相间。",
+      "page": 151,
+      "questionIds": [
+        "path-24-thrombus-classes-q2",
+        "path-24-thrombus-classes-q7"
+      ],
+      "rationale": "对应混合血栓外观和分布。"
+    },
+    {
+      "key": "amniotic-death",
+      "text": "羊过禁地",
+      "meaning": "羊水栓塞猝死可涉及过敏性休克、血管痉挛、DIC；不是只靠机械堵塞解释全部。",
+      "page": 153,
+      "questionIds": [
+        "path-24-amniotic-mechanisms-q1"
+      ],
+      "rationale": "对应三项机制集合。"
+    },
+    {
+      "key": "infarct-shape",
+      "text": "心电图",
+      "meaning": "“心—地图”联想心肌梗死灶地图形；肠为节段形、脾肾肺多为锥形，形状取决于血管分布。不是指心电图检查结果。",
+      "page": 154,
+      "questionIds": [
+        "path-24-infarct-shape-q1"
+      ],
+      "rationale": "防止口诀与检查概念混同。"
+    },
+    {
+      "key": "infarct-color",
+      "text": "心身疲劳；出场费",
+      "meaning": "“心肾脾脑”记贫血性梗死的典型器官；“出—肠肺”记出血性梗死多见肠、肺。脑的坏死方式为液化性，其余仍分别判断。",
+      "page": 154,
+      "questionIds": [
+        "path-24-infarct-types-q1",
+        "path-24-infarct-types-q2",
+        "path-24-infarct-types-q3"
+      ],
+      "rationale": "同时保留颜色与坏死方式的区别。"
+    },
+    {
+      "key": "inflammation-flow",
+      "text": "血管被吓了一跳→我要赶紧抗损伤→踩一脚刹车不然就是到此一游了",
+      "meaning": "炎症血流动力学依次短暂收缩、扩张且血流加速、血流缓慢甚至淤滞。",
+      "page": 160,
+      "questionIds": [
+        "path-25-flow-sequence-q1"
+      ],
+      "rationale": "本页完整形象记忆句，直接对应顺序。"
+    },
+    {
+      "key": "vascular-gaps",
+      "text": "间隙—细",
+      "meaning": "内皮细胞收缩及间隙增大，主要累及细静脉、尤其毛细血管后小静脉。",
+      "page": 161,
+      "questionIds": [
+        "path-25-vascular-mechanism-q4"
+      ],
+      "rationale": "对应机制与血管层级。"
+    },
+    {
+      "key": "new-vessel",
+      "text": "新牙套",
+      "meaning": "新生毛细血管通透性高；本页修复中新生血管包括出芽式和套叠式。",
+      "page": 161,
+      "questionIds": [
+        "path-25-vascular-mechanism-q3"
+      ],
+      "rationale": "对应新生血管这一机制，不附到VEGF跨胞运输题。"
+    },
+    {
+      "key": "burn-permeability",
+      "text": "直白说",
+      "meaning": "记本页烧伤通透性增加的直接内皮损伤、白细胞介导损伤及内皮收缩，主要机制是直接损伤。",
+      "page": 161,
+      "questionIds": [
+        "path-25-vascular-mechanism-q1"
+      ],
+      "rationale": "对应本题主次关系。"
+    },
+    {
+      "key": "leukocyte-vs-rbc",
+      "text": "求你别出去",
+      "meaning": "白细胞以阿米巴运动主动游出，红细胞是被动漏出；通透性增加不是白细胞游出的主要原因。",
+      "page": 161,
+      "questionIds": [
+        "path-25-leukocyte-process-q3",
+        "path-25-emigration-sites-q1"
+      ],
+      "rationale": "对应方式比较，不误说白细胞不能游出。"
+    },
+    {
+      "key": "alterative-inflammation",
+      "text": "yi巴毒心肝",
+      "meaning": "记乙脑、阿米巴、中毒性心肌炎、病毒性肝炎归入本讲变质性炎的例子。",
+      "page": 162,
+      "questionIds": [
+        "path-01-inflammation-patterns-q3",
+        "path-25-inflammatory-pattern-q1",
+        "path-21-intestinal-four-q4"
+      ],
+      "rationale": "完整行首yi是其他字体；对应炎症类型，不扩大到任何含阿米巴字样的无条件临床判断。"
+    },
+    {
+      "key": "amebic-abscess",
+      "text": "看到阿米巴三个字就是变质性炎",
+      "meaning": "本讲阿米巴肝脓肿归变质性炎、液化性坏死，与多数脓肿的化脓性炎区别。口诀只用于本节病理分类。",
+      "page": 162,
+      "questionIds": [
+        "path-25-abscess-exceptions-q2"
+      ],
+      "rationale": "加明确材料范围，避免把口语概括泛化。"
+    },
+    {
+      "key": "pautrier",
+      "text": "上回吃了发霉的小鲍鱼PTSD了",
+      "meaning": "记鲍氏/Pautrier微脓肿与皮肤T细胞淋巴瘤、蕈样肉芽肿病/Sezary综合征相关，不等同中性粒细胞性脓肿。",
+      "page": 162,
+      "questionIds": [
+        "path-25-abscess-exceptions-q3"
+      ],
+      "rationale": "完整原行含PTSD，医学含义以邻接表格为准，不逐字附会。"
+    },
+    {
+      "key": "hemorrhagic-inflammation",
+      "text": "沟里的黑老鼠在出血",
+      "meaning": "记钩端螺旋体病、炭疽、鼠疫、流行性出血热为出血性炎例子。",
+      "page": 163,
+      "questionIds": [
+        "path-25-inflammatory-pattern-q5"
+      ],
+      "rationale": "对应出血性炎清单。"
+    },
+    {
+      "key": "chronic-inflammatory-cells",
+      "text": "淋浆巨",
+      "meaning": "慢性非特异增生性炎常见淋巴细胞、浆细胞、单核巨噬细胞。",
+      "page": 163,
+      "questionIds": [
+        "path-25-leukocyte-cells-q4"
+      ],
+      "rationale": "完整三类慢性细胞集合。"
+    },
+    {
+      "key": "granuloma-definition",
+      "text": "肉芽肿是什么？炎症；什么炎？增生性炎；谁在增生？单核巨噬细胞",
+      "meaning": "用问答链区别肉芽肿与肉芽组织；肉芽肿是单核巨噬细胞局部增生形成的结节状病灶。",
+      "page": 163,
+      "questionIds": [
+        "path-25-inflammatory-pattern-q7"
+      ],
+      "rationale": "直接对应定义，不把所有肉芽组织都称肉芽肿。"
+    },
+    {
+      "key": "granuloma-examples",
+      "text": "一些没妈的疯姐姐压伤了矩阵猫伊恩",
+      "meaning": "本讲例子串联异物、血吸虫虫卵、梅毒Ⅲ期、麻风、风湿病、结核、结节病、亚甲炎、伤寒、特发性巨细胞性心肌炎、真菌、猫抓病、免疫反应性心肌炎及克罗恩病；风湿为非感染性，伤寒为急性肉芽肿。",
+      "page": 164,
+      "questionIds": [
+        "path-25-granuloma-examples-q1"
+      ],
+      "rationale": "已回读P164及191完整清单；仅映射肉芽肿例子集合，不附到普通巨噬细胞组织对应题。"
+    },
+    {
+      "key": "selectins-rolling",
+      "text": "选择部分白细胞靠边停车",
+      "meaning": "选择素参与白细胞边集、滚动；不要与整合素介导牢固黏附混淆。",
+      "page": 164,
+      "questionIds": [
+        "path-25-leukocyte-process-q1"
+      ],
+      "rationale": "对应第一步的黏附分子。"
+    },
+    {
+      "key": "opsonins",
+      "text": "调理肠胃GGB",
+      "meaning": "本讲调理素列IgG的Fc段、凝集素、C3b，作用是增强吞噬。",
+      "page": 164,
+      "questionIds": [
+        "path-25-opsonins-q1"
+      ],
+      "rationale": "保留完整行的拉丁后缀而不编造额外调理素。"
+    },
+    {
+      "key": "mediator-vasodilation",
+      "text": "晚上皮皮煮红鸡蛋",
+      "meaning": "按本页表记血管扩张介质C5a、C3a、PG、P物质、组胺、缓激肽和NO；本次仅复习讲义清单，不作所有组织条件下的唯一介质定义。",
+      "page": 165,
+      "questionIds": [
+        "path-25-vasodilator-mediators-q1",
+        "path-25-vasodilator-mediators-q2",
+        "path-25-vasodilator-mediators-q3",
+        "path-25-vasodilator-mediators-q4"
+      ],
+      "rationale": "同池四题均直接使用扩张清单及其与另行交集。"
+    },
+    {
+      "key": "mediator-fever",
+      "text": "PGone惹老总",
+      "meaning": "发热介质按本表为PG、IL-1、TNF。",
+      "page": 165,
+      "questionIds": [
+        "path-25-mediator-actions-q1"
+      ],
+      "rationale": "原行PGone为另一字体，恢复完整记忆语。"
+    },
+    {
+      "key": "mediator-pain",
+      "text": "缓解屁屁疼痛",
+      "meaning": "疼痛介质按本表为缓激肽、PG、P物质；“缓解”是缓激肽谐音，不是说它镇痛。",
+      "page": 165,
+      "questionIds": [
+        "path-25-mediator-actions-q2",
+        "path-25-vasodilator-mediators-q3"
+      ],
+      "rationale": "必须解释谐音方向，避免与镇痛混淆。"
+    },
+    {
+      "key": "mediator-chemotaxis",
+      "text": "当老总后白细小三趋之若鹜不能自已",
+      "meaning": "本讲趋化因子清单包括TNF、LTB4、细菌产物、C3a、C5a、IL-8、IL-1；按该材料练习，不推广为脱离条件的趋化标准。",
+      "page": 165,
+      "questionIds": [
+        "path-25-mediator-actions-q3",
+        "path-25-vasodilator-mediators-q4"
+      ],
+      "rationale": "对应趋化清单及与扩张介质交集。"
+    },
+    {
+      "key": "mediator-termination",
+      "text": "时钟自转",
+      "meaning": "主动终止急性炎症的本讲清单为IL-10、脂质素、TGF-β。",
+      "page": 165,
+      "questionIds": [
+        "path-25-mediator-actions-q4",
+        "path-25-termination-mediators-q1"
+      ],
+      "rationale": "对应主动终止，不泛加到组织损伤介质。"
+    },
+    {
+      "key": "tumor-stroma",
+      "text": "凌晨内噬",
+      "meaning": "肿瘤间质包括结缔组织/成纤维细胞、血管/内皮细胞、淋巴细胞和巨噬细胞；与决定分化方向的实质区别。",
+      "page": 172,
+      "questionIds": [
+        "path-26-tumor-components-q2"
+      ],
+      "rationale": "对应间质成分集合。"
+    },
+    {
+      "key": "fish-philadelphia",
+      "text": "fish费城",
+      "meaning": "本例FISH明确t(9;22)费城染色体，测序明确BCR/ABL融合基因，两者检测目标不同。",
+      "page": 172,
+      "questionIds": [
+        "path-26-tumor-testing-q1"
+      ],
+      "rationale": "只映射染色体检测手段。"
+    },
+    {
+      "key": "tnm-territory",
+      "text": "占地盘",
+      "meaning": "肿瘤分期看生长范围与播散的TNM；组织学分级则看分化、异型性、核分裂等。",
+      "page": 174,
+      "questionIds": [
+        "path-26-stage-grade-q1",
+        "path-26-stage-grade-q2",
+        "path-26-tnm-fields-q1"
+      ],
+      "rationale": "对应分期/分级区别，不能混称两者。"
+    },
+    {
+      "key": "borderline-examples",
+      "text": "古巨基吃了一袋葡萄、冻僵了卵巢",
+      "meaning": "按本讲交界性肿瘤清单联想骨巨细胞瘤、带状瘤、侵袭性葡萄胎、卵巢浆液性乳头状囊腺瘤；这是讲义的命名与分类范围，不作现代所有分型的统一归类。",
+      "page": 175,
+      "questionIds": [
+        "path-26-borderline-examples-q1"
+      ],
+      "rationale": "严格限于已有讲义清单题。"
+    },
+    {
+      "key": "rare-metastasis",
+      "text": "基粒来不及转移",
+      "meaning": "皮肤基底细胞癌、卵巢粒层细胞瘤可浸润但很少转移；“很少”不是绝不转移。",
+      "page": 175,
+      "questionIds": [
+        "path-26-tumor-boundary-exceptions-q4"
+      ],
+      "rationale": "现有题实际考基底细胞癌的生物行为。"
+    },
+    {
+      "key": "hcc-self-spread",
+      "text": "我转我自己",
+      "meaning": "肝细胞癌肝内沿门静脉分支血道转移可最早最常见，区别经肝静脉到肺的肝外转移。",
+      "page": 177,
+      "questionIds": [
+        "path-04-liver-cancer-routes-q1"
+      ],
+      "rationale": "对应本题特定肝内通道。"
+    },
+    {
+      "key": "seeding",
+      "text": "撒种子",
+      "meaning": "Krukenberg瘤的本讲主要播散方式为种植性转移；原文也允许淋巴、血道途径，不把主要解释为唯一。",
+      "page": 178,
+      "questionIds": [
+        "path-05-gastric-spread-route-q1",
+        "path-26-spread-routes-q4"
+      ],
+      "rationale": "两题均明确问本讲主要方式。"
+    },
+    {
+      "key": "cadherin-separation",
+      "text": "ca—咔—分开",
+      "meaning": "癌细胞表面钙黏素等黏附分子减少，细胞彼此易分离；与层粘连蛋白受体增加介导基底膜黏着区别。",
+      "page": 178,
+      "questionIds": [
+        "path-26-invasion-steps-q1"
+      ],
+      "rationale": "对应扩散第一步的分子变化。"
+    },
+    {
+      "key": "metastasis-factors",
+      "text": "em你妹老高要死了",
+      "meaning": "本页促扩散归纳包括EMT、nm23低表达及CD44高表达等；各变化方向仍以正文为准。",
+      "page": 179,
+      "questionIds": [
+        "path-26-metastasis-factors-q1"
+      ],
+      "rationale": "完整源行含em；映射同一方向组合题。"
+    },
+    {
+      "key": "malignant-names",
+      "text": "黑精索",
+      "meaning": "黑色素瘤、精原细胞瘤、脊索瘤虽以“瘤”结尾仍属本讲恶性肿瘤。",
+      "page": 179,
+      "questionIds": [
+        "path-26-names-malignant-q1"
+      ],
+      "rationale": "对应恶性命名例外。"
+    },
+    {
+      "key": "benign-blastoma",
+      "text": "可以吃的鸡汁软骨为良性",
+      "meaning": "记肌母细胞瘤、脂肪母细胞瘤、软骨母细胞瘤、骨母细胞瘤这几个良性“母细胞瘤”例外。",
+      "page": 179,
+      "questionIds": [
+        "path-26-blastoma-exceptions-q1"
+      ],
+      "rationale": "仅按本讲命名清单，不泛化所有母细胞瘤。"
+    },
+    {
+      "key": "sarcoma-vimentin",
+      "text": "波—肉",
+      "meaning": "波形蛋白Vimentin支持间叶分化，联系肉瘤；癌则以上皮标记如CK、EMA比较。",
+      "page": 180,
+      "questionIds": [
+        "path-26-lineage-markers-q5"
+      ],
+      "rationale": "只对应免疫标记，不加到网状纤维排列题。"
+    },
+    {
+      "key": "carcinoma-markers",
+      "text": "em CK贴着皮",
+      "meaning": "EMA、CK为本表上皮性癌的标记组合。",
+      "page": 181,
+      "questionIds": [
+        "path-26-lineage-markers-q1"
+      ],
+      "rationale": "恢复混合字体的完整原记忆短语。"
+    },
+    {
+      "key": "lymphoma-markers",
+      "text": "淋巴结肿大像扁豆一样",
+      "meaning": "本表淋巴瘤对应CD及LCA；该比喻只是记忆关联，不是说任何肿大淋巴结就是淋巴瘤。",
+      "page": 181,
+      "questionIds": [
+        "path-26-lineage-markers-q2"
+      ],
+      "rationale": "限定为本表标记组合。"
+    },
+    {
+      "key": "melanoma-markers",
+      "text": "HS—黑色",
+      "meaning": "黑色素瘤的本表标记HMB45、S-100。",
+      "page": 181,
+      "questionIds": [
+        "path-26-lineage-markers-q3"
+      ],
+      "rationale": "保留源行拉丁字母。"
+    },
+    {
+      "key": "muscle-marker",
+      "text": "肌节",
+      "meaning": "用肌节联想肌细胞肿瘤的结蛋白标记。",
+      "page": 181,
+      "questionIds": [
+        "path-26-lineage-markers-q4"
+      ],
+      "rationale": "对应结蛋白这一蛋白标记。"
+    },
+    {
+      "key": "ca125",
+      "text": "卵有2个点",
+      "meaning": "本表卵巢癌对应CA125；字形联想不作为临床诊断依据。",
+      "page": 181,
+      "questionIds": [
+        "path-26-carbohydrate-antigens-q1"
+      ],
+      "rationale": "仅映射本表糖类抗原配伍。"
+    },
+    {
+      "key": "ca153",
+      "text": "五年高考三年模拟忍辱负重",
+      "meaning": "记乳腺癌对应本表CA153，“乳”取谐音；不以标志物单项断言肿瘤存在。",
+      "page": 181,
+      "questionIds": [
+        "path-26-carbohydrate-antigens-q2"
+      ],
+      "rationale": "对应CA153。"
+    },
+    {
+      "key": "ca199",
+      "text": "舅舅姨胆",
+      "meaning": "“99—胰—胆”记CA199与胰腺癌、胆管癌、胆囊癌的本表关联。",
+      "page": 181,
+      "questionIds": [
+        "path-26-carbohydrate-antigens-q3",
+        "path-26-marker-diseases-q2"
+      ],
+      "rationale": "正向反向均为同一明确集合。"
+    },
+    {
+      "key": "alp",
+      "text": "无间道",
+      "meaning": "本页ALP清单中的无性细胞瘤、胆道梗阻等情境；ALP也与成骨性病变相关，不把口诀当完整清单。",
+      "page": 181,
+      "questionIds": [
+        "path-26-enzymes-hormones-q5"
+      ],
+      "rationale": "保留本题已限定的成骨或胆道背景。"
+    },
+    {
+      "key": "synaptophysin",
+      "text": "n—神经",
+      "meaning": "突触素Syn联系神经元、神经内分泌肿瘤。",
+      "page": 181,
+      "questionIds": [
+        "path-26-lineage-markers-q6"
+      ],
+      "rationale": "对应本表标记关系。"
+    },
+    {
+      "key": "aromatic-amines",
+      "text": "蹄髈香",
+      "meaning": "芳香胺类在本表联系膀胱癌；不与黄曲霉素的肝癌关联互换。",
+      "page": 183,
+      "questionIds": [
+        "path-26-chemical-carcinogens-q2"
+      ],
+      "rationale": "对应化学致癌物配伍。"
+    },
+    {
+      "key": "alkylator-leukemia",
+      "text": "白化病",
+      "meaning": "用“白—化”记烷化剂与白血病的本表关联，并非指皮肤白化病。",
+      "page": 183,
+      "questionIds": [
+        "path-26-chemical-carcinogens-q6"
+      ],
+      "rationale": "明确消除口诀字面造成的另一疾病歧义。"
+    },
+    {
+      "key": "pdgf",
+      "text": "姐妹同心是骨肉",
+      "meaning": "本表PDGF/sis过度表达与星形细胞瘤、骨肉瘤有关。",
+      "page": 184,
+      "questionIds": [
+        "path-26-oncogene-activation-q4",
+        "path-26-oncogene-types-q1",
+        "path-26-oncogene-diseases-q4"
+      ],
+      "rationale": "同一行的活化方式、功能类别和肿瘤关联。"
+    },
+    {
+      "key": "ras",
+      "text": "一点点的rua死一白胖肥肠",
+      "meaning": "本表RAS为小G蛋白，点突变活化，关联胰腺癌、白血病、膀胱癌、肺癌、大肠癌。",
+      "page": 184,
+      "questionIds": [
+        "path-26-oncogene-activation-q1",
+        "path-26-oncogene-types-q2",
+        "path-26-oncogene-diseases-q6"
+      ],
+      "rationale": "恢复源行不同字体rua，展开仅按同一行明确字段。"
+    },
+    {
+      "key": "braf",
+      "text": "bra有一点黑",
+      "meaning": "BRAF为丝/苏氨酸激酶，本表为点突变、联系黑色素瘤。",
+      "page": 184,
+      "questionIds": [
+        "path-26-oncogene-activation-q1",
+        "path-26-oncogene-types-q3",
+        "path-26-oncogene-diseases-q1"
+      ],
+      "rationale": "同一行三个字段，不能和HER2扩增混淆。"
+    },
+    {
+      "key": "her2",
+      "text": "拜金女扩增RMB",
+      "meaning": "ERBB2/HER2为生长因子受体，本表为扩增，关联乳腺、卵巢、肺和胃癌。",
+      "page": 184,
+      "questionIds": [
+        "path-26-oncogene-activation-q3",
+        "path-26-oncogene-diseases-q5"
+      ],
+      "rationale": "对应扩增及肿瘤集合，不把RMB逐字扩成材料外器官。"
+    },
+    {
+      "key": "kit",
+      "text": "小不点Hello Kitty做胃镜",
+      "meaning": "KIT在本表为酪氨酸激酶受体，点突变，联系胃肠间质瘤、精原细胞瘤。",
+      "page": 184,
+      "questionIds": [
+        "path-26-oncogene-activation-q5",
+        "path-26-oncogene-diseases-q3"
+      ],
+      "rationale": "对应KIT原行。"
+    },
+    {
+      "key": "myc-burkitt",
+      "text": "母夜叉爸要死",
+      "meaning": "c-MYC为转录因子，Burkitt淋巴瘤联系t(8;14)转位；不能与肺小细胞癌MYC扩增混为同一活化方式。",
+      "page": 184,
+      "questionIds": [
+        "path-26-oncogene-activation-q2",
+        "path-26-oncogene-types-q5"
+      ],
+      "rationale": "对应特定易位和基因类别。"
+    },
+    {
+      "key": "apc",
+      "text": "复方阿司匹林伤害消化系统",
+      "meaning": "用药名缩写联想APC抑癌基因与胃、大肠、胰腺癌等本表关联；这句话不是阿司匹林真实用药风险说明。",
+      "page": 184,
+      "questionIds": [
+        "path-26-suppressor-genes-q2",
+        "path-26-hereditary-genes-q1"
+      ],
+      "rationale": "只用于APC的基因关系，不传播药理字面断言。"
+    },
+    {
+      "key": "rb",
+      "text": "视RMB为骨肉",
+      "meaning": "RB抑癌基因关联视网膜母细胞瘤和骨肉瘤。",
+      "page": 184,
+      "questionIds": [
+        "path-26-suppressor-genes-q3"
+      ],
+      "rationale": "源行拉丁字母恢复。"
+    },
+    {
+      "key": "wt-vhl",
+      "text": "圣母；V—胜利",
+      "meaning": "WT联系肾母细胞瘤，VHL联系肾癌；分别记两个抑癌基因关系。",
+      "page": 184,
+      "questionIds": [
+        "path-26-suppressor-genes-q5",
+        "path-26-suppressor-genes-q6"
+      ],
+      "rationale": "两个短记法来自同表相邻行，明确逐项不混合。"
+    },
+    {
+      "key": "ad-tumor-syndromes",
+      "text": "圣母常常是神经病",
+      "meaning": "本表常染色体显性肿瘤综合征列肾母细胞瘤、FAP、Lynch、视网膜母细胞瘤、神经纤维瘤病；不是神经纤维瘤病以外所有“神经病”。",
+      "page": 185,
+      "questionIds": [
+        "path-26-inheritance-pattern-q1"
+      ],
+      "rationale": "对应遗传方式集合。"
+    },
+    {
+      "key": "ar-tumor-syndromes",
+      "text": "BF找藏起来的猫",
+      "meaning": "本表常染色体隐性肿瘤易感综合征包括布卢姆综合征BLM、Fanconi贫血、着色性干皮病XP、共济失调毛细血管扩张症ATM。",
+      "page": 185,
+      "questionIds": [
+        "path-26-inheritance-pattern-q2"
+      ],
+      "rationale": "完整行BF是其他字体，保持原词不虚构释义。"
+    },
+    {
+      "key": "precancer-list",
+      "text": "皮裤硬睾丸、白食异型奶、肠腺瘤病虫",
+      "meaning": "本讲癌前病变清单串联皮肤慢性溃疡、肝硬化、未降睾丸、黏膜白斑、Barrett食管、乳腺导管异型增生及肠腺瘤、息肉病、慢性血吸虫等；不表示每例必然癌变。",
+      "page": 186,
+      "questionIds": [
+        "path-26-precancer-examples-q1"
+      ],
+      "rationale": "只给原清单多选题作答后记忆，不加到FAP风险值题。"
+    }
+  ],
+  "deferred": [
+    {
+      "page": 3,
+      "text": "本身有钱",
+      "reason": "记贲门侧深、幽门侧浅，当前相关溃疡题不单独考此阶梯方向；不生硬贴给溃疡底四层题。"
+    },
+    {
+      "page": 9,
+      "text": "BBPP巨",
+      "reason": "完整DNA病毒串超出当前只比较肝炎病毒基因组的题目范围；不把其他病毒清单追加到所有HBV题。"
+    },
+    {
+      "page": 20,
+      "text": "小五外面找小三",
+      "reason": "记单灶≤5cm或≤3灶且每灶≤3cm的体积标准，当前肝癌肉眼型题未直接考该大小界值，不凭单结节题强贴。"
+    },
+    {
+      "page": 71,
+      "text": "最细码数",
+      "reason": "小叶性肺炎并发背景的谐音细目当前无独立承接题，不能附到肺炎蔓延途径题。"
+    },
+    {
+      "page": 77,
+      "text": "低龄放炮",
+      "reason": "鼻咽癌低分化类型放疗敏感，当前鼻咽癌题仅考EBV关联及部位，暂无同关系题。"
+    },
+    {
+      "page": 82,
+      "text": "五体投地",
+      "reason": "胰岛细胞瘤尾＞体＞头的部位顺序当前无独立承接题，不追加到胰岛病变或APUD集合题。"
+    },
+    {
+      "page": 87,
+      "text": "饿死机体；报废批新工具",
+      "reason": "对应完全型AIDS和机会性感染细目；现有HIV靶细胞及淋巴结早晚期题不直接考这些集合，避免整页批量附加。"
+    },
+    {
+      "page": 93,
+      "text": "好慢呐米西",
+      "reason": "上下文指宫颈息肉等好发部位串，但样式抽取及该页上下文不足以安全恢复完整串；当前宫颈题也不考该好发部位集合。"
+    },
+    {
+      "page": 99,
+      "text": "风到这里就是粘、粘住过客的葡萄",
+      "reason": "主要形象联想葡萄胎黏液样变，当前葡萄胎题重点为受精来源、倍体、绒毛/侵肌层；不附给单纯核型题。"
+    },
+    {
+      "page": 100,
+      "text": "又是乳头又是癌；脑膜瘤也可有砂粒体",
+      "reason": "为砂粒体的跨系统普通补充注解，不独立认定为固定口诀；有关知识已在原解析中按形态说明。"
+    },
+    {
+      "page": 119,
+      "text": "主主主延毕咯mlb",
+      "reason": "对应三期梅毒心血管和神经病变完整串，现有三期题只考树胶样肿及相对传染倾向，不整体贴入。"
+    },
+    {
+      "page": 123,
+      "text": "道；肝道、肾小道？？？",
+      "reason": "区别被覆上皮/腺体细胞的授课反问，归为解释性批注；分类题已保留正式三皮造血与永久细胞口诀。"
+    },
+    {
+      "page": 127,
+      "text": "一期好、二期差",
+      "reason": "普通对比标记，不作为有独立字串的口诀；不重复原解析。"
+    },
+    {
+      "page": 130,
+      "text": "变小、变大、变多、变样、变老",
+      "reason": "图示栏目概念提示，不机械拼成新口诀；需对应原导图而不是纯文字新增结论。"
+    },
+    {
+      "page": 131,
+      "text": "模型车",
+      "reason": "原行与“外形不变”及萎缩例外混排，单独词语与明确展开关系不能安全确认；不强行解码。"
+    },
+    {
+      "page": 132,
+      "text": "节节高",
+      "reason": "神经节、附睾和睾丸间质细胞正常少量脂褐素的三处位置当前无独立承接题；不添到问脂褐素来源的题充当必要知识。"
+    },
+    {
+      "page": 136,
+      "text": "hello有骨髓瘤的海默在前线吃淀粉软糖治结核",
+      "reason": "列淀粉样变多个疾病，但当前相关题只考染色及甲状腺髓样癌/糖尿病具体关系，不额外展示长串以免喧宾夺主；相应“水一点”“两点一线”已精确映射。"
+    },
+    {
+      "page": 161,
+      "text": "病历原伤寒",
+      "reason": "白细胞下降的病原清单当前无直接承接题，不加给其他炎细胞浸润题。"
+    },
+    {
+      "page": 173,
+      "text": "大多怪裂",
+      "reason": "对应异型性核形态，当前该池问题问组织学分级、分化与恶性度，不单独考这一形态清单。"
+    },
+    {
+      "page": 181,
+      "text": "凤毛麟角、抽烟烦人、酸球了",
+      "reason": "对应CYFRA21等肺癌蛋白类标记长串，现有标记题未直接考这些项，暂不生贴给肺癌形态题。"
+    },
+    {
+      "page": 191,
+      "text": "一些没妈的疯姐姐压伤了矩阵猫伊恩",
+      "reason": "与P164同一口诀，已在P164条目登记，不重复生成第二条相同正文。"
+    }
+  ],
+  "notes": [
+    "完整读取192页蓝色非宋体样式候选324行及上下文，字体为KaiTi；部分拉丁字母、数字为其他字体，已结合完整行恢复。",
+    "已按具体关系核对现有880题。长清单仅附直接考该关系的题，不因同页或同池就全部附上；无现成题承接的实际口诀列deferred，不顺带新增题。",
+    "普通蓝字的注意/复习标签、机制说明、动画/考试提示、字面标题和连续多行解释不一概作为口诀；真正比喻性记忆句可保留，但解释其医学对应及讲义范围。",
+    "代表页P35、95、106、116、164、165、181、184已整页版式目视核对；另以1.6倍完整页查看P95，确认纯数字蓝色口诀5678。",
+    "未更改题干、选项、正确答案、难度或学习记录，原有补核引用不应被此清单替代。"
+  ]
+}

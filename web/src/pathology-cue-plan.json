@@ -1,0 +1,316 @@
+{
+  "course": "pathology",
+  "questionEdits": [
+    {
+      "id": "path-14-viral-hyaline-q1",
+      "stem": "【多选】本页病毒性肺炎部分，将哪些病毒列为可伴肺泡内透明膜形成的病原？",
+      "reason": "P72县官流氓直接编码选项病原的字头，应放入解析而非先提示。维持本页列举范围；不能据未列入本页而声称其他病毒绝不形成透明膜。"
+    },
+    {
+      "id": "path-15-ebv-tumors-q1",
+      "stem": "【多选】本页归纳的EBV密切相关恶性肿瘤中，本池有哪些？",
+      "reason": "P77比伯穿CK直接含疾病提示；考真实病原—肿瘤关系，口诀留解析。"
+    },
+    {
+      "id": "path-16-diabetes-pair-q2",
+      "stem": "按本页胰岛病变比较，淀粉样变性对应哪一型糖尿病的特征性改变？",
+      "reason": "P82两点一线用数字二直接给出本题分型方向，应移至答后；保留糖尿病胰岛病理比较。"
+    },
+    {
+      "id": "path-16-apud-cross-q1",
+      "stem": "【多选】按本页APUD小结，哪些属于所列神经内分泌相关肿瘤？",
+      "reason": "P82小大类水一个含正确肿瘤名称提示，不应作为多选前置线索；正常APUD概念名保留。"
+    },
+    {
+      "id": "path-18-cervix-hpv-q1",
+      "stem": "高危HPV编码的E6、E7蛋白与宿主抑癌蛋白的作用关系，哪组正确？",
+      "reason": "P95的5678已编码E6/P53及E7/Rb对应，移至解析，保留两字段配对池。"
+    },
+    {
+      "id": "path-18-prostate-regions-q1",
+      "stem": "前列腺增生与前列腺癌的好发区域，哪组对应正确？",
+      "reason": "P102曾毅爱粥包含增生/移行及癌/周围提示；去口诀，仍考疾病—解剖区域双向比较。"
+    },
+    {
+      "id": "path-19-breast-prognosis-q1",
+      "stem": "【多选】按本页比较，哪些浸润癌特殊类型的预后较浸润癌非特殊型更好？",
+      "reason": "P106口诀已列出正确特殊类型名称，改考类型与预后，答后再展示口诀。"
+    },
+    {
+      "id": "path-19-paravertebral-q1",
+      "stem": "【多选】本页小结中，哪些肿瘤被列为易经椎旁静脉发生骨转移？",
+      "reason": "P106甲乳省钱含四个肿瘤的对应字，应移至解析；仍限定讲义小结，不扩大临床排他结论。"
+    },
+    {
+      "id": "path-26-p53-function-q1",
+      "stem": "多选：细胞发生DNA损伤后，哪些是讲义列举的P53介导反应？",
+      "reason": "去掉基因组卫士的保护性方向提示，改以P185的损伤情境考具体反应，不删除P53概念或必要条件。"
+    },
+    {
+      "id": "path-26-angiogenesis-q2",
+      "stem": "讲义所说的肿瘤血管拟态，形成供血通道的主要方式是哪项？",
+      "reason": "旧题在题干完整定义后再让选同一句。P176将四途径并列，改问其机制；池中o3是肿瘤细胞自身构成通道，o2是转分化为内皮/周细胞，o1是骨髓祖细胞，o0是VEGF，只有o3对应，不靠最符合排除重叠。"
+    },
+    {
+      "id": "path-17-ra-structure-q3",
+      "stem": "按讲义的病理演变，RA在血管翳扩展之前首先出现哪项组织改变？",
+      "reason": "P86给出的病程顺序支持早期滑膜细胞增生；去掉题干先说始于滑膜再选唯一滑膜项的提示。此题留在原池，另外两题另建同字段池。"
+    },
+    {
+      "id": "path-05-polyposis-q2",
+      "stem": "肠息肉病同时伴多发性骨瘤和软组织瘤时，讲义给这一组合的特定综合征名称是什么？",
+      "reason": "P28给Gardner的特定命名；限定命名问题，而非把FAP上位概念与Gardner当互斥疾病硬判。"
+    },
+    {
+      "id": "path-05-polyposis-q3",
+      "stem": "肠息肉病合并胶质瘤这一特定综合征，讲义命名为什么？",
+      "reason": "P28明确Turcot特定命名；不把FAP与命名变体作为无条件互斥。"
+    },
+    {
+      "id": "path-26-colorectal-precancer-q2",
+      "stem": "肠息肉病同时伴多发性骨瘤和软组织瘤时，讲义给这一组合的特定综合征名称是什么？",
+      "reason": "P186为Gardner特定命名；去掉含混最对应，明确考命名而非上位/下位归属。"
+    },
+    {
+      "id": "path-26-colorectal-precancer-q3",
+      "stem": "肠息肉病合并胶质瘤这一特定综合征，讲义命名为什么？",
+      "reason": "P186为Turcot特定命名；去掉含混最对应，明确考命名而非上位/下位归属。"
+    },
+    {
+      "id": "path-10-myopathy-complications-q1",
+      "stem": "多选：本节依次讲述的肥厚型、扩张型、限制型、致心律失常性右室心肌病及克山病，按讲义小结可共同出现的并发症有哪些？",
+      "reason": "原题上述心肌病在随机打乱后缺少指代。已逐页核对P47—49具体分述的五类（分类清单不等于逐一分述），明确范围，不改并发症答案。"
+    }
+  ],
+  "groupEdits": [
+    {
+      "id": "path-19-breast-types",
+      "options": [
+        {
+          "id": "o0",
+          "text": "导管原位癌"
+        },
+        {
+          "id": "o1",
+          "text": "小叶原位癌"
+        },
+        {
+          "id": "o2",
+          "text": "浸润癌非特殊型"
+        },
+        {
+          "id": "o3",
+          "text": "浸润性小叶癌"
+        },
+        {
+          "id": "o4",
+          "text": "髓样癌"
+        },
+        {
+          "id": "o5",
+          "text": "小管癌"
+        },
+        {
+          "id": "o6",
+          "text": "黏液腺癌"
+        },
+        {
+          "id": "o7",
+          "text": "炎性乳癌"
+        }
+      ],
+      "reason": "P106支持髓样癌的淋巴细胞浸润等形态。原o4把该形态直接写在选项名中复述q5，现统一为病理类型名，必要形态保留在题干和解析。整池九题均记录选项内容签名变化。"
+    },
+    {
+      "id": "path-26-growth-fraction",
+      "name": "增殖状态与演进概念",
+      "reason": "旧名直接含题目要回忆的生长分数术语；用覆盖池内概念的中性标题。"
+    }
+  ],
+  "moduleEdits": [
+    {
+      "id": "path-02-module-injury",
+      "name": "损伤形态与修复反应",
+      "reason": "原肝细胞损伤与修复对细胞识别池有额外答案级提示；新标题保留任务范围。"
+    },
+    {
+      "id": "path-09-module-plaque",
+      "name": "动脉壁病变的演变与继发变化",
+      "reason": "旧粥样斑块的形成与继发变化含阶段识别的一项答案；改为不直接列阶段名的标题。"
+    },
+    {
+      "id": "path-15-module-nasopharynx",
+      "name": "上呼吸道肿瘤与病原关联",
+      "reason": "旧鼻咽癌相关关系直接给EBV相关肿瘤多选中的一个答案；新标题仍保留解剖和病原主题。"
+    }
+  ],
+  "splitPools": [
+    {
+      "id": "path-17-cue-pannus-fields",
+      "chapter": "path-17",
+      "module": "path-17-module-autoimmune",
+      "name": "滑膜病变的血管与组织性质",
+      "options": [
+        "血管丰富；增生滑膜覆盖关节软骨",
+        "血管稀少；增生滑膜覆盖关节软骨",
+        "血管丰富；纤维素渗出物覆盖关节软骨",
+        "血管稀少；纤维素渗出物覆盖关节软骨"
+      ],
+      "rows": [
+        {
+          "id": "path-17-ra-structure-q1",
+          "stem": "RA血管翳的血管密度与覆盖组织性质，哪组配对符合讲义？",
+          "answer": [
+            0
+          ],
+          "explanation": "讲义P86将血管翳表述为高度血管化、含炎细胞的增生滑膜覆盖关节软骨。需要同时判断血管丰富及覆盖物为增生滑膜，不能仅凭血管翳一词选唯一含血管的选项。",
+          "page": 86,
+          "reason": "旧池把滑膜早期改变、血管翳、肉芽肿等异质结构混排，唯一一项写高度血管化。拆为两个相同字段的四种组合，旧题ID保留。"
+        }
+      ]
+    },
+    {
+      "id": "path-17-cue-rheumatoid-nodule",
+      "chapter": "path-17",
+      "module": "path-17-module-autoimmune",
+      "name": "皮下结节的层次结构",
+      "options": [
+        "中央纤维素样坏死；中层栅栏状上皮样细胞；外围肉芽组织",
+        "中央干酪样坏死；中层栅栏状上皮样细胞；外围肉芽组织",
+        "中央纤维素样坏死；中层肉芽组织；外围栅栏状上皮样细胞",
+        "中央干酪样坏死；中层肉芽组织；外围栅栏状上皮样细胞"
+      ],
+      "rows": [
+        {
+          "id": "path-17-ra-structure-q2",
+          "stem": "RA皮下结节从中央向外的结构层次，哪组符合讲义？",
+          "answer": [
+            0
+          ],
+          "explanation": "P86记载中央为纤维素样坏死，中层为栅栏状或放射状上皮样细胞，外围为肉芽组织。讲义“肉包皮蛋”可用于答后记忆；干酪样坏死或中外层对调均不符合此结构。",
+          "page": 86,
+          "reason": "旧题先给结构口诀，且旧池只有两项完整层次。移除口诀并以相同三字段比较坏死性质和细胞层次，保留旧题ID。"
+        }
+      ]
+    },
+    {
+      "id": "path-05-cue-polyposis-risk",
+      "chapter": "path-05",
+      "module": "path-05-module-colon",
+      "name": "癌前疾病风险比较",
+      "options": [
+        "家族性腺瘤性息肉病（FAP）",
+        "Peutz-Jeghers综合征",
+        "溃疡性结肠炎",
+        "慢性血吸虫病"
+      ],
+      "rows": [
+        {
+          "id": "path-05-polyposis-q4",
+          "stem": "按本讲义的风险概括，以下哪种疾病未经治疗时被特别标注为几乎必然发生癌变？",
+          "answer": [
+            0
+          ],
+          "explanation": "P28在FAP处以未经治疗100%癌变作风险概括。本题比较讲义列出的癌前疾病，不将Gardner、Turcot等与FAP有关的特定综合征当作低风险反例，也不据该概括预测个体结局。",
+          "page": 28,
+          "reason": "旧池含FAP与Gardner/Turcot，上位/变体不能作为风险互斥负例。另建同类疾病风险池，保留知识覆盖与旧题ID。"
+        }
+      ]
+    },
+    {
+      "id": "path-26-cue-precancer-risk",
+      "chapter": "path-26",
+      "module": "path-26-module-etiology-genetics",
+      "name": "癌前疾病风险比较",
+      "options": [
+        "家族性腺瘤性息肉病（FAP）",
+        "Peutz-Jeghers综合征",
+        "溃疡性结肠炎",
+        "慢性血吸虫病"
+      ],
+      "rows": [
+        {
+          "id": "path-26-colorectal-precancer-q1",
+          "stem": "按本讲义的风险概括，以下哪种疾病未经治疗时被特别标注为几乎必然发生癌变？",
+          "answer": [
+            0
+          ],
+          "explanation": "P186将FAP未经治疗的癌变风险概括为100%，其余三项亦列为癌前疾病，但不作此概括。此处不将与FAP相关的Gardner或Turcot命名当作低风险干扰项，也不把讲义数值用作个体临床风险预测。",
+          "page": 186,
+          "reason": "去掉腺瘤性与唯一同词答案的匹配线索；更重要的是移除FAP上位/特定综合征之间的风险重叠，改为来源列举的同类癌前疾病。"
+        }
+      ]
+    }
+  ],
+  "retire": [],
+  "reviewed": [
+    "path-02-liver-cells-q2",
+    "path-03-effects-group-q1",
+    "path-03-effects-group-q2",
+    "path-05-small-gastric-q1",
+    "path-09-as-stage-q3",
+    "path-12-bronchiectasis-location-q1",
+    "path-14-viral-hyaline-q1",
+    "path-15-lung-early-q1",
+    "path-15-ebv-tumors-q1",
+    "path-16-thyroid-nodule-pair-q1",
+    "path-16-diabetes-pair-q2",
+    "path-16-apud-cross-q1",
+    "path-17-ra-structure-q1",
+    "path-17-ra-structure-q2",
+    "path-17-ra-rf-q1",
+    "path-18-cervix-process-q1",
+    "path-18-cervix-process-q4",
+    "path-18-cervix-hpv-q1",
+    "path-18-trophoblast-diagnosis-q6",
+    "path-18-prostate-regions-q1",
+    "path-18-prostate-cells-q1",
+    "path-18-prostate-spread-q1",
+    "path-19-breast-types-q5",
+    "path-19-breast-prognosis-q1",
+    "path-19-breast-nodes-q1",
+    "path-19-paravertebral-q1",
+    "path-20-urinary-tb-q1",
+    "path-23-adaptation-definition-q1",
+    "path-23-apoptosis-mechanism-q1",
+    "path-25-abscess-exceptions-q1",
+    "path-25-vasodilator-mediators-q1",
+    "path-25-vasodilator-mediators-q2",
+    "path-25-vasodilator-mediators-q3",
+    "path-25-vasodilator-mediators-q4",
+    "path-26-atypia-differentiation-q1",
+    "path-26-angiogenesis-q2",
+    "path-26-growth-fraction-q1",
+    "path-26-blastoma-exceptions-q1",
+    "path-26-p53-function-q1",
+    "path-26-colorectal-precancer-q1",
+    "path-17-ra-structure-q3",
+    "path-05-polyposis-q1",
+    "path-05-polyposis-q2",
+    "path-05-polyposis-q3",
+    "path-05-polyposis-q4",
+    "path-26-colorectal-precancer-q2",
+    "path-26-colorectal-precancer-q3",
+    "path-26-colorectal-precancer-q4",
+    "path-26-colorectal-precancer-q5",
+    "path-26-angiogenesis-q1",
+    "path-10-myopathy-complications-q1",
+    "path-19-breast-types-q1",
+    "path-19-breast-types-q2",
+    "path-19-breast-types-q3",
+    "path-19-breast-types-q4",
+    "path-19-breast-types-q6",
+    "path-19-breast-types-q7",
+    "path-19-breast-types-q8",
+    "path-19-breast-types-q9"
+  ],
+  "notes": [
+    "40条候选已逐条读完并对照整池与页码来源；reviewed另含直接关联的20个ID（其中乳癌q5原已候选，故去重后共59）。未把所有引号术语视为泄题。",
+    "P7再生肝细胞形态、P41动脉病变阶段、P86的RA/RF、P95—102生殖系统必要形态、以及基于真实定义的适应/凋亡等题保留必要鉴别证据，不为提高难度删除到多解。",
+    "血管拟态题的四机制经P176核对，不改变答案；改后不能用一句最符合掩盖真实重叠。",
+    "FAP风险题拆池是为消除上位/下位风险并列，不是降低高风险知识点覆盖；Gardner/Turcot命名题明确问特定命名，避免仅用最对应含混排他。",
+    "所有拆池均保留原题ID、page及知识点覆盖；整合时应继承原题sourceRef/references等元数据并重建原池/模块questionIds。无题目退休、无新增覆盖损失。",
+    "本次未更改待核的讲义医学表述，未新增来源之外的医学事实；范围是现有候选与直接关联池，不宣称880题逐道穷尽人工复核。"
+  ],
+  "flaggedCandidates": 40
+}

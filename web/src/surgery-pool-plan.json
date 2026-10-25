@@ -1,0 +1,4032 @@
+{
+  "course": "surgery",
+  "chapterIds": [
+    "surg-01",
+    "surg-02",
+    "surg-03",
+    "surg-04",
+    "surg-05",
+    "surg-06",
+    "surg-07",
+    "surg-08",
+    "surg-09",
+    "surg-10",
+    "surg-11",
+    "surg-12",
+    "surg-13",
+    "surg-14",
+    "surg-15",
+    "surg-16",
+    "surg-17",
+    "surg-18",
+    "surg-19",
+    "surg-20",
+    "surg-21",
+    "surg-22",
+    "surg-23",
+    "surg-24",
+    "surg-25",
+    "surg-26",
+    "surg-27",
+    "surg-28",
+    "surg-29",
+    "surg-30",
+    "surg-31",
+    "surg-32",
+    "surg-33",
+    "surg-34",
+    "surg-35",
+    "surg-36",
+    "surg-37",
+    "surg-38"
+  ],
+  "reviewedGroupIds": [
+    "surg-01-differential",
+    "surg-01-x-nodule-clues",
+    "surg-01-x-thyroglossal",
+    "surg-01-x-thyroid-tests",
+    "surg-01-cancers",
+    "surg-01-tsh",
+    "surg-01-x-young-stage",
+    "surg-01-x-markers",
+    "surg-01-x-suppression-duration",
+    "surg-01-x-thyroid-adjuncts",
+    "surg-01-pharmacology",
+    "surg-01-x-prepare",
+    "surg-01-x-surgical-indications",
+    "surg-01-x-sequence",
+    "surg-01-x-timing",
+    "surg-01-x-drug-threshold",
+    "surg-01-x-extent",
+    "surg-01-x-nodal-policy",
+    "surg-01-x-protection",
+    "surg-01-nerves",
+    "surg-01-x-postop-complications",
+    "surg-01-x-postop-management",
+    "surg-01-x-crisis-drugs",
+    "surg-01-parathyroid",
+    "surg-01-x-parathyroid-detail",
+    "surg-01-x-parathyroid-source",
+    "surg-01-x-parathyroid-types",
+    "surg-02-morphology",
+    "surg-02-x-layer",
+    "surg-02-x-site",
+    "surg-02-x-histology",
+    "surg-02-x-invasion",
+    "surg-02-esophageal",
+    "surg-02-x-esophageal-tests",
+    "surg-02-x-reconstruction",
+    "surg-02-x-heller",
+    "surg-03-diseases",
+    "surg-03-x-discharge",
+    "surg-03-x-inversion-causes",
+    "surg-03-x-benign-management",
+    "surg-03-x-risk",
+    "surg-03-x-pathology",
+    "surg-03-x-location",
+    "surg-03-skin",
+    "surg-03-x-early-spread",
+    "surg-03-x-receptor-combinations",
+    "surg-03-tstage",
+    "surg-03-nstage",
+    "surg-03-x-stage-combinations",
+    "surg-03-x-stage-rest",
+    "surg-03-surgery",
+    "surg-03-x-breast-tests",
+    "surg-03-x-nodes-anatomy",
+    "surg-03-x-sentinel",
+    "surg-03-x-breast-markers",
+    "surg-03-r3-receptor-therapy",
+    "surg-03-r3-local-adjuvant",
+    "surg-03-adjuvant",
+    "surg-03-x-chemo-risk",
+    "surg-03-r3-lactation-drugs",
+    "surg-03-x-abscess-incision",
+    "surg-04-injury",
+    "surg-04-x-rib-sites",
+    "surg-04-x-rib-treatment",
+    "surg-04-x-traumatic-mechanism",
+    "surg-04-x-lower-ribs",
+    "surg-04-mediastinum",
+    "surg-05-gross",
+    "surg-05-stromal",
+    "surg-05-x-early",
+    "surg-05-x-small-threshold",
+    "surg-05-x-gist-risk",
+    "surg-05-spread",
+    "surg-05-x-tnm-t",
+    "surg-05-x-tnm-n",
+    "surg-05-x-gastric-tests",
+    "surg-05-x-gastric-marker",
+    "surg-05-x-lymph-names-1",
+    "surg-05-x-lymph-names-2",
+    "surg-05-x-lymph-names-3",
+    "surg-05-x-lymph-names-4",
+    "surg-05-x-lymph-names-5",
+    "surg-05-x-lymph-names-6",
+    "surg-05-x-lymph-d2",
+    "surg-05-x-outside-d2",
+    "surg-05-x-second-station",
+    "surg-05-x-endoscopic-set",
+    "surg-05-x-gastric-operations",
+    "surg-05-x-target-drugs",
+    "surg-06-r3-peritonitis-pathogen",
+    "surg-06-x-peritoneum",
+    "surg-06-x-peritonitis-severity",
+    "surg-06-fluid",
+    "surg-06-r3-abscess-tests",
+    "surg-06-r3-pelvic-route",
+    "surg-06-abscess",
+    "surg-07-injury",
+    "surg-07-x-trauma-classify",
+    "surg-07-x-trauma-frequency",
+    "surg-07-x-onset",
+    "surg-07-x-trauma-specific",
+    "surg-07-x-free-air",
+    "surg-07-x-oplimaging",
+    "surg-07-x-lavage-fluid",
+    "surg-07-x-pringle",
+    "surg-07-x-colon-repair",
+    "surg-07-x-exploration",
+    "surg-07-x-exploration-order",
+    "surg-07-x-spleen-management",
+    "surg-08-obstruction",
+    "surg-08-level",
+    "surg-08-x-causes-age",
+    "surg-08-x-classification",
+    "surg-08-x-torsion-factors",
+    "surg-08-x-volvulus-direction",
+    "surg-08-x-volvulus-surgery",
+    "surg-08-x-strangulation",
+    "surg-08-x-closed-loop",
+    "surg-08-x-mesenteric",
+    "surg-08-x-vascular-risk",
+    "surg-08-x-basic-treatment",
+    "surg-08-x-vomit-complication",
+    "surg-08-x-foreign-body",
+    "surg-09-r3-rlq-comparison",
+    "surg-09-signs",
+    "surg-09-x-pathogenesis",
+    "surg-09-x-mcburney",
+    "surg-09-x-differential",
+    "surg-09-x-chronic-barium",
+    "surg-09-r3-appendix-course",
+    "surg-09-x-operative-table",
+    "surg-09-x-appendix-treatment",
+    "surg-09-r3-atypical-hosts",
+    "surg-09-complication",
+    "surg-09-x-septic-complication",
+    "surg-09-x-postop-detail",
+    "surg-09-x-rest-stump",
+    "surg-10-r3-colon-sides",
+    "surg-10-x-colon-spread",
+    "surg-10-tests",
+    "surg-10-x-markers",
+    "surg-10-operations",
+    "surg-10-x-miles-indication",
+    "surg-10-x-hartmann",
+    "surg-10-x-margins",
+    "surg-10-x-resectable-metastases",
+    "surg-11-x-dentate",
+    "surg-11-x-drainage",
+    "surg-11-x-lymph-histology",
+    "surg-11-hemorrhoids",
+    "surg-11-x-clock",
+    "surg-11-x-mixed-haemorrhoid",
+    "surg-11-x-haemorrhoid-pain",
+    "surg-11-anal",
+    "surg-11-x-fissure-triad",
+    "surg-11-x-fissure-atypical",
+    "surg-11-x-exam-avoid",
+    "surg-11-r3-anal-therapy",
+    "surg-11-r3-fistula-table",
+    "surg-11-x-inter-sphincter",
+    "surg-12-r3-hernia-components",
+    "surg-12-x-femoral-boundaries",
+    "surg-12-x-inguinal-walls",
+    "surg-12-x-deep-ring",
+    "surg-12-x-hesselbach",
+    "surg-12-r3-indirect-direct",
+    "surg-12-hernia",
+    "surg-12-x-cord",
+    "surg-12-x-incarceration",
+    "surg-12-x-hydrocele",
+    "surg-12-contents",
+    "surg-12-x-clinical-types",
+    "surg-12-x-contents-frequency",
+    "surg-12-x-recurrence",
+    "surg-12-repair",
+    "surg-12-x-repair-indications",
+    "surg-12-x-strangulated-treatment",
+    "surg-12-x-bowel-viability",
+    "surg-13-route",
+    "surg-13-anatomy",
+    "surg-13-x-pathogens",
+    "surg-13-x-arterial-bug",
+    "surg-13-x-complication",
+    "surg-13-x-amoebic",
+    "surg-13-x-imaging",
+    "surg-13-x-management",
+    "surg-13-x-puncture-caution",
+    "surg-14-mechanism",
+    "surg-14-x-portal-anatomy",
+    "surg-14-x-portal-threshold",
+    "surg-14-child",
+    "surg-14-x-endoscopy",
+    "surg-14-x-purpose",
+    "surg-14-x-bleed-circulation",
+    "surg-14-x-bleed-treatment",
+    "surg-14-x-local-variceal",
+    "surg-14-x-variceal-drugs",
+    "surg-14-x-vasopressin",
+    "surg-14-r3-flow-fields",
+    "surg-14-surgery",
+    "surg-14-x-prevent",
+    "surg-14-x-flow-compare",
+    "surg-14-x-devessels",
+    "surg-15-x-first-symptoms",
+    "surg-15-x-ca199",
+    "surg-15-x-pancreatic-tests",
+    "surg-15-x-obstructive",
+    "surg-15-x-pancreatic-prognosis",
+    "surg-15-tumor",
+    "surg-15-x-insulinoma",
+    "surg-15-x-endocrine-test",
+    "surg-15-x-endocrine-malignant",
+    "surg-15-x-endocrine-behavior",
+    "surg-15-postop",
+    "surg-15-x-pancreas-operation",
+    "surg-15-x-gemcitabine",
+    "surg-15-x-whipple-sites",
+    "surg-15-x-gastrin-boundary",
+    "surg-15-x-gastrin-threshold",
+    "surg-15-x-gastrin-details",
+    "surg-15-x-gastrin-acidity",
+    "surg-16-x-physiology",
+    "surg-16-x-hormones",
+    "surg-16-x-calot",
+    "surg-16-x-bile-anatomy",
+    "surg-16-x-stone-material",
+    "surg-16-x-bile-food",
+    "surg-16-x-bile-heart",
+    "surg-16-r3-pain-fever-jaundice",
+    "surg-16-r3-jaundice-fields",
+    "surg-16-ultrasound",
+    "surg-16-differential",
+    "surg-16-jaundice",
+    "surg-16-x-sono-threshold",
+    "surg-16-x-imaging-signal",
+    "surg-16-x-pain-radiation",
+    "surg-16-x-contained-perforation",
+    "surg-16-x-stone-complication",
+    "surg-16-x-lc-indications",
+    "surg-16-x-lc-risk-list",
+    "surg-16-x-cholecystitis-management",
+    "surg-16-x-acalculous",
+    "surg-16-x-gallbladder-stage",
+    "surg-16-x-polyp-risk",
+    "surg-16-x-polyp-morphology",
+    "surg-16-x-gallbladder-site",
+    "surg-16-x-intrahepatic",
+    "surg-16-x-hepatolith-complications",
+    "surg-16-x-hepatectomy",
+    "surg-16-x-duct-operation",
+    "surg-16-x-aosc-timing",
+    "surg-16-x-hemobilia",
+    "surg-16-x-biliary-key-rule",
+    "surg-16-x-aosc-pathogen",
+    "surg-16-procedures",
+    "surg-16-x-postprocedure-drain",
+    "surg-16-x-procedural-complications",
+    "surg-16-x-ptc-complications",
+    "surg-16-x-tube-times",
+    "surg-16-x-tube-function",
+    "surg-16-x-tube-purposes",
+    "surg-16-x-tube-volume",
+    "surg-16-x-explore",
+    "surg-16-x-cholangiocarcinoma",
+    "surg-16-x-bismuth",
+    "surg-16-x-bile-cancer-operation",
+    "surg-16-dilation",
+    "surg-16-x-atresia",
+    "surg-16-x-atresia-treatment",
+    "surg-17-r3-aso-buerger",
+    "surg-17-vascular",
+    "surg-17-stage",
+    "surg-17-x-rutherford",
+    "surg-17-x-abi",
+    "surg-17-x-dvt",
+    "surg-17-x-dvt-distribution",
+    "surg-17-tests",
+    "surg-17-x-vascular-check",
+    "surg-17-x-buerger-test",
+    "surg-17-r3-artery-vein-fields",
+    "surg-17-x-arterial-source",
+    "surg-17-x-fogarty",
+    "surg-17-x-raynaud-drugs",
+    "surg-18-diseases",
+    "surg-18-x-hematuria",
+    "surg-18-x-renal-tb-treatment",
+    "surg-18-x-renal-tb-timing",
+    "surg-18-bladder",
+    "surg-18-x-pathology",
+    "surg-18-r3-renal-urothelial",
+    "surg-18-x-uro-surgery",
+    "surg-18-x-uro-tests",
+    "surg-18-x-prostate-evidence",
+    "surg-18-x-prostate-enzymes",
+    "surg-18-x-split-function",
+    "surg-19-bph-stones",
+    "surg-19-bph-drugs",
+    "surg-19-x-bph-time",
+    "surg-19-x-bph-indications",
+    "surg-19-x-bph-combination",
+    "surg-19-x-bph-procedures",
+    "surg-19-x-retention",
+    "surg-19-x-stone-surface",
+    "surg-19-x-stone-priority",
+    "surg-19-x-stone-procedure",
+    "surg-19-x-urethral-stone",
+    "surg-19-r3-urethral-fields",
+    "surg-19-injury",
+    "surg-19-x-renal-injury",
+    "surg-19-x-trauma-imaging",
+    "surg-19-incontinence",
+    "surg-20-deformity",
+    "surg-20-x-torticollis-treatment",
+    "surg-20-hip-tests",
+    "surg-20-x-ddh-pathology",
+    "surg-20-x-ddh-stages",
+    "surg-20-x-ddh-treatment",
+    "surg-20-x-ddh-imaging",
+    "surg-20-x-scoliosis-angle",
+    "surg-20-x-nonstructural",
+    "surg-20-x-scoliosis-aim",
+    "surg-21-chronic",
+    "surg-21-x-shoulder-differential",
+    "surg-21-x-shoulder-management",
+    "surg-21-x-procedure-chronic",
+    "surg-21-x-tennis-rest",
+    "surg-21-x-patellar-injection",
+    "surg-21-x-steroid-caution",
+    "surg-21-x-perthes-chronic",
+    "surg-21-x-general-drugs",
+    "surg-21-x-cox2",
+    "surg-22-hand",
+    "surg-22-x-hand-timing",
+    "surg-22-x-digit-preserve",
+    "surg-22-x-replant-order",
+    "surg-22-x-allen",
+    "surg-22-x-hand-position",
+    "surg-22-x-replant-time",
+    "surg-22-x-head-blood",
+    "surg-22-x-necrosis-causes",
+    "surg-22-x-necrosis-stage",
+    "surg-22-x-necrosis-test",
+    "surg-22-x-avascular-operations",
+    "surg-22-x-figure-four",
+    "surg-22-knee",
+    "surg-22-x-meniscus-zones",
+    "surg-22-x-bucket-handle",
+    "surg-22-x-knee-elements",
+    "surg-22-x-knee-triad",
+    "surg-22-x-knee-tests",
+    "surg-22-x-knee-imaging",
+    "surg-22-x-plexus-roots",
+    "surg-22-x-plexus-cords",
+    "surg-22-x-plexus-branches",
+    "surg-22-x-plexus-avulsion",
+    "surg-22-r3-neuro-combined",
+    "surg-22-nerves",
+    "surg-22-x-peripheral-motor",
+    "surg-22-x-peripheral-sensory",
+    "surg-22-x-nerve-levels",
+    "surg-22-x-combined-nerves",
+    "surg-23-r3-infection-focus",
+    "surg-23-infection",
+    "surg-23-x-infection-bug",
+    "surg-23-x-osteomyelitis-early",
+    "surg-23-x-pyogenic-location",
+    "surg-23-x-acute-infection-treatment",
+    "surg-23-x-joint-fluid",
+    "surg-23-x-joint-diagnosis",
+    "surg-23-x-joint-management",
+    "surg-23-x-chronic-osteo",
+    "surg-23-x-tb-general",
+    "surg-23-x-cold-abscess",
+    "surg-23-x-tb-treatment",
+    "surg-23-x-tb-sites",
+    "surg-23-vertebral-sites",
+    "surg-23-paralysis",
+    "surg-23-x-spinal-tb-indications",
+    "surg-23-x-hip-tb-referred",
+    "surg-23-x-hip-tb-test",
+    "surg-23-x-hip-tb-surgery",
+    "surg-24-r3-oa-ra-fields",
+    "surg-24-arthritis",
+    "surg-24-nodules",
+    "surg-24-x-stiffness",
+    "surg-24-x-arthritis-origin",
+    "surg-24-x-arthritis-markers",
+    "surg-24-x-as-early",
+    "surg-24-x-as-spread",
+    "surg-24-x-exercise-pattern",
+    "surg-24-x-oa-secondary",
+    "surg-24-x-treatment-arthritis",
+    "surg-24-x-axial-drug-limit",
+    "surg-25-r3-sarcoma-fields",
+    "surg-25-tumors",
+    "surg-25-x-benign-malignant",
+    "surg-25-x-other-bone-tumors",
+    "surg-25-x-vertebra-differential",
+    "surg-25-x-bone-tests",
+    "surg-25-x-bone-labs",
+    "surg-25-x-bone-metastatic-origin",
+    "surg-25-x-lung-metastases",
+    "surg-25-x-osteochondroma-management",
+    "surg-25-x-giant-cell",
+    "surg-25-x-giant-cell-treat",
+    "surg-25-x-giant-drug",
+    "surg-25-x-giant-radiation",
+    "surg-25-x-bone-tumor-therapies",
+    "surg-25-x-cyst-treatment",
+    "surg-26-fracture",
+    "surg-26-x-cervical-pattern",
+    "surg-26-x-fracture-site",
+    "surg-26-x-odontoid-types",
+    "surg-26-cord",
+    "surg-26-x-cord-level",
+    "surg-26-x-cord-definitions",
+    "surg-26-x-cord-excluded",
+    "surg-26-x-cord-artery",
+    "surg-26-x-imaging-transfer",
+    "surg-26-x-transfer",
+    "surg-26-x-cord-indications",
+    "surg-26-x-cervical-therapy",
+    "surg-26-x-cervical-first-treatment",
+    "surg-26-x-pelvic-complications",
+    "surg-26-x-injury-priority",
+    "surg-27-cervical",
+    "surg-27-x-cervical-safety",
+    "surg-27-x-myelopathy-composite",
+    "surg-27-disc",
+    "surg-27-x-disc-structure",
+    "surg-27-x-disc-more",
+    "surg-27-x-disc-excision",
+    "surg-27-roots",
+    "surg-27-x-root-pain-mechanism",
+    "surg-27-x-cervical-root-level",
+    "surg-27-x-sciatic-scoliosis",
+    "surg-27-x-leg-tests",
+    "surg-27-x-differential",
+    "surg-27-x-common-level",
+    "surg-27-x-motor-neuron",
+    "surg-27-x-motor-other",
+    "surg-28-r3-hip-cases",
+    "surg-28-r3-hip-tenderness",
+    "surg-28-r3-hip-rotation",
+    "surg-28-r3-hip-neck-level",
+    "surg-28-garden",
+    "surg-28-x-epstein",
+    "surg-28-x-hip-lines",
+    "surg-28-x-pauwels",
+    "surg-28-x-hip-risk",
+    "surg-28-x-fracture-first-image",
+    "surg-28-r4-hip-reverse",
+    "surg-28-x-clavicle",
+    "surg-28-x-fracture-anatomy",
+    "surg-28-x-shoulder-treatment",
+    "surg-28-x-humeral-displace",
+    "surg-28-x-supracondylar",
+    "surg-28-x-elbow-landmarks",
+    "surg-28-x-radial-head-management",
+    "surg-28-forearm",
+    "surg-28-x-forearm-reduction",
+    "surg-28-x-wrist-shape",
+    "surg-28-x-patella",
+    "surg-28-x-patella-principles",
+    "surg-28-x-tibia-ankle",
+    "surg-28-x-femoral-shift",
+    "surg-28-x-tibial-level",
+    "surg-28-x-open-lowerleg",
+    "surg-28-x-ankle-fixation",
+    "surg-28-x-ankle-position",
+    "surg-28-x-ankle-ligaments",
+    "surg-28-dislocations",
+    "surg-28-nerves",
+    "surg-28-x-normal-angles",
+    "surg-28-x-shoulder-methods",
+    "surg-28-x-common-dislocation",
+    "surg-29-classification",
+    "surg-29-x-mechanism",
+    "surg-29-x-unique-signs",
+    "surg-29-x-open-definition",
+    "surg-29-x-no-unique-signs",
+    "surg-29-x-vertebral-manifestations",
+    "surg-29-x-unique-signs-exam",
+    "surg-29-healing-stage",
+    "surg-29-remodel",
+    "surg-29-x-healing-criteria",
+    "surg-29-x-healing-time",
+    "surg-29-x-healing-process",
+    "surg-29-x-delayed-healing",
+    "surg-29-x-healing-harm",
+    "surg-29-complications",
+    "surg-29-x-early-late",
+    "surg-29-x-compartment",
+    "surg-29-x-fat-target",
+    "surg-29-x-reduction-target",
+    "surg-29-x-surgery-indications",
+    "surg-29-x-reduction-shortening",
+    "surg-29-x-complex-regional",
+    "surg-30-r3-transfusion-cases",
+    "surg-30-reaction",
+    "surg-30-x-massive-complications",
+    "surg-30-x-hemolytic-time",
+    "surg-30-products",
+    "surg-30-x-products-more",
+    "surg-30-x-blood-loss",
+    "surg-30-x-hb-reference",
+    "surg-30-x-autologous",
+    "surg-30-x-dilution-sequence",
+    "surg-31-r3-water-cases",
+    "surg-31-water",
+    "surg-31-x-sodium-grades",
+    "surg-31-electrolytes",
+    "surg-31-x-magnesium",
+    "surg-31-x-calcium-causes",
+    "surg-31-potassium",
+    "surg-31-x-potassium-causes",
+    "surg-31-x-acid-potassium",
+    "surg-31-x-kcl-concentration",
+    "surg-31-x-kcl-rate",
+    "surg-31-x-kcl-urine",
+    "surg-31-x-kcl-day",
+    "surg-31-x-acid-regulation",
+    "surg-31-x-fluid-calculation",
+    "surg-31-x-fluid-volume",
+    "surg-31-x-pylorus",
+    "surg-31-x-conversions",
+    "surg-31-x-hypertonic-liquid",
+    "surg-31-x-normal-saline-estimate",
+    "surg-32-x-nutrition-evaluation",
+    "surg-32-x-metabolic-stress",
+    "surg-32-x-ree",
+    "surg-32-x-nutrition-thresholds",
+    "surg-32-x-bodyweight",
+    "surg-32-x-energy-calculation",
+    "surg-32-x-obesity-energy",
+    "surg-32-x-enteral-access",
+    "surg-32-x-pn-needed",
+    "surg-32-x-pancreas-en-route",
+    "surg-32-nutrition",
+    "surg-32-x-nitrogen",
+    "surg-32-x-nutrition-ratios",
+    "surg-32-x-specific-substrates",
+    "surg-32-x-nutrition-substrates-quantity",
+    "surg-32-x-pn-ratios",
+    "surg-32-x-amino-acids",
+    "surg-32-x-amino-ratio",
+    "surg-32-complications",
+    "surg-32-x-pn-liver",
+    "surg-32-x-pn-bone",
+    "surg-32-x-enteral-adverse",
+    "surg-32-x-en-ranking",
+    "surg-33-x-area",
+    "surg-33-x-child-area",
+    "surg-33-x-severity",
+    "surg-33-x-regional-area",
+    "surg-33-x-leg-area",
+    "surg-33-x-trunk-area",
+    "surg-33-depth",
+    "surg-33-x-depth-heal",
+    "surg-33-x-wound-water-blister",
+    "surg-33-x-eschar-infection",
+    "surg-33-x-fluid-formula",
+    "surg-33-x-fluid-amount",
+    "surg-33-x-fluid-timing",
+    "surg-33-x-exudation-time",
+    "surg-33-x-burn-crystal-colloid",
+    "surg-33-ulcer",
+    "surg-33-x-burn-phases",
+    "surg-33-x-burn-transfer",
+    "surg-33-x-inhalation",
+    "surg-33-x-inhalation-test",
+    "surg-34-r3-superficial-cases",
+    "surg-34-superficial",
+    "surg-34-x-danger-triangle",
+    "surg-34-x-erysipelas",
+    "surg-34-x-erysipelas-features",
+    "surg-34-x-felon-complication",
+    "surg-34-x-tendon-spread",
+    "surg-34-x-surgical-principles",
+    "surg-34-x-incisions",
+    "surg-34-x-early-source-control",
+    "surg-34-x-bursal-incision-distance",
+    "surg-34-organisms",
+    "surg-34-x-specific-infection",
+    "surg-34-x-sepsis-organisms",
+    "surg-34-x-culture",
+    "surg-34-x-antibiotic-stop",
+    "surg-34-x-tetanus-immunity",
+    "surg-34-x-tetanus-clinical",
+    "surg-34-x-gas-necrosis",
+    "surg-34-x-clostridia-comparison",
+    "surg-34-x-tetanus-trigger",
+    "surg-35-x-urgency",
+    "surg-35-x-fasting",
+    "surg-35-x-preop-principles",
+    "surg-35-class",
+    "surg-35-healing",
+    "surg-35-complications",
+    "surg-35-x-wound-dehiscence",
+    "surg-35-x-dehiscence-first",
+    "surg-35-x-post-chole-collection",
+    "surg-35-x-posture",
+    "surg-35-x-suture-time",
+    "surg-36-iv",
+    "surg-36-x-premedication",
+    "surg-36-x-airway",
+    "surg-36-x-inhaled",
+    "surg-36-x-blood-gas",
+    "surg-36-x-muscle-relax",
+    "surg-36-x-succinylcholine",
+    "surg-36-x-nm-classes",
+    "surg-36-local",
+    "surg-36-x-local-metabolism",
+    "surg-36-x-local-properties",
+    "surg-36-x-local-duration",
+    "surg-36-x-local-toxicity",
+    "surg-36-x-long-analgesia",
+    "surg-36-x-local-methods",
+    "surg-36-x-local-dose",
+    "surg-36-x-adrenaline-effect",
+    "surg-36-x-adrenaline-ratio",
+    "surg-36-levels",
+    "surg-36-x-neuraxial-order",
+    "surg-36-x-neuraxial-level",
+    "surg-36-x-caudal-saddle",
+    "surg-36-r3-anesthesia-complication-cases",
+    "surg-36-x-neuraxial-adverse",
+    "surg-36-x-block-route",
+    "surg-36-x-spinal-safety",
+    "surg-36-x-spinal-contraindication",
+    "surg-36-r4-anesthesia-antagonist",
+    "surg-37-r3-compensated-case",
+    "surg-37-micro",
+    "surg-37-x-dic",
+    "surg-37-monitor",
+    "surg-37-x-cvp-bp",
+    "surg-37-x-fluid-challenge",
+    "surg-37-x-oliguria",
+    "surg-37-x-shock-index",
+    "surg-37-x-cvp-normal",
+    "surg-37-r3-cold-warm-cases",
+    "surg-37-x-shock-fluid",
+    "surg-37-x-sirs",
+    "surg-37-x-cause-treatment",
+    "surg-37-x-killip",
+    "surg-37-x-electrical-emergency",
+    "surg-38-x-sterilization",
+    "surg-38-x-sterile-field",
+    "surg-38-x-skin-direction",
+    "surg-38-x-skin-range",
+    "surg-38-x-liver-failure",
+    "surg-38-x-trauma-class",
+    "surg-38-x-closure",
+    "surg-38-x-transplant",
+    "surg-38-lesions",
+    "surg-38-x-cancer-prevention",
+    "surg-38-x-nevus",
+    "surg-38-drugs",
+    "surg-38-x-drug-members",
+    "surg-38-x-additional-drug-class",
+    "surg-38-x-pain-ladder"
+  ],
+  "changes": [
+    {
+      "chapter": "surg-01",
+      "module": "surg-01-module-diagnosis",
+      "key": "v5-x-thyroid-tests-1",
+      "name": "甲状腺检查与随访指标",
+      "options": [
+        "血清T₃、T₄及TSH",
+        "血清甲状腺球蛋白TG",
+        "血清降钙素",
+        "血清PTH"
+      ],
+      "rows": [
+        {
+          "id": "surg-01-x-thyroid-tests-q2",
+          "stem": "结节性甲状腺肿患者新出现心悸、多汗；需判断是否继发甲亢，按讲义主要依据哪组血清指标？",
+          "answer": [
+            0
+          ],
+          "page": 8,
+          "explanation": "第8页把T₃、T₄、TSH列为明确甲状腺功能状态的主要依据。TG主要用于分化型癌术后复发辅助监测，降钙素联系髓样癌，PTH用于甲旁腺功能评估。",
+          "reason": "原题一问功能指标，整个池只有一个血清功能组合，现全部使用血清指标。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-01",
+      "module": "surg-01-module-operation",
+      "key": "v5-x-extent-2",
+      "name": "甲状腺疾病与讲义术式",
+      "options": [
+        "患侧叶或部分切除＋冰冻切片",
+        "患侧叶或部分切除＋不作冰冻切片",
+        "全切或近全切＋冰冻切片",
+        "全切或近全切＋不作冰冻切片"
+      ],
+      "rows": [
+        {
+          "id": "surg-01-x-extent-q2",
+          "stem": "高功能腺瘤，讲义配伍的切除范围及术中病理是哪项？",
+          "answer": [
+            0
+          ],
+          "page": 1,
+          "explanation": "高功能腺瘤对应患侧叶或部分切除，加冰冻切片。",
+          "reason": "旧池只有一项附带术中冰冻，题干点名术中病理即可选出；新池切除范围/冰冻两字段相同。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-01",
+      "module": "surg-01-module-complications",
+      "key": "v5-x-postop-management-3",
+      "name": "甲状腺术后异常的针对处理",
+      "options": [
+        "血肿压迫：敞开切口减压止血；低钙搐搦：补钙；甲危：PTU、碘剂及糖皮质激素等",
+        "血肿压迫：补钙；低钙搐搦：敞开切口减压止血；甲危：PTU、碘剂及糖皮质激素等",
+        "血肿压迫：敞开切口减压止血；低钙搐搦：PTU、碘剂及糖皮质激素等；甲危：补钙",
+        "血肿压迫：PTU、碘剂及糖皮质激素等；低钙搐搦：补钙；甲危：敞开切口减压止血"
+      ],
+      "rows": [
+        {
+          "id": "surg-01-x-postop-management-q1",
+          "stem": "只比较讲义所列的针对性处理：术后血肿压迫、低钙性搐搦和甲状腺危象，三种并发症的对应关系哪组全部正确？",
+          "answer": [
+            0
+          ],
+          "page": 4,
+          "explanation": "第4–5页分别列出血肿压迫须减压止血、甲旁腺功能减退后低钙须补钙、甲危使用PTU/碘剂/糖皮质激素等。所有候选均含相同三种场景与处理，不靠唯一手术或唯一钙剂排除。仅供材料知识对应，不是现场急救指令。",
+          "reason": "原三题分别对应唯一手术、唯一钙剂和唯一抗甲状腺组合；合成同三字段的错配辨别。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-01",
+      "module": "surg-01-module-parathyroid",
+      "key": "v5-parathyroid-4",
+      "name": "甲旁亢检查目的配伍",
+      "options": [
+        "血钙",
+        "PTH",
+        "血磷",
+        "血清降钙素"
+      ],
+      "rows": [
+        {
+          "id": "surg-01-parathyroid-q1",
+          "stem": "发现甲旁亢时，讲义列为首要筛查指标的是哪项？",
+          "answer": [
+            0
+          ],
+          "page": 5,
+          "explanation": "血钙用于发现异常；不能与PTH的诊断可靠性或影像定位目的混淆。",
+          "reason": "原池血清与定位检查混用，拆为同类生化指标。"
+        },
+        {
+          "id": "surg-01-parathyroid-q2",
+          "stem": "诊断甲旁亢，讲义列为最可靠的指标是哪项？",
+          "answer": [
+            1
+          ],
+          "page": 5,
+          "explanation": "PTH为最可靠指标，血钙升高本身不能说明全部病因。",
+          "reason": "原池血清与定位检查混用，拆为同类生化指标。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-01",
+      "module": "surg-01-module-parathyroid",
+      "key": "v5-parathyroid-5",
+      "name": "甲旁亢检查目的配伍",
+      "options": [
+        "超声",
+        "核素显像",
+        "CT",
+        "X线平片"
+      ],
+      "rows": [
+        {
+          "id": "surg-01-parathyroid-q3",
+          "stem": "定位检查中，讲义称最常用的是哪项？",
+          "answer": [
+            0
+          ],
+          "page": 5,
+          "explanation": "超声对应最常用；核素对应本页所称最准确，注意限定词。",
+          "reason": "定位题只在影像方法间比较，不与血清指标混池。"
+        },
+        {
+          "id": "surg-01-parathyroid-q4",
+          "stem": "定位检查中，讲义称最准确的是哪项？",
+          "answer": [
+            1
+          ],
+          "page": 5,
+          "explanation": "本页定位配伍为核素，不把“最常用”直接换成“最准确”。",
+          "reason": "定位题只在影像方法间比较，不与血清指标混池。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-03",
+      "module": "surg-03-module-tests-operation",
+      "key": "v5-x-nodes-anatomy-6",
+      "name": "胸小肌与腋窝淋巴结分组",
+      "options": [
+        "Ⅰ组（腋下组）",
+        "Ⅱ组（腋中组）",
+        "Ⅲ组（腋上组）",
+        "胸骨旁淋巴结组"
+      ],
+      "rows": [
+        {
+          "id": "surg-03-x-nodes-anatomy-q1",
+          "stem": "按胸小肌为参照的分组，位于胸小肌外侧的腋窝淋巴结属于哪组？",
+          "answer": [
+            0
+          ],
+          "page": 17,
+          "explanation": "Ⅰ组在胸小肌外侧。",
+          "reason": "原选项已印出组别和完整位置，题干重复位置即可抄答案；改为仅给组名。"
+        },
+        {
+          "id": "surg-03-x-nodes-anatomy-q2",
+          "stem": "Rotter胸大小肌间淋巴结，按讲义归入哪一组？",
+          "answer": [
+            1
+          ],
+          "page": 17,
+          "explanation": "Ⅱ组包括胸小肌后方及胸大小肌间淋巴结。",
+          "reason": "原选项已印出组别和完整位置，题干重复位置即可抄答案；改为仅给组名。"
+        },
+        {
+          "id": "surg-03-x-nodes-anatomy-q3",
+          "stem": "保留胸小肌会使哪一组淋巴结较不易清扫？",
+          "answer": [
+            2
+          ],
+          "page": 17,
+          "explanation": "腋上组即Ⅲ组在胸小肌内侧/锁骨下。",
+          "reason": "原选项已印出组别和完整位置，题干重复位置即可抄答案；改为仅给组名。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-03",
+      "module": "surg-03-module-adjuvant",
+      "key": "v5-x-chemo-risk-7",
+      "name": "乳腺癌讲义中的化疗高危因素",
+      "options": [
+        "肿瘤＞2cm、分化差、ER/PR阴性、HER2阳性",
+        "肿瘤＞2cm、分化好、ER/PR阴性、HER2阳性",
+        "肿瘤＞2cm、分化差、ER/PR阳性、HER2阳性",
+        "肿瘤≤1cm、分化差、ER/PR阴性、HER2阴性"
+      ],
+      "rows": [
+        {
+          "id": "surg-03-x-chemo-risk-q1",
+          "stem": "只按讲义腋淋巴结阴性病例的高复发风险列表，哪一组所列四项均属于该列表？",
+          "answer": [
+            0
+          ],
+          "page": 18,
+          "explanation": "第18页列出＞2cm、分化差、ER/PR阴性、HER2阳性四项。问题要求四项均符合，不是说带有其中某一项的其他候选绝无高危风险。",
+          "reason": "旧池四条短正例与一条完整长负例，形式不对称；改为同四字段组合，并明确“均符合”。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-04",
+      "module": "surg-04-module-injury",
+      "key": "v5-x-lower-ribs-8",
+      "name": "胸伤合并腹部损伤评估",
+      "options": [
+        "肝、脾",
+        "胃、十二指肠",
+        "肾、输尿管",
+        "结肠、直肠"
+      ],
+      "rows": [
+        {
+          "id": "surg-04-x-lower-ribs-q1",
+          "stem": "下位肋骨骨折时，按讲义应特别警惕哪对邻近腹腔脏器合并损伤？",
+          "answer": [
+            0
+          ],
+          "page": 24,
+          "explanation": "本页下位肋骨伤提示留意肝、脾损伤。改考相邻脏器关系，不把“评估肝脾”直接印在唯一超声选项上。",
+          "reason": "原题干写肝脾，只有正确选项也写肝脾；改为同器官对比较。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-06",
+      "module": "surg-06-module-peritonitis",
+      "key": "v5-r3-peritonitis-pathogen-10",
+      "name": "腹膜炎：由人群和感染途径识别病原",
+      "options": [
+        "婴幼儿血源性原发性腹膜炎",
+        "女性上行感染所致原发性腹膜炎",
+        "肝硬化腹水伴透壁感染所致原发性腹膜炎",
+        "空腔脏器穿孔所致继发性腹膜炎"
+      ],
+      "rows": [
+        {
+          "id": "surg-06-r3-peritonitis-pathogen-q1",
+          "stem": "按讲义病原－场景对照，以链球菌为典型病原的情境是哪项？",
+          "answer": [
+            0
+          ],
+          "page": 29,
+          "explanation": "本页原发腹膜炎的三联关系为血行—链球菌—婴幼儿，区别于上行淋球菌及肝硬化腹水的大肠杆菌。",
+          "reason": "旧池只有一个混合病原组合，题干问病原形式即暴露答案；反向以同类临床情境为候选，保留四条病原关系。"
+        },
+        {
+          "id": "surg-06-r3-peritonitis-pathogen-q2",
+          "stem": "按同一对照，以淋球菌为典型病原的情境是哪项？",
+          "answer": [
+            1
+          ],
+          "page": 29,
+          "explanation": "讲义将女性上行感染与淋球菌相联；候选中不再重复列出人群和途径来泄露对应。",
+          "reason": "旧池只有一个混合病原组合，题干问病原形式即暴露答案；反向以同类临床情境为候选，保留四条病原关系。"
+        },
+        {
+          "id": "surg-06-r3-peritonitis-pathogen-q3",
+          "stem": "按同一对照，以大肠杆菌为典型病原的原发性腹膜炎情境是哪项？",
+          "answer": [
+            2
+          ],
+          "page": 29,
+          "explanation": "讲义的对应为肝硬化腹水—透壁—大肠杆菌；本题不是泛指所有腹膜炎的培养结果。",
+          "reason": "旧池只有一个混合病原组合，题干问病原形式即暴露答案；反向以同类临床情境为候选，保留四条病原关系。"
+        },
+        {
+          "id": "surg-06-r3-peritonitis-pathogen-q4",
+          "stem": "以大肠杆菌、厌氧菌等混合感染为主要病原形式的腹膜炎，按讲义对应哪种情境？",
+          "answer": [
+            3
+          ],
+          "page": 29,
+          "explanation": "本页强调穿孔后的继发性腹膜炎多为大肠杆菌、厌氧菌等混合感染，区别于前面原发腹膜炎的典型对应。",
+          "reason": "旧池只有一个混合病原组合，题干问病原形式即暴露答案；反向以同类临床情境为候选，保留四条病原关系。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-06",
+      "module": "surg-06-module-peritonitis",
+      "key": "v5-x-peritonitis-severity-11",
+      "name": "腹膜炎体征与转归",
+      "options": [
+        "压痛、反跳痛、肌紧张",
+        "压痛、反跳痛、肠鸣音亢进",
+        "压痛、肌紧张、移动性浊音",
+        "反跳痛、移动性浊音、肠鸣音亢进"
+      ],
+      "rows": [
+        {
+          "id": "surg-06-x-peritonitis-severity-q1",
+          "stem": "诊断弥漫性腹膜炎，哪组属于讲义强调的腹膜刺激征三项？",
+          "answer": [
+            0
+          ],
+          "page": 29,
+          "explanation": "症状和体征是重要临床依据，不仅凭腹水影像。",
+          "reason": "原池体征三联、病程转归和无症状影像混放，现四项均为三种体征。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-06",
+      "module": "surg-06-module-peritonitis",
+      "key": "v5-x-peritonitis-severity-12",
+      "name": "腹膜炎体征与转归",
+      "options": [
+        "腹胀加重、脉搏增快、体温下降",
+        "腹胀减轻、脉搏减慢、体温下降",
+        "腹胀加重、脉搏减慢、体温上升",
+        "腹胀减轻、脉搏增快、体温上升"
+      ],
+      "rows": [
+        {
+          "id": "surg-06-x-peritonitis-severity-q2",
+          "stem": "腹膜炎治疗中，哪组变化反而提示恶化而不是“退热好转”？",
+          "answer": [
+            0
+          ],
+          "page": 29,
+          "explanation": "体温下降需结合腹胀加重、脉快与全身状态，不能孤立判断。",
+          "reason": "转归题改用同样的腹胀/脉搏/体温三字段，不能凭唯一恶化组合的文字形式作答。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-07",
+      "module": "surg-07-module-treatment",
+      "key": "v5-x-colon-repair-13",
+      "name": "结直肠外伤的讲义处理分层",
+      "options": [
+        "一期修补或切除吻合",
+        "造口或外置、后续分期处理",
+        "修补或切除吻合并乙状结肠双腔造口",
+        "乙状结肠双腔造口"
+      ],
+      "rows": [
+        {
+          "id": "surg-07-x-colon-repair-q1",
+          "stem": "多见于右半结肠损伤的污染轻情形，材料配伍哪项？",
+          "answer": [
+            0
+          ],
+          "page": 33,
+          "explanation": "关键前提是污染轻，不能仅凭“右半”三个字决定所有患者一期吻合。",
+          "reason": "去掉选项中的污染轻重和直肠上下段标签，避免题干直接抄条件即匹配。"
+        },
+        {
+          "id": "surg-07-x-colon-repair-q2",
+          "stem": "结肠损伤污染重，尤其左半结肠，按材料配伍哪项？",
+          "answer": [
+            1
+          ],
+          "page": 33,
+          "explanation": "材料给出造口或外置的分期方向；实际方案需结合血供、污染和全身情况。",
+          "reason": "去掉选项中的污染轻重和直肠上下段标签，避免题干直接抄条件即匹配。"
+        },
+        {
+          "id": "surg-07-x-colon-repair-q3",
+          "stem": "直肠上段损伤，材料配伍哪项？",
+          "answer": [
+            2
+          ],
+          "page": 33,
+          "explanation": "区别于反折以下直肠下段单列的造口方案。",
+          "reason": "去掉选项中的污染轻重和直肠上下段标签，避免题干直接抄条件即匹配。"
+        },
+        {
+          "id": "surg-07-x-colon-repair-q4",
+          "stem": "直肠下段损伤已发生直肠周围感染，材料配伍哪项？",
+          "answer": [
+            3
+          ],
+          "page": 33,
+          "explanation": "此题复习该讲义表内的处理方向，不将其作为全部个体的唯一术式。",
+          "reason": "去掉选项中的污染轻重和直肠上下段标签，避免题干直接抄条件即匹配。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-07",
+      "module": "surg-07-module-treatment",
+      "key": "v5-x-pringle-14",
+      "name": "肝损伤入肝血流控制的解剖",
+      "options": [
+        "肝十二指肠韧带内的门管三联",
+        "肝胃韧带内的血管",
+        "肝镰状韧带内的肝圆韧带",
+        "肝冠状韧带附着部"
+      ],
+      "rows": [
+        {
+          "id": "surg-07-x-pringle-q1",
+          "stem": "Pringle法为减少入肝血流而暂时阻断的解剖结构是哪项？",
+          "answer": [
+            0
+          ],
+          "page": 32,
+          "explanation": "这是解剖关系题，不提供操作时长或用于自行急救的步骤。",
+          "reason": "原题干已写门管三联，与唯一含该词的选项相互抄答；去掉题干中的待答结构，候选均为肝周韧带结构。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-08",
+      "module": "surg-08-module-diagnosis",
+      "key": "v5-x-classification-15",
+      "name": "肠梗阻分型和肠鸣音",
+      "options": [
+        "机械性",
+        "麻痹性",
+        "痉挛性"
+      ],
+      "rows": [
+        {
+          "id": "surg-08-x-classification-q1",
+          "stem": "阵发性绞痛、肠鸣音亢进且呈金属调，按机制配伍哪项？",
+          "answer": [
+            0
+          ],
+          "page": 38,
+          "explanation": "肠管机械阻挡导致代偿性蠕动增强。",
+          "reason": "原池混入唯一完全程度分类，与前三项机制分类不同；机制题只保留三种有效机制，不凑异类。"
+        },
+        {
+          "id": "surg-08-x-classification-q2",
+          "stem": "急性肠炎或铅中毒可致肠鸣音增强，按讲义机制类型配伍哪项？",
+          "answer": [
+            2
+          ],
+          "page": 38,
+          "explanation": "痉挛性与机械性都可增强肠鸣音，不能把增强全当机械堵塞。",
+          "reason": "原池混入唯一完全程度分类，与前三项机制分类不同；机制题只保留三种有效机制，不凑异类。"
+        },
+        {
+          "id": "surg-08-x-classification-q3",
+          "stem": "阿托品、阿片药或低钾后肠鸣音减弱、均匀腹胀，配伍哪项？",
+          "answer": [
+            1
+          ],
+          "page": 38,
+          "explanation": "麻痹性以动力减弱为主。",
+          "reason": "原池混入唯一完全程度分类，与前三项机制分类不同；机制题只保留三种有效机制，不凑异类。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-08",
+      "module": "surg-08-module-diagnosis",
+      "key": "v5-x-classification-16",
+      "name": "肠梗阻分型和肠鸣音",
+      "options": [
+        "停止排便排气→完全性；尚有部分→不完全性",
+        "停止排便排气→不完全性；尚有部分→完全性",
+        "停止排便排气→完全性；尚有部分→完全性",
+        "停止排便排气→不完全性；尚有部分→不完全性"
+      ],
+      "rows": [
+        {
+          "id": "surg-08-x-classification-q4",
+          "stem": "只按讲义排便排气的完全程度对照，哪组对应关系正确？",
+          "answer": [
+            0
+          ],
+          "page": 38,
+          "explanation": "第38页以排便排气停止/尚有，分别对应完全性/不完全性。此为材料分类关系，不据此排除早期或复杂临床情形。",
+          "reason": "原题问完全程度，池中唯一“不完全性”直接泄题；改为同两字段交叉组合。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-09",
+      "module": "surg-09-module-complications",
+      "key": "v5-x-postop-detail-17",
+      "name": "阑尾术后并发症的针对处理与机制",
+      "options": [
+        "切口拆线并引流；残株再次手术处理",
+        "切口再次切残株；残株拆切口线引流",
+        "切口仅改变体位；残株再次手术处理",
+        "切口拆线并引流；残株仅改变体位"
+      ],
+      "rows": [
+        {
+          "id": "surg-09-x-postop-detail-q1",
+          "stem": "按讲义，阑尾术后切口感染与阑尾残株炎的针对性处理，哪组依次正确？",
+          "answer": [
+            0
+          ],
+          "page": 45,
+          "explanation": "第45页：切口感染拆除缝线并通畅引流；残株炎需再次手术。所有候选都按“切口感染；残株炎”相同顺序组成。",
+          "reason": "旧池一条切口处理、一条残端处理，另两项只是粘连预防，按名词即可选；合为同两字段。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-10",
+      "module": "surg-10-module-tests",
+      "key": "v5-tests-19",
+      "name": "大肠癌检查用途配伍",
+      "options": [
+        "血清CEA",
+        "血清CA15-3",
+        "血清AFP",
+        "血清甲状腺球蛋白TG"
+      ],
+      "rows": [
+        {
+          "id": "surg-10-tests-q3",
+          "stem": "术后辅助监测残留、复发趋势，配伍哪项？",
+          "answer": [
+            0
+          ],
+          "page": 48,
+          "explanation": "CEA应动态解读，不能单独承担大肠癌确诊。",
+          "reason": "原池只有一条血清肿瘤标志物，术后趋势题转到同类标志物池，保留原ID。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-10",
+      "module": "surg-10-module-operation",
+      "key": "v5-x-hartmann-20",
+      "name": "Hartmann术的适用情境",
+      "options": [
+        "切除病变＋近端结肠造口、远端直肠封闭",
+        "切除病变＋近端结肠封闭、远端直肠造口",
+        "切除病变＋近端结肠与远端直肠直接吻合",
+        "不切除病变＋近端结肠与远端直肠直接吻合"
+      ],
+      "rows": [
+        {
+          "id": "surg-10-x-hartmann-q1",
+          "stem": "直乙交界癌急性梗阻，近端扩张水肿，不宜一期吻合。按讲义所选Hartmann术，其肠道处理组合是？",
+          "answer": [
+            0
+          ],
+          "page": 51,
+          "explanation": "Hartmann术切除病变后近端造口、远端封闭，不作一期吻合。旧题把同一适应证写在题干和唯一选项中，现要求识别术式结构。",
+          "reason": "去除题干与正确选项逐字重复适应证的抄答题，改为相同术式字段。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-13",
+      "module": "surg-13-module-origin-anatomy",
+      "key": "v5-route-21",
+      "name": "细菌性肝脓肿感染途径",
+      "options": [
+        "胆道上行",
+        "肝动脉播散",
+        "门静脉播散",
+        "损伤处直接感染"
+      ],
+      "rows": [
+        {
+          "id": "surg-13-route-q1",
+          "stem": "胆管结石或胆肠吻合口狭窄后发生肝脓肿，配伍哪条途径？",
+          "answer": [
+            0
+          ],
+          "page": 65,
+          "explanation": "胆道梗阻相关感染是本讲义强调的主要途径。",
+          "reason": "去掉选项中重复的感染条件，尤其题干不再直接给出待回答的门静脉路径。"
+        },
+        {
+          "id": "surg-13-route-q2",
+          "stem": "心内膜炎或化脓性骨髓炎后发生肝脓肿，配伍哪条途径？",
+          "answer": [
+            1
+          ],
+          "page": 65,
+          "explanation": "体循环感染可沿肝动脉播散，金黄色葡萄球菌是讲义线索。",
+          "reason": "去掉选项中重复的感染条件，尤其题干不再直接给出待回答的门静脉路径。"
+        },
+        {
+          "id": "surg-13-route-q3",
+          "stem": "急性阑尾炎的感染扩散后出现细菌性肝脓肿，按讲义典型传播路径是？",
+          "answer": [
+            2
+          ],
+          "page": 65,
+          "explanation": "阑尾静脉回流串联门静脉途径。",
+          "reason": "去掉选项中重复的感染条件，尤其题干不再直接给出待回答的门静脉路径。"
+        },
+        {
+          "id": "surg-13-route-q4",
+          "stem": "开放性肝中央损伤后形成局部脓肿，配伍哪条途径？",
+          "answer": [
+            3
+          ],
+          "page": 65,
+          "explanation": "外伤直接污染不等同于胆源性上行感染。",
+          "reason": "去掉选项中重复的感染条件，尤其题干不再直接给出待回答的门静脉路径。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-13",
+      "module": "surg-13-module-testing-treatment",
+      "key": "v5-x-management-22",
+      "name": "肝脓肿大小数量与讲义治疗原则",
+      "options": [
+        "抗感染为主，结合影像随访",
+        "抗感染并穿刺或置管引流",
+        "抗感染并直接切除病变肝叶",
+        "抗感染并经胆总管切开引流"
+      ],
+      "rows": [
+        {
+          "id": "surg-13-x-management-q1",
+          "stem": "讲义“小而多”的细菌性肝脓肿，主要治疗方向是？",
+          "answer": [
+            0
+          ],
+          "page": 66,
+          "explanation": "小而多的脓肿以系统抗感染为重点；具体方案须结合病原及临床情况。",
+          "reason": "旧池只有一条抗感染加引流，另两项是无关疾病治疗；现全部为细菌性肝脓肿相关干预组合，比较讲义分层首列方向。"
+        },
+        {
+          "id": "surg-13-x-management-q2",
+          "stem": "讲义中的单发较大肝脓肿（约3–5cm及以上），抗感染外还强调什么方向？",
+          "answer": [
+            1
+          ],
+          "page": 66,
+          "explanation": "讲义强调较大单发脓肿需考虑穿刺或置管引流，不可只记抗菌药。",
+          "reason": "旧池只有一条抗感染加引流，另两项是无关疾病治疗；现全部为细菌性肝脓肿相关干预组合，比较讲义分层首列方向。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-14",
+      "module": "surg-14-module-bleeding-assessment",
+      "key": "v5-child-23",
+      "name": "Child-Pugh组成辨认",
+      "options": [
+        "血清白蛋白",
+        "血清胆红素",
+        "凝血酶原时间延长",
+        "腹水",
+        "肝性脑病",
+        "血小板计数",
+        "脾脏大小",
+        "下肢水肿"
+      ],
+      "rows": [
+        {
+          "id": "surg-14-child-q1",
+          "stem": "口诀“白富美单干”对应的Child-Pugh评分项目有哪些？",
+          "answer": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "page": 69,
+          "explanation": "白蛋白、腹水、凝血酶原时间、胆红素及肝性脑病；血小板、肌酐不属于这五项。",
+          "reason": "原池只有化验类干扰项，所有临床表现都可全选；增加同类临床表现负例，仍完整保留Child五项。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-14",
+      "module": "surg-14-module-operations-prevention",
+      "key": "v5-x-prevent-24",
+      "name": "门静脉高压讲义预防性治疗路径",
+      "options": [
+        "保肝治疗并随访",
+        "脾切除加贲门周围血管离断术",
+        "急诊复苏并止血",
+        "TIPS"
+      ],
+      "rows": [
+        {
+          "id": "surg-14-x-prevent-q1",
+          "stem": "按本讲义，未出血、无高危静脉曲张及明显脾亢者，与哪条路径最相符？",
+          "answer": [
+            0
+          ],
+          "page": 69,
+          "explanation": "讲义对这类患者强调内科治疗和观察，而非一律预防性手术。",
+          "reason": "去掉候选中的Child级别、是否活动出血等重复适应证，保留治疗路径名称。"
+        },
+        {
+          "id": "surg-14-x-prevent-q2",
+          "stem": "按讲义题例，Child A级、中重度曲张伴明显脾大脾亢、白细胞及血小板减少，无出血史，对应？",
+          "answer": [
+            1
+          ],
+          "page": 72,
+          "explanation": "讲义把明显脾亢和高危曲张列为考虑预防性断流术的条件；这是材料中的传统外科路径。",
+          "reason": "去掉候选中的Child级别、是否活动出血等重复适应证，保留治疗路径名称。"
+        },
+        {
+          "id": "surg-14-x-prevent-q3",
+          "stem": "按讲义，既往有曲张静脉出血史、当前无活动性出血、肝功能允许，择期术式路径是？",
+          "answer": [
+            1
+          ],
+          "page": 69,
+          "explanation": "讲义列既往出血史为择期断流术情景；不能推广为现代全部二级预防方案。",
+          "reason": "去掉候选中的Child级别、是否活动出血等重复适应证，保留治疗路径名称。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-15",
+      "module": "surg-15-module-endocrine-differential",
+      "key": "v5-x-endocrine-test-25",
+      "name": "胰腺内分泌瘤功能检查",
+      "options": [
+        "72小时饥饿试验",
+        "口服葡萄糖耐量试验",
+        "餐后血糖检测",
+        "单次空腹血糖检测"
+      ],
+      "rows": [
+        {
+          "id": "surg-15-x-endocrine-test-q1",
+          "stem": "疑胰岛素瘤但未捕捉低血糖发作，讲义列出的诱发评价试验是？",
+          "answer": [
+            0
+          ],
+          "page": 76,
+          "explanation": "讲义列72小时饥饿试验；必须在专业监护条件下进行，不能自行尝试。",
+          "reason": "旧池胃泌素指标与血糖试验混放，饥饿试验题改为同类血糖评价方法。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-15",
+      "module": "surg-15-module-endocrine-differential",
+      "key": "v5-x-endocrine-test-26",
+      "name": "胰腺内分泌瘤功能检查",
+      "options": [
+        "基础胃酸排出量＋血胃泌素",
+        "基础胃酸排出量＋血胰岛素",
+        "血胃泌素＋血C肽",
+        "血胰岛素＋血C肽"
+      ],
+      "rows": [
+        {
+          "id": "surg-15-x-endocrine-test-q2",
+          "stem": "顽固复发性溃疡伴腹泻，怀疑胃泌素瘤，针对其分泌功能的检查是？",
+          "answer": [
+            0
+          ],
+          "page": 76,
+          "explanation": "胃酸排出量及胃泌素水平是诊断中的核心关系。",
+          "reason": "旧池只有一项包含胃酸/胃泌素，改为相同两个分泌功能指标的组合。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-16",
+      "module": "surg-16-module-anatomy-physiology-stones",
+      "key": "v5-x-calot-27",
+      "name": "Calot三角边界与内容",
+      "options": [
+        "胆囊管、肝总管、肝脏下缘",
+        "胆囊管、胆总管、肝脏下缘",
+        "肝总管、胆总管、胆囊颈",
+        "胆囊动脉、胆总管、胆囊颈"
+      ],
+      "rows": [
+        {
+          "id": "surg-16-x-calot-q1",
+          "stem": "按本讲义采用的胆囊三角定义，哪组完整组成其三个边界？",
+          "answer": [
+            0
+          ],
+          "page": 91,
+          "explanation": "胆囊管、肝总管和肝下缘是边界；胆总管不在这三条边界内。",
+          "reason": "原边界题中管道与血管分型可直接提示选择，改为同三结构组合。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-16",
+      "module": "surg-16-module-anatomy-physiology-stones",
+      "key": "v5-x-calot-28",
+      "name": "Calot三角边界与内容",
+      "options": [
+        "胆囊动脉、肝右动脉、副右肝管",
+        "胆囊动脉、肝左动脉、副右肝管",
+        "胆囊动脉、肝右动脉、胆总管",
+        "胃右动脉、肝左动脉、胆总管"
+      ],
+      "rows": [
+        {
+          "id": "surg-16-x-calot-q2",
+          "stem": "按讲义，胆囊三角内需特别注意的三类重要结构，哪组全部符合？",
+          "answer": [
+            0
+          ],
+          "page": 82,
+          "explanation": "胆囊动脉、肝右动脉及副右肝管需注意识别；边界与内容物不能混同。",
+          "reason": "重要结构题使用三结构同字段组合，不能把所有动脉名称全选即过关。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-16",
+      "module": "surg-16-module-clinical-differential",
+      "key": "v5-x-imaging-signal-29",
+      "name": "结石与胆汁在不同影像中的表现",
+      "options": [
+        "结石强回声；水样液体无回声",
+        "结石强回声；水样液体强回声",
+        "结石无回声；水样液体强回声",
+        "结石无回声；水样液体无回声"
+      ],
+      "rows": [
+        {
+          "id": "surg-16-x-imaging-signal-q1",
+          "stem": "B超中结石和水样液体的典型对比组合是？",
+          "answer": [
+            0
+          ],
+          "page": 79,
+          "explanation": "B超看回声，不能把CT密度或MR信号名称混入。",
+          "reason": "原池只有一条“回声”组合，B超题按字面即可选；新池所有候选均为回声。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-16",
+      "module": "surg-16-module-clinical-differential",
+      "key": "v5-x-imaging-signal-30",
+      "name": "结石与胆汁在不同影像中的表现",
+      "options": [
+        "结石低信号；胆汁高信号",
+        "结石高信号；胆汁低信号",
+        "结石低信号；胆汁低信号",
+        "结石高信号；胆汁高信号"
+      ],
+      "rows": [
+        {
+          "id": "surg-16-x-imaging-signal-q2",
+          "stem": "MRCP中结石与周围胆汁的典型对比组合是？",
+          "answer": [
+            0
+          ],
+          "page": 79,
+          "explanation": "水成像中胆汁高信号，结石表现为低信号充盈缺损。",
+          "reason": "MRCP题改为同一信号字段的四种组合，不与超声回声及CT密度混放。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-16",
+      "module": "surg-16-module-clinical-differential",
+      "key": "v5-x-imaging-signal-31",
+      "name": "结石与胆汁在不同影像中的表现",
+      "options": [
+        "结石密度可高可低；水样液体低密度",
+        "结石密度可高可低；水样液体高密度",
+        "结石均高密度；水样液体高密度",
+        "结石均低密度；水样液体高密度"
+      ],
+      "rows": [
+        {
+          "id": "surg-16-x-imaging-signal-q3",
+          "stem": "CT中结石与液体的讲义对比组合是？",
+          "answer": [
+            0
+          ],
+          "page": 79,
+          "explanation": "结石CT密度与含钙量相关，并非所有结石都高密度。",
+          "reason": "CT题改为同密度字段，且保留讲义结石显影可变性，不把所有结石均高密度说成正确。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-16",
+      "module": "surg-16-module-procedures-drainage",
+      "key": "v5-x-tube-function-32",
+      "name": "T管引流量与拔管风险",
+      "options": [
+        "T管自身堵塞或异常",
+        "T管远端胆管梗阻",
+        "胆汁向肠道分流增多",
+        "肝细胞胆汁分泌减少"
+      ],
+      "rows": [
+        {
+          "id": "surg-16-x-tube-function-q1",
+          "stem": "T管术后原有胆汁引流突然消失，讲义要求先考虑哪项？",
+          "answer": [
+            0
+          ],
+          "page": 80,
+          "explanation": "先查管道本身，不能直接认定胆汁分泌完全停止。",
+          "reason": "删除候选中“先检查”的指令格式，将引流问题统一为原因比较。"
+        },
+        {
+          "id": "surg-16-x-tube-function-q2",
+          "stem": "T管胆汁引流量异常增多，讲义首先关联哪项？",
+          "answer": [
+            1
+          ],
+          "page": 80,
+          "explanation": "胆汁不能顺利向十二指肠流出时，外引流可增加。",
+          "reason": "删除候选中“先检查”的指令格式，将引流问题统一为原因比较。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-16",
+      "module": "surg-16-module-procedures-drainage",
+      "key": "v5-x-tube-function-33",
+      "name": "T管引流量与拔管风险",
+      "options": [
+        "胆汁性腹膜炎",
+        "急性胰腺炎",
+        "急性胆管炎",
+        "细菌性肝脓肿"
+      ],
+      "rows": [
+        {
+          "id": "surg-16-x-tube-function-q3",
+          "stem": "T管过早拔除、窦道未成熟时，主要担心哪项？",
+          "answer": [
+            0
+          ],
+          "page": 80,
+          "explanation": "胆汁漏入腹腔可致胆汁性腹膜炎。",
+          "reason": "过早拔管风险题原池只有一条并发症，改为四种并发症。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-16",
+      "module": "surg-16-module-congenital",
+      "key": "v5-x-atresia-34",
+      "name": "胆管闭锁分型与手术方向",
+      "options": [
+        "Ⅰ型",
+        "Ⅱ型",
+        "Ⅲ型"
+      ],
+      "rows": [
+        {
+          "id": "surg-16-x-atresia-q1",
+          "stem": "按讲义胆管闭锁“胆肝门”分型，只涉及胆总管者是？",
+          "answer": [
+            0
+          ],
+          "page": 87,
+          "explanation": "Ⅰ型胆总管、Ⅱ型肝管、Ⅲ型肝门部；不要与胆管扩张症分型混用。",
+          "reason": "原选项将每个闭锁部位直接印在类型后，题干可逐字抄答；去注释并移除属于扩张病而非闭锁的Ⅴ型。"
+        },
+        {
+          "id": "surg-16-x-atresia-q2",
+          "stem": "按讲义胆管闭锁分型，肝管闭锁者是？",
+          "answer": [
+            1
+          ],
+          "page": 87,
+          "explanation": "Ⅱ型对应肝管闭锁。",
+          "reason": "原选项将每个闭锁部位直接印在类型后，题干可逐字抄答；去注释并移除属于扩张病而非闭锁的Ⅴ型。"
+        },
+        {
+          "id": "surg-16-x-atresia-q3",
+          "stem": "胆管闭锁最常见、可需Kasai肝门空肠吻合的类型是？",
+          "answer": [
+            2
+          ],
+          "page": 87,
+          "explanation": "肝门部闭锁但肝内仍有胆管腔时可考虑Kasai。",
+          "reason": "原选项将每个闭锁部位直接印在类型后，题干可逐字抄答；去注释并移除属于扩张病而非闭锁的Ⅴ型。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-17",
+      "module": "surg-17-module-vascular-examination",
+      "key": "v5-x-vascular-check-35",
+      "name": "血管检查和静脉曲张术前禁忌",
+      "options": [
+        "超声多普勒",
+        "CT血管成像",
+        "磁共振血管成像",
+        "导管血管造影"
+      ],
+      "rows": [
+        {
+          "id": "surg-17-x-vascular-check-q1",
+          "stem": "评价周围血管供血或回流，讲义首选的无创检查是？",
+          "answer": [
+            0
+          ],
+          "page": 102,
+          "explanation": "超声多普勒可评价血流，传统试验不能替代完整影像评估。",
+          "reason": "原池影像方法与床旁试验混用，首选无创影像题改为同类成像方法。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-17",
+      "module": "surg-17-module-vascular-examination",
+      "key": "v5-x-vascular-check-36",
+      "name": "血管检查和静脉曲张术前禁忌",
+      "options": [
+        "Perthes试验阳性",
+        "Trendelenburg试验阳性",
+        "Pratt试验阳性",
+        "Buerger试验阳性"
+      ],
+      "rows": [
+        {
+          "id": "surg-17-x-vascular-check-q3",
+          "stem": "判断大隐静脉曲张能否进行浅静脉剥脱，哪项传统试验异常提示深静脉阻塞、不能贸然手术？",
+          "answer": [
+            0
+          ],
+          "page": 103,
+          "explanation": "深静脉不通时，浅静脉可能是重要回流通道。",
+          "reason": "深静脉通畅性题移到同类床旁功能试验池，不与影像检查混放。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-18",
+      "module": "surg-18-module-pathology-stage",
+      "key": "v5-bladder-37",
+      "name": "膀胱癌浸润层次",
+      "options": [
+        "Tis",
+        "Ta",
+        "T1",
+        "T2"
+      ],
+      "rows": [
+        {
+          "id": "surg-18-bladder-q1",
+          "stem": "平坦黏膜内病变，未越过基底膜，配伍？",
+          "answer": [
+            0
+          ],
+          "page": 105,
+          "explanation": "Tis与Ta均未浸润，但平坦和乳头状形态不同，不能将两者混称同一形态。",
+          "reason": "旧池分期后直接印出浸润深度，删去注释，须真正掌握分期关系。"
+        },
+        {
+          "id": "surg-18-bladder-q2",
+          "stem": "乳头状生长，但未浸润固有层，配伍？",
+          "answer": [
+            1
+          ],
+          "page": 105,
+          "explanation": "Ta是非浸润乳头状肿瘤，不等同于平坦Tis。",
+          "reason": "旧池分期后直接印出浸润深度，删去注释，须真正掌握分期关系。"
+        },
+        {
+          "id": "surg-18-bladder-q3",
+          "stem": "越过基底膜侵入固有层，但未侵肌层，配伍？",
+          "answer": [
+            2
+          ],
+          "page": 105,
+          "explanation": "T1仍属非肌层浸润性膀胱癌。",
+          "reason": "旧池分期后直接印出浸润深度，删去注释，须真正掌握分期关系。"
+        },
+        {
+          "id": "surg-18-bladder-q4",
+          "stem": "本组选项中已达到肌层浸润的分期是？",
+          "answer": [
+            3
+          ],
+          "page": 105,
+          "explanation": "T2为肌层受侵；分期不能只看是否有血尿。",
+          "reason": "旧池分期后直接印出浸润深度，删去注释，须真正掌握分期关系。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-18",
+      "module": "surg-18-module-surgical-extent",
+      "key": "v5-x-uro-surgery-38",
+      "name": "泌尿肿瘤切除范围与灌注",
+      "options": [
+        "降低睾丸雄激素来源，并阻断雄激素作用",
+        "提高睾丸雄激素来源，并阻断雄激素作用",
+        "降低睾丸雄激素来源，并补充雄激素",
+        "提高睾丸雄激素来源，并补充雄激素"
+      ],
+      "rows": [
+        {
+          "id": "surg-18-x-uro-surgery-q6",
+          "stem": "仅按讲义的前列腺癌简化治疗表，选择内分泌治疗时，其总体作用方向是哪组？",
+          "answer": [
+            0
+          ],
+          "page": 106,
+          "explanation": "材料所述内分泌方向为抗雄激素及去势，分别阻断作用和减少来源。新选项都含来源/作用两个字段，不再把唯一内分泌方案混在五种外科手术中。真实治疗需要分期与综合评估。",
+          "reason": "原题明确问内分泌方向，但池中只有一项不是手术，现全部同方向字段。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-18",
+      "module": "surg-18-module-diagnostic-tests",
+      "key": "v5-x-uro-tests-39",
+      "name": "泌尿系病变的影像和取材",
+      "options": [
+        "增强CT或CTU",
+        "MRI",
+        "放射性核素骨扫描ECT",
+        "静脉尿路造影IVP/IVU"
+      ],
+      "rows": [
+        {
+          "id": "surg-18-x-uro-tests-q1",
+          "stem": "讲义表中，肾癌和上尿路癌的重要影像方法是？",
+          "answer": [
+            0
+          ],
+          "page": 106,
+          "explanation": "增强CT、CTU评价肾实质和上尿路。",
+          "reason": "原泌外检查池夹入唯一病原学及唯一活检，影像题单独保留同类成像候选。"
+        },
+        {
+          "id": "surg-18-x-uro-tests-q2",
+          "stem": "讲义表中，膀胱癌和前列腺癌局部评价偏重的影像方法是？",
+          "answer": [
+            1
+          ],
+          "page": 106,
+          "explanation": "材料将MRI列为这两类肿瘤的重点影像。",
+          "reason": "原泌外检查池夹入唯一病原学及唯一活检，影像题单独保留同类成像候选。"
+        },
+        {
+          "id": "surg-18-x-uro-tests-q3",
+          "stem": "前列腺癌怀疑骨转移，需要全身骨病灶筛查，配伍？",
+          "answer": [
+            2
+          ],
+          "page": 106,
+          "explanation": "骨扫描敏感但特异性有限。",
+          "reason": "原泌外检查池夹入唯一病原学及唯一活检，影像题单独保留同类成像候选。"
+        },
+        {
+          "id": "surg-18-x-uro-tests-q4",
+          "stem": "按讲义，确定肾结核破坏程度、帮助选择治疗，重要的传统尿路检查是？",
+          "answer": [
+            3
+          ],
+          "page": 106,
+          "explanation": "IVP/IVU可显示肾盏肾盂破坏及功能情况。",
+          "reason": "原泌外检查池夹入唯一病原学及唯一活检，影像题单独保留同类成像候选。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-18",
+      "module": "surg-18-module-diagnostic-tests",
+      "key": "v5-x-uro-tests-40",
+      "name": "泌尿系病变的影像和取材",
+      "options": [
+        "尿结核分枝杆菌培养",
+        "尿抗酸染色涂片",
+        "尿普通细菌培养",
+        "尿常规"
+      ],
+      "rows": [
+        {
+          "id": "surg-18-x-uro-tests-q5",
+          "stem": "疑似泌尿系结核，按本讲义确证病原的首列培养方法是哪项？",
+          "answer": [
+            0
+          ],
+          "page": 106,
+          "explanation": "尿结核杆菌培养是讲义列的病原学标准。",
+          "reason": "病原题改用同类尿液检查，结核培养与抗酸涂片相互比较，不与五种影像/活检混放。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-18",
+      "module": "surg-18-module-diagnostic-tests",
+      "key": "v5-x-uro-tests-41",
+      "name": "泌尿系病变的影像和取材",
+      "options": [
+        "经膀胱镜或输尿管镜取活检",
+        "经皮穿刺肿物取活检",
+        "直接切除全器官后取病理",
+        "单纯尿液脱落细胞学"
+      ],
+      "rows": [
+        {
+          "id": "surg-18-x-uro-tests-q6",
+          "stem": "膀胱或上尿路尿路上皮肿物，需在直接观察黏膜的同时获取组织学证据，讲义所列取材路径是？",
+          "answer": [
+            0
+          ],
+          "page": 106,
+          "explanation": "膀胱镜用于膀胱，输尿管镜用于上尿路；最终靠组织学确认。",
+          "reason": "原只有一项可取材，现比较四种病理/细胞学取材路径。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-19",
+      "module": "surg-19-module-bph",
+      "key": "v5-x-bph-time-42",
+      "name": "前列腺增生早期、典型症状及体检",
+      "options": [
+        "尿频",
+        "进行性排尿困难",
+        "终末血尿",
+        "急迫性尿失禁"
+      ],
+      "rows": [
+        {
+          "id": "surg-19-x-bph-time-q1",
+          "stem": "良性前列腺增生在讲义中的最早症状是？",
+          "answer": [
+            0
+          ],
+          "page": 108,
+          "explanation": "尿频常早于明显梗阻性排尿困难。",
+          "reason": "症状时间题去掉直肠指检体征，全部改为下尿路症状。"
+        },
+        {
+          "id": "surg-19-x-bph-time-q2",
+          "stem": "良性前列腺增生最典型的症状是？",
+          "answer": [
+            1
+          ],
+          "page": 108,
+          "explanation": "进行性排尿困难不等于最早症状。",
+          "reason": "症状时间题去掉直肠指检体征，全部改为下尿路症状。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-19",
+      "module": "surg-19-module-bph",
+      "key": "v5-x-bph-time-43",
+      "name": "前列腺增生早期、典型症状及体检",
+      "options": [
+        "双叶增大、表面光滑、中间沟变浅或消失",
+        "双叶增大、表面光滑、中间沟明显加深",
+        "外周不规则硬结、中间沟变浅或消失",
+        "外周不规则硬结、中间沟明显加深"
+      ],
+      "rows": [
+        {
+          "id": "surg-19-x-bph-time-q3",
+          "stem": "直肠指检评估前列腺增大，哪组形态更符合讲义良性前列腺增生而非癌性硬结？",
+          "answer": [
+            0
+          ],
+          "page": 108,
+          "explanation": "增生可使中间沟变浅或消失；硬结需警惕癌。",
+          "reason": "原池仅两条指检，其中一条直接为增生，现同样的表面/硬度/沟形字段比较。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-19",
+      "module": "surg-19-module-urinary-stones",
+      "key": "v5-x-stone-priority-44",
+      "name": "多发尿路结石处理次序",
+      "options": [
+        "双肾：先易取侧；双输尿管：可双侧或先梗阻重侧；一肾一输尿管：先输尿管；肾功能极差：先引流",
+        "双肾：先难取侧；双输尿管：可双侧或先梗阻轻侧；一肾一输尿管：先输尿管；肾功能极差：先引流",
+        "双肾：先易取侧；双输尿管：可双侧或先梗阻重侧；一肾一输尿管：先肾；肾功能极差：先引流",
+        "双肾：先易取侧；双输尿管：可双侧或先梗阻重侧；一肾一输尿管：先输尿管；肾功能极差：先直接碎石"
+      ],
+      "rows": [
+        {
+          "id": "surg-19-x-stone-priority-q1",
+          "stem": "按讲义分层原则，双侧肾结石、双输尿管梗阻、一侧肾另一侧输尿管结石及肾功能极差四种情形，哪组处理顺序对应全部正确？",
+          "answer": [
+            0
+          ],
+          "page": 109,
+          "explanation": "四条原关系均保留为同字段对照：双肾先易取侧；双输尿管可双侧处理或先解除梗阻重侧；一肾一输尿管先处理输尿管；肾功能极差先恢复引流。只是讲义原则配伍，不代替急诊评估。",
+          "reason": "原四候选都带有题干同名情境，按词即可抄答；改为四情境同字段交叉错配。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-21",
+      "module": "surg-21-module-analgesia-principles",
+      "key": "v5-x-cox2-45",
+      "name": "慢性损伤的COX-2药物配伍",
+      "options": [
+        "塞来昔布、美洛昔康",
+        "塞来昔布、布洛芬",
+        "美洛昔康、布洛芬",
+        "布洛芬、吲哚美辛"
+      ],
+      "rows": [
+        {
+          "id": "surg-21-x-cox2-q1",
+          "stem": "按本讲义一般用药表，为减少胃黏膜损害列出的COX-2相关NSAIDs组合是？",
+          "answer": [
+            0
+          ],
+          "page": 119,
+          "explanation": "材料将塞来昔布、美洛昔康并列；本题不表示两种药应联合服用，也不意味着没有胃肠或心血管风险。",
+          "reason": "旧池只有一组完全由NSAIDs构成，其余混入糖皮质激素；新候选均为两种NSAIDs，需知道讲义所记选择性差异。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-22",
+      "module": "surg-22-module-hand-replantation",
+      "key": "v5-x-hand-timing-46",
+      "name": "手外伤修复时相",
+      "options": [
+        "6–8小时内可一期；超过12小时除血管外可延期或二期",
+        "6–8小时内均延期；超过12小时除血管外可一期",
+        "6–8小时内可一期；超过12小时包括血管一律延期",
+        "6–8小时内均延期；超过12小时包括血管一律一期"
+      ],
+      "rows": [
+        {
+          "id": "surg-22-x-hand-timing-q1",
+          "stem": "仅按讲义手外伤传统修复时相表，6–8小时内与超过12小时两种情形，哪组对应正确？",
+          "answer": [
+            0
+          ],
+          "page": 123,
+          "explanation": "材料将6–8小时内列为一期修复时相；超过12小时，血管仍应尽快修复，其他组织视情况延期或二期。时间窗只用于材料内考试比较，不是个人伤口处理建议。",
+          "reason": "旧题干和唯一选项都写同一个时间界值，合为相同两时段/血管例外字段比较。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-22",
+      "module": "surg-22-module-avascular-necrosis",
+      "key": "v5-x-necrosis-stage-47",
+      "name": "股骨头坏死讲义X线分期",
+      "options": [
+        "Ⅰ期",
+        "Ⅱ期",
+        "Ⅲ期",
+        "Ⅳ期"
+      ],
+      "rows": [
+        {
+          "id": "surg-22-x-necrosis-stage-q1",
+          "stem": "按讲义“约硬头塌头脱”，软骨下新月征、尚未塌陷的分期是？",
+          "answer": [
+            0
+          ],
+          "page": 124,
+          "explanation": "这是本讲义列出的X线分期，勿与其他分期编号直接混用。",
+          "reason": "原选项分期后直接印出待答阶段名，去除注释才能考阶段鉴别。"
+        },
+        {
+          "id": "surg-22-x-necrosis-stage-q2",
+          "stem": "按讲义分期，股骨头出现修复硬化带，配伍？",
+          "answer": [
+            1
+          ],
+          "page": 124,
+          "explanation": "Ⅱ期材料强调修复硬化带。",
+          "reason": "原选项分期后直接印出待答阶段名，去除注释才能考阶段鉴别。"
+        },
+        {
+          "id": "surg-22-x-necrosis-stage-q3",
+          "stem": "按讲义分期，股骨头已发生塌陷，配伍？",
+          "answer": [
+            2
+          ],
+          "page": 124,
+          "explanation": "Ⅲ期头塌陷。",
+          "reason": "原选项分期后直接印出待答阶段名，去除注释才能考阶段鉴别。"
+        },
+        {
+          "id": "surg-22-x-necrosis-stage-q4",
+          "stem": "按讲义分期，Shenton线不连续、关节间隙窄、髋臼骨赘，配伍？",
+          "answer": [
+            3
+          ],
+          "page": 124,
+          "explanation": "Ⅳ期列晚期继发关节改变，可考虑全髋关节置换。",
+          "reason": "原选项分期后直接印出待答阶段名，去除注释才能考阶段鉴别。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-22",
+      "module": "surg-22-module-avascular-necrosis",
+      "key": "v5-x-avascular-operations-48",
+      "name": "股骨头坏死早晚阶段手术方向",
+      "options": [
+        "髓芯减压术",
+        "全髋关节置换术",
+        "髋关节融合术",
+        "单纯截骨矫形术"
+      ],
+      "rows": [
+        {
+          "id": "surg-22-x-avascular-operations-q1",
+          "stem": "按讲义股骨头坏死尚未塌陷的早期阶段，可考虑哪种保头方向？",
+          "answer": [
+            0
+          ],
+          "page": 124,
+          "explanation": "早期髓芯减压与晚期关节置换不同。",
+          "reason": "去掉正确候选独有的“保头”等目的标签，避免题干点名保头便可抄答。"
+        },
+        {
+          "id": "surg-22-x-avascular-operations-q2",
+          "stem": "按讲义股骨头晚期脱位、间隙窄和髋臼骨赘，手术方向是？",
+          "answer": [
+            1
+          ],
+          "page": 124,
+          "explanation": "晚期继发关节改变常需置换评估。",
+          "reason": "去掉正确候选独有的“保头”等目的标签，避免题干点名保头便可抄答。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-23",
+      "module": "surg-23-module-acute-pyogenic",
+      "key": "v5-x-osteomyelitis-early-49",
+      "name": "急性骨髓炎早期诊断价值对照",
+      "options": [
+        "MRI",
+        "超声",
+        "普通X线",
+        "CT"
+      ],
+      "rows": [
+        {
+          "id": "surg-23-x-osteomyelitis-early-q1",
+          "stem": "急性骨髓炎起病早期，寻找骨髓及软组织改变，讲义首选影像是？",
+          "answer": [
+            0
+          ],
+          "page": 131,
+          "explanation": "X线2周内可能阴性；首选影像与获取病原证据的穿刺不同。",
+          "reason": "影像题移除唯一穿刺，四个候选均为影像方法。"
+        },
+        {
+          "id": "surg-23-x-osteomyelitis-early-q3",
+          "stem": "急性骨髓炎发病2周内可能尚无明确阳性改变的常规检查是？",
+          "answer": [
+            2
+          ],
+          "page": 131,
+          "explanation": "早期X线阴性不能排除骨髓炎。",
+          "reason": "影像题移除唯一穿刺，四个候选均为影像方法。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-23",
+      "module": "surg-23-module-acute-pyogenic",
+      "key": "v5-x-osteomyelitis-early-50",
+      "name": "急性骨髓炎早期诊断价值对照",
+      "options": [
+        "局部脓肿分层穿刺",
+        "关节腔穿刺",
+        "外周血培养",
+        "常规骨髓穿刺"
+      ],
+      "rows": [
+        {
+          "id": "surg-23-x-osteomyelitis-early-q2",
+          "stem": "急性骨髓炎需要直接找到脓细胞或细菌，讲义最佳的局部取材检查是？",
+          "answer": [
+            0
+          ],
+          "page": 137,
+          "explanation": "分层穿刺提供直接证据，不能用单纯血象代替。",
+          "reason": "直接局部取材题不再与三种影像混池，候选统一为取材/病原检查路径。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-23",
+      "module": "surg-23-module-acute-pyogenic",
+      "key": "v5-x-joint-fluid-51",
+      "name": "化脓性关节炎关节液阶段",
+      "options": [
+        "浆液期清亮；纤维蛋白期混浊；脓性期黄白色",
+        "浆液期黄白色；纤维蛋白期混浊；脓性期清亮",
+        "浆液期清亮；纤维蛋白期黄白色；脓性期混浊",
+        "浆液期混浊；纤维蛋白期清亮；脓性期黄白色"
+      ],
+      "rows": [
+        {
+          "id": "surg-23-x-joint-fluid-q1",
+          "stem": "只按讲义化脓性关节炎发展表，浆液期、纤维蛋白期、脓性期的关节液外观依次哪组正确？",
+          "answer": [
+            0
+          ],
+          "page": 132,
+          "explanation": "讲义依次列为较清亮、混浊、黄白色。原池已把阶段与颜色整行印出，现改为相同三阶段的错配组合。",
+          "reason": "去除阶段名称直接附答案的抄答形式，所有候选同三字段。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-23",
+      "module": "surg-23-module-acute-pyogenic",
+      "key": "v5-x-joint-diagnosis-52",
+      "name": "急性化脓性关节炎直接诊断",
+      "options": [
+        "关节腔穿刺",
+        "关节镜下取材",
+        "关节周围软组织穿刺",
+        "外周血培养"
+      ],
+      "rows": [
+        {
+          "id": "surg-23-x-joint-diagnosis-q1",
+          "stem": "急性关节红肿痛，最能直接评价关节液并获取培养标本的检查是？",
+          "answer": [
+            0
+          ],
+          "page": 132,
+          "explanation": "关节穿刺有助于判断液体性质和病原。",
+          "reason": "原只有关节穿刺可取关节液，其余均影像；新池比较取材路径。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-23",
+      "module": "surg-23-module-chronic-osteomyelitis",
+      "key": "v5-x-chronic-osteo-53",
+      "name": "慢性骨髓炎死骨、死腔与急性发作",
+      "options": [
+        "包壳充分后清除大块死骨",
+        "肌瓣或抗菌骨水泥填塞",
+        "抗菌治疗，积脓时切开引流",
+        "急性期立即全面病灶清除",
+        "病骨整段切除"
+      ],
+      "rows": [
+        {
+          "id": "surg-23-x-chronic-osteo-q1",
+          "stem": "慢性骨髓炎大块死骨，避免长段骨缺损及病理骨折的时机原则是？",
+          "answer": [
+            0
+          ],
+          "page": 132,
+          "explanation": "需有足够包壳支持后再清除大块死骨。",
+          "reason": "去掉候选中大块死骨/死腔/急性发作/不重要部位的整段适应证，保留同类处理动作。"
+        },
+        {
+          "id": "surg-23-x-chronic-osteo-q2",
+          "stem": "慢性骨髓炎清除死骨后残留死腔，配伍何种处理？",
+          "answer": [
+            1
+          ],
+          "page": 137,
+          "explanation": "肌瓣、抗菌骨水泥及碟形手术等均用于处理死腔。",
+          "reason": "去掉候选中大块死骨/死腔/急性发作/不重要部位的整段适应证，保留同类处理动作。"
+        },
+        {
+          "id": "surg-23-x-chronic-osteo-q3",
+          "stem": "慢性骨髓炎急性发作期，讲义正确处理方向是？",
+          "answer": [
+            2
+          ],
+          "page": 135,
+          "explanation": "此时不做全面病灶清除；有积脓则切开引流。",
+          "reason": "去掉候选中大块死骨/死腔/急性发作/不重要部位的整段适应证，保留同类处理动作。"
+        },
+        {
+          "id": "surg-23-x-chronic-osteo-q4",
+          "stem": "肋骨、腓骨、髂骨翼等相对不重要部位经久病变，讲义可采用？",
+          "answer": [
+            4
+          ],
+          "page": 132,
+          "explanation": "在适当条件下可切除病段，不必把所有病骨都限制为局部刮除。",
+          "reason": "去掉候选中大块死骨/死腔/急性发作/不重要部位的整段适应证，保留同类处理动作。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-24",
+      "module": "surg-24-module-pathogenesis-markers",
+      "key": "v5-x-arthritis-origin-54",
+      "name": "关节病变的起始组织与机制",
+      "options": [
+        "关节软骨退变",
+        "滑膜炎症增生",
+        "附着点炎症相关病变",
+        "关节腔反复出血",
+        "骨缺血坏死"
+      ],
+      "rows": [
+        {
+          "id": "surg-24-x-arthritis-origin-q3",
+          "stem": "强直性脊柱炎的典型起病关系，配伍？",
+          "answer": [
+            2
+          ],
+          "page": 140,
+          "explanation": "常从骶髂关节开始，病理特征强调附着点炎。",
+          "reason": "混池原将解剖结构与机制长句混用，统一为病理机制表达，不附疾病标签。"
+        },
+        {
+          "id": "surg-24-x-arthritis-origin-q4",
+          "stem": "血友病性关节炎的起始机制是？",
+          "answer": [
+            3
+          ],
+          "page": 141,
+          "explanation": "反复关节出血是关键。",
+          "reason": "混池原将解剖结构与机制长句混用，统一为病理机制表达，不附疾病标签。"
+        },
+        {
+          "id": "surg-24-x-arthritis-origin-q5",
+          "stem": "股骨头无菌性坏死的起始病变方向是？",
+          "answer": [
+            4
+          ],
+          "page": 141,
+          "explanation": "首先是骨的缺血坏死，不是原发滑膜炎。",
+          "reason": "混池原将解剖结构与机制长句混用，统一为病理机制表达，不附疾病标签。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-24",
+      "module": "surg-24-module-pathogenesis-markers",
+      "key": "v5-x-arthritis-markers-55",
+      "name": "强直性与类风湿的相关标志物",
+      "options": [
+        "HLA-B27",
+        "HLA-DR4",
+        "HLA-B5",
+        "HLA-B51"
+      ],
+      "rows": [
+        {
+          "id": "surg-24-x-arthritis-markers-q1",
+          "stem": "青年男性、骶髂及脊柱受累，讲义相关标志物配伍？",
+          "answer": [
+            0
+          ],
+          "page": 140,
+          "explanation": "HLA-B27支持强直性脊柱炎背景，单项阳性不能独立确诊。",
+          "reason": "原池只有一项HLA遗传标记，与抗体及肿瘤指标混放；改为同类HLA标记。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-24",
+      "module": "surg-24-module-pathogenesis-markers",
+      "key": "v5-x-arthritis-markers-56",
+      "name": "强直性与类风湿的相关标志物",
+      "options": [
+        "抗CCP及RF",
+        "抗dsDNA及抗Sm",
+        "抗SSA及抗SSB",
+        "cANCA及pANCA"
+      ],
+      "rows": [
+        {
+          "id": "surg-24-x-arthritis-markers-q2",
+          "stem": "对称腕掌指近端指间关节炎，讲义相关抗体组合配伍？",
+          "answer": [
+            0
+          ],
+          "page": 140,
+          "explanation": "抗CCP、RF与类风湿关节炎相关。",
+          "reason": "原抗体组合为唯一双项候选，改为四组同类自身抗体组合。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-24",
+      "module": "surg-24-module-axial-arthritis",
+      "key": "v5-x-as-early-57",
+      "name": "强直性脊柱炎关键部位与影像",
+      "options": [
+        "骶髂关节影像＋HLA-B27",
+        "双髋关节影像＋HLA-B27",
+        "骶髂关节影像＋RF",
+        "双髋关节影像＋RF"
+      ],
+      "rows": [
+        {
+          "id": "surg-24-x-as-early-q1",
+          "stem": "青年慢性腰背痛、双骶髂关节可疑改变，进一步明确强直性脊柱炎最关键的组合是？",
+          "answer": [
+            0
+          ],
+          "page": 141,
+          "explanation": "诊断关键是骶髂影像，MRI可早期显示炎性改变，需结合临床而非只查HLA。",
+          "reason": "旧池只有一组风湿相关指标，其他是肿瘤标志物/无关解剖，现影像部位＋风湿标记两个字段一致。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-24",
+      "module": "surg-24-module-axial-arthritis",
+      "key": "v5-x-exercise-pattern-58",
+      "name": "强直性脊柱炎休息与活动关系",
+      "options": [
+        "休息后加重、活动后减轻",
+        "休息后减轻、活动后加重",
+        "休息与活动后均加重",
+        "休息与活动后均减轻"
+      ],
+      "rows": [
+        {
+          "id": "surg-24-x-exercise-pattern-q1",
+          "stem": "慢性炎性腰背痛在讲义的强直性脊柱炎记忆中，典型节律是？",
+          "answer": [
+            0
+          ],
+          "page": 140,
+          "explanation": "“休息后加重、活动后减轻”区别于许多机械性疼痛。",
+          "reason": "原两个负例是进食/屏气，与休息活动节律不属同字段；统一四组休息/活动变化。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-25",
+      "module": "surg-25-module-diagnosis-metastasis",
+      "key": "v5-x-bone-labs-59",
+      "name": "骨肿瘤代谢与转移相关生化",
+      "options": [
+        "溶骨：血钙可升；成骨：ALP可升；前列腺成骨转移：ACP与ALP可升",
+        "溶骨：血钙可降；成骨：ALP可升；前列腺成骨转移：ACP与ALP可升",
+        "溶骨：血钙可升；成骨：ALP可降；前列腺成骨转移：ACP与ALP可升",
+        "溶骨：血钙可升；成骨：ALP可升；前列腺成骨转移：ACP与ALP可降"
+      ],
+      "rows": [
+        {
+          "id": "surg-25-x-bone-labs-q1",
+          "stem": "按讲义骨病变与生化指标表，哪组三字段对应全部正确？",
+          "answer": [
+            0
+          ],
+          "page": 143,
+          "explanation": "溶骨性病变血钙可高；成骨性病变ALP可高；前列腺成骨转移可使ACP和ALP均高。全部采用“可”而不是无条件必然。",
+          "reason": "原三条相关指标全正确、唯一PSA荒诞项错误，改为每个候选相同病变/指标的组合。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-25",
+      "module": "surg-25-module-osteochondroma",
+      "key": "v5-x-osteochondroma-management-60",
+      "name": "骨软骨瘤观察、切除及恶变线索",
+      "options": [
+        "基底周围连同部分正常骨切除",
+        "仅切除外露突起，保留基底",
+        "只切除软骨帽，保留基底骨质",
+        "仅刮除髓腔，保留表面病灶"
+      ],
+      "rows": [
+        {
+          "id": "surg-25-x-osteochondroma-management-q2",
+          "stem": "骨软骨瘤有切除指征时，讲义强调切除范围是？",
+          "answer": [
+            0
+          ],
+          "page": 143,
+          "explanation": "从基底四周正常骨开始切除，减少残留。",
+          "reason": "原切除范围题只有一条含范围，其余为观察/警示/化疗；改为同类切除范围。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-25",
+      "module": "surg-25-module-osteochondroma",
+      "key": "v5-x-osteochondroma-management-61",
+      "name": "骨软骨瘤观察、切除及恶变线索",
+      "options": [
+        "警惕恶变",
+        "考虑正常骨骺生长",
+        "考虑单纯局部滑囊刺激",
+        "考虑单纯外伤性软组织肿胀"
+      ],
+      "rows": [
+        {
+          "id": "surg-25-x-osteochondroma-management-q3",
+          "stem": "骨骺已闭合，原先稳定的骨软骨瘤重新长大，并有明显疼痛、软组织肿块和骨破坏。按讲义应优先警惕哪种变化？",
+          "answer": [
+            0
+          ],
+          "page": 144,
+          "explanation": "新出现生长与痛等恶变线索，需要重新评估。",
+          "reason": "原池只有一个“警惕”式判断，其余是操作，改为同类病情解释。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-25",
+      "module": "surg-25-module-tumor-treatment",
+      "key": "v5-x-bone-tumor-therapies-62",
+      "name": "骨肉瘤、尤因与淋巴瘤治疗顺序",
+      "options": [
+        "化疗→根治手术→化疗",
+        "根治手术→化疗→放疗",
+        "放疗→根治手术→放疗",
+        "局部刮除→植骨→不作系统治疗"
+      ],
+      "rows": [
+        {
+          "id": "surg-25-x-bone-tumor-therapies-q1",
+          "stem": "讲义对骨肉瘤的经典治疗顺序是？",
+          "answer": [
+            0
+          ],
+          "page": 148,
+          "explanation": "“手术放在化疗间”；术前还应重点查胸部寻找肺转移。",
+          "reason": "旧池只有一条三段时间顺序，改为相同三段治疗顺序。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-25",
+      "module": "surg-25-module-tumor-treatment",
+      "key": "v5-x-bone-tumor-therapies-63",
+      "name": "骨肉瘤、尤因与淋巴瘤治疗顺序",
+      "options": [
+        "放疗高度敏感，并配合化疗及手术",
+        "放疗不敏感，并配合化疗及手术",
+        "放疗高度敏感，不需化疗及手术",
+        "放疗不敏感，不需化疗及手术"
+      ],
+      "rows": [
+        {
+          "id": "surg-25-x-bone-tumor-therapies-q2",
+          "stem": "尤因肉瘤的放疗敏感性及综合治疗方向，配伍？",
+          "answer": [
+            0
+          ],
+          "page": 144,
+          "explanation": "尤因肉瘤对放疗极敏感，结合化疗和手术。",
+          "reason": "原敏感性题只有一个候选含敏感性，四项均比较放疗敏感性及联合治疗。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-25",
+      "module": "surg-25-module-tumor-treatment",
+      "key": "v5-x-bone-tumor-therapies-64",
+      "name": "骨肉瘤、尤因与淋巴瘤治疗顺序",
+      "options": [
+        "化疗及放疗为主、手术为辅",
+        "手术为主、化疗及放疗为辅",
+        "仅化疗、不作放疗及手术",
+        "仅手术、不作化疗及放疗"
+      ],
+      "rows": [
+        {
+          "id": "surg-25-x-bone-tumor-therapies-q3",
+          "stem": "骨淋巴瘤的讲义治疗方向，配伍？",
+          "answer": [
+            0
+          ],
+          "page": 145,
+          "explanation": "化疗、放疗为主，不把所有骨肿瘤都先手术。",
+          "reason": "骨淋巴瘤题独立为同三种治疗的主次关系，不与治疗顺序、放疗敏感性混池。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-26",
+      "module": "surg-26-module-cord-localization",
+      "key": "v5-x-cord-artery-65",
+      "name": "脊髓损伤血管对应",
+      "options": [
+        "前脊髓综合征",
+        "后脊髓综合征",
+        "中央管周围综合征",
+        "脊髓半切综合征"
+      ],
+      "rows": [
+        {
+          "id": "surg-26-x-cord-artery-q1",
+          "stem": "仅按本讲义不完全脊髓损伤对照表，哪型列为下肢瘫痪重于上肢、且程度较严重的一型？",
+          "answer": [
+            0
+          ],
+          "page": 154,
+          "explanation": "第154页表将前脊髓综合征列为下肢瘫痪较重；中央管周围型在该表为上肢瘫痪较重，后脊髓型以深感觉障碍为主，半切型按侧别分离。此为材料表内比较，不推广为所有部位损伤的临床规则。",
+          "reason": "移除题干直接给出前脊髓动脉的答案词，回到原表提供的运动分布对照，不补原文未写的感觉规则。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-26",
+      "module": "surg-26-module-spine-assessment",
+      "key": "v5-x-imaging-transfer-66",
+      "name": "脊柱损伤检查与搬运",
+      "options": [
+        "X线平片",
+        "CT",
+        "MRI",
+        "超声"
+      ],
+      "rows": [
+        {
+          "id": "surg-26-x-imaging-transfer-q1",
+          "stem": "骨折的常规初步影像学检查配伍哪项？",
+          "answer": [
+            0
+          ],
+          "page": 151,
+          "explanation": "X线是骨科常规检查；不代表所有隐匿骨折均可排除。",
+          "reason": "影像比较移除唯一非影像检查肌电图，避免由检查类别排除。"
+        },
+        {
+          "id": "surg-26-x-imaging-transfer-q2",
+          "stem": "寰椎骨折线在平片不清楚时，重点补充哪项检查显示骨性结构？",
+          "answer": [
+            1
+          ],
+          "page": 152,
+          "explanation": "寰椎前后弓骨折需CT进一步明确。",
+          "reason": "影像比较移除唯一非影像检查肌电图，避免由检查类别排除。"
+        },
+        {
+          "id": "surg-26-x-imaging-transfer-q3",
+          "stem": "高处坠落后胸背痛、双下肢不能活动，要明确脊髓受压，哪项最有价值？",
+          "answer": [
+            2
+          ],
+          "page": 156,
+          "explanation": "MRI能直接观察脊髓、神经及软组织损伤。",
+          "reason": "影像比较移除唯一非影像检查肌电图，避免由检查类别排除。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-26",
+      "module": "surg-26-module-pelvic-complex",
+      "key": "v5-x-pelvic-complications-67",
+      "name": "骨盆与脊髓损伤并发症鉴别",
+      "options": [
+        "后尿道损伤",
+        "前尿道损伤",
+        "输尿管损伤",
+        "膀胱损伤"
+      ],
+      "rows": [
+        {
+          "id": "surg-26-x-pelvic-complications-q2",
+          "stem": "骨盆骨折最常见的泌尿道合并损伤，讲义重点指向哪项？",
+          "answer": [
+            0
+          ],
+          "page": 156,
+          "explanation": "后尿道特别是膜部易损伤，区别于肾损伤。",
+          "reason": "骨盆骨折泌尿道合并损伤原池只有一条损伤类型，现全部为泌尿道创伤。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-26",
+      "module": "surg-26-module-pelvic-complex",
+      "key": "v5-x-pelvic-complications-68",
+      "name": "骨盆与脊髓损伤并发症鉴别",
+      "options": [
+        "自主神经功能紊乱、呼吸道感染、尿路感染或结石",
+        "失血性休克、呼吸道感染、尿路感染或结石",
+        "后尿道断裂、呼吸道感染、尿路感染或结石",
+        "后尿道断裂、失血性休克、急性肺栓塞"
+      ],
+      "rows": [
+        {
+          "id": "surg-26-x-pelvic-complications-q3",
+          "stem": "按讲义高位截瘫并发症列表，哪组三项均属于其重点列出的长期问题？",
+          "answer": [
+            0
+          ],
+          "page": 155,
+          "explanation": "材料重点列自主神经功能紊乱、呼吸道感染及尿路感染/结石。其他创伤也可发生早期危重并发症，但本题问该长期列表，不表示其绝无其他风险。",
+          "reason": "原多选只剩三条同类长期问题可直接全选，改为同三项并发症集合的比较。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-27",
+      "module": "surg-27-module-root-localization",
+      "key": "v5-x-cervical-root-level-69",
+      "name": "颈神经根定位组合",
+      "options": [
+        "C5神经根",
+        "C6神经根",
+        "C7神经根",
+        "C8神经根"
+      ],
+      "rows": [
+        {
+          "id": "surg-27-x-cervical-root-level-q1",
+          "stem": "颈椎病患者拇指侧针刺觉减退，按讲义根节段定位，最相符的是？",
+          "answer": [
+            1
+          ],
+          "page": 167,
+          "explanation": "C5–6椎间盘病变可累及C6神经根，拇指是讲义定位线索。",
+          "reason": "原选项已带完整运动/感觉分布，题干重复即可抄答，且“666”直接泄出节段；改为仅列同类颈神经根。"
+        },
+        {
+          "id": "surg-27-x-cervical-root-level-q2",
+          "stem": "仍能屈肘但不能伸肘，区别肱二头肌与肱三头肌功能时，伸肘主要对应哪组？",
+          "answer": [
+            2
+          ],
+          "page": 167,
+          "explanation": "附图将伸肘、肱三头肌联系C7节段；不能把椎间盘水平与神经根编号混为一谈。",
+          "reason": "原选项已带完整运动/感觉分布，题干重复即可抄答，且“666”直接泄出节段；改为仅列同类颈神经根。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-28",
+      "module": "surg-28-module-hip-differential",
+      "key": "v5-x-pauwels-70",
+      "name": "Pauwels角与稳定性",
+      "options": [
+        "＜30°、较稳定",
+        "＞50°、较不稳定",
+        "＜30°、较不稳定",
+        "＞50°、较稳定"
+      ],
+      "rows": [
+        {
+          "id": "surg-28-x-pauwels-q1",
+          "stem": "按讲义，股骨颈外展型骨折的角度与稳定性组合是？",
+          "answer": [
+            0
+          ],
+          "page": 176,
+          "explanation": "骨折线越竖直，剪切力越大；Pauwels角并非颈干角。",
+          "reason": "去掉题干已有的外展/内收名称标签，仅比较同角度/稳定性字段。"
+        },
+        {
+          "id": "surg-28-x-pauwels-q2",
+          "stem": "按讲义，股骨颈内收型骨折的角度与稳定性组合是？",
+          "answer": [
+            1
+          ],
+          "page": 176,
+          "explanation": "＞50°为讲义内收型、不稳定。",
+          "reason": "去掉题干已有的外展/内收名称标签，仅比较同角度/稳定性字段。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-28",
+      "module": "surg-28-module-hip-differential",
+      "key": "v5-x-fracture-first-image-71",
+      "name": "四肢骨折初步影像学选择",
+      "options": [
+        "X线正侧位片",
+        "MRI",
+        "骨显像",
+        "CT"
+      ],
+      "rows": [
+        {
+          "id": "surg-28-x-fracture-first-image-q1",
+          "stem": "老人跌倒后髋痛、短缩外旋，怀疑股骨颈骨折，讲义病例首选检查是？",
+          "answer": [
+            0
+          ],
+          "page": 181,
+          "explanation": "若平片阴性仍高度怀疑隐匿骨折，应追加适当影像；此处考初步常规检查。",
+          "reason": "首选影像题移除唯一非影像检查肌电图，四个候选均属影像方法。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-28",
+      "module": "surg-28-module-cross-injury-localization",
+      "key": "v5-x-normal-angles-72",
+      "name": "骨科角度阈值同字段比较",
+      "options": [
+        "30–50°",
+        "12–15°",
+        "20–25°",
+        "60–70°"
+      ],
+      "rows": [
+        {
+          "id": "surg-28-x-normal-angles-q1",
+          "stem": "肱骨干轴线与肱骨髁轴线的正常前倾角，讲义配伍？",
+          "answer": [
+            0
+          ],
+          "page": 181,
+          "explanation": "前倾角是儿童髁上骨折的解剖学基础。",
+          "reason": "原正常角度、髋内翻和髋外翻的阈值方向/格式不一致，正常角度单独同范围格式比较。"
+        },
+        {
+          "id": "surg-28-x-normal-angles-q4",
+          "stem": "讲义所列股骨颈前倾角约为？",
+          "answer": [
+            1
+          ],
+          "page": 177,
+          "explanation": "前倾角与颈干角、Pauwels角是不同测量。",
+          "reason": "原正常角度、髋内翻和髋外翻的阈值方向/格式不一致，正常角度单独同范围格式比较。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-28",
+      "module": "surg-28-module-cross-injury-localization",
+      "key": "v5-x-normal-angles-73",
+      "name": "骨科角度阈值同字段比较",
+      "options": [
+        "髋内翻≤110°；髋外翻≥140°",
+        "髋内翻≤140°；髋外翻≥110°",
+        "髋内翻≤110°；髋外翻≥120°",
+        "髋内翻≤90°；髋外翻≥140°"
+      ],
+      "rows": [
+        {
+          "id": "surg-28-x-normal-angles-q2",
+          "stem": "按讲义颈干角分类表，髋内翻与髋外翻的规定界值依次是哪组？",
+          "answer": [
+            0
+          ],
+          "page": 180,
+          "explanation": "材料列髋内翻≤110°、髋外翻≥140°。本题问表定界值，不是判断给定角度是否满足某范围。",
+          "reason": "旧池只有一个≤和一个≥数值，分别问内/外翻可直接按形式选；改为相同双字段界值。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-28",
+      "module": "surg-28-module-cross-injury-localization",
+      "key": "v5-x-shoulder-methods-74",
+      "name": "关节脱位传统复位手法",
+      "options": [
+        "足蹬复位法",
+        "提拉复位法",
+        "环抱复位法",
+        "旋转复位法"
+      ],
+      "rows": [
+        {
+          "id": "surg-28-x-shoulder-methods-q1",
+          "stem": "讲义肩前脱位配伍哪种传统复位手法？",
+          "answer": [
+            0
+          ],
+          "page": 169,
+          "explanation": "只考名称—部位，不构成现场自行复位指导。",
+          "reason": "原肘关节手法选项直接含肘关节，按部位名即可选；统一只给复位动作名称，不提供操作步骤。"
+        },
+        {
+          "id": "surg-28-x-shoulder-methods-q2",
+          "stem": "讲义EpsteinⅠ型髋后脱位配伍哪种手法？",
+          "answer": [
+            1
+          ],
+          "page": 175,
+          "explanation": "须充分麻醉和专业监护，实际急诊需尽早复位，不应等待固定24–48h。",
+          "reason": "原肘关节手法选项直接含肘关节，按部位名即可选；统一只给复位动作名称，不提供操作步骤。"
+        },
+        {
+          "id": "surg-28-x-shoulder-methods-q3",
+          "stem": "讲义肘关节后脱位配伍哪种复位名称？",
+          "answer": [
+            2
+          ],
+          "page": 172,
+          "explanation": "关节脱位需排除合并骨折及血管神经损伤。",
+          "reason": "原肘关节手法选项直接含肘关节，按部位名即可选；统一只给复位动作名称，不提供操作步骤。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-29",
+      "module": "surg-29-module-fracture-healing",
+      "key": "v5-x-healing-process-75",
+      "name": "骨痂形成途径与位置",
+      "options": [
+        "膜内成骨→内外骨痂；软骨内成骨→连接骨痂；编织骨重建→板层骨",
+        "膜内成骨→连接骨痂；软骨内成骨→内外骨痂；编织骨重建→板层骨",
+        "膜内成骨→内外骨痂；软骨内成骨→板层骨；编织骨重建→连接骨痂",
+        "膜内成骨→板层骨；软骨内成骨→连接骨痂；编织骨重建→内外骨痂"
+      ],
+      "rows": [
+        {
+          "id": "surg-29-x-healing-process-q1",
+          "stem": "按讲义骨折愈合途径，膜内成骨、软骨内成骨与编织骨重建三个过程的对应产物，哪组全部正确？",
+          "answer": [
+            0
+          ],
+          "page": 184,
+          "explanation": "膜内成骨形成内外骨痂，软骨内成骨形成连接骨痂，重建使编织骨成为板层骨。每项均用相同三个过程，而非把唯一破骨细胞错误混入成骨过程。",
+          "reason": "旧多选为三个正确成骨途径与一个不同类型细胞作用，改为同三过程/产物错配。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-30",
+      "module": "surg-30-module-transfusion-reactions",
+      "key": "v5-x-massive-complications-76",
+      "name": "大量输血后代谢关系",
+      "options": [
+        "代谢性碱中毒",
+        "代谢性酸中毒",
+        "呼吸性碱中毒",
+        "呼吸性酸中毒"
+      ],
+      "rows": [
+        {
+          "id": "surg-30-x-massive-complications-q1",
+          "stem": "大量输库存血，枸橼酸代谢为碳酸氢盐后，讲义首先串联哪种酸碱变化？",
+          "answer": [
+            0
+          ],
+          "page": 189,
+          "explanation": "枸橼酸代谢提供碱负荷，区别输血血细胞钾外移。",
+          "reason": "酸碱题原池只有一条酸碱异常，改成四种同类酸碱紊乱。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-30",
+      "module": "surg-30-module-transfusion-reactions",
+      "key": "v5-x-massive-complications-77",
+      "name": "大量输血后代谢关系",
+      "options": [
+        "低钙血症",
+        "高钙血症",
+        "低钾血症",
+        "高钾血症"
+      ],
+      "rows": [
+        {
+          "id": "surg-30-x-massive-complications-q2",
+          "stem": "枸橼酸螯合游离钙，讲义串联哪种电解质异常？",
+          "answer": [
+            0
+          ],
+          "page": 189,
+          "explanation": "大量含枸橼酸血制品可降低游离钙。",
+          "reason": "枸橼酸题单列同类电解质异常池，不混入酸碱和体温。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-30",
+      "module": "surg-30-module-transfusion-reactions",
+      "key": "v5-x-massive-complications-78",
+      "name": "大量输血后代谢关系",
+      "options": [
+        "代谢性碱中毒、高钾、低钙、低体温",
+        "代谢性酸中毒、高钾、低钙、低体温",
+        "代谢性碱中毒、低钾、低钙、低体温",
+        "代谢性碱中毒、高钾、高钙、高体温"
+      ],
+      "rows": [
+        {
+          "id": "surg-30-x-massive-complications-q3",
+          "stem": "仅按本讲义大量输库存血的典型并发症列表，哪组酸碱、钾、钙和体温四项全部符合？",
+          "answer": [
+            0
+          ],
+          "page": 189,
+          "explanation": "材料列代谢性碱中毒、高钾、低钙及低体温。本题只比较该列表，不声称真实大量输血者不会出现其他酸碱或钾变化。",
+          "reason": "原多选的唯一酸碱和唯一体温项可直接全选，改成同四字段组合。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-31",
+      "module": "surg-31-module-water-sodium",
+      "key": "v5-x-sodium-grades-79",
+      "name": "低渗性脱水的血钠分层",
+      "options": [
+        "轻度",
+        "中度",
+        "重度"
+      ],
+      "rows": [
+        {
+          "id": "surg-31-x-sodium-grades-q1",
+          "stem": "血钠132mmol/L且丢钠多于丢水，按讲义低渗脱水程度归为？",
+          "answer": [
+            0
+          ],
+          "page": 191,
+          "explanation": "用区间内部值避免边界重叠。",
+          "reason": "删除低钠分级名称后直接附上的数值答案，移除不属低钠程度的高渗脱水项。"
+        },
+        {
+          "id": "surg-31-x-sodium-grades-q2",
+          "stem": "血钠125mmol/L且丢钠多于丢水，按讲义程度归为？",
+          "answer": [
+            1
+          ],
+          "page": 191,
+          "explanation": "讲义分层中度120–130。",
+          "reason": "删除低钠分级名称后直接附上的数值答案，移除不属低钠程度的高渗脱水项。"
+        },
+        {
+          "id": "surg-31-x-sodium-grades-q3",
+          "stem": "血钠116mmol/L且丢钠多于丢水，按讲义程度归为？",
+          "answer": [
+            2
+          ],
+          "page": 191,
+          "explanation": "严重低钠的临床处理需控制纠正速度，此处只考分层。",
+          "reason": "删除低钠分级名称后直接附上的数值答案，移除不属低钠程度的高渗脱水项。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-31",
+      "module": "surg-31-module-electrolyte-recognition",
+      "key": "v5-x-calcium-causes-80",
+      "name": "钙紊乱病因对应",
+      "options": [
+        "呼吸性碱中毒",
+        "呼吸性酸中毒",
+        "代谢性碱中毒",
+        "代谢性酸中毒"
+      ],
+      "rows": [
+        {
+          "id": "surg-31-x-calcium-causes-q2",
+          "stem": "癔症发作过度通气后口周麻木、手足搐搦，其酸碱起点最符合哪项？",
+          "answer": [
+            0
+          ],
+          "page": 193,
+          "explanation": "过度通气降低PaCO2，形成呼碱而降低游离钙。",
+          "reason": "原问酸碱起点时只有一个酸碱异常候选，改为四类酸碱紊乱。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-31",
+      "module": "surg-31-module-potassium-mechanism",
+      "key": "v5-potassium-81",
+      "name": "高钾处置机制配伍",
+      "options": [
+        "钙剂：对抗心脏毒性；胰岛素/葡萄糖：转入细胞；透析：体外移除；利尿剂：尿排出",
+        "钙剂：转入细胞；胰岛素/葡萄糖：对抗心脏毒性；透析：体外移除；利尿剂：尿排出",
+        "钙剂：对抗心脏毒性；胰岛素/葡萄糖：体外移除；透析：转入细胞；利尿剂：尿排出",
+        "钙剂：对抗心脏毒性；胰岛素/葡萄糖：转入细胞；透析：尿排出；利尿剂：体外移除"
+      ],
+      "rows": [
+        {
+          "id": "surg-31-potassium-q1",
+          "stem": "只比较讲义高钾处理的作用环节，不讨论具体适应证和剂量：哪组钙剂、胰岛素/葡萄糖、透析与排钾利尿剂的机制对应全部正确？",
+          "answer": [
+            0
+          ],
+          "page": 192,
+          "explanation": "钙剂对抗心脏毒性而不直接移除钾；胰岛素/葡萄糖促进钾入细胞；透析体外移除；利尿剂在肾功能和尿量允许时增加尿排钾。新池每项均含同四种措施及机制。",
+          "reason": "原体外途径题只有一个非药物措施，其他作用环节也各剩唯一类别；合为同四字段机制错配。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-31",
+      "module": "surg-31-module-potassium-mechanism",
+      "key": "v5-x-acid-potassium-82",
+      "name": "钾失衡与反常性尿液组合",
+      "options": [
+        "代谢性碱中毒、反常性酸性尿",
+        "代谢性酸中毒、反常性碱性尿",
+        "代谢性酸中毒、酸性尿",
+        "代谢性碱中毒、碱性尿"
+      ],
+      "rows": [
+        {
+          "id": "surg-31-x-acid-potassium-q1",
+          "stem": "在钾紊乱为原发因素的讲义模型中，低钾配伍哪组酸碱/尿液变化？",
+          "answer": [
+            0
+          ],
+          "page": 191,
+          "explanation": "肾小管H-K竞争及交换关系；原醛等有特殊机制，不能泛化所有低钾尿pH。",
+          "reason": "移除选项重复的低钾/高钾题干标签，统一为酸碱与尿液两个字段。"
+        },
+        {
+          "id": "surg-31-x-acid-potassium-q2",
+          "stem": "在钾紊乱为原发因素的讲义模型中，高钾配伍哪组？",
+          "answer": [
+            1
+          ],
+          "page": 191,
+          "explanation": "应与酸碱紊乱先发生时的变化方向分开记。",
+          "reason": "移除选项重复的低钾/高钾题干标签，统一为酸碱与尿液两个字段。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-31",
+      "module": "surg-31-module-fluid-acidbase",
+      "key": "v5-x-acid-regulation-83",
+      "name": "酸碱调节器官功能",
+      "options": [
+        "肺调PaCO₂；肾回收HCO₃⁻并排酸；细胞H⁺-K⁺交换",
+        "肺调PaCO₂；肾以排HCO₃⁻为主要排酸方式；细胞H⁺-K⁺交换",
+        "肺以回收HCO₃⁻为主；肾调PaCO₂；细胞H⁺-K⁺交换",
+        "肺调PaCO₂；肾回收HCO₃⁻并排酸；细胞不参与H⁺交换"
+      ],
+      "rows": [
+        {
+          "id": "surg-31-x-acid-regulation-q1",
+          "stem": "按讲义酸碱调节概述，肺、肾与组织细胞的三个环节哪组全部对应正确？",
+          "answer": [
+            0
+          ],
+          "page": 193,
+          "explanation": "还包括体液缓冲系统；血小板不是排固定酸的主要器官。",
+          "reason": "原多选中肺和细胞均为唯一相关项，改为同肺/肾/细胞三字段。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-32",
+      "module": "surg-32-module-nutrition-route",
+      "key": "v5-x-enteral-access-84",
+      "name": "营养输入通路比较",
+      "options": [
+        "短期EN经口/鼻管；长期EN造口；短期PN周围静脉；长期PN中心静脉",
+        "短期EN造口；长期EN经口/鼻管；短期PN周围静脉；长期PN中心静脉",
+        "短期EN经口/鼻管；长期EN造口；短期PN中心静脉；长期PN周围静脉",
+        "短期EN造口；长期EN经口/鼻管；短期PN中心静脉；长期PN周围静脉"
+      ],
+      "rows": [
+        {
+          "id": "surg-32-x-enteral-access-q1",
+          "stem": "仅按讲义以约2周为界的传统营养通路表，短期/长期肠内营养EN、短期/长期肠外营养PN，依次哪组正确？",
+          "answer": [
+            0
+          ],
+          "page": 196,
+          "explanation": "按材料：短期EN经口或鼻胃/鼻肠管，长期EN胃/空肠造口；短期PN周围静脉，长期PN中心静脉。真实通路选择另需渗透压、预期疗程及个体情况。",
+          "reason": "旧四候选均完整印出短期/长期与EN/PN标签，题干按相同标签即可抄答；改成同四场景比较。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-32",
+      "module": "surg-32-module-nutrition-route",
+      "key": "v5-x-pancreas-en-route-85",
+      "name": "重症胰腺炎肠内通路比较",
+      "options": [
+        "鼻空肠管",
+        "空肠造口",
+        "鼻胃管",
+        "胃造口"
+      ],
+      "rows": [
+        {
+          "id": "surg-32-x-pancreas-en-route-q1",
+          "stem": "按本讲义胰腺炎恢复肠内营养的传统表述，哪些通路可绕开胃十二指肠？",
+          "answer": [
+            0,
+            1
+          ],
+          "page": 198,
+          "explanation": "仅考解剖通路关系；不将禁食TPN视为所有急性胰腺炎的固定流程。",
+          "reason": "原两个正例为同类营养通路，负例却含整块固体食物；全部改成管饲/造口通路。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-33",
+      "module": "surg-33-module-burn-depth-wound",
+      "key": "v5-x-wound-water-blister-86",
+      "name": "烧伤创面处理关系",
+      "options": [
+        "浅Ⅱ保留疱皮；深Ⅱ去疱皮；内层油质纱布",
+        "浅Ⅱ去疱皮；深Ⅱ保留疱皮；内层油质纱布",
+        "浅Ⅱ保留疱皮；深Ⅱ去疱皮；内层酒精纱布",
+        "浅Ⅱ去疱皮；深Ⅱ保留疱皮；内层酒精纱布"
+      ],
+      "rows": [
+        {
+          "id": "surg-33-x-wound-water-blister-q1",
+          "stem": "仅按讲义创面护理表，浅Ⅱ度疱皮、深Ⅱ度疱皮及敷料内层材料的对应，哪组三项全部正确？",
+          "answer": [
+            0
+          ],
+          "page": 202,
+          "explanation": "实际换药方案依创面而定；讲义不主张用酒精刺激创面。",
+          "reason": "原多选浅深烧伤、敷料层与唯一明显酒精负例混放，改为同三个护理字段。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-34",
+      "module": "surg-34-module-organism-systemic",
+      "key": "v5-organisms-87",
+      "name": "病原体与扩散特征",
+      "options": [
+        "金黄色葡萄球菌",
+        "乙型溶血性链球菌",
+        "破伤风梭菌",
+        "产气荚膜杆菌等梭菌"
+      ],
+      "rows": [
+        {
+          "id": "surg-34-organisms-q1",
+          "stem": "凝血酶与较局限的脓肿，疖痈常见，配伍？",
+          "answer": [
+            0
+          ],
+          "page": 204,
+          "explanation": "金葡菌凝血酶有利于感染局限，不等同于透明质酸酶的扩散作用。",
+          "reason": "细菌配伍池移出唯一真菌，剩余均为细菌。"
+        },
+        {
+          "id": "surg-34-organisms-q2",
+          "stem": "透明质酸酶与弥漫扩散，丹毒常见，配伍？",
+          "answer": [
+            1
+          ],
+          "page": 204,
+          "explanation": "乙型溶血性链球菌与丹毒、蜂窝织炎串联。",
+          "reason": "细菌配伍池移出唯一真菌，剩余均为细菌。"
+        },
+        {
+          "id": "surg-34-organisms-q3",
+          "stem": "缺氧环境产生痉挛毒素，肌痉挛而非局部肌坏死产气为主，配伍？",
+          "answer": [
+            2
+          ],
+          "page": 208,
+          "explanation": "破伤风和气性坏疽均为厌氧梭菌感染，但毒素作用不同。",
+          "reason": "细菌配伍池移出唯一真菌，剩余均为细菌。"
+        },
+        {
+          "id": "surg-34-organisms-q4",
+          "stem": "α毒素相关肌坏死、捻发感、恶臭及组织内气体，配伍？",
+          "answer": [
+            3
+          ],
+          "page": 208,
+          "explanation": "气性坏疽突出肌坏死及产气。",
+          "reason": "细菌配伍池移出唯一真菌，剩余均为细菌。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-34",
+      "module": "surg-34-module-organism-systemic",
+      "key": "v5-organisms-88",
+      "name": "病原体与扩散特征",
+      "options": [
+        "念珠菌",
+        "曲霉",
+        "隐球菌",
+        "毛霉"
+      ],
+      "rows": [
+        {
+          "id": "surg-34-organisms-q5",
+          "stem": "长期广谱抗菌药后发生菌群交替，讲义常见真菌是？",
+          "answer": [
+            0
+          ],
+          "page": 204,
+          "explanation": "敏感菌受抑后念珠菌等可过度生长。",
+          "reason": "原问真菌时池内只有念珠菌一个真菌名称，现全部同类真菌。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-34",
+      "module": "surg-34-module-clostridial-infections",
+      "key": "v5-x-tetanus-immunity-89",
+      "name": "破伤风免疫制剂区别",
+      "options": [
+        "破伤风类毒素",
+        "破伤风抗毒素TAT",
+        "破伤风人免疫球蛋白TIG",
+        "普通丙种球蛋白"
+      ],
+      "rows": [
+        {
+          "id": "surg-34-x-tetanus-immunity-q2",
+          "stem": "在讲义伤口相关免疫预防制剂中，哪一种注射前需要进行皮试？",
+          "answer": [
+            1
+          ],
+          "page": 208,
+          "explanation": "TAT可能引起过敏；不得把普通丙种球蛋白等同TIG。",
+          "reason": "原题干异种抗毒素与唯一TAT标签逐字匹配；去掉预示答案的类别与注释，只给制剂名称。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-36",
+      "module": "surg-36-module-general-anesthesia",
+      "key": "v5-x-blood-gas-90",
+      "name": "吸入药血气分配系数",
+      "options": [
+        "血中溶解少、起效快、清除快",
+        "血中溶解少、起效慢、清除慢",
+        "血中溶解多、起效快、清除慢",
+        "血中溶解多、起效慢、清除快"
+      ],
+      "rows": [
+        {
+          "id": "surg-36-x-blood-gas-q1",
+          "stem": "血/气分配系数较小的吸入麻醉药，讲义强调哪种特点？",
+          "answer": [
+            0
+          ],
+          "page": 216,
+          "explanation": "血中溶解度小，肺泡和中枢浓度较易快速调整。",
+          "reason": "原各候选字段不齐，统一为血中溶解/起效/清除三个药代字段。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-36",
+      "module": "surg-36-module-local-anesthetic-selection",
+      "key": "v5-x-local-properties-91",
+      "name": "局麻药理化性质关系",
+      "options": [
+        "脂溶性→穿透/效能；pKa→起效；蛋白结合→时长",
+        "脂溶性→时长；pKa→起效；蛋白结合→穿透/效能",
+        "脂溶性→穿透/效能；pKa→时长；蛋白结合→起效",
+        "脂溶性→起效；pKa→穿透/效能；蛋白结合→时长"
+      ],
+      "rows": [
+        {
+          "id": "surg-36-x-local-properties-q1",
+          "stem": "按讲义局麻药理化性质表，脂溶性、pKa与蛋白结合率的主要作用关联，哪组全部对应正确？",
+          "answer": [
+            0
+          ],
+          "page": 218,
+          "explanation": "发挥作用的是游离药物；血浆蛋白结合增加不等于游离药物增加。",
+          "reason": "原多选脂溶性/蛋白结合均只有唯一候选，改为每项同三个理化字段。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-37",
+      "module": "surg-37-module-shock-monitoring",
+      "key": "v5-monitor-92",
+      "name": "休克监测指标用途",
+      "options": [
+        "乳酸及碱剩余",
+        "血糖及血钾",
+        "血钠及血浆渗透压",
+        "尿素及肌酐"
+      ],
+      "rows": [
+        {
+          "id": "surg-37-monitor-q1",
+          "stem": "主要辅助反映缺氧、代谢性酸中毒及灌注趋势，配伍？",
+          "answer": [
+            0
+          ],
+          "page": 224,
+          "explanation": "乳酸需结合变化趋势及病因，不能单项判定所有休克。",
+          "reason": "代谢灌注题原池只有一组代谢指标，改为四组同类实验室指标。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-37",
+      "module": "surg-37-module-shock-monitoring",
+      "key": "v5-monitor-93",
+      "name": "休克监测指标用途",
+      "options": [
+        "中心静脉压CVP",
+        "肺毛细血管楔压PAWP",
+        "平均动脉压MAP",
+        "平均肺动脉压mPAP"
+      ],
+      "rows": [
+        {
+          "id": "surg-37-monitor-q2",
+          "stem": "反映右心房及胸腔大静脉压力，配伍？",
+          "answer": [
+            0
+          ],
+          "page": 224,
+          "explanation": "CVP不是左心房压力；也不能单凭一个CVP值预测补液反应。",
+          "reason": "血流动力学题只用同类压力指标，不与尿液、代谢和比值混放。"
+        },
+        {
+          "id": "surg-37-monitor-q3",
+          "stem": "讲义以肺静脉、左心房相关压力串联，配伍？",
+          "answer": [
+            1
+          ],
+          "page": 224,
+          "explanation": "PCWP与CVP对应循环侧别不同。",
+          "reason": "血流动力学题只用同类压力指标，不与尿液、代谢和比值混放。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-37",
+      "module": "surg-37-module-shock-cause",
+      "key": "v5-x-shock-fluid-94",
+      "name": "失血性休克待血期间补液",
+      "options": [
+        "平衡盐溶液",
+        "0.9%NaCl溶液",
+        "5%葡萄糖液",
+        "10%葡萄糖液"
+      ],
+      "rows": [
+        {
+          "id": "surg-37-x-shock-fluid-q1",
+          "stem": "肝破裂失血性休克，等待血型及交叉配血时，讲义首选输注液体是？",
+          "answer": [
+            0
+          ],
+          "page": 226,
+          "explanation": "此题区分有效扩容液体与不能持久补充血容量的单纯糖水。",
+          "reason": "原一条含电解质复苏液对三条葡萄糖，过易；加入同类等渗含盐近邻，仍限定讲义首选。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-37",
+      "module": "surg-37-module-shock-cause",
+      "key": "v5-x-sirs-95",
+      "name": "传统SIRS标准字段",
+      "options": [
+        "体温＞38或＜36；HR＞90；RR＞20或PaCO₂＜32；WBC＞12或＜4或幼稚细胞＞10%",
+        "体温＞38或＜36；HR＞120；RR＞20或PaCO₂＜32；WBC＞12或＜4或幼稚细胞＞10%",
+        "体温＞39或＜35；HR＞90；RR＞20或PaCO₂＜32；WBC＞12或＜4或幼稚细胞＞10%",
+        "体温＞38或＜36；HR＞90；RR＞12或PaCO₂＞45；WBC＞20或＜2或幼稚细胞＞20%"
+      ],
+      "rows": [
+        {
+          "id": "surg-37-x-sirs-q1",
+          "stem": "仅按讲义传统SIRS界值表，温度（℃）、HR/RR（次/分）、PaCO₂（mmHg）、WBC（×10⁹/L）等字段，哪组完整对应？",
+          "answer": [
+            0
+          ],
+          "page": 225,
+          "explanation": "讲义传统表列体温＞38℃或＜36℃，HR＞90，RR＞20或PaCO₂＜32，WBC＞12或＜4或未成熟细胞＞10%。本题是旧表的知识复习，不将SIRS等同于现代脓毒症定义。",
+          "reason": "原多选每类指标只有唯一一行，按相关字段即可全选；改为同四类字段界值。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-37",
+      "module": "surg-37-module-cardiogenic-emergency",
+      "key": "v5-x-electrical-emergency-96",
+      "name": "心律失常伴循环不稳的电治疗",
+      "options": [
+        "不稳定有脉快速心律→同步复律；室颤/无脉室速→非同步除颤；严重缓慢房室阻滞→起搏评估",
+        "不稳定有脉快速心律→非同步除颤；室颤/无脉室速→同步复律；严重缓慢房室阻滞→起搏评估",
+        "不稳定有脉快速心律→同步复律；室颤/无脉室速→起搏；严重缓慢房室阻滞→非同步除颤",
+        "不稳定有脉快速心律→起搏；室颤/无脉室速→非同步除颤；严重缓慢房室阻滞→同步复律"
+      ],
+      "rows": [
+        {
+          "id": "surg-37-x-electrical-emergency-q1",
+          "stem": "只比较讲义所列三类节律与电治疗方式，不涉及操作：哪组对应全部正确？",
+          "answer": [
+            0
+          ],
+          "page": 226,
+          "explanation": "生命支持须由专业人员按节律与循环情况实施，不能把所有心律失常都用同一电击模式。",
+          "reason": "原多选有脉快速/无脉/缓慢各只有一条相关方式，统一三场景同字段交叉比较。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-38",
+      "module": "surg-38-module-trauma-transplant",
+      "key": "v5-x-trauma-class-97",
+      "name": "创伤分类与初期原则",
+      "options": [
+        "皮肤黏膜完整→闭合伤；有入口出口→贯通伤；有入口无出口→盲管伤",
+        "皮肤黏膜完整→开放伤；有入口出口→贯通伤；有入口无出口→盲管伤",
+        "皮肤黏膜完整→闭合伤；有入口出口→盲管伤；有入口无出口→贯通伤",
+        "皮肤黏膜完整→开放伤；有入口出口→盲管伤；有入口无出口→贯通伤"
+      ],
+      "rows": [
+        {
+          "id": "surg-38-x-trauma-class-q1",
+          "stem": "按讲义损伤分类，皮肤黏膜完整、有入口出口、有入口无出口三个情境，哪组全部对应正确？",
+          "answer": [
+            0
+          ],
+          "page": 228,
+          "explanation": "优先处理窒息、心跳呼吸骤停、张力性气胸和休克等生命威胁。",
+          "reason": "原多选闭合伤为唯一同类行，改为每项同三情境完整组合。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-38",
+      "module": "surg-38-module-trauma-transplant",
+      "key": "v5-x-transplant-98",
+      "name": "移植排斥反应与器官特点",
+      "options": [
+        "超急性排斥",
+        "急性排斥",
+        "慢性排斥",
+        "移植物抗宿主病GVHD"
+      ],
+      "rows": [
+        {
+          "id": "surg-38-x-transplant-q2",
+          "stem": "移植前受者已有抗供者HLA或ABO相关抗体，按讲义最直接联系哪一类免疫性移植并发症？",
+          "answer": [
+            0
+          ],
+          "page": 230,
+          "explanation": "原试题考机制而非记忆年代或选项字母。",
+          "reason": "原池将病因机制、长期障碍和器官风险混放；单问预存抗体时改为同类免疫并发症名称。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-38",
+      "module": "surg-38-module-antitumor-treatment",
+      "key": "v5-x-drug-members-99",
+      "name": "抗肿瘤药类别成员补全",
+      "options": [
+        "伊马替尼、曲妥珠单抗、利妥昔单抗",
+        "伊马替尼、利妥昔单抗、曲妥珠单抗",
+        "伊马替尼、西妥昔单抗、利妥昔单抗",
+        "伊马替尼、曲妥珠单抗、西妥昔单抗"
+      ],
+      "rows": [
+        {
+          "id": "surg-38-x-drug-members-q3",
+          "stem": "讲义所列“伊马替尼、赫赛汀、美罗华”，按相同顺序对应通用名应是哪组？",
+          "answer": [
+            0
+          ],
+          "page": 229,
+          "explanation": "赫赛汀为曲妥珠单抗，美罗华为利妥昔单抗。",
+          "reason": "旧只有正确三药含题干已给出的伊马替尼，现四项均相同首药，必须区分后两种商品名。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-01",
+      "module": "surg-01-module-diagnosis",
+      "key": "v5-x-thyroid-tests-100",
+      "name": "甲状腺检查与随访指标",
+      "options": [
+        "结节形态：超声；细胞学确证：细针穿刺；骨转移：ECT",
+        "结节形态：细针穿刺；细胞学确证：超声；骨转移：ECT",
+        "结节形态：超声；细胞学确证：ECT；骨转移：细针穿刺",
+        "结节形态：ECT；细胞学确证：细针穿刺；骨转移：超声"
+      ],
+      "rows": [
+        {
+          "id": "surg-01-x-thyroid-tests-q1",
+          "stem": "按讲义甲状腺结节与肿瘤检查表，形态评价、细胞学确证、骨转移筛查三个目的，哪组方法全部对应正确？",
+          "answer": [
+            0
+          ],
+          "page": 2,
+          "explanation": "第2页列超声评价甲状腺，细针穿刺细胞学取得确证依据，怀疑骨转移时查ECT。四候选均含相同三个目的和方法，不靠唯一“活检/骨”字样选单项。",
+          "reason": "形态、细胞学及骨转移目的合为同三字段组合，避免即使去注释仍只有一项属细胞学。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-02",
+      "module": "surg-02-module-differential",
+      "key": "v5-x-esophageal-tests-101",
+      "name": "食管癌筛查与确诊",
+      "options": [
+        "确诊：内镜取材；筛查：拉网脱落细胞学",
+        "确诊：拉网脱落细胞学；筛查：内镜取材",
+        "确诊：血清CEA；筛查：拉网脱落细胞学",
+        "确诊：食管测压；筛查：血清CEA"
+      ],
+      "rows": [
+        {
+          "id": "surg-02-x-esophageal-tests-q1",
+          "stem": "只按本讲义传统食管癌检查表，确诊取材与细胞学筛查两个目的，哪组依次正确？",
+          "answer": [
+            0
+          ],
+          "page": 12,
+          "explanation": "材料确诊依靠内镜并取材，传统筛查条目为食管拉网脱落细胞学。新选项各有相同两个目的，不把唯一内镜活检或唯一“细胞学”项当答案。",
+          "reason": "将唯一活检与唯一筛查名称的两道单项合成同两字段比较，保留检查关系。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-03",
+      "module": "surg-03-module-tests-operation",
+      "key": "v5-x-breast-tests-102",
+      "name": "乳腺检查用途配伍",
+      "options": [
+        "筛查：钼靶联合超声；确证：活检病理；骨转移：ECT",
+        "筛查：活检病理；确证：钼靶联合超声；骨转移：ECT",
+        "筛查：钼靶联合超声；确证：ECT；骨转移：活检病理",
+        "筛查：ECT；确证：活检病理；骨转移：钼靶联合超声"
+      ],
+      "rows": [
+        {
+          "id": "surg-03-x-breast-tests-q1",
+          "stem": "按讲义乳腺癌检查表，初步筛查、诊断确证和骨转移评估三种目的，哪组方法对应全部正确？",
+          "answer": [
+            0
+          ],
+          "page": 16,
+          "explanation": "乳腺筛查钼靶联合超声，确证依靠活检病理，怀疑骨转移时ECT。所有候选含相同三个目的，组成数量也一致。",
+          "reason": "原只有一组双影像、一个病理、一个骨扫描，分别问即可按类型作答；合成同三字段。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-05",
+      "module": "surg-05-module-tests",
+      "key": "v5-x-gastric-tests-103",
+      "name": "胃肿瘤检查目的",
+      "options": [
+        "确证：胃镜活检；初筛：大便隐血；壁层深度：超声内镜",
+        "确证：大便隐血；初筛：胃镜活检；壁层深度：超声内镜",
+        "确证：胃镜活检；初筛：超声内镜；壁层深度：大便隐血",
+        "确证：超声内镜；初筛：大便隐血；壁层深度：胃镜活检"
+      ],
+      "rows": [
+        {
+          "id": "surg-05-x-gastric-tests-q1",
+          "stem": "只按本讲义胃肿瘤检查用途表，组织学确证、便检初筛和胃壁浸润深度评价，哪组依次正确？",
+          "answer": [
+            0
+          ],
+          "page": 26,
+          "explanation": "材料对应胃镜活检、大便隐血、超声内镜。原单项可由唯一活检、便检或深度方法的类型猜出，现所有候选三个字段齐全。",
+          "reason": "把单类唯一检查目的合为同三字段，而不是仅删选项用途注释。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-10",
+      "module": "surg-10-module-tests",
+      "key": "v5-tests-104",
+      "name": "大肠癌检查用途配伍",
+      "options": [
+        "低位床旁：直肠指检；确证：结肠镜活检；便检初筛：隐血；局部分期：MRI/腔内超声",
+        "低位床旁：直肠指检；确证：便隐血；便检初筛：结肠镜活检；局部分期：MRI/腔内超声",
+        "低位床旁：结肠镜活检；确证：直肠指检；便检初筛：隐血；局部分期：MRI/腔内超声",
+        "低位床旁：直肠指检；确证：结肠镜活检；便检初筛：隐血；局部分期：CEA"
+      ],
+      "rows": [
+        {
+          "id": "surg-10-tests-q1",
+          "stem": "按本讲义大肠癌检查表，低位病变床旁检查、病理确证、便检筛查、局部分期四个目的，哪组对应全部正确？",
+          "answer": [
+            0
+          ],
+          "page": 48,
+          "explanation": "本组依次为直肠指检、结肠镜活检、大便隐血、盆腔MRI或腔内超声。血清CEA另用于随访辅助监测，不替代局部影像分期。",
+          "reason": "原只有一项床旁触诊、一项组织取材、一项便检等，改成每个候选均有相同四个目的。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-13",
+      "module": "surg-13-module-testing-treatment",
+      "key": "v5-x-imaging-105",
+      "name": "肝脓肿检查目的与影像机制",
+      "options": [
+        "初步定位：B超；增强边缘：增强CT；病原取材：脓肿穿刺",
+        "初步定位：B超；增强边缘：脓肿穿刺；病原取材：增强CT",
+        "初步定位：增强CT；增强边缘：B超；病原取材：脓肿穿刺",
+        "初步定位：脓肿穿刺；增强边缘：增强CT；病原取材：B超"
+      ],
+      "rows": [
+        {
+          "id": "surg-13-x-imaging-q1",
+          "stem": "按讲义肝脓肿检查流程，初步定位、观察低密度灶边缘强化、获取脓液病原，哪组方法顺序正确？",
+          "answer": [
+            0
+          ],
+          "page": 66,
+          "explanation": "依次为B超、增强CT和影像引导脓肿穿刺。每项都含同样的三个检查目的，不再把唯一穿刺混入成像池后问取材。",
+          "reason": "原影像池唯一穿刺对应取材题，连同成像用途合成同三字段关系。"
+        }
+      ]
+    },
+    {
+      "chapter": "surg-25",
+      "module": "surg-25-module-diagnosis-metastasis",
+      "key": "v5-x-bone-tests-106",
+      "name": "骨肿瘤确诊、筛查与脊髓评价",
+      "options": [
+        "确证：病理活检；全身骨筛查：ECT；椎管软组织：MRI",
+        "确证：ECT；全身骨筛查：病理活检；椎管软组织：MRI",
+        "确证：病理活检；全身骨筛查：MRI；椎管软组织：ECT",
+        "确证：MRI；全身骨筛查：ECT；椎管软组织：病理活检"
+      ],
+      "rows": [
+        {
+          "id": "surg-25-x-bone-tests-q1",
+          "stem": "按讲义骨肿瘤检查用途，诊断确证、多部位骨转移筛查及椎管/软组织评价，哪组对应全部正确？",
+          "answer": [
+            0
+          ],
+          "page": 143,
+          "explanation": "材料分别列病理活检、ECT和MRI。全身ECT敏感但特异性有限，不代替组织病理；MRI利于评价脊髓及软组织。",
+          "reason": "原唯一活检与唯一全身骨扫描可按类型选，改为每项同三检查目的。"
+        }
+      ]
+    }
+  ],
+  "retire": [
+    {
+      "id": "surg-01-x-postop-management-q2",
+      "reason": "原混池只有一条补钙措施，改为同三字段关系题。",
+      "replaceBy": [
+        "surg-01-x-postop-management-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-01-x-postop-management-q3",
+      "reason": "原混池只有一条抗甲状腺药组合，改为同三字段关系题。",
+      "replaceBy": [
+        "surg-01-x-postop-management-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-03-x-risk-q2",
+      "reason": "单问癌前病变时，原风险池唯一组织学病变直接泄题；该关系已在风险/癌前病变多选保留。",
+      "replaceBy": [
+        "surg-03-x-risk-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-09-x-postop-detail-q2",
+      "reason": "原残株处理在混池可直接按残端词选中，已并入同两字段对照。",
+      "replaceBy": [
+        "surg-09-x-postop-detail-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-17-x-vascular-check-q2",
+      "reason": "题干问“有创造影”且唯一选项直接写血管造影，无实质鉴别价值。",
+      "replaceBy": [],
+      "coverageLoss": "不再单设血管造影名称释义题；血管评估首选和功能试验仍保留。"
+    },
+    {
+      "id": "surg-19-x-stone-priority-q2",
+      "reason": "与其余三个情境合为同四字段比较，消除情境标签泄题。",
+      "replaceBy": [
+        "surg-19-x-stone-priority-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-19-x-stone-priority-q3",
+      "reason": "与其余三个情境合为同四字段比较，消除情境标签泄题。",
+      "replaceBy": [
+        "surg-19-x-stone-priority-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-19-x-stone-priority-q4",
+      "reason": "与其余三个情境合为同四字段比较，消除情境标签泄题。",
+      "replaceBy": [
+        "surg-19-x-stone-priority-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-20-x-scoliosis-aim-q1",
+      "reason": "唯一完整三目标对照三个“仅/不干预”式负例，缺少有价值近邻，停用。",
+      "replaceBy": [],
+      "coverageLoss": "侧凸治疗目标的笼统概括不再单独考；Cobb角分层与治疗选择仍保留。"
+    },
+    {
+      "id": "surg-22-x-hand-timing-q2",
+      "reason": "超12小时处理关系已并入同两时段比较，取消逐字匹配题。",
+      "replaceBy": [
+        "surg-22-x-hand-timing-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-22-x-plexus-avulsion-q1",
+      "reason": "原池只有一项严重牵拉损伤，其余为远端卡压或腱鞘病；仅Horner线索不足以安全排除更相近的臂丛下部损伤，暂缓而非生造负例。",
+      "replaceBy": [],
+      "coverageLoss": "Horner与臂丛根部撕脱的独立配伍题暂缓；臂丛结构与周围神经运动感觉定位保留。"
+    },
+    {
+      "id": "surg-23-x-joint-fluid-q2",
+      "reason": "同一阶段－颜色关系已并入三阶段组合题。",
+      "replaceBy": [
+        "surg-23-x-joint-fluid-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-23-x-joint-fluid-q3",
+      "reason": "同一阶段－颜色关系已并入三阶段组合题。",
+      "replaceBy": [
+        "surg-23-x-joint-fluid-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-27-x-disc-excision-q1",
+      "reason": "题干直接写髓核脱出，唯一同名候选即可选；原文操作适应证缺少足够形态和临床限定，暂不生造近邻。",
+      "replaceBy": [
+        "surg-27-disc-q3"
+      ],
+      "coverageLoss": "经皮摘除具体适应形态的独立关系暂缓，椎间盘形态分型已保留。"
+    },
+    {
+      "id": "surg-28-x-normal-angles-q3",
+      "reason": "髋外翻阈值已并入同双字段比较题。",
+      "replaceBy": [
+        "surg-28-x-normal-angles-q2"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-31-potassium-q2",
+      "reason": "作用环节已完整并入同四措施/机制比较。",
+      "replaceBy": [
+        "surg-31-potassium-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-31-potassium-q3",
+      "reason": "作用环节已完整并入同四措施/机制比较。",
+      "replaceBy": [
+        "surg-31-potassium-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-31-potassium-q4",
+      "reason": "作用环节已完整并入同四措施/机制比较。",
+      "replaceBy": [
+        "surg-31-potassium-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-32-x-enteral-access-q2",
+      "reason": "该通路关系已完整并入同四字段比较。",
+      "replaceBy": [
+        "surg-32-x-enteral-access-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-32-x-enteral-access-q3",
+      "reason": "该通路关系已完整并入同四字段比较。",
+      "replaceBy": [
+        "surg-32-x-enteral-access-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-32-x-enteral-access-q4",
+      "reason": "该通路关系已完整并入同四字段比较。",
+      "replaceBy": [
+        "surg-32-x-enteral-access-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-37-monitor-q4",
+      "reason": "题干已给出尿量和尿比重，而唯一候选逐字重复，两者关系已有具体少尿鉴别题。",
+      "replaceBy": [
+        "surg-37-x-oliguria-q1",
+        "surg-37-x-oliguria-q2"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-37-monitor-q5",
+      "reason": "休克指数公式释义题可凭唯一比值指标作答，保留实际数值计算题作为替代。",
+      "replaceBy": [
+        "surg-37-x-shock-index-q1",
+        "surg-37-x-shock-index-q2"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-01-x-thyroid-tests-q3",
+      "reason": "检查目的关系已并入同三字段组合。",
+      "replaceBy": [
+        "surg-01-x-thyroid-tests-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-01-x-thyroid-tests-q4",
+      "reason": "检查目的关系已并入同三字段组合。",
+      "replaceBy": [
+        "surg-01-x-thyroid-tests-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-02-x-esophageal-tests-q2",
+      "reason": "传统筛查关系已并入同两字段检查用途题。",
+      "replaceBy": [
+        "surg-02-x-esophageal-tests-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-03-x-breast-tests-q2",
+      "reason": "检查目的关系已并入同三字段组合题。",
+      "replaceBy": [
+        "surg-03-x-breast-tests-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-03-x-breast-tests-q3",
+      "reason": "检查目的关系已并入同三字段组合题。",
+      "replaceBy": [
+        "surg-03-x-breast-tests-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-05-x-gastric-tests-q2",
+      "reason": "检查目的已并入同三字段组合题。",
+      "replaceBy": [
+        "surg-05-x-gastric-tests-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-05-x-gastric-tests-q3",
+      "reason": "检查目的已并入同三字段组合题。",
+      "replaceBy": [
+        "surg-05-x-gastric-tests-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-10-tests-q2",
+      "reason": "检查目的已并入同四字段比较，取消按类别直接配对题。",
+      "replaceBy": [
+        "surg-10-tests-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-10-tests-q4",
+      "reason": "检查目的已并入同四字段比较，取消按类别直接配对题。",
+      "replaceBy": [
+        "surg-10-tests-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-10-tests-q5",
+      "reason": "检查目的已并入同四字段比较，取消按类别直接配对题。",
+      "replaceBy": [
+        "surg-10-tests-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-13-x-imaging-q2",
+      "reason": "检查目的已并入同三字段比较。",
+      "replaceBy": [
+        "surg-13-x-imaging-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-13-x-imaging-q3",
+      "reason": "检查目的已并入同三字段比较。",
+      "replaceBy": [
+        "surg-13-x-imaging-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-25-x-bone-tests-q2",
+      "reason": "检查目的已并入同三字段比较。",
+      "replaceBy": [
+        "surg-25-x-bone-tests-q1"
+      ],
+      "coverageLoss": ""
+    },
+    {
+      "id": "surg-25-x-bone-tests-q3",
+      "reason": "检查目的已并入同三字段比较。",
+      "replaceBy": [
+        "surg-25-x-bone-tests-q1"
+      ],
+      "coverageLoss": ""
+    }
+  ],
+  "notes": [
+    "已逐题扫描v4全外科38章、661池、1435题的题干和完整选项；只改有具体类型/字段/标签提示的问题。",
+    "组合题均明确依次/全部正确及表内条件；传统讲义规则不当作临床操作指南。",
+    "主要核读原材料新改写涉及的检查表、病因/处理表和对照关系；未改题保持原ID与选项。",
+    "暂缓项目与覆盖损失写入退休记录，不将删除题继续计为已覆盖。"
+  ]
+}

@@ -1,0 +1,56 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
+const root=__dirname,read=p=>fs.readFileSync(path.join(root,p),'utf8'),safe=v=>JSON.stringify(v).replace(/</g,'\\u003c');
+const {applyQuestionPolicy}=require('./src/question-policy.cjs'),{applyReorganization}=require('./src/surgery-reorganization.cjs'),{applyInternalModules,applyContentPolicy,REVISION}=require('./src/unified-content-policy.cjs');
+const {applyPoolQuality}=require('./src/pool-quality-policy.cjs');
+const {applyCueQuality,REVISION:CUE_REVISION}=require('./src/cue-quality-policy.cjs');
+const {applyLectureMnemonics}=require('./src/lecture-mnemonic-policy.cjs'),release=JSON.parse(read('src/release.json'));
+const banks={internal:applyContentPolicy(applyInternalModules(applyQuestionPolicy(JSON.parse(read('src/full-bank.json'))),JSON.parse(read('src/internal-modules.json'))),JSON.parse(read('src/internal-content-plan.json'))),surgery:applyContentPolicy(applyReorganization(JSON.parse(read('src/surgery-bank.json')),JSON.parse(read('src/surgery-reorg-plan.json'))),JSON.parse(read('src/surgery-content-plan.json')))};
+for(const id of ['internal','surgery'])banks[id]=applyPoolQuality(banks[id],JSON.parse(read('src/'+id+'-pool-plan.json')));
+banks.physiology=JSON.parse(read('src/physiology-bank.json'));
+banks.biochemistry=JSON.parse(read('src/biochemistry-bank.json'));
+banks.pathology=JSON.parse(read('src/pathology-bank.json'));
+for(const id of Object.keys(banks))banks[id]=applyCueQuality(banks[id],JSON.parse(read('src/'+id+'-cue-plan.json')));
+for(const id of Object.keys(banks))banks[id]=applyLectureMnemonics(banks[id],JSON.parse(read('src/'+id+'-mnemonic-plan.json')));
+const spec={internal:{id:'internal',name:'内科',key:'xuecheng-internal-drag-v2',url:'./index.html',file:'index.html'},surgery:{id:'surgery',name:'外科',key:'xuecheng-surgery-drag-v1',url:'./surgery.html',file:'surgery.html'},physiology:{id:'physiology',name:'生理',key:'xuecheng-physiology-drag-v1',url:'./physiology.html',file:'physiology.html'},biochemistry:{id:'biochemistry',name:'生化',key:'xuecheng-biochemistry-drag-v1',url:'./biochemistry.html',file:'biochemistry.html'},pathology:{id:'pathology',name:'病理',key:'xuecheng-pathology-drag-v1',url:'./pathology.html',file:'pathology.html'}};
+const catalogs=Object.entries(banks).map(([id,b])=>({...spec[id],revision:b.contentAudit.revision||REVISION,organization:b.reorganization||null,audit:b.contentAudit,chapters:b.chapters.map(c=>({id:c.id,name:c.name})),groups:b.chapters.flatMap(c=>c.groups.map(g=>({id:g.id,chapter:c.id,module:g.module,options:g.options,questions:g.questions.map(q=>({id:q.id,stem:q.stem,answer:q.answer,page:q.page,type:q.answer.length>1?'multiple':'single',explanation:q.explanation,...(q.mnemonics?{mnemonics:q.mnemonics}:{}),...(q.references?{references:q.references}:{})}))})))}));
+const summary=[];
+for(const [id,bank]of Object.entries(banks)){
+  let html=read('dist/'+spec[id].file);
+  const oldSource=JSON.parse(html.match(/const SOURCE=([^\n]+);\nconst CHAPTERS=/)[1]),changed=bank.contentAudit.rewrites.map(r=>r.id);
+  // The legacy normalizer stays at v4; incremental content revisions are handled by the common migrator.
+  const source={...oldSource,releaseVersion:'v'+release.version,edition:bank.edition,courseId:id,courseName:spec[id].name,qualityRevision:['internal','surgery'].includes(id)?REVISION:bank.revision,poolQualityRevision:bank.contentAudit.revision,changedQuestionIds:[...new Set([...(oldSource.changedQuestionIds||[]),...changed])],qualityChangeSets:Object.fromEntries(Object.entries(oldSource.qualityChangeSets||{}).map(([key,ids])=>[key,[...new Set([...ids,...changed])]])),contentAudit:bank.contentAudit,moduleCount:bank.chapters.reduce((n,c)=>n+c.modules.length,0)};
+  source.qualityChangeSets[oldSource.qualityRevision]=changed;
+  const meta=bank.chapters.map(c=>({...c,groups:c.groups.map(g=>g.id),questionIds:c.groups.flatMap(g=>g.questions.map(q=>q.id)),questionCount:c.groups.reduce((n,g)=>n+g.questions.length,0)}));
+  const data=bank.chapters.flatMap(c=>c.groups.map(g=>({id:g.id,name:g.name,module:g.module,chapter:c.id,subtitle:c.name+' · '+c.modules.find(m=>m.id===g.module).name,options:g.options.map(o=>[o.id,o.text]),questions:g.questions.map(q=>[q.id,q.stem,q.answer,q.explanation,q.page,q.difficulty,q.sourceRef||q.note||''])})));
+  const mnemonics=Object.fromEntries(bank.chapters.flatMap(c=>c.groups.flatMap(g=>g.questions.filter(q=>q.mnemonics?.length).map(q=>[q.id,q.mnemonics]))));
+  const a=html.indexOf('const SOURCE='),b=html.indexOf('const ECG_MEDIA=',a);html=html.slice(0,a)+`const SOURCE=${safe(source)};\nconst CHAPTERS=${safe(meta)};\nconst DATA=${safe(data)};\nconst LECTURE_MNEMONICS=${safe(mnemonics)};\n`+html.slice(b);
+  const replace=(old,value)=>{if(!html.includes(old))throw Error('Missing unified target '+old.slice(0,80));html=html.replace(old,value);};
+  // Keep originals available for migration/record functions, but use one common UI.
+  html=html.replaceAll('function normalizeNotebook(){','function legacyNormalizeNotebook(){');
+  const tail=html.lastIndexOf('normalizeNotebook();\nrestoreChapterUrl();');if(tail<0)throw Error('missing startup boundary');
+  html=html.slice(0,tail)+`const COMMON_COURSES=${safe(catalogs)};\n`+read('src/unified-study.js')+'\n'+read('src/option-drag.js')+'\n'+read('src/study-settings.js')+'\n'+read('src/lecture-mnemonics.js')+'\nnormalizeNotebook();\nrestoreChapterUrl();\nrestoreCommonPractice();\nrender();\n</script>\n</body>\n</html>\n';
+  const controls=html.indexOf('<div class="board-actions">'),controlsEnd=html.indexOf('\n    </section>',controls);if(controls<0||controlsEnd<0)throw Error('dock boundary');
+  html=html.slice(0,controls)+`<nav class="study-dock board-actions" aria-label="固定答题操作"><div class="dock-context" aria-label="当前学习位置"><strong id="dock-chapter"></strong><span id="dock-progress"></span></div><div class="dock-inner"><button class="btn secondary" id="prev-btn">← 上一组</button><button class="btn primary" id="submit-btn">提交本组</button><button class="btn secondary" id="answers-btn">核对答案</button><button class="btn secondary" id="redo-batch-btn" title="仅清空当前显示题块的作答和评分，保留历史、错题与收藏">↻ 重做当前题块</button><button class="btn secondary" id="next-btn">下一组 →</button></div></nav>`+html.slice(controlsEnd);
+  replace('</div><div class="dock-inner">','</div><div class="dock-chapter-row"><span id="dock-next-chapter"></span><div class="dock-chapter-actions"><button class="btn secondary" id="dock-prev-chapter-btn">‹ 上一章</button><button class="btn secondary" id="dock-next-chapter-btn">下一章 ›</button></div></div><div class="dock-inner">');
+  replace('<strong id="dock-chapter"></strong>','<div class="dock-location"><strong id="dock-chapter"></strong><small class="quiz-version" id="quiz-version" aria-label="题库版本">v'+release.version+'</small></div>');
+  replace('</div>\n  </header>','<button class="quiet settings-open" id="study-settings-btn" type="button" aria-haspopup="dialog">⚙ 设置</button></div>\n  </header>');
+  replace('<span class="spacer"></span>','<button class="btn ghost" id="clear-btn">清空本组</button><span class="spacer"></span>');
+  replace('<span id="notebook-count">0</span>','<span id="notebook-count">0</span>');
+  html=html.replace('错题本 <span id="notebook-count">','通用错题本 <span id="notebook-count">');
+  html=html.replace('<a href="./surgery.html">外科题库 · 新</a>','<a href="./surgery.html">外科题库</a>');
+  html=html.replace(/<nav class="course-switch"[\s\S]*?<\/nav>/,`<nav class="course-switch" aria-label="课程切换">${Object.values(spec).map(c=>`<a href="${c.url}"${c.id===id?' aria-current="page"':''}>${c.name}题库</a>`).join('')}</nav>`);
+  const tag=/<(span) class="tag">[^<]+<\/span>/;html=html.replace(tag,`<span class="tag">${spec[id].name} · 知识专题练习</span>`);
+  html=html.replace(/<h1>[^<]+<\/h1>/,'<h1>少一点提示，多一点判断。</h1>');
+  html=html.replace(/<p class="hero-desc">[^<]+<\/p>/,`<p class="hero-desc">章节 → 知识专题 → 同类选项练习。${Object.values(spec).map(c=>c.name).join('、')}统一操作，错题与收藏合并查看；底部按钮随时提交、核对或切换。</p>`);
+  html=html.replace(/<strong id="current-chapter-name">[^<]+<\/strong>/,`<strong id="current-chapter-name">${spec[id].name}全章</strong>`);
+  // Hide redundant micro-navigation; its handlers remain compatible with old entry points.
+  replace('<span class="mobile-help">点选选项，再点右侧答题框</span>','<span class="mobile-help">拖动 ⠿ 把手，或点选后放入答题框</span>');
+  replace('</style>',read('src/surgery-navigation.css')+'\n'+read('src/unified-study.css')+'\n'+read('src/option-drag.css')+'\n'+read('src/study-settings.css')+'\n'+read('src/lecture-mnemonics.css')+'\n</style>');
+  new vm.Script(html.match(/<script>([\s\S]*?)<\/script>/)[1]);
+  fs.writeFileSync(path.join(root,'dist',spec[id].file),html);
+  fs.writeFileSync(path.join(root,'dist',id+'-bank.json'),JSON.stringify(bank,null,2));
+  fs.writeFileSync(path.join(root,'dist',id==='internal'?'coverage.json':id+'-coverage.json'),JSON.stringify({source,chapters:meta.map(c=>({id:c.id,name:c.name,questionCount:c.questionCount,startPage:c.startPage,endPage:c.endPage,modules:c.modules,coverage:c.coverage}))},null,2));
+  summary.push({course:id,chapters:meta.length,modules:source.moduleCount,questions:data.reduce((n,g)=>n+g.questions.length,0),rewrites:changed.length,retired:bank.contentAudit.retired.length,added:bank.contentAudit.addedQuestionIds.length,bytes:Buffer.byteLength(html)});
+}
+fs.writeFileSync(path.join(root,'dist/unified-audit.json'),JSON.stringify({revision:CUE_REVISION,courses:summary},null,2));console.log(JSON.stringify(summary));
+fs.writeFileSync(path.join(root,'dist/version.json'),JSON.stringify({version:'v'+release.version,nextVersion:'v'+release.nextVersion},null,2));

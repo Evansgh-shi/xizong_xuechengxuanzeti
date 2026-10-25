@@ -1,0 +1,1861 @@
+{
+  "chapters": [
+    {
+      "chapter": "resp-copd",
+      "modules": [
+        {
+          "key": "clinical",
+          "name": "临床表现与呼吸体征",
+          "groupIds": [
+            "resp-copd-01",
+            "resp-copd-07"
+          ]
+        },
+        {
+          "key": "function",
+          "name": "病理生理、肺功能与血气",
+          "groupIds": [
+            "resp-copd-02",
+            "resp-copd-03",
+            "resp-copd-08",
+            "resp-copd-08-compare-elastic",
+            "resp-copd-08-compare-volume",
+            "resp-copd-08-compare-flow"
+          ]
+        },
+        {
+          "key": "assessment",
+          "name": "症状与加重风险评估",
+          "groupIds": [
+            "resp-copd-04"
+          ]
+        },
+        {
+          "key": "treatment",
+          "name": "稳定期与急性加重治疗",
+          "groupIds": [
+            "resp-copd-05",
+            "resp-copd-05-compare-expectorant",
+            "resp-copd-06"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-pah",
+      "modules": [
+        {
+          "key": "clinical",
+          "name": "肺心病临床与失代偿",
+          "groupIds": [
+            "resp-pah-01"
+          ]
+        },
+        {
+          "key": "tests",
+          "name": "辅助检查与心电判读",
+          "groupIds": [
+            "resp-pah-02",
+            "resp-pah-02-ecg-p",
+            "resp-pah-02-ecg-rs",
+            "resp-pah-02-ecg-axis"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "肺心病急性加重处理",
+          "groupIds": [
+            "resp-pah-03"
+          ]
+        },
+        {
+          "key": "pulmonary-hypertension",
+          "name": "肺动脉高压的评估与治疗",
+          "groupIds": [
+            "resp-pah-04"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-pe",
+      "modules": [
+        {
+          "key": "presentation",
+          "name": "病因、风险与临床表现",
+          "groupIds": [
+            "resp-pe-01"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "疑诊、确诊与影像选择",
+          "groupIds": [
+            "resp-pe-02"
+          ]
+        },
+        {
+          "key": "antithrombotic",
+          "name": "抗栓药物的作用与鉴别",
+          "groupIds": [
+            "resp-pe-03",
+            "resp-pe-03-compare-antiplatelet",
+            "resp-pe-04-compare-thrombolytic"
+          ]
+        },
+        {
+          "key": "strategy",
+          "name": "危险分层与治疗策略",
+          "groupIds": [
+            "resp-pe-04"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-ild",
+      "modules": [
+        {
+          "key": "clinical",
+          "name": "临床、影像与疾病鉴别",
+          "groupIds": [
+            "resp-ild-01"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "诊断检查与治疗",
+          "groupIds": [
+            "resp-ild-02",
+            "resp-ild-02-compare-antifibrotic"
+          ]
+        },
+        {
+          "key": "sarcoid",
+          "name": "结节病的评估与鉴别",
+          "groupIds": [
+            "resp-ild-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-bronchiectasis",
+      "modules": [
+        {
+          "key": "presentation",
+          "name": "病理、表现与并发症",
+          "groupIds": [
+            "resp-bronchiectasis-01",
+            "resp-bronchiectasis-01-compare-symptoms",
+            "resp-bronchiectasis-04"
+          ]
+        },
+        {
+          "key": "airway",
+          "name": "影像与气道、咯血处理",
+          "groupIds": [
+            "resp-bronchiectasis-02"
+          ]
+        },
+        {
+          "key": "infection",
+          "name": "感染评估与抗菌药鉴别",
+          "groupIds": [
+            "resp-bronchiectasis-03",
+            "resp-bronchiectasis-03-compare-infection",
+            "resp-bronchiectasis-03-compare-carbapenem",
+            "resp-bronchiectasis-03-compare-quinolone",
+            "resp-bronchiectasis-03-compare-ceph"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-abscess",
+      "modules": [
+        {
+          "key": "presentation",
+          "name": "类型、病原与影像鉴别",
+          "groupIds": [
+            "resp-abscess-01"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "检查与疗效评估",
+          "groupIds": [
+            "resp-abscess-02"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-pneumonia",
+      "modules": [
+        {
+          "key": "pathogens",
+          "name": "环境、病原与病原学检查",
+          "groupIds": [
+            "resp-pneumonia-01"
+          ]
+        },
+        {
+          "key": "presentation",
+          "name": "临床与影像鉴别",
+          "groupIds": [
+            "resp-pneumonia-02",
+            "resp-pneumonia-04"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "抗菌药、耐药与治疗例外",
+          "groupIds": [
+            "resp-pneumonia-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-tb",
+      "modules": [
+        {
+          "key": "presentation",
+          "name": "临床表现与病变类型",
+          "groupIds": [
+            "resp-tb-01",
+            "resp-tb-01-compare-systemic"
+          ]
+        },
+        {
+          "key": "tests",
+          "name": "诊断检查与活动性评估",
+          "groupIds": [
+            "resp-tb-02",
+            "resp-tb-02-compare-inactive",
+            "resp-tb-03"
+          ]
+        },
+        {
+          "key": "treatment",
+          "name": "治疗方案与药物安全",
+          "groupIds": [
+            "resp-tb-04",
+            "resp-tb-05"
+          ]
+        },
+        {
+          "key": "complications",
+          "name": "并发症及特殊表现",
+          "groupIds": [
+            "resp-tb-06"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-asthma",
+      "modules": [
+        {
+          "key": "presentation",
+          "name": "发病机制与临床表现",
+          "groupIds": [
+            "resp-asthma-01",
+            "resp-asthma-01-compare-cough"
+          ]
+        },
+        {
+          "key": "tests",
+          "name": "肺功能与诊断检查",
+          "groupIds": [
+            "resp-asthma-02"
+          ]
+        },
+        {
+          "key": "medicines",
+          "name": "药物类别与维持治疗",
+          "groupIds": [
+            "resp-asthma-03",
+            "resp-asthma-03-compare-stabilizer",
+            "resp-asthma-03-compare-ics"
+          ]
+        },
+        {
+          "key": "assessment",
+          "name": "发作评估、控制与鉴别",
+          "groupIds": [
+            "resp-asthma-04",
+            "resp-asthma-05"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-ards",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "危险因素、机制与诊断",
+          "groupIds": [
+            "resp-ards-01"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "氧合评估与通气、液体管理",
+          "groupIds": [
+            "resp-ards-02",
+            "resp-ards-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-failure",
+      "modules": [
+        {
+          "key": "classification",
+          "name": "分型与氧合支持",
+          "groupIds": [
+            "resp-failure-01"
+          ]
+        },
+        {
+          "key": "clinical",
+          "name": "低氧表现与纠正策略",
+          "groupIds": [
+            "resp-failure-02"
+          ]
+        },
+        {
+          "key": "ventilation",
+          "name": "通气并发症与酸碱评估",
+          "groupIds": [
+            "resp-failure-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-lung-cancer",
+      "modules": [
+        {
+          "key": "pathology",
+          "name": "组织类型与肿瘤生物学",
+          "groupIds": [
+            "resp-lung-cancer-01",
+            "resp-lung-cancer-01-compare-histology"
+          ]
+        },
+        {
+          "key": "presentation",
+          "name": "局部与全身临床表现",
+          "groupIds": [
+            "resp-lung-cancer-02",
+            "resp-lung-cancer-02-compare-carcinoid"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "诊断检查、影像与治疗",
+          "groupIds": [
+            "resp-lung-cancer-03",
+            "resp-lung-cancer-03-compare-morphology",
+            "resp-lung-cancer-03-compare-egfr"
+          ]
+        },
+        {
+          "key": "stage",
+          "name": "TNM分期与扩展范围",
+          "groupIds": [
+            "resp-lung-cancer-04"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "resp-pleura",
+      "modules": [
+        {
+          "key": "fluid-analysis",
+          "name": "胸水机制与生化判别",
+          "groupIds": [
+            "resp-pleura-02",
+            "resp-pleura-02-compare-pressure",
+            "resp-pleura-02-compare-protein"
+          ]
+        },
+        {
+          "key": "clinical",
+          "name": "胸水体征、影像与定位",
+          "groupIds": [
+            "resp-pleura-03",
+            "resp-pleura-08",
+            "resp-pleura-09",
+            "resp-pleura-09-compare-border"
+          ]
+        },
+        {
+          "key": "differential",
+          "name": "胸水病因鉴别与处理",
+          "groupIds": [
+            "resp-pleura-04",
+            "resp-pleura-04-compare-pus",
+            "resp-pleura-04-compare-cea",
+            "resp-pleura-04-compare-ada"
+          ]
+        },
+        {
+          "key": "haemothorax",
+          "name": "血胸的评估与变化",
+          "groupIds": [
+            "resp-pleura-01"
+          ]
+        },
+        {
+          "key": "pneumothorax",
+          "name": "气胸类型与临床鉴别",
+          "groupIds": [
+            "resp-pleura-06",
+            "resp-pleura-06-compare-percussion"
+          ]
+        },
+        {
+          "key": "procedures",
+          "name": "抽液、闭式引流与并发症",
+          "groupIds": [
+            "resp-pleura-05",
+            "resp-pleura-07",
+            "resp-pleura-07-compare-drain"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "digest-gerd",
+      "modules": [
+        {
+          "key": "mechanisms",
+          "name": "屏障功能与促发因素",
+          "groupIds": [
+            "digest-gerd-01",
+            "digest-gerd-02"
+          ]
+        },
+        {
+          "key": "presentation",
+          "name": "临床表现与内镜分级",
+          "groupIds": [
+            "digest-gerd-03",
+            "digest-gerd-06"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "检查、治疗与长期管理",
+          "groupIds": [
+            "digest-gerd-04",
+            "digest-gerd-05"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "digest-gastritis",
+      "modules": [
+        {
+          "key": "classification",
+          "name": "胃炎类型与鉴别",
+          "groupIds": [
+            "digest-gastritis-01",
+            "digest-gastritis-02"
+          ]
+        },
+        {
+          "key": "hp",
+          "name": "幽门螺杆菌：机制与检测",
+          "groupIds": [
+            "digest-gastritis-03",
+            "digest-gastritis-05"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "治疗疗程与病理变化",
+          "groupIds": [
+            "digest-gastritis-04"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "digest-ulcer",
+      "modules": [
+        {
+          "key": "differential",
+          "name": "溃疡类型与临床鉴别",
+          "groupIds": [
+            "digest-ulcer-01",
+            "digest-ulcer-06"
+          ]
+        },
+        {
+          "key": "complications",
+          "name": "并发症识别与出血评估",
+          "groupIds": [
+            "digest-ulcer-02",
+            "digest-ulcer-03"
+          ]
+        },
+        {
+          "key": "treatment",
+          "name": "药物治疗与并发症处理",
+          "groupIds": [
+            "digest-ulcer-04",
+            "digest-ulcer-05"
+          ]
+        },
+        {
+          "key": "postoperative",
+          "name": "胃术后异常的鉴别与处理",
+          "groupIds": [
+            "digest-ulcer-07",
+            "digest-ulcer-08"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "digest-tb",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "肠结核与腹膜结核的诊断鉴别",
+          "groupIds": [
+            "digest-tb-01",
+            "digest-tb-02"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "腹膜病变分型与处理指征",
+          "groupIds": [
+            "digest-tb-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "digest-ibd",
+      "modules": [
+        {
+          "key": "differential",
+          "name": "疾病鉴别与影像特点",
+          "groupIds": [
+            "digest-ibd-01",
+            "digest-ibd-02"
+          ]
+        },
+        {
+          "key": "activity",
+          "name": "活动度、并发症与肠外表现",
+          "groupIds": [
+            "digest-ibd-03",
+            "digest-ibd-06"
+          ]
+        },
+        {
+          "key": "treatment",
+          "name": "治疗阶段与药物选择",
+          "groupIds": [
+            "digest-ibd-04",
+            "digest-ibd-05"
+          ]
+        },
+        {
+          "key": "tests",
+          "name": "检查与局部并发症处理",
+          "groupIds": [
+            "digest-ibd-07"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "digest-ibs",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "机制、表现与诊断",
+          "groupIds": [
+            "digest-ibs-01"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "分型与症状管理",
+          "groupIds": [
+            "digest-ibs-02"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "digest-he",
+      "modules": [
+        {
+          "key": "mechanisms",
+          "name": "病因、诱因与发病机制",
+          "groupIds": [
+            "digest-he-01",
+            "digest-he-01-compare-aromatic"
+          ]
+        },
+        {
+          "key": "assessment",
+          "name": "临床分期与评估",
+          "groupIds": [
+            "digest-he-02"
+          ]
+        },
+        {
+          "key": "gut",
+          "name": "饮食与肠道处理",
+          "groupIds": [
+            "digest-he-03",
+            "digest-he-03-compare-enema"
+          ]
+        },
+        {
+          "key": "medicines",
+          "name": "药物作用与神经精神处理",
+          "groupIds": [
+            "digest-he-04",
+            "digest-he-04-compare-bcaa"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "digest-hcc",
+      "modules": [
+        {
+          "key": "presentation",
+          "name": "病因、病理与临床表现",
+          "groupIds": [
+            "digest-hcc-01",
+            "digest-hcc-01-compare-paraneoplastic"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "影像、筛查与确诊检查",
+          "groupIds": [
+            "digest-hcc-02",
+            "digest-hcc-03"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "治疗选择与肝储备评估",
+          "groupIds": [
+            "digest-hcc-04"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "digest-cirrhosis",
+      "modules": [
+        {
+          "key": "presentation",
+          "name": "病因与全身效应",
+          "groupIds": [
+            "digest-cirrhosis-01",
+            "digest-cirrhosis-02",
+            "digest-cirrhosis-02-compare-albumin"
+          ]
+        },
+        {
+          "key": "ascites",
+          "name": "腹水机制、鉴别与处理",
+          "groupIds": [
+            "digest-cirrhosis-03",
+            "digest-cirrhosis-04"
+          ]
+        },
+        {
+          "key": "bleeding",
+          "name": "静脉曲张出血与预防",
+          "groupIds": [
+            "digest-cirrhosis-05"
+          ]
+        },
+        {
+          "key": "complications",
+          "name": "并发症及相关病理生理",
+          "groupIds": [
+            "digest-cirrhosis-06",
+            "digest-cirrhosis-07"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "digest-pancreatitis",
+      "modules": [
+        {
+          "key": "pathogenesis",
+          "name": "病因、损伤机制与表现",
+          "groupIds": [
+            "digest-pancreatitis-01",
+            "digest-pancreatitis-02"
+          ]
+        },
+        {
+          "key": "assessment",
+          "name": "严重度与实验室评估",
+          "groupIds": [
+            "digest-pancreatitis-03",
+            "digest-pancreatitis-05"
+          ]
+        },
+        {
+          "key": "complications",
+          "name": "感染、并发症与胰周积液",
+          "groupIds": [
+            "digest-pancreatitis-04",
+            "supp-digest-pancreas-fluid"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "治疗选择与慢性胰腺病变",
+          "groupIds": [
+            "digest-pancreatitis-06",
+            "digest-pancreatitis-06-compare-chronic"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "renal-overview",
+      "modules": [
+        {
+          "key": "urinalysis",
+          "name": "蛋白、血尿与尿沉渣判读",
+          "groupIds": [
+            "renal-overview-01",
+            "renal-overview-02"
+          ]
+        },
+        {
+          "key": "function",
+          "name": "肾功能检查的目的",
+          "groupIds": [
+            "renal-overview-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "renal-uti",
+      "modules": [
+        {
+          "key": "pathogenesis",
+          "name": "感染途径、病原与特殊背景",
+          "groupIds": [
+            "renal-uti-01",
+            "renal-uti-02"
+          ]
+        },
+        {
+          "key": "differential",
+          "name": "感染部位与诊断检查",
+          "groupIds": [
+            "renal-uti-03",
+            "renal-uti-04"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "用药、疗程与并发症",
+          "groupIds": [
+            "renal-uti-05"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "renal-failure",
+      "modules": [
+        {
+          "key": "aki",
+          "name": "急性肾损伤的病因与分期",
+          "groupIds": [
+            "renal-failure-01",
+            "renal-failure-01-compare-mortality"
+          ]
+        },
+        {
+          "key": "differential",
+          "name": "急性肾损伤检查与鉴别",
+          "groupIds": [
+            "renal-failure-02",
+            "renal-failure-02-compare-sodium",
+            "renal-failure-02-compare-density",
+            "renal-failure-03"
+          ]
+        },
+        {
+          "key": "ckd",
+          "name": "慢性肾脏病分期与全身变化",
+          "groupIds": [
+            "renal-failure-04",
+            "renal-failure-05"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "肾衰治疗、透析与并发症",
+          "groupIds": [
+            "renal-failure-06"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "renal-glomerular",
+      "modules": [
+        {
+          "key": "syndromes",
+          "name": "临床综合征与免疫机制",
+          "groupIds": [
+            "renal-glomerular-01",
+            "renal-glomerular-02"
+          ]
+        },
+        {
+          "key": "nephritis",
+          "name": "急性与急进性肾炎",
+          "groupIds": [
+            "renal-glomerular-03",
+            "renal-glomerular-04"
+          ]
+        },
+        {
+          "key": "nephrotic",
+          "name": "肾病综合征及治疗反应",
+          "groupIds": [
+            "renal-glomerular-05",
+            "renal-glomerular-06"
+          ]
+        },
+        {
+          "key": "pathology",
+          "name": "病理沉积与免疫荧光",
+          "groupIds": [
+            "renal-glomerular-07"
+          ]
+        },
+        {
+          "key": "differential",
+          "name": "IgA、慢性肾炎及相关鉴别",
+          "groupIds": [
+            "renal-glomerular-08",
+            "renal-glomerular-09"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "blood-ida",
+      "modules": [
+        {
+          "key": "classification",
+          "name": "贫血定义、分类与严重度",
+          "groupIds": [
+            "blood-ida-06",
+            "blood-ida-07"
+          ]
+        },
+        {
+          "key": "iron",
+          "name": "铁代谢、病因与缺铁表现",
+          "groupIds": [
+            "blood-ida-01",
+            "blood-ida-02"
+          ]
+        },
+        {
+          "key": "tests",
+          "name": "实验室指标与贫血鉴别",
+          "groupIds": [
+            "blood-ida-03",
+            "blood-ida-04"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "补铁治疗与疗效评估",
+          "groupIds": [
+            "blood-ida-05"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "blood-aa",
+      "modules": [
+        {
+          "key": "mechanisms",
+          "name": "病因与骨髓衰竭机制",
+          "groupIds": [
+            "blood-aa-01"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "血象、骨髓与相关鉴别",
+          "groupIds": [
+            "blood-aa-02",
+            "blood-aa-04"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "治疗选择与造血支持",
+          "groupIds": [
+            "blood-aa-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "blood-hemolysis",
+      "modules": [
+        {
+          "key": "classification",
+          "name": "溶血病因与发生部位",
+          "groupIds": [
+            "blood-hemolysis-01"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "溶血证据、形态与病因诊断",
+          "groupIds": [
+            "blood-hemolysis-02",
+            "blood-hemolysis-02-compare-bilirubin",
+            "blood-hemolysis-03"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "特异检查与脾切除、移植选择",
+          "groupIds": [
+            "blood-hemolysis-04",
+            "supp-blood-hemolysis-02"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "blood-bleeding",
+      "modules": [
+        {
+          "key": "mechanisms",
+          "name": "出血机制与临床部位",
+          "groupIds": [
+            "blood-bleeding-03"
+          ]
+        },
+        {
+          "key": "coagulation",
+          "name": "凝血途径与检测判读",
+          "groupIds": [
+            "blood-bleeding-04",
+            "blood-bleeding-04-compare-bt",
+            "blood-bleeding-04-compare-pathway"
+          ]
+        },
+        {
+          "key": "itp-diagnosis",
+          "name": "血小板减少的诊断与鉴别",
+          "groupIds": [
+            "blood-bleeding-01",
+            "blood-bleeding-01-compare-marrow",
+            "blood-bleeding-01-compare-itp"
+          ]
+        },
+        {
+          "key": "itp-management",
+          "name": "ITP治疗与疗程",
+          "groupIds": [
+            "blood-bleeding-02",
+            "blood-bleeding-06"
+          ]
+        },
+        {
+          "key": "haemostasis",
+          "name": "止血药的作用配伍",
+          "groupIds": [
+            "blood-bleeding-05"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "blood-mm",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "临床、实验室与形态诊断",
+          "groupIds": [
+            "blood-mm-01",
+            "blood-mm-01-compare-rouleaux"
+          ]
+        },
+        {
+          "key": "stage",
+          "name": "分期、风险与治疗选择",
+          "groupIds": [
+            "blood-mm-02",
+            "supp-blood-mm-01",
+            "supp-blood-mm-02",
+            "supp-blood-mm-02-compare-mprotein"
+          ]
+        },
+        {
+          "key": "renal",
+          "name": "肾损害与并发症",
+          "groupIds": [
+            "blood-mm-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "blood-mds",
+      "modules": [
+        {
+          "key": "classification",
+          "name": "疾病界限与遗传、形态分型",
+          "groupIds": [
+            "blood-mds-01",
+            "supp-blood-mds-05",
+            "supp-blood-mds-06"
+          ]
+        },
+        {
+          "key": "morphology",
+          "name": "病态造血与鉴别",
+          "groupIds": [
+            "blood-mds-02",
+            "blood-mds-04",
+            "supp-blood-mds-04"
+          ]
+        },
+        {
+          "key": "risk",
+          "name": "风险评分与细胞遗传预后",
+          "groupIds": [
+            "supp-blood-mds-01",
+            "supp-blood-mds-02",
+            "supp-blood-mds-03"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "治疗策略与适应人群",
+          "groupIds": [
+            "blood-mds-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "blood-leukemia",
+      "modules": [
+        {
+          "key": "classification",
+          "name": "急性白血病细胞类型",
+          "groupIds": [
+            "blood-leukemia-01"
+          ]
+        },
+        {
+          "key": "phenotype",
+          "name": "细胞化学、免疫与遗传鉴别",
+          "groupIds": [
+            "blood-leukemia-03",
+            "blood-leukemia-07",
+            "supp-blood-leukemia-01"
+          ]
+        },
+        {
+          "key": "clinical",
+          "name": "浸润、并发症与疗效评估",
+          "groupIds": [
+            "blood-leukemia-02",
+            "blood-leukemia-08"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "治疗方案与药物不良反应",
+          "groupIds": [
+            "blood-leukemia-04",
+            "blood-leukemia-06"
+          ]
+        },
+        {
+          "key": "cml",
+          "name": "慢性髓系白血病分期与处理",
+          "groupIds": [
+            "blood-leukemia-05"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "blood-lymphoma",
+      "modules": [
+        {
+          "key": "assessment",
+          "name": "诊断、临床分期与范围",
+          "groupIds": [
+            "blood-lymphoma-01"
+          ]
+        },
+        {
+          "key": "pathology",
+          "name": "病理实体与特殊表现",
+          "groupIds": [
+            "blood-lymphoma-02",
+            "blood-lymphoma-03"
+          ]
+        },
+        {
+          "key": "phenotype",
+          "name": "免疫、遗传与病毒关系",
+          "groupIds": [
+            "blood-lymphoma-04",
+            "blood-lymphoma-05",
+            "blood-lymphoma-07"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "恶性程度与治疗选择",
+          "groupIds": [
+            "blood-lymphoma-06"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "endo-graves",
+      "modules": [
+        {
+          "key": "presentation",
+          "name": "甲亢表现与全身效应",
+          "groupIds": [
+            "endo-graves-01",
+            "endo-graves-02",
+            "endo-graves-02-compare-calcium"
+          ]
+        },
+        {
+          "key": "orbit",
+          "name": "眼病活动度与分级",
+          "groupIds": [
+            "supp-endo-graves-01"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "功能检查与特殊类型",
+          "groupIds": [
+            "endo-graves-03"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "药物、放射碘与手术选择",
+          "groupIds": [
+            "endo-graves-04",
+            "endo-graves-06"
+          ]
+        },
+        {
+          "key": "crisis",
+          "name": "急性危象与治疗安全",
+          "groupIds": [
+            "endo-graves-05"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "endo-hypothyroid",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "病因分类与功能检查",
+          "groupIds": [
+            "endo-hypothyroid-01"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "替代治疗与监测",
+          "groupIds": [
+            "endo-hypothyroid-02"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "endo-diabetes",
+      "modules": [
+        {
+          "key": "classification",
+          "name": "分型、胰岛功能与糖代谢诊断",
+          "groupIds": [
+            "endo-diabetes-01",
+            "endo-diabetes-01-compare-antibody",
+            "endo-diabetes-02",
+            "endo-diabetes-02-compare-glucose"
+          ]
+        },
+        {
+          "key": "acute",
+          "name": "急性代谢紊乱的鉴别与处理",
+          "groupIds": [
+            "endo-diabetes-03",
+            "endo-diabetes-04"
+          ]
+        },
+        {
+          "key": "microvascular",
+          "name": "肾脏、视网膜与风险分级",
+          "groupIds": [
+            "endo-diabetes-05",
+            "endo-diabetes-10",
+            "supp-endo-diabetes-02"
+          ]
+        },
+        {
+          "key": "chronic",
+          "name": "神经病变与代谢危险因素",
+          "groupIds": [
+            "endo-diabetes-06"
+          ]
+        },
+        {
+          "key": "medicines",
+          "name": "胰岛素、降糖药与安全选择",
+          "groupIds": [
+            "endo-diabetes-07",
+            "endo-diabetes-08",
+            "endo-diabetes-09"
+          ]
+        },
+        {
+          "key": "self-management",
+          "name": "综合管理与日常干预",
+          "groupIds": [
+            "supp-endo-diabetes-01"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "endo-aldosterone",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "临床、生化与心电评估",
+          "groupIds": [
+            "endo-aldosterone-01",
+            "endo-aldosterone-01-ecg-tu",
+            "endo-aldosterone-01-compare-raas"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "病因与治疗选择",
+          "groupIds": [
+            "endo-aldosterone-02"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "endo-cushing",
+      "modules": [
+        {
+          "key": "etiology",
+          "name": "病因、临床与相关综合征",
+          "groupIds": [
+            "endo-cushing-01",
+            "supp-endo-cushing-01",
+            "supp-endo-cushing-02"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "功能、定位与病因鉴别",
+          "groupIds": [
+            "endo-cushing-02",
+            "endo-cushing-02-compare-rhythm",
+            "supp-endo-cushing-03"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "外科治疗与激素替代",
+          "groupIds": [
+            "endo-cushing-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "endo-pheochromocytoma",
+      "modules": [
+        {
+          "key": "clinical",
+          "name": "发作表现与激素效应",
+          "groupIds": [
+            "endo-pheochromocytoma-01",
+            "endo-pheochromocytoma-01-compare-attack"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "循环变化与诊断检查",
+          "groupIds": [
+            "endo-pheochromocytoma-02"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "围手术期药物与顺序",
+          "groupIds": [
+            "endo-pheochromocytoma-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "endo-overview",
+      "modules": [
+        {
+          "key": "axes",
+          "name": "内分泌机制与靶腺轴",
+          "groupIds": [
+            "endo-overview-01"
+          ]
+        },
+        {
+          "key": "differential",
+          "name": "高血压低钾的内分泌鉴别",
+          "groupIds": [
+            "endo-overview-02",
+            "endo-overview-02-compare-liddle"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "rheum-overview",
+      "modules": [
+        {
+          "key": "classification",
+          "name": "疾病范畴与临床特征",
+          "groupIds": [
+            "rheum-overview-01",
+            "supp-rheum-overview-01"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "抗风湿药物的作用类别",
+          "groupIds": [
+            "rheum-overview-02"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "rheum-sle",
+      "modules": [
+        {
+          "key": "phenotype",
+          "name": "抗体与临床表现的关系",
+          "groupIds": [
+            "rheum-sle-01"
+          ]
+        },
+        {
+          "key": "activity",
+          "name": "疾病活动与相关综合征",
+          "groupIds": [
+            "rheum-sle-02",
+            "rheum-sle-02-compare-aps"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "器官损害与治疗选择",
+          "groupIds": [
+            "rheum-sle-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "rheum-ra",
+      "modules": [
+        {
+          "key": "clinical",
+          "name": "关节与关节外表现",
+          "groupIds": [
+            "rheum-ra-01"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "诊断标准与影像分期",
+          "groupIds": [
+            "rheum-ra-02",
+            "rheum-ra-04"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "治疗与疾病鉴别",
+          "groupIds": [
+            "rheum-ra-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "rheum-sjogren",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "免疫学证据与鉴别",
+          "groupIds": [
+            "rheum-sjogren-01-compare-antibody"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "症状管理与相关表现",
+          "groupIds": [
+            "rheum-sjogren-02"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "rheum-vasculitis",
+      "modules": [
+        {
+          "key": "classification",
+          "name": "血管炎分类与免疫诊断",
+          "groupIds": [
+            "rheum-vasculitis-01",
+            "supp-rheum-vasculitis-01"
+          ]
+        },
+        {
+          "key": "small-vessel",
+          "name": "小血管炎的临床鉴别",
+          "groupIds": [
+            "rheum-vasculitis-02"
+          ]
+        },
+        {
+          "key": "behcet",
+          "name": "白塞病的识别与处理",
+          "groupIds": [
+            "rheum-vasculitis-03"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "toxicology",
+      "modules": [
+        {
+          "key": "recognition",
+          "name": "暴露线索与全身表现",
+          "groupIds": [
+            "signs",
+            "systemic"
+          ]
+        },
+        {
+          "key": "organophosphate",
+          "name": "有机磷：机制、表现与病程",
+          "groupIds": [
+            "opi",
+            "tox-mechanism"
+          ]
+        },
+        {
+          "key": "severity",
+          "name": "严重度与并发症识别",
+          "groupIds": [
+            "course"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "解毒、去污与治疗安全",
+          "groupIds": [
+            "antidotes",
+            "treatment",
+            "tox-additional"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "cardio-myocardium",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "病因、结构与功能鉴别",
+          "groupIds": [
+            "cardio-myocardium-g1",
+            "cardio-myocardium-g2"
+          ]
+        },
+        {
+          "key": "clinical",
+          "name": "血流动力学与临床体征",
+          "groupIds": [
+            "cardio-myocardium-g3"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "治疗策略与风险评估",
+          "groupIds": [
+            "cardio-myocardium-g4"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "cardio-pericardium",
+      "modules": [
+        {
+          "key": "clinical",
+          "name": "临床体征与血流动力学",
+          "groupIds": [
+            "cardio-pericardium-g1"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "检查、心电与病因鉴别",
+          "groupIds": [
+            "cardio-pericardium-g2",
+            "cardio-pericardium-g2-ecg-st",
+            "cardio-pericardium-g3"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "cardio-endocarditis",
+      "modules": [
+        {
+          "key": "clinical",
+          "name": "基础病与外周表现",
+          "groupIds": [
+            "cardio-endocarditis-g1"
+          ]
+        },
+        {
+          "key": "differential",
+          "name": "临床类型与病程鉴别",
+          "groupIds": [
+            "cardio-endocarditis-g2"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "诊断证据与干预指征",
+          "groupIds": [
+            "cardio-endocarditis-g3"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "cardio-hypertension",
+      "modules": [
+        {
+          "key": "assessment",
+          "name": "血压、靶器官与危险分层",
+          "groupIds": [
+            "cardio-hypertension-g1",
+            "cardio-hypertension-g5"
+          ]
+        },
+        {
+          "key": "clinical",
+          "name": "急症、目标与继发病因",
+          "groupIds": [
+            "cardio-hypertension-g2"
+          ]
+        },
+        {
+          "key": "strategy",
+          "name": "合并症与降压药选择",
+          "groupIds": [
+            "cardio-hypertension-g3"
+          ]
+        },
+        {
+          "key": "pharmacology",
+          "name": "药物作用与不良反应",
+          "groupIds": [
+            "cardio-hypertension-g4",
+            "cardio-hypertension-g6"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "cardio-diagnostics",
+      "modules": [
+        {
+          "key": "sounds",
+          "name": "心音、附加音与周期",
+          "groupIds": [
+            "cardio-diagnostics-g1",
+            "cardio-diagnostics-g2",
+            "cardio-diagnostics-g5"
+          ]
+        },
+        {
+          "key": "murmurs",
+          "name": "瓣膜听诊、杂音与心界",
+          "groupIds": [
+            "cardio-diagnostics-g3",
+            "cardio-diagnostics-g6"
+          ]
+        },
+        {
+          "key": "pulse",
+          "name": "脉搏特征与相关疾病",
+          "groupIds": [
+            "cardio-diagnostics-g4"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "cardio-valves",
+      "modules": [
+        {
+          "key": "differential",
+          "name": "瓣膜病的结构与体征鉴别",
+          "groupIds": [
+            "cardio-valves-g1",
+            "cardio-valves-g3"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "临床评估与心电判读",
+          "groupIds": [
+            "cardio-valves-g2",
+            "cardio-valves-g2-ecg-p"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "治疗策略与干预选择",
+          "groupIds": [
+            "cardio-valves-g4"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "cardio-coronary",
+      "modules": [
+        {
+          "key": "presentation",
+          "name": "冠脉病变与胸痛鉴别",
+          "groupIds": [
+            "cardio-coronary-g1",
+            "cardio-coronary-g2"
+          ]
+        },
+        {
+          "key": "ecg",
+          "name": "心电、标志物与梗死定位",
+          "groupIds": [
+            "cardio-coronary-g6",
+            "cardio-coronary-g6-ecg-territory",
+            "cardio-coronary-g6-ecg-phase",
+            "cardio-coronary-g8-ecg-posterior",
+            "cardio-coronary-g8-ecg-waves"
+          ]
+        },
+        {
+          "key": "assessment",
+          "name": "活动耐量与临床时相",
+          "groupIds": [
+            "cardio-coronary-g8"
+          ]
+        },
+        {
+          "key": "complications",
+          "name": "梗死并发症与循环状态",
+          "groupIds": [
+            "cardio-coronary-g4",
+            "cardio-coronary-g5"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "抗缺血、抗栓与再灌注",
+          "groupIds": [
+            "cardio-coronary-g3",
+            "cardio-coronary-g7"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "cardio-heart-failure",
+      "modules": [
+        {
+          "key": "classification",
+          "name": "分期、功能与急性分型",
+          "groupIds": [
+            "cardio-heart-failure-g1",
+            "cardio-heart-failure-g4"
+          ]
+        },
+        {
+          "key": "diagnosis",
+          "name": "负荷、淤血与检查评估",
+          "groupIds": [
+            "cardio-heart-failure-g2",
+            "cardio-heart-failure-g3"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "药物与器械治疗",
+          "groupIds": [
+            "cardio-heart-failure-g5"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "cardio-arrhythmia",
+      "modules": [
+        {
+          "key": "basics",
+          "name": "心电基础与心腔判断",
+          "groupIds": [
+            "cardio-arrhythmia-g1",
+            "cardio-arrhythmia-g1-ecg-pr",
+            "cardio-arrhythmia-g1-ecg-voltage",
+            "cardio-arrhythmia-g1-ecg-time",
+            "cardio-arrhythmia-g7-ecg-atria",
+            "cardio-arrhythmia-g9"
+          ]
+        },
+        {
+          "key": "supraventricular",
+          "name": "室上性心律与预激",
+          "groupIds": [
+            "cardio-arrhythmia-g2",
+            "cardio-arrhythmia-g2-ecg-rhythms",
+            "cardio-arrhythmia-g3",
+            "cardio-arrhythmia-g3-ecg-features"
+          ]
+        },
+        {
+          "key": "ventricular",
+          "name": "早搏与室性心律",
+          "groupIds": [
+            "cardio-arrhythmia-g4",
+            "cardio-arrhythmia-g4-ecg-ventricular",
+            "cardio-arrhythmia-g4-ecg-premature"
+          ]
+        },
+        {
+          "key": "af",
+          "name": "房颤评估与抗凝",
+          "groupIds": [
+            "cardio-arrhythmia-g5",
+            "cardio-arrhythmia-g6"
+          ]
+        },
+        {
+          "key": "conduction",
+          "name": "传导异常与停搏鉴别",
+          "groupIds": [
+            "cardio-arrhythmia-g7",
+            "cardio-arrhythmia-g7-ecg-bundle",
+            "cardio-arrhythmia-g7-ecg-sa",
+            "cardio-arrhythmia-g7-ecg-av"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "药物、器械与电治疗",
+          "groupIds": [
+            "cardio-arrhythmia-g8",
+            "cardio-arrhythmia-g8-ecg-electrical"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "cardio-arrest",
+      "modules": [
+        {
+          "key": "recognition",
+          "name": "骤停识别与复苏环节",
+          "groupIds": [
+            "cardio-arrest-g1"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "复苏参数与节律处理流程",
+          "groupIds": [
+            "cardio-arrest-g2",
+            "cardio-arrest-g3"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "对src/full-bank.json应用当前question-policy.cjs（含distractor、comparison、ECG策略）后逐章人工归类，非按名称关键词自动聚类。",
+    "保留58个原章节及所有旧选项池的ID、选项和题目；这里只调整大专题导航。相邻专题共享临床概念不等于混合异类选项池。",
+    "对原来兼有检查和治疗的综合池，按主要临床任务放入一个专题，不伪拆原题，也不复制进多个专题；界面可在专题内继续用紧凑选项池选择器。",
+    "药物成分、同字段比较、补充评分矩阵和心电读图小池归入各自临床专题，避免以每个微小字段另建导航。",
+    "专题名采用宽泛临床任务，不写具体数值、特征或正确关系；答题卡仍需隐藏能透露答案的细粒度原组选项池标题。"
+  ]
+}

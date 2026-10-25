@@ -1,0 +1,571 @@
+{
+  "course": "physiology",
+  "reviewed": [
+    "phys-01-homeostasis-q1",
+    "phys-01-ways-q2",
+    "phys-01-ways-q6",
+    "phys-01-reflex-q1",
+    "phys-01-reflex-q2",
+    "phys-01-reflex-q4",
+    "phys-01-reflex-q5",
+    "phys-01-stress-q2",
+    "phys-01-feedback-q1",
+    "phys-01-feedback-q2",
+    "phys-01-feedback-q5",
+    "phys-01-feedback-q6",
+    "phys-01-feedback-q7",
+    "phys-01-feedback-q8",
+    "phys-03-threshold-q1",
+    "phys-03-threshold-q2",
+    "phys-03-threshold-q3",
+    "phys-03-refractory-q4",
+    "phys-03-local-vs-ap-q1",
+    "phys-03-local-vs-ap-q2",
+    "phys-03-local-vs-ap-q3",
+    "phys-03-local-vs-ap-q4",
+    "phys-03-local-vs-ap-q5",
+    "phys-03-local-vs-ap-q6",
+    "phys-04-junction-mini-q1",
+    "phys-04-skeletal-cardiac-q1",
+    "phys-04-skeletal-cardiac-q2",
+    "phys-04-skeletal-cardiac-q4",
+    "phys-04-load-q2",
+    "phys-05-g-vs-ras-q1",
+    "phys-05-domains-q2",
+    "phys-07-rbc-properties-q2",
+    "phys-07-erythropoiesis-q3",
+    "phys-07-tonicity-q1",
+    "phys-08-hemostasis-q2",
+    "phys-08-tests-q2",
+    "phys-08-tests-q5",
+    "phys-10-vessel-types-q6",
+    "phys-10-resistance-q4",
+    "phys-11-gates-q2",
+    "phys-16-gas-difference-q1",
+    "phys-19-saliva-reflex-q1",
+    "phys-20-gastric-motion-q2",
+    "phys-23-caloric-definitions-q1",
+    "phys-23-caloric-definitions-q2",
+    "phys-23-nutrient-caloric-ranking-q1",
+    "phys-25-effective-pressure-calc-q1",
+    "phys-26-magnesium-potassium-q1",
+    "phys-26-renal-hormones-q2",
+    "phys-26-renal-hormones-q4",
+    "phys-26-renal-hormones-q8",
+    "phys-30-nutrition-q1",
+    "phys-31-release-sequence-q1",
+    "phys-31-release-sequence-q2",
+    "phys-31-release-sequence-q3",
+    "phys-31-pre-v-post-q2",
+    "phys-40-gc-water-q1",
+    "phys-41-sperm-stages-q1",
+    "phys-10-arteriole-effects-q2",
+    "phys-11-gates-q4",
+    "phys-14-function-indices-q2"
+  ],
+  "questionEdits": [
+    {
+      "id": "phys-01-homeostasis-q1",
+      "stem": "依照讲义，稳态的变化特点与适用范围，哪组完整正确？",
+      "reason": "P2明确动态平衡及概念泛化。原池只有正解为正向表述，其余均用绝对/只/无关排除；改为同样两字段交换，不能只凭语言倾向挑选。"
+    },
+    {
+      "id": "phys-03-refractory-q4",
+      "stem": "在同一神经纤维连续受刺激、重复产生锋电位时，相邻两次锋电位间隔的生理下限，主要由哪一期的持续时间限定？",
+      "reason": "P35明确相邻锋电位间隔≥绝对不应期。删除题干已经给出的答案名及无须使用的2ms，保留所考生理限制；计算例子移到解析。",
+      "explanation": "相邻两个锋电位的时间间隔不小于绝对不应期；此期内再强刺激也不能再次兴奋。若该期为2ms，理论最高发放频率为1000/2=500次/秒。"
+    },
+    {
+      "id": "phys-05-g-vs-ras-q1",
+      "stem": "胰高血糖素受体将信号传给腺苷酸环化酶时，直接耦联的GTP结合蛋白属于本池哪一类？",
+      "reason": "P57–58以胰高血糖素的GPCR通路为例，Gs可激活AC。原题逐字列α、β、γ三个亚基，配“异三聚体”可只数三项猜答；改按所参与信号通路识别，不删共同GTP开关知识。",
+      "explanation": "GPCR通过异三聚体G蛋白传递信号；Gs的α亚基结合GTP并分离后可激活腺苷酸环化酶。Ras是单链小G蛋白，参与受体型酪氨酸激酶-MAPK通路。"
+    },
+    {
+      "id": "phys-05-domains-q1",
+      "stem": "Grb2与已磷酸化EGFR连接时，主要利用哪一结构域？",
+      "reason": "P65逐行列明Grb2的SH2/SH3、Akt的PH、IRS的PTB；选项改为仅结构域名后仍由Grb2+EGFR排除同样可识别磷酸酪氨酸的PTB，不能去掉蛋白归属。"
+    },
+    {
+      "id": "phys-05-domains-q2",
+      "stem": "Grb2与SOS结合时，主要利用哪一结构域？",
+      "reason": "P65明确Grb2-SH3识别富含脯氨酸的SOS。将富含脯氨酸移到解析，并从所有选项删除“结构域→待考对象”的映射。",
+      "explanation": "Grb2的SH3结构域识别结合富含脯氨酸的蛋白如SOS；SH2识别结合磷酸化酪氨酸。"
+    },
+    {
+      "id": "phys-05-domains-q3",
+      "stem": "Akt被膜上的PIP₃招募时，主要利用哪一结构域？",
+      "reason": "P65正文及结构域表均明确Akt/PKB的PH识别磷脂衍生物；不在选项中预印PH-PIP3答案映射。"
+    },
+    {
+      "id": "phys-05-domains-q4",
+      "stem": "胰岛素受体底物IRS在本页表格中对应哪一识别结构域？",
+      "reason": "P65明确IRS的PTB结构域。保留IRS归属，否则仅磷酸酪氨酸这一靶点不能唯一排除SH2。"
+    },
+    {
+      "id": "phys-08-hemostasis-q1",
+      "stem": "按讲义的一期、二期止血分法，血管收缩、血小板栓与凝血块形成，哪组阶段归属完整正确？",
+      "reason": "P88原文：血管收缩和血小板栓为一期，血液凝固形成凝血块为二期。将两道同词匹配合并成每项都含三个相同组成的阶段交换；q2由本题完整承接。",
+      "explanation": "一期止血以血管收缩及血小板栓形成为主；二期止血由凝血过程形成凝血块。三个过程相互重叠、相互促进，不代表机械分离。"
+    },
+    {
+      "id": "phys-08-tests-q2",
+      "stem": "用于主要反映内源性及共同凝血途径的时间检测，是本组哪项？",
+      "reason": "P95表明确APTT所涉及因子；选项只保留检测名，去掉已经与题干逐字相同的内源性/共同途径标签。"
+    },
+    {
+      "id": "phys-26-magnesium-potassium-q1",
+      "stem": "低镁状态可使集合管主细胞分泌K⁺增多；按讲义，这与Mg²⁺直接限制作用减弱的哪一膜蛋白有关？",
+      "reason": "P244明确Mg2+挡住ROMK钾通道的教学模型。选项删除“钠/水/钾”功能标注，否则本组只有ROMK带钾字可直接对号入座；保留实际机制，不将记忆比喻作为选项类型提示。"
+    },
+    {
+      "id": "phys-30-nutrition-q1",
+      "stem": "失去运动神经支配后肌肉发生萎缩，按讲义应从哪条非冲动性营养联系的中断解释？",
+      "reason": "P298明确神经元营养因子顺向至肌肉，并串联去神经性萎缩。原题“神经对肌肉”的源-靶方向已直接写在题干；改为现象反推，仍保留与神经冲动效应的边界。"
+    },
+    {
+      "id": "phys-31-release-sequence-q1",
+      "stem": "Ca²⁺-CaMK促使突触蛋白磷酸化、储备囊泡成为游离囊泡，在讲义递质释放步骤中称为什么？",
+      "reason": "P303动员行。原题及池把步骤名称和答案关系一并印出，现反向以分子环节识别步骤，选项只给同级步骤名称。"
+    },
+    {
+      "id": "phys-31-release-sequence-q2",
+      "stem": "Rab3/Rab27帮助游离囊泡向活化区移动，在讲义递质释放步骤中称为什么？",
+      "reason": "P303摆渡行。反向问分子作用所处步骤，去掉仅凭“摆渡”等于移动的同义猜答。"
+    },
+    {
+      "id": "phys-31-release-sequence-q3",
+      "stem": "肉毒素、破伤风毒素和蜘蛛毒，在本页小结中共同列为影响递质释放的哪一步？",
+      "reason": "P303“影响着位”表列这三种毒物；将“锚定—固定”同义匹配改成有来源的机制归属。原着位的前膜固定定义保留解析，未引入毒物表以外对象。",
+      "explanation": "本页把肉毒素、破伤风毒素和蜘蛛毒列在“影响着位”条下；着位/锚定指已到活化区的囊泡固定于突触前膜，不等同最终膜融合与出胞。"
+    },
+    {
+      "id": "phys-31-pre-v-post-q2",
+      "stem": "抑制性中间神经元B释放GABA，作用于C胞体的GABAA受体。按讲义所述胞体Cl⁻分布，C处主要可记录到什么？",
+      "reason": "P306给出胞体Cl-较低、GABAA开放致Cl-内流及IPSP。原题先告诉“超极化抑制”再识别电位，现保留产生条件，让学习者判断电位反应。",
+      "explanation": "按本讲义胞体Cl⁻分布，GABAA通道开放使Cl⁻内流，突触后膜超极化并产生IPSP。这不同于B作用于A末梢、使C的EPSP减小的突触前抑制场景。"
+    },
+    {
+      "id": "phys-40-gc-water-q1",
+      "stem": "按讲义，糖皮质激素对钠潴留和ADH分泌的作用方向，哪组对应正确？",
+      "reason": "P366列较弱醛固酮作用、ADH下降。删除题干先给“保钠而可利排水”结论，四项统一为钠效应+ADH方向，而非正确项具体、负项绝对或荒诞。"
+    },
+    {
+      "id": "phys-10-arteriole-effects-q2",
+      "stem": "某器官微动脉收缩，在未引入其他代偿的教学场景中，按本讲义关系链，下列哪项增大？",
+      "reason": "P111第⑦条完整关系链。补回原“上述”跨题引用中的微动脉收缩及无其他代偿前提，使随机排序后的单题也独立成立。"
+    },
+    {
+      "id": "phys-11-gates-q4",
+      "stem": "下列哪一结构本身缺乏平滑肌，不能依靠自身平滑肌收缩主动改变管径？",
+      "reason": "P116明确真毛细血管无平滑肌。删除“按上述方式”跨题依赖，直接给出考察的主动舒缩机制，不预给血管名称。"
+    },
+    {
+      "id": "phys-14-function-indices-q2",
+      "stem": "讲义以一个呼出容积指标与FVC的比值评价呼气流速，并用于鉴别阻塞性、限制性通气障碍；本组哪项是该比值的分子？",
+      "reason": "P151明确FEV1/FVC为最常用一秒率；原“上述用力呼气”依赖前题，且“第一秒”可与选项中文名称直接相同。改为独立的指标用途关系，选项统一仅保留缩写，定义留在解析。",
+      "explanation": "一秒率为FEV₁/FVC，分子是FEV₁，即完成最大吸气后尽快尽力呼气，开始后第1s内呼出的气体容积；FVC则是全程最大用力呼出容积。"
+    }
+  ],
+  "groupEdits": [
+    {
+      "id": "phys-01-homeostasis",
+      "name": "稳态的变化与适用范围",
+      "options": [
+        {
+          "id": "o0",
+          "text": "动态平衡；适用于多层次生理功能的相对稳定"
+        },
+        {
+          "id": "o1",
+          "text": "动态平衡；适用范围仅限细胞外液理化性质"
+        },
+        {
+          "id": "o2",
+          "text": "固定不变；适用于多层次生理功能的相对稳定"
+        },
+        {
+          "id": "o3",
+          "text": "固定不变；适用范围仅限细胞外液理化性质"
+        }
+      ],
+      "reason": "P2稳态不仅限细胞外液；两字段完全对称，消除原池正解正向、其他全绝对词的形式差别。"
+    },
+    {
+      "id": "phys-04-junction-mini",
+      "name": "神经肌接头电位辨析",
+      "options": [
+        {
+          "id": "o0",
+          "text": "微终板电位"
+        },
+        {
+          "id": "o1",
+          "text": "诱发终板电位"
+        },
+        {
+          "id": "o2",
+          "text": "普通肌膜动作电位"
+        }
+      ],
+      "reason": "P51。将唯一“二者共同性质”组合条目移至同字段性质比较池，原池只保留同级电位对象。"
+    },
+    {
+      "id": "phys-05-domains",
+      "options": [
+        {
+          "id": "o0",
+          "text": "SH2结构域"
+        },
+        {
+          "id": "o1",
+          "text": "SH3结构域"
+        },
+        {
+          "id": "o2",
+          "text": "PH结构域"
+        },
+        {
+          "id": "o3",
+          "text": "PTB结构域"
+        }
+      ],
+      "reason": "P65。删除选项中全部结构域-靶分子映射，并去掉重复SH3附错误靶点的伪第五选项；四题逐项保持蛋白归属保证唯一。"
+    },
+    {
+      "id": "phys-08-hemostasis",
+      "name": "止血阶段与组成比较",
+      "options": [
+        {
+          "id": "o0",
+          "text": "一期：血管收缩与血小板栓；二期：凝血块形成"
+        },
+        {
+          "id": "o1",
+          "text": "一期：凝血块形成；二期：血管收缩与血小板栓"
+        },
+        {
+          "id": "o2",
+          "text": "一期：血管收缩与凝血块；二期：血小板栓形成"
+        },
+        {
+          "id": "o3",
+          "text": "一期：血小板栓与凝血块；二期：血管收缩"
+        }
+      ],
+      "reason": "P88。所有候选均用同三个组成，检验其归属而不是按题干复制的纤维蛋白/血小板词定位。"
+    },
+    {
+      "id": "phys-08-tests",
+      "options": [
+        {
+          "id": "o0",
+          "text": "BT"
+        },
+        {
+          "id": "o1",
+          "text": "PT"
+        },
+        {
+          "id": "o2",
+          "text": "APTT"
+        },
+        {
+          "id": "o3",
+          "text": "TT"
+        }
+      ],
+      "reason": "P95。检测名后不再印出待考功能；D-二聚体题移至纤溶蛋白成分池，不让唯一浓度标志物混在四项时间检测中。"
+    },
+    {
+      "id": "phys-26-magnesium-potassium",
+      "options": [
+        {
+          "id": "o0",
+          "text": "ENaC"
+        },
+        {
+          "id": "o1",
+          "text": "NCC"
+        },
+        {
+          "id": "o2",
+          "text": "AQP-2"
+        },
+        {
+          "id": "o3",
+          "text": "ROMK"
+        }
+      ],
+      "reason": "P244。候选均为膜转运蛋白缩写，不在唯一正解上印钾离子类别。NCC对应原Na+-Cl-同向转运体；原ID含义未换成其他蛋白。"
+    },
+    {
+      "id": "phys-31-release-sequence",
+      "options": [
+        {
+          "id": "o0",
+          "text": "动员"
+        },
+        {
+          "id": "o1",
+          "text": "着位/锚定"
+        },
+        {
+          "id": "o2",
+          "text": "融合"
+        },
+        {
+          "id": "o3",
+          "text": "摆渡"
+        }
+      ],
+      "reason": "P303。四项统一为同级释放步骤；题干改为分子过程或毒物影响，不把完整关系一并写在选项中。"
+    },
+    {
+      "id": "phys-40-gc-water",
+      "options": [
+        {
+          "id": "o0",
+          "text": "较弱排钠作用；ADH分泌增加"
+        },
+        {
+          "id": "o1",
+          "text": "较弱排钠作用；ADH分泌减少"
+        },
+        {
+          "id": "o2",
+          "text": "较弱保钠作用；ADH分泌减少"
+        },
+        {
+          "id": "o3",
+          "text": "较弱保钠作用；ADH分泌增加"
+        }
+      ],
+      "reason": "P366。四项相同二字段、正反方向交换，不能凭“完全无/必然/直接封闭”等荒诞否定语气排除。"
+    },
+    {
+      "id": "phys-14-function-indices",
+      "options": [
+        {
+          "id": "o0",
+          "text": "VC"
+        },
+        {
+          "id": "o1",
+          "text": "FEV₁"
+        },
+        {
+          "id": "o2",
+          "text": "ERV"
+        },
+        {
+          "id": "o3",
+          "text": "FVC"
+        }
+      ],
+      "reason": "P151。指标中文名称会直接复述待考的“第一秒用力呼出量”，统一改缩写；两题结合独立生理场景识别，不提前给所求指标定义。"
+    }
+  ],
+  "splitPools": [
+    {
+      "id": "phys-04-cue-junction-properties",
+      "chapter": "phys-04",
+      "module": "phys-04-module-junction",
+      "name": "接头电位性质比较",
+      "options": [
+        "微终板和诱发终板均为局部电位",
+        "微终板为局部电位，诱发终板为动作电位",
+        "微终板为动作电位，诱发终板为局部电位",
+        "微终板和诱发终板均为动作电位"
+      ],
+      "rows": [
+        {
+          "id": "phys-04-junction-mini-q3",
+          "stem": "静息自发释放和神经冲动诱发多囊泡释放时，直接在终板膜记录到的两种电位，性质依次如何配伍？",
+          "answer": [
+            0
+          ],
+          "page": 51,
+          "explanation": "两者均为局部电位。微终板电位可总和形成终板电位；传播性动作电位在相邻普通肌膜产生，不等于终板膜记录。",
+          "reason": "P51明确局部电位可总和。原选项只有答案是“二者共同性质”句，现四项均比较相同两种电位。"
+        }
+      ]
+    },
+    {
+      "id": "phys-07-cue-hif-epo",
+      "chapter": "phys-07",
+      "module": "phys-07-module-rbc",
+      "name": "低氧信号的方向配伍",
+      "options": [
+        "HIF活性增强；EPO表达增加",
+        "HIF活性增强；EPO表达减少",
+        "HIF活性降低；EPO表达增加",
+        "HIF活性降低；EPO表达减少"
+      ],
+      "rows": [
+        {
+          "id": "phys-07-erythropoiesis-q1",
+          "stem": "肾脏氧供不足时，HIF调节活动与EPO表达如何变化？",
+          "answer": [
+            0
+          ],
+          "page": 81,
+          "explanation": "肾缺氧使低氧诱导因子HIF增强，HIF结合编码EPO基因的增强子，促进EPO表达。",
+          "reason": "P81调节行。原池只有两个HIF方向候选，其余为不同细胞环节；现均为同二字段方向。"
+        }
+      ]
+    },
+    {
+      "id": "phys-07-cue-erythropoiesis-pathways",
+      "chapter": "phys-07",
+      "module": "phys-07-module-rbc",
+      "name": "红系调节的因果链判别",
+      "options": [
+        "肾低氧→HIF增强、EPO增多→红细胞生成增加",
+        "EPO→晚期红系祖细胞凋亡受抑→红细胞生成增加",
+        "雄激素→EPO增多及红系祖细胞增殖→红细胞生成增加",
+        "雌激素→红系祖细胞对EPO反应降低→红细胞生成增加",
+        "TNF或干扰素→早期红系祖细胞增殖受抑→红细胞生成增加"
+      ],
+      "rows": [
+        {
+          "id": "phys-07-erythropoiesis-q2",
+          "stem": "多选：哪些红细胞生成调节的因果链，符合本页讲义？",
+          "answer": [
+            0,
+            1,
+            2
+          ],
+          "page": 81,
+          "explanation": "低氧-HIF-EPO、EPO抑制晚期红系祖细胞凋亡、雄激素促进EPO及直接刺激红系均使红细胞增加。雌激素降低EPO反应、TNF/干扰素抑制早期祖细胞增殖均使红细胞减少，后两候选末端方向错配。",
+          "reason": "P81机制、雄激素及其他因素表。所有候选统一上游因素-机制-生成方向，不再用溶解成熟红细胞等异类事件充当伪干扰；保留原三条正向关系。"
+        }
+      ]
+    },
+    {
+      "id": "phys-07-cue-epo-cell-action",
+      "chapter": "phys-07",
+      "module": "phys-07-module-rbc",
+      "name": "红系细胞数量调节环节",
+      "options": [
+        "抑制晚期红系祖细胞凋亡",
+        "促进晚期红系祖细胞凋亡",
+        "抑制早期红系祖细胞增殖",
+        "促进成熟红细胞血管内破坏"
+      ],
+      "rows": [
+        {
+          "id": "phys-07-erythropoiesis-q3",
+          "stem": "EPO维持红系细胞数量的主要作用，按讲义对应哪一环节？",
+          "answer": [
+            0
+          ],
+          "page": 81,
+          "explanation": "EPO主要抑制晚期红系祖细胞凋亡；同时促进红系分化、血红蛋白合成及网织红细胞成熟释放。抑制早期红系祖细胞增殖是本页TNF等的作用方向，不是EPO促进生成的主要机制。",
+          "reason": "P81主要机制行。题干不预给唯一选项所含的晚期祖细胞名称，四项均为同类细胞数量调节过程。"
+        }
+      ]
+    },
+    {
+      "id": "phys-07-cue-isosmotic-isotonic",
+      "chapter": "phys-07",
+      "module": "phys-07-module-plasma",
+      "name": "等渗溶液与红细胞体积",
+      "options": [
+        "等渗且等张；红细胞体积基本稳定",
+        "等渗但不等张；红细胞吸水膨胀",
+        "等渗且等张；红细胞失水缩小",
+        "等渗但不等张；红细胞体积基本稳定"
+      ],
+      "rows": [
+        {
+          "id": "phys-07-tonicity-q1",
+          "stem": "正常红细胞置于1.9%尿素溶液，按本讲义其渗透特性与红细胞体积变化如何配伍？",
+          "answer": [
+            1
+          ],
+          "page": 80,
+          "explanation": "本讲义列1.9%尿素为等渗但不等张；尿素能进入红细胞，使细胞内渗透负荷增加，红细胞吸水膨胀，不能维持原体积。",
+          "reason": "P80尿素例子。原池只有一个选项同时出现等渗不等张，现四项相同字段，必须判断该溶质能否维持红细胞体积。"
+        },
+        {
+          "id": "phys-07-tonicity-q2",
+          "stem": "正常红细胞置于0.9%NaCl溶液，其渗透特性与红细胞体积变化如何配伍？",
+          "answer": [
+            0
+          ],
+          "page": 80,
+          "explanation": "0.9%NaCl在本讲义例子中既等渗又等张，可维持正常红细胞形态和大小。",
+          "reason": "P80渗透脆性段。原题直接问生理盐水而答案唯一印出0.9%NaCl，现候选不再给溶液身份。"
+        }
+      ]
+    },
+    {
+      "id": "phys-07-cue-rbc-osmotic-flow",
+      "chapter": "phys-07",
+      "module": "phys-07-module-plasma",
+      "name": "外液渗透压与净水流方向",
+      "options": [
+        "等渗NaCl溶液",
+        "低渗NaCl溶液",
+        "高渗NaCl溶液"
+      ],
+      "rows": [
+        {
+          "id": "phys-07-tonicity-q3",
+          "stem": "同批正常红细胞分别放入所列NaCl外液，哪种条件使水净进入细胞、细胞逐渐膨胀，可用于观察其渗透脆性？",
+          "answer": [
+            1
+          ],
+          "page": 80,
+          "explanation": "低渗NaCl外液使水进入红细胞，细胞可膨胀并破裂；等渗NaCl可维持体积，高渗NaCl使水净流出。这里只比较水流方向，不新增临床溶血浓度界值。",
+          "reason": "P80。原“膨胀条件”问题在尿素和低渗NaCl同池时存在多个合理对象；改为同类NaCl外液比较，保留脆性试验考点，不凭未印出的浓度阈值设题。"
+        }
+      ]
+    },
+    {
+      "id": "phys-08-cue-fibrinolysis-component",
+      "chapter": "phys-08",
+      "module": "phys-08-module-fibrinolysis",
+      "name": "纤溶系统成分判别",
+      "options": [
+        "D-二聚体",
+        "纤溶酶原",
+        "组织型纤溶酶原激活物t-PA",
+        "纤溶酶"
+      ],
+      "rows": [
+        {
+          "id": "phys-08-tests-q5",
+          "stem": "所列纤溶相关成分中，哪项是交联纤维蛋白发生降解后形成的标志物？",
+          "answer": [
+            0
+          ],
+          "page": 95,
+          "explanation": "D-二聚体来自交联纤维蛋白降解；纤溶酶原、t-PA和纤溶酶分别处于该系统的前体、激活和水解环节（P94），不能把它们当作同一降解产物。本题不把D-二聚体当作单独确诊血栓的依据。",
+          "reason": "P94系统成分及P95D-二聚体段。原池中它是唯一非凝血时间选项；改为同属纤溶系统的蛋白/产物对象，删除选项预印的交联降解答案。"
+        }
+      ]
+    }
+  ],
+  "retire": [
+    {
+      "id": "phys-08-hemostasis-q2",
+      "reason": "P88一期/二期知识已由改写后的phys-08-hemostasis-q1完整比较承接。原题纤维蛋白词与唯一选项逐字相同且其他候选为明显否定，停用重复同词匹配题，无该关系覆盖损失。",
+      "replaceBy": [
+        "phys-08-hemostasis-q1"
+      ]
+    }
+  ],
+  "notes": [
+    "逐项读完58个规则候选，另按主助手要求复核3个跨题引用。对相关选项有变更者完整检查该池的所有题，不只检查规则命中的一行。",
+    "完整回读源文P2、31、35、50–51、57–58、65、80–81、88、94–95、111、116、151、244、298、303、306、366；详细目视P65、81、88、95、303、366的原页表格，表格归属及红字与抽取文本一致。",
+    "保留普通概念引号及有效判别信息：例如战或逃、望梅止渴、清道夫、微循环总闸门，以及热价/氧热价。它们并不预给本池唯一选项的字面身份。",
+    "answer-in-heading多数为正常比较范围：神经/体液/自身调节、条件/非条件反射、正/负反馈、局部/动作电位、骨骼/心室肌等，标题同时列出近邻对象，不指向唯一正解，故不机械删除。",
+    "phys-10-resistance-q4保留1/4条件：仍需判断长度的一次方关系，而非半径四次方，不是答案泄漏；phys-25-effective-pressure-calc-q1的0mmHg文本重合为切词假阳性，55-30-15仍需正确计算。",
+    "phys-31-release-sequence-q3将仅靠锚定=固定的术语题改为P303明确毒物-阶段关系；着位定义仍在解析核对，不冒充原术语问法未改变。phys-14-function-indices-q2改考P151一秒率分子用途，第一秒定义保留解析。",
+    "phys-07-tonicity原q3与尿素同池时不能把吸水膨胀排他地判给低渗NaCl；限定同类NaCl外液后唯一，未引入任何材料外的溶血浓度界值。",
+    "仅提交编辑建议文件；未修改题库、页面、记录版本或线上站点。需要由主助手统一应用旧快照归档及受影响题的当前作答重置。"
+  ],
+  "flaggedCandidates": 58
+}

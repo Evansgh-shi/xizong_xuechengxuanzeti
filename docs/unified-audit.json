@@ -1,0 +1,55 @@
+{
+  "revision": "2026-10-25-source-cues-v6",
+  "courses": [
+    {
+      "course": "internal",
+      "chapters": 58,
+      "modules": 198,
+      "questions": 2214,
+      "rewrites": 37,
+      "retired": 1,
+      "added": 0,
+      "bytes": 11181932
+    },
+    {
+      "course": "surgery",
+      "chapters": 38,
+      "modules": 164,
+      "questions": 1398,
+      "rewrites": 68,
+      "retired": 0,
+      "added": 0,
+      "bytes": 7428194
+    },
+    {
+      "course": "physiology",
+      "chapters": 41,
+      "modules": 130,
+      "questions": 1401,
+      "rewrites": 33,
+      "retired": 1,
+      "added": 0,
+      "bytes": 6572315
+    },
+    {
+      "course": "biochemistry",
+      "chapters": 21,
+      "modules": 53,
+      "questions": 729,
+      "rewrites": 15,
+      "retired": 0,
+      "added": 0,
+      "bytes": 6124829
+    },
+    {
+      "course": "pathology",
+      "chapters": 26,
+      "modules": 75,
+      "questions": 880,
+      "rewrites": 32,
+      "retired": 0,
+      "added": 0,
+      "bytes": 6527204
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "course": "biochemistry",
+  "questionEdits": [
+    {
+      "id": "bc-01-tca-order-q1",
+      "stem": "乙酰CoA进入三羧酸循环后，循环前半段中间产物的先后次序是哪组？",
+      "reason": "P3口诀已按顺序给出产物，先给口诀再考同一顺序会降低回忆要求；保留原有同字段顺序干扰池。",
+      "explanation": "柠檬酸经异柠檬酸、α-酮戊二酸到琥珀酰CoA。讲义口诀属于答后记忆辅助，不应在题干中预给反应顺序。"
+    },
+    {
+      "id": "bc-06-glycerol-phosphorylation-q1",
+      "stem": "脂肪细胞不能充分利用自身脂解释放的三碳醇来合成脂肪，主要与本池哪种酶活性低或缺乏有关？",
+      "reason": "P34记载脂肪组织甘油激酶活性很低或缺乏；原题直接给甘油磷酸化，池内只有一个酶名含甘油。改考同页的组织利用关系，不写出酶名词根。",
+      "explanation": "讲义P34指出脂肪组织甘油激酶活性很低或缺乏，故不能充分利用脂解产生的甘油。甘油激酶催化甘油生成3-磷酸甘油；其他三项分别属于脂肪酸合成、脂肪酸活化与胆固醇合成。"
+    },
+    {
+      "id": "bc-06-glycerol-phosphorylation-q2",
+      "stem": "脂肪酸从头合成中，以下哪种关键酶以生物素为辅因子？",
+      "reason": "P34同时支持反应及辅因子。原题乙酰CoA与唯一乙酰CoA酶名同词，改考辅因子关系，保留原酶池。"
+    },
+    {
+      "id": "bc-06-ketone-enzyme-supplement-q1",
+      "stem": "肝线粒体酮体生成过程中，直接催化HMG-CoA生成乙酰乙酸的是哪种酶？",
+      "reason": "原题把裂解动词直接复述为唯一裂解酶选项；去反应类型动词，保留底物、产物与酮体语境，仍需在HMG-CoA相关酶间判断。维持原有补充来源。"
+    },
+    {
+      "id": "bc-06-carnitine-components-supplement-q4",
+      "stem": "长链脂肪酸进入氧化前，催化消耗ATP并产生AMP与PPi这一步的蛋白是哪项？",
+      "reason": "原题写出脂酰CoA合成，与唯一合成酶名直接重合；改考原有补充解析已载的能量反应。P36图中留白不提供此细节，不将其冒称讲义原文，须保留supplement及原有references。"
+    },
+    {
+      "id": "bc-07-urea-steps-supplement-q3",
+      "stem": "尿素循环中，有一步先释放延胡索酸，其含氮产物再经水解生成尿素。前一步的含氮产物是哪项？",
+      "reason": "原题将精氨酸嵌在精氨酸琥珀酸底物名中；改考相邻两步关系。P47主体图留白，此重写仅沿用现有补充题及其来源支持的两步反应，不扩写医学事实。"
+    },
+    {
+      "id": "bc-09-synthesis-enzymes-q2",
+      "stem": "人体嘧啶核苷酸从头合成的主要限速酶是哪项？",
+      "reason": "P68原题直接考此限速酶，P63支持CPS-II与CPS-I区别；原题在干中写生成氨基甲酰磷酸，会与合成酶名称直接对应。改回来源的限速关系，不套用细菌ATCase调控。",
+      "explanation": "按讲义P68，人体嘧啶核苷酸从头合成的主要限速酶为CPS-II。它在胞质利用谷氨酰胺供氮；线粒体CPS-I属于尿素循环，不能与其混淆。原题所附补充核对来源保留。"
+    },
+    {
+      "id": "bc-10-compartment-q1",
+      "stem": "血红素合成的起始、中间与终末阶段，在细胞内的位置如何对应？",
+      "reason": "P72始终在线已直接编码起始及终末在线粒体，应移至答后解析；原有四个同字段定位组合可保留。",
+      "explanation": "血红素合成的起始、终末阶段在线粒体，中间阶段在胞质；讲义用“始终在线”辅助记忆，不表示全过程均在线粒体。"
+    },
+    {
+      "id": "bc-05-phospholipid-activated-route-supplement-q5",
+      "stem": "多选：在甘油磷脂的经典合成途径中，以DAG而非CDP-DAG为脂质底物、由CDP活化的头基供体直接参与合成的产物有哪些？",
+      "reason": "去掉上述经典路线的跨题依赖，补齐本题可独立回答的途径限定，但不预给胆碱、乙醇胺头基名。已核对本池q1—q5、P30/P33及现有补充来源标注；保留原references。"
+    },
+    {
+      "id": "bc-16-n-label-q2",
+      "stem": "初始DNA的两条链均以15N标记，转入仅提供14N原料的培养条件后，按半保留方式连续完成两轮复制。此时DNA的密度组成如何？",
+      "reason": "接上题依赖随机题序，缺少初始标记及培养基转换条件；核对本池q1和P104半保留复制主题后，明确原有初始条件与两轮复制，不改变答案。"
+    }
+  ],
+  "groupEdits": [
+    {
+      "id": "bc-06-glycerol-phosphorylation",
+      "name": "脂质代谢关键酶比较",
+      "reason": "原名只指甘油利用，既提前指向q1又不能概括q2；改为两题共享的中性范围。"
+    },
+    {
+      "id": "bc-17-decay-scope",
+      "options": [
+        {
+          "id": "o0",
+          "text": "NGD"
+        },
+        {
+          "id": "o1",
+          "text": "NMD"
+        },
+        {
+          "id": "o2",
+          "text": "NSD"
+        }
+      ],
+      "reason": "P125列三种监控。原选项中文逐字复述缺少终止、非正常停滞等题干触发条件，改用统一缩写考对应；中文全称及触发情境在解析保留。整池三题均需记录内容签名变化。"
+    }
+  ],
+  "moduleEdits": [
+    {
+      "id": "bc-05-module-bile",
+      "name": "甾醇的转化产物与循环",
+      "reason": "旧标题胆汁酸分类与循环直接含胆固醇去路题的一项答案；新标题仍覆盖胆固醇转化、维生素D与胆汁酸循环而不单独点名答案。"
+    }
+  ],
+  "splitPools": [],
+  "retire": [],
+  "reviewed": [
+    "bc-01-endpoints-q1",
+    "bc-01-glycolytic-enzymes-q4",
+    "bc-01-glycolytic-enzymes-q5",
+    "bc-01-tca-order-q1",
+    "bc-04-lipoprotein-role-q6",
+    "bc-04-lipoprotein-role-q7",
+    "bc-04-lipoprotein-role-q14",
+    "bc-05-cholesterol-fates-q1",
+    "bc-06-glycerol-phosphorylation-q2",
+    "bc-06-ketone-enzyme-supplement-q1",
+    "bc-06-carnitine-components-supplement-q4",
+    "bc-07-cystine-products-q1",
+    "bc-07-urea-steps-supplement-q3",
+    "bc-09-cps-location-q1",
+    "bc-09-cps-function-q1",
+    "bc-09-synthesis-enzymes-q2",
+    "bc-10-transport-q1",
+    "bc-10-compartment-q1",
+    "bc-12-groups-q1",
+    "bc-12-energy-definition-q1",
+    "bc-12-simple-monomer-q1",
+    "bc-15-aminoacyl-q1",
+    "bc-17-template-products-q1",
+    "bc-17-template-products-q2",
+    "bc-17-nucleotide-reaction-q1",
+    "bc-17-enzyme-properties-q1",
+    "bc-17-promoter-regions-q1",
+    "bc-17-initiation-complex-q1",
+    "bc-17-elongation-pair-q1",
+    "bc-17-cap-tail-q1",
+    "bc-17-poly-a-properties-q1",
+    "bc-17-splice-steps-q1",
+    "bc-17-trna-processing-pair-q1",
+    "bc-17-trna-ester-q1",
+    "bc-17-decay-scope-q2",
+    "bc-17-decay-scope-q3",
+    "bc-18-selenocysteine-q1",
+    "bc-18-sd-location-q1",
+    "bc-18-translation-rnas-q1",
+    "bc-18-release-codons-q1",
+    "bc-18-elongation-order-q1",
+    "bc-18-transfer-termination-q1",
+    "bc-18-protein-factor-drugs-q1",
+    "bc-18-initiator-delivery-pair-q1",
+    "bc-19-trp-coarse-fine-q1",
+    "bc-19-cis-trans-fields-q1",
+    "bc-19-inducible-factors-q1",
+    "bc-19-active-chromatin-q1",
+    "bc-19-lncrna-definition-fields-q1",
+    "bc-06-glycerol-phosphorylation-q1",
+    "bc-17-decay-scope-q1",
+    "bc-05-phospholipid-activated-route-supplement-q5",
+    "bc-16-n-label-q2"
+  ],
+  "notes": [
+    "49条候选已全部逐条读完，并对照整池；reviewed含4条额外关联题，共53条。未把正常概念引号、必要底物产物或概念定义机械删除。",
+    "保留的明显误报：bc-04-lipoprotein-role-q7中的LDL是VLDL/IDL子串；bc-07-cystine-products-q1中的胱氨酸是半胱氨酸子串，P55页图确实画两分子半胱氨酸经二硫键形成胱氨酸，不是题干已经给答案。",
+    "糖酵解终点、糖酵解酶名称、CPS定位与功能、带引号的分子生物学概念等具有真实可考关系；引号本身不作退题依据，未无差别删减。",
+    "P36、P47已检查原始页图，其留白为笔记区域。已有补充题的references和supplement不能因本次改写丢失；本次没有新增未经来源核对的医学事实。",
+    "本次不退休题目，无新增覆盖损失；限定为现有候选及有直接关联的池，不宣称对729道全部独立人工完成穷尽复核。"
+  ],
+  "flaggedCandidates": 49
+}

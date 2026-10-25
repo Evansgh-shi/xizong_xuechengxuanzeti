@@ -1,0 +1,15 @@
+const ink='#213d36',green='#176b58',orange='#a34d24',blue='#25689c';
+const text=(x,y,s,attrs='')=>`<text x="${x}" y="${y}" ${attrs}>${s}</text>`,line=(x,y,a,b,attrs='')=>`<line x1="${x}" y1="${y}" x2="${a}" y2="${b}" ${attrs}/>`,rect=(x,y,w,h,attrs='')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" ${attrs}/>`;
+const arrow=(x,y,a,b,color=ink)=>line(x,y,a,b,`stroke="${color}" stroke-width="3" marker-end="url(#arrow)"`);
+const wrap=(w,h,body)=>`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0 L7 3 L0 6" fill="${ink}"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Microsoft YaHei,Arial,sans-serif" font-size="20" fill="${ink}">${body}</g></svg>`;
+function allFigures(){
+ const membrane=rect(40,175,820,95,'fill="#edf3ea" stroke="#799b83"')+text(45,64,'膜间隙')+text(45,400,'基质');
+ const block=(x,t)=>rect(x,165,62,120,`rx="18" fill="#d5eadf" stroke="${green}" stroke-width="2"`)+text(x+22,230,t);
+ const chain=membrane+block(115,'A')+(rect(275,235,62,70,`rx="16" fill="#d5eadf" stroke="${green}" stroke-width="2"`)+text(297,279,'B'))+block(535,'C')+block(755,'D')+rect(405,205,55,38,'rx="18" fill="#fff3db" stroke="#a27838"')+text(419,232,'Q')+text(645,145,'Cyt c')+arrow(177,222,405,222)+arrow(337,242,405,225)+arrow(460,222,535,222)+arrow(597,205,665,155)+arrow(690,155,755,205)+arrow(817,222,855,222)+text(830,255,'O₂')+text(80,350,'NADH')+arrow(145,325,145,286)+text(230,350,'琥珀酸')+arrow(307,325,307,307)+[145,566,786].map(x=>arrow(x,164,x,85)+text(x-12,76,'H⁺')).join('')+text(380,365,'箭头表示电子流和质子转移方向');
+ const lanes=[['甲',110,205],['乙',210,360],['丙',310,515]].map(([name,y,pos])=>text(25,y+8,name)+line(110,y,610,y,'stroke="#99aea0"')+rect(pos-7,y-24,14,48,`rx="3" fill="${green}"`)).join('');
+ const charge=text(60,45,'−')+text(655,45,'＋')+text(290,45,'同一蛋白，不同缓冲液')+line(360,65,360,345,'stroke="#768f80" stroke-dasharray="5 5"')+text(325,385,'上样原点')+lanes;
+ let beads='';for(const [x,y]of [[195,115],[295,115],[245,205],[195,295],[295,295]]){beads+=`<circle cx="${x}" cy="${y}" r="38" fill="#ecf1ed" stroke="#7c9c8a"/>`;for(const [dx,dy]of [[-15,-10],[12,-13],[-4,17]])beads+=`<circle cx="${x+dx}" cy="${y+dy}" r="6" fill="white" stroke="#b6c7bc"/>`;}
+ const gel=rect(130,55,230,300,'rx="18" fill="#fbfdf9" stroke="#5b7f69" stroke-width="2"')+beads+[[150,270],[335,300],[245,330]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="12" fill="${green}"/>`).join('')+[[182,107],[306,102],[242,221],[335,155],[275,198]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="4" fill="${blue}"/>`).join('')+arrow(415,95,415,315)+text(440,215,'缓冲液方向')+text(450,100,'多孔凝胶颗粒')+`<circle cx="485" cy="290" r="12" fill="${green}"/>`+text(510,298,'A类分子')+`<circle cx="485" cy="340" r="4" fill="${blue}"/>`+text(510,348,'B类分子')+text(140,395,'同一柱内、相同流动条件的示意');
+ return{'bc-v1':{width:900,height:430,svg:wrap(900,430,chain)},'bc-v2':{width:720,height:420,svg:wrap(720,420,charge)},'bc-v3':{width:720,height:430,svg:wrap(720,430,gel)}};
+}
+module.exports={allFigures};

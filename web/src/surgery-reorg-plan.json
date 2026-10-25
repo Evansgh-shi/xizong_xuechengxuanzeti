@@ -1,0 +1,3647 @@
+{
+  "chapters": [
+    {
+      "chapter": "surg-01",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "结节、炎症与颈部肿块鉴别",
+          "groupIds": [
+            "surg-01-differential",
+            "surg-01-x-nodule-clues",
+            "surg-01-x-thyroglossal",
+            "surg-01-x-thyroid-tests"
+          ]
+        },
+        {
+          "key": "cancer",
+          "name": "甲状腺癌：病理、分期与随访",
+          "groupIds": [
+            "surg-01-cancers",
+            "surg-01-tsh",
+            "surg-01-x-young-stage",
+            "surg-01-x-markers",
+            "surg-01-x-suppression-duration",
+            "surg-01-x-thyroid-adjuncts"
+          ]
+        },
+        {
+          "key": "preparation",
+          "name": "甲亢用药、术前准备与指征",
+          "groupIds": [
+            "surg-01-pharmacology",
+            "surg-01-x-prepare",
+            "surg-01-x-surgical-indications",
+            "surg-01-x-sequence",
+            "surg-01-x-timing",
+            "surg-01-x-drug-threshold"
+          ]
+        },
+        {
+          "key": "operation",
+          "name": "切除范围、清扫与术中保护",
+          "groupIds": [
+            "surg-01-x-extent",
+            "surg-01-x-nodal-policy",
+            "surg-01-x-protection"
+          ]
+        },
+        {
+          "key": "complications",
+          "name": "术后气道、神经、低钙与危象",
+          "groupIds": [
+            "surg-01-nerves",
+            "surg-01-x-postop-complications",
+            "surg-01-x-postop-management",
+            "surg-01-x-crisis-drugs"
+          ]
+        },
+        {
+          "key": "parathyroid",
+          "name": "甲旁亢与检查目的",
+          "groupIds": [
+            "surg-01-parathyroid",
+            "surg-01-x-parathyroid-detail",
+            "surg-01-x-parathyroid-source",
+            "surg-01-x-parathyroid-types"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-02",
+      "modules": [
+        {
+          "key": "pathology",
+          "name": "食管癌病理、部位与扩散",
+          "groupIds": [
+            "surg-02-morphology",
+            "surg-02-x-layer",
+            "surg-02-x-site",
+            "surg-02-x-histology",
+            "surg-02-x-invasion"
+          ]
+        },
+        {
+          "key": "differential",
+          "name": "吞咽困难鉴别与检查",
+          "groupIds": [
+            "surg-02-esophageal",
+            "surg-02-x-esophageal-tests"
+          ]
+        },
+        {
+          "key": "treatment",
+          "name": "切除、重建与贲门失弛缓治疗",
+          "groupIds": [
+            "surg-02-x-reconstruction",
+            "surg-02-x-heller"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-03",
+      "modules": [
+        {
+          "key": "differential",
+          "name": "乳房肿块、疼痛与溢液鉴别",
+          "groupIds": [
+            "surg-03-diseases",
+            "surg-03-x-discharge",
+            "surg-03-x-inversion-causes",
+            "surg-03-x-benign-management"
+          ]
+        },
+        {
+          "key": "biology",
+          "name": "危险因素、病理与转移",
+          "groupIds": [
+            "surg-03-x-risk",
+            "surg-03-x-pathology",
+            "surg-03-x-location",
+            "surg-03-skin",
+            "surg-03-x-early-spread",
+            "surg-03-x-receptor-combinations"
+          ]
+        },
+        {
+          "key": "stage",
+          "name": "TNM与临床分期",
+          "groupIds": [
+            "surg-03-tstage",
+            "surg-03-nstage",
+            "surg-03-x-stage-combinations",
+            "surg-03-x-stage-rest"
+          ]
+        },
+        {
+          "key": "tests-operation",
+          "name": "检查、淋巴解剖与术式",
+          "groupIds": [
+            "surg-03-surgery",
+            "surg-03-x-breast-tests",
+            "surg-03-x-nodes-anatomy",
+            "surg-03-x-sentinel",
+            "surg-03-x-breast-markers"
+          ]
+        },
+        {
+          "key": "adjuvant",
+          "name": "受体、绝经状态与辅助治疗",
+          "groupIds": [
+            "surg-03-r3-receptor-therapy",
+            "surg-03-r3-local-adjuvant",
+            "surg-03-adjuvant",
+            "surg-03-x-adjuvant-indications",
+            "surg-03-x-chemo-risk"
+          ]
+        },
+        {
+          "key": "mastitis",
+          "name": "乳腺炎、脓肿切口与药物影响",
+          "groupIds": [
+            "surg-03-r3-lactation-drugs",
+            "surg-03-x-abscess-incision",
+            "surg-03-x-lactation-adverse"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-04",
+      "modules": [
+        {
+          "key": "injury",
+          "name": "胸部损伤：识别、支持与探查",
+          "groupIds": [
+            "surg-04-injury",
+            "surg-04-x-rib-sites",
+            "surg-04-x-rib-treatment",
+            "surg-04-x-traumatic-mechanism",
+            "surg-04-x-lower-ribs"
+          ]
+        },
+        {
+          "key": "mediastinum",
+          "name": "纵隔肿瘤定位",
+          "groupIds": [
+            "surg-04-mediastinum"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-05",
+      "modules": [
+        {
+          "key": "pathology",
+          "name": "早期定义、大体类型与胃壁肿瘤",
+          "groupIds": [
+            "surg-05-gross",
+            "surg-05-stromal",
+            "surg-05-x-early",
+            "surg-05-x-small-threshold",
+            "surg-05-x-gist-risk"
+          ]
+        },
+        {
+          "key": "stage",
+          "name": "侵犯深度、转移与TNM",
+          "groupIds": [
+            "surg-05-spread",
+            "surg-05-x-tnm-t",
+            "surg-05-x-tnm-n"
+          ]
+        },
+        {
+          "key": "tests",
+          "name": "检查用途与随访标志物",
+          "groupIds": [
+            "surg-05-x-gastric-tests",
+            "surg-05-x-gastric-marker"
+          ]
+        },
+        {
+          "key": "nodes",
+          "name": "胃周淋巴结与D2范围",
+          "groupIds": [
+            "surg-05-x-lymph-names-1",
+            "surg-05-x-lymph-names-2",
+            "surg-05-x-lymph-names-3",
+            "surg-05-x-lymph-names-4",
+            "surg-05-x-lymph-names-5",
+            "surg-05-x-lymph-names-6",
+            "surg-05-x-lymph-d2",
+            "surg-05-x-outside-d2",
+            "surg-05-x-second-station"
+          ]
+        },
+        {
+          "key": "treatment",
+          "name": "内镜、外科与靶向治疗",
+          "groupIds": [
+            "surg-05-x-endoscopic-set",
+            "surg-05-x-gastric-operations",
+            "surg-05-x-target-drugs"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-06",
+      "modules": [
+        {
+          "key": "peritonitis",
+          "name": "腹膜炎：疼痛、病原与转归",
+          "groupIds": [
+            "surg-06-r3-peritonitis-pathogen",
+            "surg-06-x-peritoneum",
+            "surg-06-x-infection",
+            "surg-06-x-peritonitis-severity"
+          ]
+        },
+        {
+          "key": "fluid",
+          "name": "腹腔液性状鉴别",
+          "groupIds": [
+            "surg-06-fluid"
+          ]
+        },
+        {
+          "key": "abscess",
+          "name": "脓肿定位、检查与引流",
+          "groupIds": [
+            "surg-06-r3-abscess-tests",
+            "surg-06-r3-pelvic-route",
+            "surg-06-abscess",
+            "surg-06-x-abscess-workup"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-07",
+      "modules": [
+        {
+          "key": "identify",
+          "name": "创伤分类、器官定位与症状时相",
+          "groupIds": [
+            "surg-07-injury",
+            "surg-07-x-trauma-classify",
+            "surg-07-x-trauma-frequency",
+            "surg-07-x-onset"
+          ]
+        },
+        {
+          "key": "complications",
+          "name": "脏器特异线索与迟发并发症",
+          "groupIds": [
+            "surg-07-x-trauma-specific"
+          ]
+        },
+        {
+          "key": "tests",
+          "name": "游离气、腹膜后气与液体成分",
+          "groupIds": [
+            "surg-07-x-free-air",
+            "surg-07-x-oplimaging",
+            "surg-07-x-lavage-fluid"
+          ]
+        },
+        {
+          "key": "treatment",
+          "name": "止血、复苏、探查与脏器处理",
+          "groupIds": [
+            "surg-07-x-pringle",
+            "surg-07-x-colon-repair",
+            "surg-07-x-exploration",
+            "surg-07-x-exploration-order",
+            "surg-07-x-spleen-management"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-08",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "痛吐胀停：病因、部位与机制",
+          "groupIds": [
+            "surg-08-obstruction",
+            "surg-08-level",
+            "surg-08-x-causes-age",
+            "surg-08-x-classification"
+          ]
+        },
+        {
+          "key": "torsion",
+          "name": "肠扭转：易感因素、方向与处理",
+          "groupIds": [
+            "surg-08-x-torsion-factors",
+            "surg-08-x-volvulus-direction",
+            "surg-08-x-volvulus-surgery"
+          ]
+        },
+        {
+          "key": "ischemia",
+          "name": "绞窄、闭袢与肠系膜血管病",
+          "groupIds": [
+            "surg-08-x-strangulation",
+            "surg-08-x-closed-loop",
+            "surg-08-x-mesenteric",
+            "surg-08-x-vascular-risk"
+          ]
+        },
+        {
+          "key": "management",
+          "name": "基本处理与并发情况",
+          "groupIds": [
+            "surg-08-x-basic-treatment",
+            "surg-08-x-vomit-complication",
+            "surg-08-x-foreign-body"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-09",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "右下腹痛：机制、定位、鉴别与检查",
+          "groupIds": [
+            "surg-09-r3-rlq-comparison",
+            "surg-09-signs",
+            "surg-09-x-pathogenesis",
+            "surg-09-x-mcburney",
+            "surg-09-x-differential",
+            "surg-09-x-chronic-barium"
+          ]
+        },
+        {
+          "key": "course",
+          "name": "病理阶段、脓肿与手术路径",
+          "groupIds": [
+            "surg-09-r3-appendix-course",
+            "surg-09-x-pathology-course",
+            "surg-09-x-operative-table",
+            "surg-09-x-appendix-treatment"
+          ]
+        },
+        {
+          "key": "special",
+          "name": "老幼病孕：不典型表现",
+          "groupIds": [
+            "surg-09-r3-atypical-hosts",
+            "surg-09-x-special"
+          ]
+        },
+        {
+          "key": "complications",
+          "name": "感染扩散与术后并发症",
+          "groupIds": [
+            "surg-09-complication",
+            "surg-09-x-septic-complication",
+            "surg-09-x-postop-detail",
+            "surg-09-x-rest-stump"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-10",
+      "modules": [
+        {
+          "key": "diagnosis",
+          "name": "左右侧鉴别与扩散转移",
+          "groupIds": [
+            "surg-10-r3-colon-sides",
+            "surg-10-x-colon-sided",
+            "surg-10-x-colon-spread"
+          ]
+        },
+        {
+          "key": "tests",
+          "name": "诊断、分期与随访检查",
+          "groupIds": [
+            "surg-10-tests",
+            "surg-10-x-markers"
+          ]
+        },
+        {
+          "key": "operation",
+          "name": "保肛、造口、切缘与转移灶处理",
+          "groupIds": [
+            "surg-10-operations",
+            "surg-10-x-miles-indication",
+            "surg-10-x-hartmann",
+            "surg-10-x-margins",
+            "surg-10-x-resectable-metastases"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-11",
+      "modules": [
+        {
+          "key": "anatomy",
+          "name": "齿状线：痛觉、血流、淋巴与癌种",
+          "groupIds": [
+            "surg-11-x-dentate",
+            "surg-11-x-drainage",
+            "surg-11-x-lymph-histology"
+          ]
+        },
+        {
+          "key": "hemorrhoids",
+          "name": "痔：分度、位置与疼痛例外",
+          "groupIds": [
+            "surg-11-hemorrhoids",
+            "surg-11-x-clock",
+            "surg-11-x-mixed-haemorrhoid",
+            "surg-11-x-haemorrhoid-pain"
+          ]
+        },
+        {
+          "key": "differential",
+          "name": "肛周疼痛、肛裂与脓肿鉴别",
+          "groupIds": [
+            "surg-11-anal",
+            "surg-11-x-fissure-triad",
+            "surg-11-x-fissure-atypical",
+            "surg-11-x-exam-avoid"
+          ]
+        },
+        {
+          "key": "treatment",
+          "name": "肛周病处理与肛瘘括约肌关系",
+          "groupIds": [
+            "surg-11-r3-anal-therapy",
+            "surg-11-r3-fistula-table",
+            "surg-11-x-anal-treatment",
+            "surg-11-x-fistula",
+            "surg-11-x-inter-sphincter"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-12",
+      "modules": [
+        {
+          "key": "anatomy",
+          "name": "股环、腹股沟管与疝结构",
+          "groupIds": [
+            "surg-12-r3-hernia-components",
+            "surg-12-x-femoral-boundaries",
+            "surg-12-x-inguinal-walls",
+            "surg-12-x-deep-ring",
+            "surg-12-x-hesselbach",
+            "surg-12-x-components"
+          ]
+        },
+        {
+          "key": "differential",
+          "name": "斜疝、直疝、股疝与鞘膜积液",
+          "groupIds": [
+            "surg-12-r3-indirect-direct",
+            "surg-12-hernia",
+            "surg-12-x-indirect-direct",
+            "surg-12-x-cord",
+            "surg-12-x-incarceration",
+            "surg-12-x-hydrocele"
+          ]
+        },
+        {
+          "key": "type",
+          "name": "临床类别、特殊内容物与复发",
+          "groupIds": [
+            "surg-12-contents",
+            "surg-12-x-clinical-types",
+            "surg-12-x-contents-frequency",
+            "surg-12-x-recurrence"
+          ]
+        },
+        {
+          "key": "treatment",
+          "name": "修补术式、绞窄与肠管活力",
+          "groupIds": [
+            "surg-12-repair",
+            "surg-12-x-repair-indications",
+            "surg-12-x-strangulated-treatment",
+            "surg-12-x-bowel-viability"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-13",
+      "modules": [
+        {
+          "key": "origin-anatomy",
+          "name": "感染来源、病原与肝解剖",
+          "groupIds": [
+            "surg-13-route",
+            "surg-13-anatomy",
+            "surg-13-x-pathogens",
+            "surg-13-x-arterial-bug"
+          ]
+        },
+        {
+          "key": "presentation-differential",
+          "name": "肝脓肿鉴别与穿破并发症",
+          "groupIds": [
+            "surg-13-x-complication",
+            "surg-13-x-amoebic"
+          ]
+        },
+        {
+          "key": "testing-treatment",
+          "name": "检查、穿刺限制与治疗",
+          "groupIds": [
+            "surg-13-x-imaging",
+            "surg-13-x-management",
+            "surg-13-x-puncture-caution"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-14",
+      "modules": [
+        {
+          "key": "portal-mechanism",
+          "name": "门静脉解剖与阻塞机制",
+          "groupIds": [
+            "surg-14-mechanism",
+            "surg-14-x-portal-anatomy",
+            "surg-14-x-portal-threshold"
+          ]
+        },
+        {
+          "key": "bleeding-assessment",
+          "name": "出血评估与肝功能分级",
+          "groupIds": [
+            "surg-14-child",
+            "surg-14-x-endoscopy",
+            "surg-14-x-purpose",
+            "surg-14-x-bleed-circulation"
+          ]
+        },
+        {
+          "key": "bleeding-control",
+          "name": "曲张静脉出血的局部及药物止血",
+          "groupIds": [
+            "surg-14-x-bleed-treatment",
+            "surg-14-x-local-variceal",
+            "surg-14-x-variceal-drugs",
+            "surg-14-x-vasopressin"
+          ]
+        },
+        {
+          "key": "operations-prevention",
+          "name": "断流、分流与出血预防",
+          "groupIds": [
+            "surg-14-r3-flow-fields",
+            "surg-14-surgery",
+            "surg-14-x-prevent",
+            "surg-14-x-flow-compare",
+            "surg-14-x-devessels"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-15",
+      "modules": [
+        {
+          "key": "ductal-diagnosis",
+          "name": "胰腺导管癌、梗阻性黄疸与检查",
+          "groupIds": [
+            "surg-15-x-first-symptoms",
+            "surg-15-x-ca199",
+            "surg-15-x-pancreatic-tests",
+            "surg-15-x-obstructive",
+            "surg-15-x-pancreatic-prognosis"
+          ]
+        },
+        {
+          "key": "endocrine-differential",
+          "name": "内分泌瘤与低血糖鉴别",
+          "groupIds": [
+            "surg-15-tumor",
+            "surg-15-x-insulinoma",
+            "surg-15-x-endocrine-test",
+            "surg-15-x-endocrine-malignant",
+            "surg-15-x-endocrine-behavior"
+          ]
+        },
+        {
+          "key": "surgery-complications",
+          "name": "胰腺手术、Whipple并发症及治疗",
+          "groupIds": [
+            "surg-15-postop",
+            "surg-15-x-pancreas-operation",
+            "surg-15-x-gemcitabine",
+            "surg-15-x-whipple-sites"
+          ]
+        },
+        {
+          "key": "gastrinoma",
+          "name": "胃泌素瘤定位、胃酸与溃疡特点",
+          "groupIds": [
+            "surg-15-x-gastrin-boundary",
+            "surg-15-x-gastrin-threshold",
+            "surg-15-x-gastrin-details",
+            "surg-15-x-gastrin-acidity"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-16",
+      "modules": [
+        {
+          "key": "anatomy-physiology-stones",
+          "name": "胆道解剖、生理及结石成分",
+          "groupIds": [
+            "surg-16-x-physiology",
+            "surg-16-x-hormones",
+            "surg-16-x-calot",
+            "surg-16-x-bile-anatomy",
+            "surg-16-x-stone-material",
+            "surg-16-x-bile-food",
+            "surg-16-x-bile-heart"
+          ]
+        },
+        {
+          "key": "clinical-differential",
+          "name": "胆道疼痛、黄疸与超声鉴别",
+          "groupIds": [
+            "surg-16-r3-pain-fever-jaundice",
+            "surg-16-r3-jaundice-fields",
+            "surg-16-ultrasound",
+            "surg-16-differential",
+            "surg-16-jaundice",
+            "surg-16-x-sono-threshold",
+            "surg-16-x-imaging-signal",
+            "surg-16-x-pain-radiation",
+            "surg-16-x-contained-perforation"
+          ]
+        },
+        {
+          "key": "gallbladder",
+          "name": "胆囊结石、胆囊炎与息肉",
+          "groupIds": [
+            "surg-16-x-stone-complication",
+            "surg-16-x-lc-indications",
+            "surg-16-x-lc-risk-list",
+            "surg-16-x-cholecystitis-management",
+            "surg-16-x-acalculous",
+            "surg-16-x-gallbladder-stage",
+            "surg-16-x-polyp-risk",
+            "surg-16-x-polyp-morphology",
+            "surg-16-x-gallbladder-site"
+          ]
+        },
+        {
+          "key": "duct-stones-infection",
+          "name": "胆管结石、AOSC与胆道出血",
+          "groupIds": [
+            "surg-16-x-intrahepatic",
+            "surg-16-x-hepatolith-complications",
+            "surg-16-x-hepatectomy",
+            "surg-16-x-duct-operation",
+            "surg-16-x-aosc-timing",
+            "surg-16-x-hemobilia",
+            "surg-16-x-biliary-key-rule",
+            "surg-16-x-aosc-pathogen"
+          ]
+        },
+        {
+          "key": "procedures-drainage",
+          "name": "胆道检查、介入引流与T管",
+          "groupIds": [
+            "surg-16-procedures",
+            "surg-16-x-postprocedure-drain",
+            "surg-16-x-procedural-complications",
+            "surg-16-x-ptc-complications",
+            "surg-16-x-tube-times",
+            "surg-16-x-tube-function",
+            "surg-16-x-tube-purposes",
+            "surg-16-x-tube-volume",
+            "surg-16-x-explore"
+          ]
+        },
+        {
+          "key": "biliary-cancer",
+          "name": "胆管癌分型、危险因素与手术",
+          "groupIds": [
+            "surg-16-x-cholangiocarcinoma",
+            "surg-16-x-bismuth",
+            "surg-16-x-bile-cancer-operation"
+          ]
+        },
+        {
+          "key": "congenital",
+          "name": "胆管闭锁及先天性胆管扩张",
+          "groupIds": [
+            "surg-16-dilation",
+            "surg-16-x-atresia",
+            "surg-16-x-atresia-treatment"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-17",
+      "modules": [
+        {
+          "key": "arterial-differential-stage",
+          "name": "动脉性疾病鉴别与缺血分期",
+          "groupIds": [
+            "surg-17-r3-aso-buerger",
+            "surg-17-vascular",
+            "surg-17-stage",
+            "surg-17-x-rutherford",
+            "surg-17-x-abi"
+          ]
+        },
+        {
+          "key": "venous-disease",
+          "name": "静脉血栓机制、分布与风险",
+          "groupIds": [
+            "surg-17-x-dvt",
+            "surg-17-x-dvt-distribution"
+          ]
+        },
+        {
+          "key": "vascular-examination",
+          "name": "血管检查及传统试验",
+          "groupIds": [
+            "surg-17-tests",
+            "surg-17-x-vascular-check",
+            "surg-17-x-buerger-test"
+          ]
+        },
+        {
+          "key": "treatment-principles",
+          "name": "栓子来源、取栓、用药及体位",
+          "groupIds": [
+            "surg-17-r3-artery-vein-fields",
+            "surg-17-x-arterial-source",
+            "surg-17-x-fogarty",
+            "surg-17-x-raynaud-drugs",
+            "surg-17-x-leg-position"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-18",
+      "modules": [
+        {
+          "key": "infection-hematuria",
+          "name": "泌外疾病鉴别、血尿与肾结核治疗",
+          "groupIds": [
+            "surg-18-diseases",
+            "surg-18-x-hematuria",
+            "surg-18-x-renal-tb-treatment",
+            "surg-18-x-renal-tb-timing"
+          ]
+        },
+        {
+          "key": "pathology-stage",
+          "name": "泌尿肿瘤病理及膀胱癌浸润层次",
+          "groupIds": [
+            "surg-18-bladder",
+            "surg-18-x-pathology"
+          ]
+        },
+        {
+          "key": "surgical-extent",
+          "name": "泌尿肿瘤切除范围与治疗",
+          "groupIds": [
+            "surg-18-r3-renal-urothelial",
+            "surg-18-x-uro-surgery"
+          ]
+        },
+        {
+          "key": "diagnostic-tests",
+          "name": "影像、取材、前列腺指标与分肾功能",
+          "groupIds": [
+            "surg-18-x-uro-tests",
+            "surg-18-x-prostate-evidence",
+            "surg-18-x-prostate-enzymes",
+            "surg-18-x-split-function"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-19",
+      "modules": [
+        {
+          "key": "bph",
+          "name": "良性前列腺增生与排尿困难",
+          "groupIds": [
+            "surg-19-bph-stones",
+            "surg-19-bph-drugs",
+            "surg-19-x-bph-time",
+            "surg-19-x-bph-indications",
+            "surg-19-x-bph-combination",
+            "surg-19-x-bph-procedures",
+            "surg-19-x-retention"
+          ]
+        },
+        {
+          "key": "urinary-stones",
+          "name": "尿石成分、处理次序与取石路径",
+          "groupIds": [
+            "surg-19-x-stone-surface",
+            "surg-19-x-stone-priority",
+            "surg-19-x-stone-procedure",
+            "surg-19-x-urethral-stone"
+          ]
+        },
+        {
+          "key": "urinary-trauma",
+          "name": "尿道、膀胱与肾损伤定位",
+          "groupIds": [
+            "surg-19-r3-urethral-fields",
+            "surg-19-injury",
+            "surg-19-x-injury-plane",
+            "surg-19-x-renal-injury",
+            "surg-19-x-trauma-imaging"
+          ]
+        },
+        {
+          "key": "incontinence",
+          "name": "尿失禁类型及机制鉴别",
+          "groupIds": [
+            "surg-19-incontinence"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-20",
+      "modules": [
+        {
+          "key": "deformity-torticollis",
+          "name": "畸形鉴别与先天性肌性斜颈",
+          "groupIds": [
+            "surg-20-deformity",
+            "surg-20-x-torticollis-treatment"
+          ]
+        },
+        {
+          "key": "developmental-hip",
+          "name": "发育性髋脱位的体征、影像与分龄治疗",
+          "groupIds": [
+            "surg-20-hip-tests",
+            "surg-20-x-ddh-pathology",
+            "surg-20-x-ddh-stages",
+            "surg-20-x-ddh-treatment",
+            "surg-20-x-ddh-imaging"
+          ]
+        },
+        {
+          "key": "scoliosis",
+          "name": "结构性与非结构性脊柱侧凸",
+          "groupIds": [
+            "surg-20-x-scoliosis-angle",
+            "surg-20-x-nonstructural",
+            "surg-20-x-scoliosis-aim"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-21",
+      "modules": [
+        {
+          "key": "clinical-differential",
+          "name": "慢性损伤与肩痛鉴别",
+          "groupIds": [
+            "surg-21-chronic",
+            "surg-21-x-shoulder-differential"
+          ]
+        },
+        {
+          "key": "upper-limb-management",
+          "name": "肩、肘与腱鞘损伤的处理",
+          "groupIds": [
+            "surg-21-x-shoulder-management",
+            "surg-21-x-procedure-chronic",
+            "surg-21-x-tennis-rest"
+          ]
+        },
+        {
+          "key": "osteochondral",
+          "name": "髌骨及骨软骨病的治疗限制",
+          "groupIds": [
+            "surg-21-x-patellar-injection",
+            "surg-21-x-steroid-caution",
+            "surg-21-x-perthes-chronic"
+          ]
+        },
+        {
+          "key": "analgesia-principles",
+          "name": "慢性损伤镇痛与NSAIDs原则",
+          "groupIds": [
+            "surg-21-x-general-drugs",
+            "surg-21-x-cox2"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-22",
+      "modules": [
+        {
+          "key": "hand-replantation",
+          "name": "手外伤修复、覆盖与断指再植",
+          "groupIds": [
+            "surg-22-hand",
+            "surg-22-x-hand-timing",
+            "surg-22-x-digit-preserve",
+            "surg-22-x-replant-order",
+            "surg-22-x-allen",
+            "surg-22-x-hand-position",
+            "surg-22-x-replant-time"
+          ]
+        },
+        {
+          "key": "avascular-necrosis",
+          "name": "股骨头坏死的原因、分期及保头治疗",
+          "groupIds": [
+            "surg-22-x-head-blood",
+            "surg-22-x-necrosis-causes",
+            "surg-22-x-necrosis-stage",
+            "surg-22-x-necrosis-test",
+            "surg-22-x-avascular-operations",
+            "surg-22-x-figure-four"
+          ]
+        },
+        {
+          "key": "knee-injuries",
+          "name": "半月板、交叉及侧副韧带损伤",
+          "groupIds": [
+            "surg-22-knee",
+            "surg-22-x-meniscus-zones",
+            "surg-22-x-bucket-handle",
+            "surg-22-x-knee-elements",
+            "surg-22-x-knee-triad",
+            "surg-22-x-knee-tests",
+            "surg-22-x-knee-imaging"
+          ]
+        },
+        {
+          "key": "brachial-plexus",
+          "name": "臂丛根干束支及根撕脱伤",
+          "groupIds": [
+            "surg-22-x-plexus-roots",
+            "surg-22-x-plexus-cords",
+            "surg-22-x-plexus-branches",
+            "surg-22-x-plexus-avulsion"
+          ]
+        },
+        {
+          "key": "peripheral-localisation",
+          "name": "周围神经卡压与感觉运动定位",
+          "groupIds": [
+            "surg-22-r3-neuro-combined",
+            "surg-22-nerves",
+            "surg-22-x-peripheral-motor",
+            "surg-22-x-peripheral-sensory",
+            "surg-22-x-nerve-levels",
+            "surg-22-x-combined-nerves"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-23",
+      "modules": [
+        {
+          "key": "acute-pyogenic",
+          "name": "急性骨髓炎与化脓性关节炎鉴别及处理",
+          "groupIds": [
+            "surg-23-r3-infection-focus",
+            "surg-23-infection",
+            "surg-23-x-infection-bug",
+            "surg-23-x-osteomyelitis-early",
+            "surg-23-x-pyogenic-location",
+            "surg-23-x-acute-infection-treatment",
+            "surg-23-x-joint-fluid",
+            "surg-23-x-joint-diagnosis",
+            "surg-23-x-joint-management"
+          ]
+        },
+        {
+          "key": "chronic-osteomyelitis",
+          "name": "慢性骨髓炎的死骨、死腔与急性发作",
+          "groupIds": [
+            "surg-23-x-chronic-osteo"
+          ]
+        },
+        {
+          "key": "tuberculosis-general",
+          "name": "骨关节结核总论与寒性脓肿",
+          "groupIds": [
+            "surg-23-x-tb-general",
+            "surg-23-x-cold-abscess",
+            "surg-23-x-tb-treatment",
+            "surg-23-x-tb-sites"
+          ]
+        },
+        {
+          "key": "spinal-tuberculosis",
+          "name": "脊柱结核、截瘫及手术指征",
+          "groupIds": [
+            "surg-23-vertebral-sites",
+            "surg-23-paralysis",
+            "surg-23-x-spinal-tb-indications"
+          ]
+        },
+        {
+          "key": "hip-tuberculosis",
+          "name": "髋结核牵涉痛、体征及病理分期手术",
+          "groupIds": [
+            "surg-23-x-hip-tb-referred",
+            "surg-23-x-hip-tb-test",
+            "surg-23-x-hip-tb-surgery"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-24",
+      "modules": [
+        {
+          "key": "arthritis-differential",
+          "name": "关节炎分布、影像、结节与畸形鉴别",
+          "groupIds": [
+            "surg-24-r3-oa-ra-fields",
+            "surg-24-arthritis",
+            "surg-24-nodules",
+            "surg-24-x-stiffness"
+          ]
+        },
+        {
+          "key": "pathogenesis-markers",
+          "name": "关节病变起点及相关标志物",
+          "groupIds": [
+            "surg-24-x-arthritis-origin",
+            "surg-24-x-arthritis-markers"
+          ]
+        },
+        {
+          "key": "axial-arthritis",
+          "name": "强直性脊柱炎的早期诊断、分布和节律",
+          "groupIds": [
+            "surg-24-x-as-early",
+            "surg-24-x-as-spread",
+            "surg-24-x-exercise-pattern"
+          ]
+        },
+        {
+          "key": "treatment-load",
+          "name": "骨关节炎负荷因素与关节炎用药限制",
+          "groupIds": [
+            "surg-24-x-oa-secondary",
+            "surg-24-x-treatment-arthritis",
+            "surg-24-x-axial-drug-limit"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-25",
+      "modules": [
+        {
+          "key": "tumor-patterns",
+          "name": "骨肿瘤年龄、部位及影像鉴别",
+          "groupIds": [
+            "surg-25-r3-sarcoma-fields",
+            "surg-25-tumors",
+            "surg-25-x-benign-malignant",
+            "surg-25-x-other-bone-tumors",
+            "surg-25-x-vertebra-differential"
+          ]
+        },
+        {
+          "key": "diagnosis-metastasis",
+          "name": "骨肿瘤确诊、生化与转移筛查",
+          "groupIds": [
+            "surg-25-x-bone-tests",
+            "surg-25-x-bone-labs",
+            "surg-25-x-bone-metastatic-origin",
+            "surg-25-x-lung-metastases"
+          ]
+        },
+        {
+          "key": "osteochondroma",
+          "name": "骨软骨瘤观察、切除及恶变识别",
+          "groupIds": [
+            "surg-25-x-osteochondroma-management"
+          ]
+        },
+        {
+          "key": "giant-cell",
+          "name": "骨巨细胞瘤分期治疗及药物放疗限制",
+          "groupIds": [
+            "surg-25-x-giant-cell",
+            "surg-25-x-giant-cell-treat",
+            "surg-25-x-giant-drug",
+            "surg-25-x-giant-radiation"
+          ]
+        },
+        {
+          "key": "tumor-treatment",
+          "name": "骨肉瘤、尤因肉瘤及骨囊肿治疗",
+          "groupIds": [
+            "surg-25-x-bone-tumor-therapies",
+            "surg-25-x-cyst-treatment"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-26",
+      "modules": [
+        {
+          "key": "spine-fractures",
+          "name": "脊柱骨折类型与受力方式",
+          "groupIds": [
+            "surg-26-fracture",
+            "surg-26-x-cervical-pattern",
+            "surg-26-x-fracture-site",
+            "surg-26-x-odontoid-types"
+          ]
+        },
+        {
+          "key": "cord-localization",
+          "name": "脊髓损伤定位与综合征鉴别",
+          "groupIds": [
+            "surg-26-cord",
+            "surg-26-x-cord-level",
+            "surg-26-x-cord-definitions",
+            "surg-26-x-cord-excluded",
+            "surg-26-x-cord-artery"
+          ]
+        },
+        {
+          "key": "spine-assessment",
+          "name": "脊柱损伤影像、搬运与复位",
+          "groupIds": [
+            "surg-26-x-imaging-transfer",
+            "surg-26-x-transfer",
+            "surg-26-x-cord-indications",
+            "surg-26-x-cervical-therapy",
+            "surg-26-x-cervical-first-treatment"
+          ]
+        },
+        {
+          "key": "pelvic-complex",
+          "name": "骨盆损伤与复合伤处理优先级",
+          "groupIds": [
+            "surg-26-x-pelvic-complications",
+            "surg-26-x-injury-priority"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-27",
+      "modules": [
+        {
+          "key": "cervical-types",
+          "name": "颈椎病分型与危险信号",
+          "groupIds": [
+            "surg-27-cervical",
+            "surg-27-x-cervical-safety",
+            "surg-27-x-myelopathy-composite"
+          ]
+        },
+        {
+          "key": "disc-morphology",
+          "name": "椎间盘结构、突出形态与术式关系",
+          "groupIds": [
+            "surg-27-disc",
+            "surg-27-x-disc-structure",
+            "surg-27-x-disc-more",
+            "surg-27-x-disc-excision"
+          ]
+        },
+        {
+          "key": "root-localization",
+          "name": "神经根定位、牵张与侧凸",
+          "groupIds": [
+            "surg-27-roots",
+            "surg-27-x-root-pain-mechanism",
+            "surg-27-x-cervical-root-level",
+            "surg-27-x-sciatic-scoliosis"
+          ]
+        },
+        {
+          "key": "clinical-differential",
+          "name": "颈腰病变鉴别与诱发试验",
+          "groupIds": [
+            "surg-27-x-leg-tests",
+            "surg-27-x-differential",
+            "surg-27-x-common-level"
+          ]
+        },
+        {
+          "key": "motor-localization",
+          "name": "上、下运动神经元损伤鉴别",
+          "groupIds": [
+            "surg-27-x-motor-neuron",
+            "surg-27-x-motor-other"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-28",
+      "modules": [
+        {
+          "key": "hip-differential",
+          "name": "髋部骨折与脱位鉴别",
+          "groupIds": [
+            "surg-28-r3-hip-cases",
+            "surg-28-r3-hip-tenderness",
+            "surg-28-r3-hip-rotation",
+            "surg-28-r3-hip-shortening",
+            "surg-28-r3-hip-neck-level",
+            "surg-28-garden",
+            "surg-28-x-epstein",
+            "surg-28-x-hip-exam",
+            "surg-28-x-hip-lines",
+            "surg-28-x-pauwels",
+            "surg-28-x-hip-risk",
+            "surg-28-x-fracture-first-image"
+          ]
+        },
+        {
+          "key": "shoulder-fractures",
+          "name": "肩带与肱骨近端骨折",
+          "groupIds": [
+            "surg-28-x-clavicle",
+            "surg-28-x-fracture-anatomy",
+            "surg-28-x-shoulder-treatment"
+          ]
+        },
+        {
+          "key": "elbow-humerus",
+          "name": "肱骨干与肘部损伤鉴别",
+          "groupIds": [
+            "surg-28-x-humeral-displace",
+            "surg-28-x-supracondylar",
+            "surg-28-x-elbow-landmarks",
+            "surg-28-x-radial-head-management"
+          ]
+        },
+        {
+          "key": "forearm-wrist",
+          "name": "前臂与腕部骨折鉴别",
+          "groupIds": [
+            "surg-28-forearm",
+            "surg-28-x-forearm-reduction",
+            "surg-28-x-wrist-shape"
+          ]
+        },
+        {
+          "key": "leg-fractures",
+          "name": "股骨干、髌骨与小腿骨折",
+          "groupIds": [
+            "surg-28-x-patella",
+            "surg-28-x-patella-principles",
+            "surg-28-x-tibia-ankle",
+            "surg-28-x-femoral-shift",
+            "surg-28-x-tibial-level",
+            "surg-28-x-open-lowerleg"
+          ]
+        },
+        {
+          "key": "ankle-foot",
+          "name": "踝与足部损伤",
+          "groupIds": [
+            "surg-28-x-ankle-fixation",
+            "surg-28-x-ankle-position",
+            "surg-28-x-ankle-ligaments"
+          ]
+        },
+        {
+          "key": "cross-injury-localization",
+          "name": "关节脱位、角度与神经风险串联",
+          "groupIds": [
+            "surg-28-dislocations",
+            "surg-28-nerves",
+            "surg-28-x-normal-angles",
+            "surg-28-x-shoulder-methods",
+            "surg-28-x-common-dislocation"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-29",
+      "modules": [
+        {
+          "key": "fracture-recognition",
+          "name": "骨折分类、机制与特有体征",
+          "groupIds": [
+            "surg-29-classification",
+            "surg-29-x-mechanism",
+            "surg-29-x-unique-signs",
+            "surg-29-x-open-definition",
+            "surg-29-x-no-unique-signs",
+            "surg-29-x-vertebral-manifestations",
+            "surg-29-x-unique-signs-exam"
+          ]
+        },
+        {
+          "key": "fracture-healing",
+          "name": "愈合过程、时程与临床判定",
+          "groupIds": [
+            "surg-29-healing-stage",
+            "surg-29-remodel",
+            "surg-29-x-healing-criteria",
+            "surg-29-x-healing-time",
+            "surg-29-x-healing-process"
+          ]
+        },
+        {
+          "key": "impaired-healing",
+          "name": "延迟愈合、不愈合及影响因素",
+          "groupIds": [
+            "surg-29-x-delayed-healing",
+            "surg-29-x-healing-harm"
+          ]
+        },
+        {
+          "key": "fracture-complications",
+          "name": "骨折并发症鉴别与危重预警",
+          "groupIds": [
+            "surg-29-complications",
+            "surg-29-x-early-late",
+            "surg-29-x-compartment",
+            "surg-29-x-fat-target"
+          ]
+        },
+        {
+          "key": "reduction-function",
+          "name": "复位标准、手术指征与远期功能",
+          "groupIds": [
+            "surg-29-x-reduction-target",
+            "surg-29-x-surgery-indications",
+            "surg-29-x-reduction-shortening",
+            "surg-29-x-complex-regional"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-30",
+      "modules": [
+        {
+          "key": "transfusion-reactions",
+          "name": "输血反应与大量输血并发症鉴别",
+          "groupIds": [
+            "surg-30-r3-transfusion-cases",
+            "surg-30-reaction",
+            "surg-30-x-massive-complications",
+            "surg-30-x-hemolytic-time"
+          ]
+        },
+        {
+          "key": "blood-products",
+          "name": "成分血选择与去白、洗涤、辐照鉴别",
+          "groupIds": [
+            "surg-30-products",
+            "surg-30-x-products-more"
+          ]
+        },
+        {
+          "key": "transfusion-assessment",
+          "name": "失血与血红蛋白分层评估",
+          "groupIds": [
+            "surg-30-x-blood-loss",
+            "surg-30-x-hb-reference"
+          ]
+        },
+        {
+          "key": "autologous-blood",
+          "name": "自体输血方法与回输顺序",
+          "groupIds": [
+            "surg-30-x-autologous",
+            "surg-30-x-dilution-sequence"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-31",
+      "modules": [
+        {
+          "key": "water-sodium",
+          "name": "三类脱水与水中毒鉴别",
+          "groupIds": [
+            "surg-31-r3-water-cases",
+            "surg-31-water",
+            "surg-31-x-sodium-grades",
+            "surg-31-x-dehydration-fields"
+          ]
+        },
+        {
+          "key": "electrolyte-recognition",
+          "name": "电解质异常体征与钙镁病因",
+          "groupIds": [
+            "surg-31-electrolytes",
+            "surg-31-x-magnesium",
+            "surg-31-x-calcium-causes"
+          ]
+        },
+        {
+          "key": "potassium-mechanism",
+          "name": "钾异常机制、酸碱关系与处理原理",
+          "groupIds": [
+            "surg-31-potassium",
+            "surg-31-x-potassium-causes",
+            "surg-31-x-acid-potassium"
+          ]
+        },
+        {
+          "key": "potassium-replacement",
+          "name": "补钾原则与量纲",
+          "groupIds": [
+            "surg-31-x-kcl-concentration",
+            "surg-31-x-kcl-rate",
+            "surg-31-x-kcl-urine",
+            "surg-31-x-kcl-day"
+          ]
+        },
+        {
+          "key": "fluid-acidbase",
+          "name": "酸碱调节与补液计算",
+          "groupIds": [
+            "surg-31-x-acid-regulation",
+            "surg-31-x-fluid-calculation",
+            "surg-31-x-fluid-volume",
+            "surg-31-x-pylorus",
+            "surg-31-x-conversions",
+            "surg-31-x-hypertonic-liquid",
+            "surg-31-x-normal-saline-estimate"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-32",
+      "modules": [
+        {
+          "key": "nutrition-assessment",
+          "name": "营养评价、应激与能量需要",
+          "groupIds": [
+            "surg-32-x-nutrition-evaluation",
+            "surg-32-x-metabolic-stress",
+            "surg-32-x-ree",
+            "surg-32-x-nutrition-thresholds",
+            "surg-32-x-bodyweight",
+            "surg-32-x-energy-calculation",
+            "surg-32-x-obesity-energy"
+          ]
+        },
+        {
+          "key": "nutrition-route",
+          "name": "肠内、肠外营养适应证与通路",
+          "groupIds": [
+            "surg-32-x-enteral-access",
+            "surg-32-x-pn-needed",
+            "surg-32-x-pancreas-en-route"
+          ]
+        },
+        {
+          "key": "nutrition-formula",
+          "name": "营养底物、配比与氮平衡",
+          "groupIds": [
+            "surg-32-nutrition",
+            "surg-32-x-nitrogen",
+            "surg-32-x-nutrition-ratios",
+            "surg-32-x-specific-substrates",
+            "surg-32-x-nutrition-substrates-quantity",
+            "surg-32-x-pn-ratios",
+            "surg-32-x-amino-acids",
+            "surg-32-x-amino-ratio"
+          ]
+        },
+        {
+          "key": "nutrition-complications",
+          "name": "营养支持并发症鉴别",
+          "groupIds": [
+            "surg-32-complications",
+            "surg-32-x-pn-liver",
+            "surg-32-x-pn-bone",
+            "surg-32-x-enteral-adverse",
+            "surg-32-x-en-ranking"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-33",
+      "modules": [
+        {
+          "key": "burn-area-severity",
+          "name": "烧伤面积与严重度",
+          "groupIds": [
+            "surg-33-x-area",
+            "surg-33-x-child-area",
+            "surg-33-x-severity",
+            "surg-33-x-regional-area",
+            "surg-33-x-leg-area",
+            "surg-33-x-trunk-area"
+          ]
+        },
+        {
+          "key": "burn-depth-wound",
+          "name": "烧伤深度、愈合与创面处理",
+          "groupIds": [
+            "surg-33-depth",
+            "surg-33-x-depth-heal",
+            "surg-33-x-wound-water-blister",
+            "surg-33-x-eschar-infection"
+          ]
+        },
+        {
+          "key": "burn-fluid",
+          "name": "烧伤液体复苏计算与时序",
+          "groupIds": [
+            "surg-33-x-fluid-formula",
+            "surg-33-x-fluid-amount",
+            "surg-33-x-fluid-timing",
+            "surg-33-x-exudation-time",
+            "surg-33-x-burn-crystal-colloid"
+          ]
+        },
+        {
+          "key": "burn-critical",
+          "name": "烧伤时相、吸入损伤与危重并发症",
+          "groupIds": [
+            "surg-33-ulcer",
+            "surg-33-x-burn-phases",
+            "surg-33-x-burn-transfer",
+            "surg-33-x-inhalation",
+            "surg-33-x-inhalation-test"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-34",
+      "modules": [
+        {
+          "key": "superficial-hand",
+          "name": "浅部与手部感染鉴别",
+          "groupIds": [
+            "surg-34-r3-superficial-cases",
+            "surg-34-superficial",
+            "surg-34-x-danger-triangle",
+            "surg-34-x-erysipelas",
+            "surg-34-x-erysipelas-features",
+            "surg-34-x-felon-complication",
+            "surg-34-x-tendon-spread"
+          ]
+        },
+        {
+          "key": "infection-source-control",
+          "name": "外科感染切口与感染源控制",
+          "groupIds": [
+            "surg-34-x-surgical-principles",
+            "surg-34-x-incisions",
+            "surg-34-x-early-source-control",
+            "surg-34-x-bursal-incision-distance"
+          ]
+        },
+        {
+          "key": "organism-systemic",
+          "name": "病原、全身感染与抗菌药原则",
+          "groupIds": [
+            "surg-34-organisms",
+            "surg-34-x-specific-infection",
+            "surg-34-x-sepsis-organisms",
+            "surg-34-x-culture",
+            "surg-34-x-antibiotic-stop"
+          ]
+        },
+        {
+          "key": "clostridial-infections",
+          "name": "破伤风与气性坏疽鉴别",
+          "groupIds": [
+            "surg-34-x-tetanus-immunity",
+            "surg-34-x-tetanus-clinical",
+            "surg-34-x-gas-necrosis",
+            "surg-34-x-clostridia-comparison",
+            "surg-34-x-tetanus-trigger"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-35",
+      "modules": [
+        {
+          "key": "preoperative-assessment",
+          "name": "手术时机、术前准备与禁食",
+          "groupIds": [
+            "surg-35-x-urgency",
+            "surg-35-x-fasting",
+            "surg-35-x-preop-principles"
+          ]
+        },
+        {
+          "key": "incision-grading",
+          "name": "切口分类与愈合分级",
+          "groupIds": [
+            "surg-35-class",
+            "surg-35-healing"
+          ]
+        },
+        {
+          "key": "postoperative-complications",
+          "name": "术后观察与切口并发症鉴别",
+          "groupIds": [
+            "surg-35-complications",
+            "surg-35-x-wound-dehiscence",
+            "surg-35-x-dehiscence-first",
+            "surg-35-x-post-chole-collection"
+          ]
+        },
+        {
+          "key": "postoperative-care",
+          "name": "术后体位、拆线与康复",
+          "groupIds": [
+            "surg-35-x-posture",
+            "surg-35-x-suture-time"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-36",
+      "modules": [
+        {
+          "key": "general-anesthesia",
+          "name": "全麻药选择、术前用药与气道",
+          "groupIds": [
+            "surg-36-iv",
+            "surg-36-x-premedication",
+            "surg-36-x-airway",
+            "surg-36-x-inhaled",
+            "surg-36-x-blood-gas"
+          ]
+        },
+        {
+          "key": "neuromuscular-blockers",
+          "name": "肌松药机制与风险",
+          "groupIds": [
+            "surg-36-x-muscle-relax",
+            "surg-36-x-succinylcholine",
+            "surg-36-x-nm-classes"
+          ]
+        },
+        {
+          "key": "local-anesthetic-selection",
+          "name": "局麻药类别、代谢与选用",
+          "groupIds": [
+            "surg-36-local",
+            "surg-36-x-local-metabolism",
+            "surg-36-x-local-properties",
+            "surg-36-x-local-duration",
+            "surg-36-x-local-toxicity",
+            "surg-36-x-long-analgesia"
+          ]
+        },
+        {
+          "key": "local-anesthetic-delivery",
+          "name": "局麻实施方式、剂量与肾上腺素",
+          "groupIds": [
+            "surg-36-x-local-methods",
+            "surg-36-x-local-dose",
+            "surg-36-x-adrenaline-effect",
+            "surg-36-x-adrenaline-ratio"
+          ]
+        },
+        {
+          "key": "neuraxial-localization",
+          "name": "椎管内麻醉类型、平面与阻滞顺序",
+          "groupIds": [
+            "surg-36-levels",
+            "surg-36-x-neuraxial-order",
+            "surg-36-x-neuraxial-level",
+            "surg-36-x-caudal-saddle"
+          ]
+        },
+        {
+          "key": "anesthesia-complications",
+          "name": "麻醉并发症、禁忌与安全辨别",
+          "groupIds": [
+            "surg-36-r3-anesthesia-complication-cases",
+            "surg-36-x-neuraxial-adverse",
+            "surg-36-x-block-route",
+            "surg-36-x-spinal-safety",
+            "surg-36-x-spinal-contraindication"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-37",
+      "modules": [
+        {
+          "key": "shock-stages",
+          "name": "休克阶段、代偿与DIC预警",
+          "groupIds": [
+            "surg-37-r3-compensated-case",
+            "surg-37-micro",
+            "surg-37-x-compensated",
+            "surg-37-x-dic"
+          ]
+        },
+        {
+          "key": "shock-monitoring",
+          "name": "灌注、容量监测与少尿鉴别",
+          "groupIds": [
+            "surg-37-monitor",
+            "surg-37-x-cvp-bp",
+            "surg-37-x-fluid-challenge",
+            "surg-37-x-oliguria",
+            "surg-37-x-shock-index",
+            "surg-37-x-cvp-normal"
+          ]
+        },
+        {
+          "key": "shock-cause",
+          "name": "感染性休克、冷暖模型与病因处理",
+          "groupIds": [
+            "surg-37-r3-cold-warm-cases",
+            "surg-37-x-shock-fluid",
+            "surg-37-x-sirs",
+            "surg-37-x-cold-warm",
+            "surg-37-x-cause-treatment"
+          ]
+        },
+        {
+          "key": "cardiogenic-emergency",
+          "name": "心源性休克与节律急救串联",
+          "groupIds": [
+            "surg-37-x-killip",
+            "surg-37-x-electrical-emergency"
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": "surg-38",
+      "modules": [
+        {
+          "key": "aseptic-technique",
+          "name": "无菌技术、边界与皮肤消毒",
+          "groupIds": [
+            "surg-38-x-sterilization",
+            "surg-38-x-sterile-field",
+            "surg-38-x-skin-direction",
+            "surg-38-x-skin-range"
+          ]
+        },
+        {
+          "key": "trauma-transplant",
+          "name": "创伤、肝衰竭与移植",
+          "groupIds": [
+            "surg-38-x-liver-failure",
+            "surg-38-x-trauma-class",
+            "surg-38-x-closure",
+            "surg-38-x-transplant"
+          ]
+        },
+        {
+          "key": "surface-tumor-prevention",
+          "name": "体表肿物与肿瘤预防鉴别",
+          "groupIds": [
+            "surg-38-lesions",
+            "surg-38-x-cancer-prevention",
+            "surg-38-x-nevus"
+          ]
+        },
+        {
+          "key": "antitumor-treatment",
+          "name": "抗肿瘤药分类与癌痛治疗",
+          "groupIds": [
+            "surg-38-drugs",
+            "surg-38-x-drug-members",
+            "surg-38-x-additional-drug-class",
+            "surg-38-x-pain-ladder"
+          ]
+        }
+      ]
+    }
+  ],
+  "retire": [
+    {
+      "id": "surg-03-x-lactation-adverse-q1",
+      "replaceBy": [
+        "surg-03-r3-lactation-drugs-q1"
+      ],
+      "reason": "旧选项把药名与待考的不良影响完整并列，能够直接照题干匹配；替换为四个同类药物候选，原四条关系全部保留。"
+    },
+    {
+      "id": "surg-03-x-lactation-adverse-q2",
+      "replaceBy": [
+        "surg-03-r3-lactation-drugs-q2"
+      ],
+      "reason": "旧选项把药名与待考的不良影响完整并列，能够直接照题干匹配；替换为四个同类药物候选，原四条关系全部保留。"
+    },
+    {
+      "id": "surg-03-x-lactation-adverse-q3",
+      "replaceBy": [
+        "surg-03-r3-lactation-drugs-q3"
+      ],
+      "reason": "旧选项把药名与待考的不良影响完整并列，能够直接照题干匹配；替换为四个同类药物候选，原四条关系全部保留。"
+    },
+    {
+      "id": "surg-03-x-lactation-adverse-q4",
+      "replaceBy": [
+        "surg-03-r3-lactation-drugs-q4"
+      ],
+      "reason": "旧选项把药名与待考的不良影响完整并列，能够直接照题干匹配；替换为四个同类药物候选，原四条关系全部保留。"
+    },
+    {
+      "id": "surg-03-x-adjuvant-indications-q1",
+      "replaceBy": [
+        "surg-03-r3-local-adjuvant-q1"
+      ],
+      "reason": "旧选项直接含“ER阳性绝经前/后”及“HER2阳性”等题干字段，形成答案提示；改为相同药名池以及独立的局部治疗选择，四项实质关系不丢失。"
+    },
+    {
+      "id": "surg-03-x-adjuvant-indications-q2",
+      "replaceBy": [
+        "surg-03-r3-receptor-therapy-q1"
+      ],
+      "reason": "旧选项直接含“ER阳性绝经前/后”及“HER2阳性”等题干字段，形成答案提示；改为相同药名池以及独立的局部治疗选择，四项实质关系不丢失。"
+    },
+    {
+      "id": "surg-03-x-adjuvant-indications-q3",
+      "replaceBy": [
+        "surg-03-r3-receptor-therapy-q2"
+      ],
+      "reason": "旧选项直接含“ER阳性绝经前/后”及“HER2阳性”等题干字段，形成答案提示；改为相同药名池以及独立的局部治疗选择，四项实质关系不丢失。"
+    },
+    {
+      "id": "surg-03-x-adjuvant-indications-q4",
+      "replaceBy": [
+        "surg-03-r3-receptor-therapy-q3"
+      ],
+      "reason": "旧选项直接含“ER阳性绝经前/后”及“HER2阳性”等题干字段，形成答案提示；改为相同药名池以及独立的局部治疗选择，四项实质关系不丢失。"
+    },
+    {
+      "id": "surg-06-x-infection-q1",
+      "replaceBy": [
+        "surg-06-r3-peritonitis-pathogen-q1"
+      ],
+      "reason": "旧选项把病原、途径、人群三个待考字段同时印出，题干与答案可直接对字；改为同类病原候选，由情境判断关系。"
+    },
+    {
+      "id": "surg-06-x-infection-q2",
+      "replaceBy": [
+        "surg-06-r3-peritonitis-pathogen-q2"
+      ],
+      "reason": "旧选项把病原、途径、人群三个待考字段同时印出，题干与答案可直接对字；改为同类病原候选，由情境判断关系。"
+    },
+    {
+      "id": "surg-06-x-infection-q3",
+      "replaceBy": [
+        "surg-06-r3-peritonitis-pathogen-q3"
+      ],
+      "reason": "旧选项把病原、途径、人群三个待考字段同时印出，题干与答案可直接对字；改为同类病原候选，由情境判断关系。"
+    },
+    {
+      "id": "surg-06-x-infection-q4",
+      "replaceBy": [
+        "surg-06-r3-peritonitis-pathogen-q4"
+      ],
+      "reason": "旧选项把病原、途径、人群三个待考字段同时印出，题干与答案可直接对字；改为同类病原候选，由情境判断关系。"
+    },
+    {
+      "id": "surg-06-x-abscess-workup-q1",
+      "replaceBy": [
+        "surg-06-r3-abscess-tests-q1"
+      ],
+      "reason": "旧选项直接标出“膈下脓肿—超声、盆腔脓肿—指检”，且混入明显无关乳管内镜；改为真实检查候选及同字段通路错配。"
+    },
+    {
+      "id": "surg-06-x-abscess-workup-q2",
+      "replaceBy": [
+        "surg-06-r3-abscess-tests-q2"
+      ],
+      "reason": "旧选项直接标出“膈下脓肿—超声、盆腔脓肿—指检”，且混入明显无关乳管内镜；改为真实检查候选及同字段通路错配。"
+    },
+    {
+      "id": "surg-06-x-abscess-workup-q3",
+      "replaceBy": [
+        "surg-06-r3-pelvic-route-q1"
+      ],
+      "reason": "旧选项直接标出“膈下脓肿—超声、盆腔脓肿—指检”，且混入明显无关乳管内镜；改为真实检查候选及同字段通路错配。"
+    },
+    {
+      "id": "surg-09-x-pathology-course-q1",
+      "replaceBy": [
+        "surg-09-r3-appendix-course-q1"
+      ],
+      "reason": "旧选项直接列出每种病理阶段的待考表现，能够按题干对字；保留四阶段知识，删去选项中的表现提示。"
+    },
+    {
+      "id": "surg-09-x-pathology-course-q2",
+      "replaceBy": [
+        "surg-09-r3-appendix-course-q2"
+      ],
+      "reason": "旧选项直接列出每种病理阶段的待考表现，能够按题干对字；保留四阶段知识，删去选项中的表现提示。"
+    },
+    {
+      "id": "surg-09-x-pathology-course-q3",
+      "replaceBy": [
+        "surg-09-r3-appendix-course-q3"
+      ],
+      "reason": "旧选项直接列出每种病理阶段的待考表现，能够按题干对字；保留四阶段知识，删去选项中的表现提示。"
+    },
+    {
+      "id": "surg-09-x-pathology-course-q4",
+      "replaceBy": [
+        "surg-09-r3-appendix-course-q4"
+      ],
+      "reason": "旧选项直接列出每种病理阶段的待考表现，能够按题干对字；保留四阶段知识，删去选项中的表现提示。"
+    },
+    {
+      "id": "surg-09-x-special-q1",
+      "replaceBy": [
+        "surg-09-r3-atypical-hosts-q1"
+      ],
+      "reason": "旧选项逐项印着症轻病重、不能表达、白细胞不高，与题干直接匹配；改为同类人群候选。"
+    },
+    {
+      "id": "surg-09-x-special-q2",
+      "replaceBy": [
+        "surg-09-r3-atypical-hosts-q2"
+      ],
+      "reason": "旧选项逐项印着症轻病重、不能表达、白细胞不高，与题干直接匹配；改为同类人群候选。"
+    },
+    {
+      "id": "surg-09-x-special-q3",
+      "replaceBy": [
+        "surg-09-r3-atypical-hosts-q3"
+      ],
+      "reason": "旧选项逐项印着症轻病重、不能表达、白细胞不高，与题干直接匹配；改为同类人群候选。"
+    },
+    {
+      "id": "surg-10-x-colon-sided-q1",
+      "replaceBy": [
+        "surg-10-r3-colon-sides-q1"
+      ],
+      "reason": "旧选项自带右侧、左侧标记，且干扰项使用“始终无便血”等极端词；改为相同两字段的近邻交换。"
+    },
+    {
+      "id": "surg-10-x-colon-sided-q2",
+      "replaceBy": [
+        "surg-10-r3-colon-sides-q2"
+      ],
+      "reason": "旧选项自带右侧、左侧标记，且干扰项使用“始终无便血”等极端词；改为相同两字段的近邻交换。"
+    },
+    {
+      "id": "surg-11-x-anal-treatment-q1",
+      "replaceBy": [
+        "surg-11-r3-anal-therapy-q1"
+      ],
+      "reason": "旧选项同时写出脓肿、息肉等疾病和待考处理，可直接文字匹配；改为四个纯处理候选，并用症状先做鉴别。"
+    },
+    {
+      "id": "surg-11-x-anal-treatment-q2",
+      "replaceBy": [
+        "surg-11-r3-anal-therapy-q2"
+      ],
+      "reason": "旧选项同时写出脓肿、息肉等疾病和待考处理，可直接文字匹配；改为四个纯处理候选，并用症状先做鉴别。"
+    },
+    {
+      "id": "surg-11-x-anal-treatment-q3",
+      "replaceBy": [
+        "surg-11-r3-anal-therapy-q3"
+      ],
+      "reason": "旧选项同时写出脓肿、息肉等疾病和待考处理，可直接文字匹配；改为四个纯处理候选，并用症状先做鉴别。"
+    },
+    {
+      "id": "surg-11-x-anal-treatment-q4",
+      "replaceBy": [
+        "surg-11-r3-anal-therapy-q4"
+      ],
+      "reason": "旧选项同时写出脓肿、息肉等疾病和待考处理，可直接文字匹配；改为四个纯处理候选，并用症状先做鉴别。"
+    },
+    {
+      "id": "surg-11-x-fistula-q1",
+      "replaceBy": [
+        "surg-11-r3-fistula-table-q1"
+      ],
+      "reason": "四道旧题的候选直接列“低位单纯/复杂、高位单纯/复杂”及其术式，题干与候选同词匹配；合为一道四类同字段组合比较，四行知识全部继续考察。"
+    },
+    {
+      "id": "surg-11-x-fistula-q2",
+      "replaceBy": [
+        "surg-11-r3-fistula-table-q1"
+      ],
+      "reason": "四道旧题的候选直接列“低位单纯/复杂、高位单纯/复杂”及其术式，题干与候选同词匹配；合为一道四类同字段组合比较，四行知识全部继续考察。"
+    },
+    {
+      "id": "surg-11-x-fistula-q3",
+      "replaceBy": [
+        "surg-11-r3-fistula-table-q1"
+      ],
+      "reason": "四道旧题的候选直接列“低位单纯/复杂、高位单纯/复杂”及其术式，题干与候选同词匹配；合为一道四类同字段组合比较，四行知识全部继续考察。"
+    },
+    {
+      "id": "surg-11-x-fistula-q4",
+      "replaceBy": [
+        "surg-11-r3-fistula-table-q1"
+      ],
+      "reason": "四道旧题的候选直接列“低位单纯/复杂、高位单纯/复杂”及其术式，题干与候选同词匹配；合为一道四类同字段组合比较，四行知识全部继续考察。"
+    },
+    {
+      "id": "surg-12-x-components-q1",
+      "replaceBy": [
+        "surg-12-r3-hernia-components-q1"
+      ],
+      "reason": "旧选项把结构及定义同时列出，题干只是重复定义；去掉选项中的定义，四个基础关系保留。"
+    },
+    {
+      "id": "surg-12-x-components-q2",
+      "replaceBy": [
+        "surg-12-r3-hernia-components-q2"
+      ],
+      "reason": "旧选项把结构及定义同时列出，题干只是重复定义；去掉选项中的定义，四个基础关系保留。"
+    },
+    {
+      "id": "surg-12-x-components-q3",
+      "replaceBy": [
+        "surg-12-r3-hernia-components-q3"
+      ],
+      "reason": "旧选项把结构及定义同时列出，题干只是重复定义；去掉选项中的定义，四个基础关系保留。"
+    },
+    {
+      "id": "surg-12-x-components-q4",
+      "replaceBy": [
+        "surg-12-r3-hernia-components-q4"
+      ],
+      "reason": "旧选项把结构及定义同时列出，题干只是重复定义；去掉选项中的定义，四个基础关系保留。"
+    },
+    {
+      "id": "surg-12-x-indirect-direct-q1",
+      "replaceBy": [
+        "surg-12-r3-indirect-direct-q1"
+      ],
+      "reason": "旧选项直接以“斜疝/直疝”起首，题干点名后可无知识作答；移除标签并采用四字段近邻血管位置交换。"
+    },
+    {
+      "id": "surg-12-x-indirect-direct-q2",
+      "replaceBy": [
+        "surg-12-r3-indirect-direct-q2"
+      ],
+      "reason": "旧选项直接以“斜疝/直疝”起首，题干点名后可无知识作答；移除标签并采用四字段近邻血管位置交换。"
+    },
+    {
+      "id": "surg-09-signs-q5",
+      "replaceBy": [
+        "surg-09-r3-rlq-comparison-q2"
+      ],
+      "reason": "原题在多种试验、体征混合池里寻找唯一影像选项，类别本身已提示答案；改成四种急腹症之间的鉴别，原穿孔线索全部保留。"
+    },
+    {
+      "id": "surg-01-x-nodule-clues-q3",
+      "replaceBy": [
+        "surg-01-differential-q2"
+      ],
+      "reason": "与已有病毒感染后疼痛性甲状腺肿大及摄碘率降低题实质重复，而且旧候选直接复述题干。原题所有亚甲炎鉴别线索已由所指题保留。"
+    },
+    {
+      "id": "surg-14-surgery-q1",
+      "replaceBy": [
+        "surg-14-x-flow-compare-q1"
+      ],
+      "reason": "同一断流机制的近重复；保留包含入肝血流限定的版本。"
+    },
+    {
+      "id": "surg-14-x-flow-compare-q2",
+      "replaceBy": [
+        "surg-14-r3-flow-fields-q2"
+      ],
+      "reason": "以压力、入肝血流、脑病三个同字段重写，避免只在术式名称间辨词。"
+    },
+    {
+      "id": "surg-16-procedures-q2",
+      "replaceBy": [
+        "surg-16-x-postprocedure-drain-q1"
+      ],
+      "reason": "PTCD中文名与引流路径重复，保留与PTC衔接的情景题。"
+    },
+    {
+      "id": "surg-16-procedures-q3",
+      "replaceBy": [
+        "surg-16-x-postprocedure-drain-q2"
+      ],
+      "reason": "ENBD中文名与鼻胆管路径重复，保留与ERCP衔接的情景题。"
+    },
+    {
+      "id": "surg-16-procedures-q6",
+      "replaceBy": [
+        "surg-16-x-duct-operation-q1"
+      ],
+      "reason": "EST中文名重复，保留胆总管下端嵌石的操作情景。"
+    },
+    {
+      "id": "surg-16-jaundice-q1",
+      "replaceBy": [
+        "surg-16-r3-jaundice-fields-q1"
+      ],
+      "reason": "改由疾病反选同字段临床组合，保留肝门部早发进行性黄疸及胆囊不大关系。"
+    },
+    {
+      "id": "surg-16-jaundice-q2",
+      "replaceBy": [
+        "surg-16-r3-jaundice-fields-q2"
+      ],
+      "reason": "原题已给病变位置再选同名病变，改考同字段临床组合。"
+    },
+    {
+      "id": "surg-16-jaundice-q3",
+      "replaceBy": [
+        "surg-16-r3-jaundice-fields-q3",
+        "surg-15-x-pancreatic-tests-q1"
+      ],
+      "reason": "原题CT已给胰头肿物，改考黄疸时相及胆囊组合；CT价值在胰腺章保留。"
+    },
+    {
+      "id": "surg-16-jaundice-q4",
+      "replaceBy": [
+        "surg-16-r3-jaundice-fields-q4"
+      ],
+      "reason": "原题已定位乳头区域，改考壶腹癌波动性黄疸与胆囊组合。"
+    },
+    {
+      "id": "surg-16-differential-q2",
+      "replaceBy": [
+        "surg-16-r3-pain-fever-jaundice-q1",
+        "surg-16-x-pain-radiation-q1"
+      ],
+      "reason": "持续右上腹痛、发热及Murphy征已有情景重复，保留一正向及一同字段反向鉴别。"
+    },
+    {
+      "id": "surg-17-vascular-q3",
+      "replaceBy": [
+        "surg-17-r3-aso-buerger-q1"
+      ],
+      "reason": "以人群、血管口径、形态和背景组成同字段四项比较。"
+    },
+    {
+      "id": "surg-17-vascular-q4",
+      "replaceBy": [
+        "surg-17-r3-aso-buerger-q2"
+      ],
+      "reason": "以同字段完整模式替代单个游走性静脉炎关键词配伍。"
+    },
+    {
+      "id": "surg-17-x-leg-position-q1",
+      "replaceBy": [
+        "surg-17-r3-artery-vein-fields-q1"
+      ],
+      "reason": "体位与皮肤、脉搏同时考，避免只记“动低”二字。"
+    },
+    {
+      "id": "surg-17-x-leg-position-q2",
+      "replaceBy": [
+        "surg-17-r3-artery-vein-fields-q2"
+      ],
+      "reason": "体位与皮肤、脉搏同时考，保留静脉疾病例外限定。"
+    },
+    {
+      "id": "surg-18-x-pathology-q1",
+      "replaceBy": [
+        "surg-18-r3-renal-urothelial-q1"
+      ],
+      "reason": "肾癌常见病理并入肾实质与上尿路癌的病理—切除范围比较。"
+    },
+    {
+      "id": "surg-18-x-uro-surgery-q1",
+      "replaceBy": [
+        "surg-18-r3-renal-urothelial-q1"
+      ],
+      "reason": "将单独切除范围与常见病理合成同字段鉴别。"
+    },
+    {
+      "id": "surg-18-x-uro-surgery-q2",
+      "replaceBy": [
+        "surg-18-r3-renal-urothelial-q2"
+      ],
+      "reason": "将单独切除范围与常见病理合成同字段鉴别。"
+    },
+    {
+      "id": "surg-19-injury-q1",
+      "replaceBy": [
+        "surg-19-r3-urethral-fields-q1"
+      ],
+      "reason": "与前骑球组合题重叠；新题统一考机制、部位、平面和外渗。"
+    },
+    {
+      "id": "surg-19-injury-q2",
+      "replaceBy": [
+        "surg-19-r3-urethral-fields-q2"
+      ],
+      "reason": "与后骨膜组合题重叠；新题统一考机制、部位、平面和外渗。"
+    },
+    {
+      "id": "surg-19-x-injury-plane-q1",
+      "replaceBy": [
+        "surg-19-r3-urethral-fields-q1"
+      ],
+      "reason": "原题先说“前骑球”暴露关系，改由受伤机制推断完整组合。"
+    },
+    {
+      "id": "surg-19-x-injury-plane-q2",
+      "replaceBy": [
+        "surg-19-r3-urethral-fields-q2"
+      ],
+      "reason": "原题先说“后骨膜”暴露关系，改由受伤机制推断完整组合。"
+    },
+    {
+      "id": "surg-22-knee-q4",
+      "replaceBy": [
+        "surg-22-x-knee-tests-q2"
+      ],
+      "reason": "侧方应力异常对应侧副韧带的近重复，保留专项试验题。"
+    },
+    {
+      "id": "surg-22-knee-q5",
+      "replaceBy": [
+        "surg-22-x-knee-triad-q1"
+      ],
+      "reason": "三联征粗类别与精确结构重复，保留前交叉、内侧副韧带和内侧半月板的精确版本。"
+    },
+    {
+      "id": "surg-23-infection-q1",
+      "replaceBy": [
+        "surg-23-r3-infection-focus-q1",
+        "surg-23-x-osteomyelitis-early-q3"
+      ],
+      "reason": "高热膝周痛的鉴别改为并列局部重心；早期平片阴性另有独立题保留。"
+    },
+    {
+      "id": "surg-23-infection-q2",
+      "replaceBy": [
+        "surg-23-r3-infection-focus-q1",
+        "surg-23-x-joint-diagnosis-q1"
+      ],
+      "reason": "与同字段感染鉴别及关节穿刺确诊题重叠。"
+    },
+    {
+      "id": "surg-24-x-arthritis-origin-q1",
+      "replaceBy": [
+        "surg-24-r3-oa-ra-fields-q1",
+        "surg-24-nodules-q1"
+      ],
+      "reason": "软骨起点并入部位和晨僵同字段比较，结节部位仍保留。"
+    },
+    {
+      "id": "surg-24-x-arthritis-origin-q2",
+      "replaceBy": [
+        "surg-24-r3-oa-ra-fields-q2",
+        "surg-24-nodules-q3"
+      ],
+      "reason": "滑膜起点并入部位和晨僵同字段比较，手部畸形仍保留。"
+    },
+    {
+      "id": "surg-25-tumors-q3",
+      "replaceBy": [
+        "surg-25-r3-sarcoma-fields-q1"
+      ],
+      "reason": "用年龄、部位和骨膜反应同字段对照替代单一日光射线关键词配伍。"
+    },
+    {
+      "id": "surg-25-tumors-q4",
+      "replaceBy": [
+        "surg-25-r3-sarcoma-fields-q2"
+      ],
+      "reason": "用年龄、部位和骨膜反应同字段对照，并明确炎症样表现不能简单归为骨髓炎。"
+    },
+    {
+      "id": "surg-28-x-hip-exam-q1",
+      "replaceBy": [
+        "surg-28-r3-hip-cases-q1",
+        "surg-28-r3-hip-tenderness-q1",
+        "surg-28-r3-hip-rotation-q1"
+      ],
+      "reason": "原题以已点名的疾病选择特征组合；改为同一疾病组选项的病例鉴别，并分离压痛及外旋字段。"
+    },
+    {
+      "id": "surg-28-x-hip-exam-q2",
+      "replaceBy": [
+        "surg-28-r3-hip-cases-q2",
+        "surg-28-r3-hip-tenderness-q2",
+        "surg-28-r3-hip-rotation-q1"
+      ],
+      "reason": "与新增转子间临床鉴别及字段对照重复，保留更可比较的新题。"
+    },
+    {
+      "id": "surg-28-dislocations-q4",
+      "replaceBy": [
+        "surg-28-r3-hip-cases-q3"
+      ],
+      "reason": "转移到显著髋部模块的同类四病鉴别题，避免肩、肘、髋共享选项使定位过易。"
+    },
+    {
+      "id": "surg-28-dislocations-q5",
+      "replaceBy": [
+        "surg-28-r3-hip-cases-q4"
+      ],
+      "reason": "转移到显著髋部模块的同类四病鉴别题，保留前脱位的全部原有线索。"
+    },
+    {
+      "id": "surg-31-x-dehydration-fields-q1",
+      "replaceBy": [
+        "surg-31-r3-water-cases-q3"
+      ],
+      "reason": "旧选项直接带疾病名称及其解释，属于自带答案标签；换为只列疾病名、靠容量和水钠线索判断的病例。"
+    },
+    {
+      "id": "surg-30-reaction-q1",
+      "replaceBy": [
+        "surg-30-r3-transfusion-cases-q1"
+      ],
+      "reason": "原有典型表现以近似语义并入新临床对照题，避免定义与病例机械重复。"
+    },
+    {
+      "id": "surg-31-x-dehydration-fields-q2",
+      "replaceBy": [
+        "surg-31-r3-water-cases-q2"
+      ],
+      "reason": "旧选项直接带疾病名称及其解释，属于自带答案标签；换为只列疾病名、靠容量和水钠线索判断的病例。"
+    },
+    {
+      "id": "surg-30-reaction-q2",
+      "replaceBy": [
+        "surg-30-r3-transfusion-cases-q2"
+      ],
+      "reason": "原有典型表现以近似语义并入新临床对照题，避免定义与病例机械重复。"
+    },
+    {
+      "id": "surg-31-x-dehydration-fields-q3",
+      "replaceBy": [
+        "surg-31-r3-water-cases-q1"
+      ],
+      "reason": "旧选项直接带疾病名称及其解释，属于自带答案标签；换为只列疾病名、靠容量和水钠线索判断的病例。"
+    },
+    {
+      "id": "surg-30-reaction-q3",
+      "replaceBy": [
+        "surg-30-r3-transfusion-cases-q3"
+      ],
+      "reason": "原有典型表现以近似语义并入新临床对照题，避免定义与病例机械重复。"
+    },
+    {
+      "id": "surg-31-x-dehydration-fields-q4",
+      "replaceBy": [
+        "surg-31-r3-water-cases-q4"
+      ],
+      "reason": "旧选项直接带疾病名称及其解释，属于自带答案标签；换为只列疾病名、靠容量和水钠线索判断的病例。"
+    },
+    {
+      "id": "surg-30-reaction-q4",
+      "replaceBy": [
+        "surg-30-r3-transfusion-cases-q4"
+      ],
+      "reason": "原有典型表现以近似语义并入新临床对照题，避免定义与病例机械重复。"
+    },
+    {
+      "id": "surg-34-superficial-q2",
+      "replaceBy": [
+        "surg-34-r3-superficial-cases-q3"
+      ],
+      "reason": "以临床短病例替换同一痈的定义题，四个浅部感染候选更同类。"
+    },
+    {
+      "id": "surg-34-superficial-q3",
+      "replaceBy": [
+        "surg-34-r3-superficial-cases-q1"
+      ],
+      "reason": "以临床短病例替换丹毒定义题，去除掌深间隙感染等明显不同部位候选。"
+    },
+    {
+      "id": "surg-34-superficial-q4",
+      "replaceBy": [
+        "surg-34-r3-superficial-cases-q2"
+      ],
+      "reason": "以临床短病例替换蜂窝织炎定义题，不额外增加重复关系。"
+    },
+    {
+      "id": "surg-37-x-cold-warm-q1",
+      "replaceBy": [
+        "surg-37-r3-cold-warm-cases-q1",
+        "surg-37-r3-cold-warm-cases-q2"
+      ],
+      "reason": "冷暖型已在两道体征—血流动力学对照病例保留；不再重复背诵同一整行组合。"
+    },
+    {
+      "id": "surg-37-x-compensated-q1",
+      "replaceBy": [
+        "surg-37-r3-compensated-case-q1"
+      ],
+      "reason": "改为收缩压正常但脉压缩小的具体病例，保留原机制并检测不能排除早期休克的误区。"
+    }
+  ],
+  "additions": [
+    {
+      "chapter": "surg-03",
+      "key": "r3-lactation-drugs",
+      "moduleKey": "mastitis",
+      "name": "哺乳相关药物影响：由不良影响反认药类",
+      "options": [
+        "四环素类",
+        "磺胺类",
+        "喹诺酮类",
+        "氨基糖苷类"
+      ],
+      "rows": [
+        [
+          "只按讲义“四黄同堂”的对应表，可能造成儿童牙齿永久性变色的是哪类？",
+          0,
+          18,
+          "四环素类对应牙齿永久性变色；磺胺类对应胆红素结合竞争，不能将两条关系混淆。本题不把讲义中的概括当作所有哺乳情境的临床禁用规则。"
+        ],
+        [
+          "按同表，竞争胆红素与血浆蛋白结合、联系UCB增加及核黄疸风险的是哪类？",
+          1,
+          18,
+          "磺胺类的这条对应关系区别于四环素的牙着色、喹诺酮的软骨影响和氨基糖苷的耳肾毒性。"
+        ],
+        [
+          "按同表，以影响软骨发育为主要记忆线索的药类是哪项？",
+          2,
+          18,
+          "喹诺酮类对应软骨发育影响；备选项均只给药类，不同时印出影响以供文字匹配。"
+        ],
+        [
+          "按同表，耳毒性和肾毒性共同对应哪类抗菌药？",
+          3,
+          18,
+          "氨基糖苷类对应耳、肾毒性；不是四环素、磺胺或喹诺酮的本页记忆配对。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-03",
+      "key": "r3-receptor-therapy",
+      "moduleKey": "adjuvant",
+      "name": "乳腺辅助用药：受体和绝经状态鉴别",
+      "options": [
+        "他莫昔芬",
+        "阿那曲唑或依西美坦",
+        "曲妥珠单抗",
+        "紫杉醇"
+      ],
+      "rows": [
+        [
+          "ER阳性、尚未绝经，按讲义内分泌治疗表应配伍哪种药？",
+          0,
+          18,
+          "讲义绝经前ER阳性配他莫昔芬；绝经后配芳香化酶抑制剂。曲妥珠单抗需看HER2靶标，紫杉醇属于化疗药。"
+        ],
+        [
+          "ER阳性、已经绝经，按同一表应配伍哪种内分泌药？",
+          1,
+          18,
+          "绝经后雌激素的重要来源为外周芳香化，讲义配阿那曲唑或依西美坦，而不是照搬绝经前的他莫昔芬。"
+        ],
+        [
+          "检测确定HER2阳性，按讲义的抗HER2靶向治疗应配伍哪种药？",
+          2,
+          18,
+          "HER2阳性对应曲妥珠单抗；不能仅凭ER阳性选择它，也不能把紫杉醇归成抗HER2药。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-03",
+      "key": "r3-local-adjuvant",
+      "moduleKey": "adjuvant",
+      "name": "保乳后的局部辅助治疗",
+      "options": [
+        "局部放射治疗",
+        "细胞毒化疗",
+        "雌激素受体拮抗治疗",
+        "抗HER2靶向治疗"
+      ],
+      "rows": [
+        [
+          "只按讲义综合治疗表，完成保乳肿瘤切除后，为局部控制需配合哪项治疗，而不能仅凭全身药物替代？",
+          0,
+          18,
+          "讲义将保乳术后放疗单列为局部控制要求；内分泌和抗HER2治疗分别还需受体条件，不能替代本条局部放疗关系。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-06",
+      "key": "r3-peritonitis-pathogen",
+      "moduleKey": "peritonitis",
+      "name": "腹膜炎：由人群和感染途径识别病原",
+      "options": [
+        "链球菌",
+        "淋球菌",
+        "大肠杆菌",
+        "大肠杆菌等与厌氧菌的混合感染"
+      ],
+      "rows": [
+        [
+          "婴幼儿原发性腹膜炎，感染灶经血行到达腹膜，讲义的典型病原配伍哪项？",
+          0,
+          29,
+          "本页原发腹膜炎的三联关系为血行—链球菌—婴幼儿，区别于上行淋球菌及肝硬化腹水的大肠杆菌。"
+        ],
+        [
+          "女性原发性腹膜炎，经上行途径感染，按讲义典型病原配伍哪项？",
+          1,
+          29,
+          "讲义将女性上行感染与淋球菌相联；候选中不再重复列出人群和途径来泄露对应。"
+        ],
+        [
+          "肝硬化腹水背景，原发性腹膜炎经透壁途径发生，按讲义配伍哪项？",
+          2,
+          29,
+          "讲义的对应为肝硬化腹水—透壁—大肠杆菌；本题不是泛指所有腹膜炎的培养结果。"
+        ],
+        [
+          "空腔脏器穿孔后形成继发性腹膜炎，按本页最符合哪种病原形式？",
+          3,
+          29,
+          "本页强调穿孔后的继发性腹膜炎多为大肠杆菌、厌氧菌等混合感染，区别于前面原发腹膜炎的典型对应。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-06",
+      "key": "r3-abscess-tests",
+      "moduleKey": "abscess",
+      "name": "腹腔脓肿：定位后选择首列检查",
+      "options": [
+        "腹部超声",
+        "直肠指检",
+        "胸部X线",
+        "腹部X线"
+      ],
+      "rows": [
+        [
+          "腹部手术后持续发热，以上腹痛、呃逆、膈肌抬高为线索；按讲义相应脓肿条目的首选检查应配伍哪项？",
+          0,
+          30,
+          "上腹痛、呃逆、膈肌抬高提示膈下脓肿，讲义首选腹部超声；题目需先定位再匹配检查。"
+        ],
+        [
+          "阑尾炎术后再发热，伴里急后重、肛门下坠及尿频尿急；按讲义相应脓肿条目的首选床旁检查是哪项？",
+          1,
+          30,
+          "这组直肠与膀胱刺激症状支持盆腔脓肿，讲义首选直肠指检，注意直肠前壁有无压痛性波动肿块。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-06",
+      "key": "r3-pelvic-route",
+      "moduleKey": "abscess",
+      "name": "盆腔脓肿的引流方向",
+      "options": [
+        "直肠前壁或阴道后穹窿",
+        "直肠后壁或阴道前穹窿",
+        "直肠前壁或阴道前穹窿",
+        "直肠后壁或阴道后穹窿"
+      ],
+      "rows": [
+        [
+          "位置适合经邻近腔道引流的盆腔脓肿，按讲义列出的两条通路，应选择哪组方向？",
+          0,
+          30,
+          "讲义列直肠前壁、阴道后穹窿；二者均面向盆腔内相应积脓区。原文是限定位置后的材料通路，不是任何盆腔脓肿均可照此处理。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-09",
+      "key": "r3-appendix-course",
+      "moduleKey": "course",
+      "name": "阑尾炎阶段：从表现反认病理",
+      "options": [
+        "单纯性阑尾炎",
+        "化脓性阑尾炎",
+        "坏疽穿孔性阑尾炎",
+        "阑尾周围脓肿"
+      ],
+      "rows": [
+        [
+          "腹痛等症状较轻，无明显肌紧张，按讲义病理发展表最符合哪阶段？",
+          0,
+          44,
+          "单纯性属早期，症状较轻；化脓性已出现局限性腹膜炎，不能混用。"
+        ],
+        [
+          "阑尾腔积脓，并有局限压痛、反跳痛和肌紧张，最符合哪阶段？",
+          1,
+          44,
+          "腔内积脓及局限性腹膜炎配化脓性阑尾炎；原选项中不能再同时给出这组表现。"
+        ],
+        [
+          "腹痛一度减轻，随后全腹腹膜刺激征加重、发热上升及肠鸣音下降，最符合哪阶段？",
+          2,
+          44,
+          "短暂痛减不代表好转，后续弥漫性腹膜炎支持坏疽穿孔；与已包裹成局限压痛性肿块的脓肿区别。"
+        ],
+        [
+          "右下腹出现边界不清、活动度差的压痛性包块，可有波动感，最符合哪项？",
+          3,
+          44,
+          "局限的压痛性包块配阑尾周围脓肿；其处理是本页早期直接切除原则的相对例外。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-09",
+      "key": "r3-atypical-hosts",
+      "moduleKey": "special",
+      "name": "特殊阑尾炎：避免用轻症或白细胞误排除",
+      "options": [
+        "老年患者",
+        "新生儿",
+        "HIV感染者",
+        "普通儿童"
+      ],
+      "rows": [
+        [
+          "因感觉迟钝而腹痛较轻、体征不典型，但病变可较重，讲义特别警示哪类人群？",
+          0,
+          45,
+          "老年阑尾炎可症轻病重，不能凭腹痛轻选择长期等待；新生儿的不典型主要另有表达困难及易穿孔的特点。"
+        ],
+        [
+          "尚不能有效描述腹痛，讲义又特别称为最易穿孔者，配伍哪类人群？",
+          1,
+          45,
+          "本页对应新生儿；普通儿童腹痛可明显且进展快，不能把所有小儿一概等同无明显腹痛。"
+        ],
+        [
+          "已怀疑阑尾炎，不能因WBC没有升高就排除，讲义特别列出哪类感染背景？",
+          2,
+          45,
+          "HIV感染者WBC可不高；该免疫背景区别于单凭年龄带来的表现不典型。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-10",
+      "key": "r3-colon-sides",
+      "moduleKey": "diagnosis",
+      "name": "左右结肠癌：病理形态与主导表现",
+      "options": [
+        "隆起型；肿块、贫血消瘦等全身症状突出",
+        "浸润型；肿块、贫血消瘦等全身症状突出",
+        "隆起型；梗阻、大便变细和便血突出",
+        "浸润型；梗阻、大便变细和便血突出"
+      ],
+      "rows": [
+        [
+          "按“左亲右拢”的讲义对照，右侧结肠癌的常见大体类型与突出表现，应配伍哪组？",
+          0,
+          48,
+          "右侧多隆起型，肿块及贫血消瘦等全身症状更突出；其近邻错配项分别只交换形态或表现。"
+        ],
+        [
+          "同样按大体类型、主导表现两个字段，左侧结肠癌应配伍哪组？",
+          3,
+          48,
+          "左侧多浸润型，梗阻、便细及便血更突出；不能仅靠选项中印着左或右来匹配。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-11",
+      "key": "r3-anal-therapy",
+      "moduleKey": "treatment",
+      "name": "肛周病变：识别后选择针对处理",
+      "options": [
+        "剥离痔内血栓",
+        "润便、坐浴等保守治疗",
+        "切开引流",
+        "内镜下切除"
+      ],
+      "rows": [
+        [
+          "肛周突然剧痛，局限肿块暗紫、表面光滑水肿且压痛明显，按讲义针对该病变的处理配伍哪项？",
+          0,
+          54,
+          "暗紫色局限剧痛肿块支持血栓性外痔，讲义配剥离血栓；不是见肛周肿物就一律切开引流。"
+        ],
+        [
+          "便秘者排便剧痛，缓解后又出现痉挛痛，后正中可见肛管小裂口；按讲义初始处理应配伍哪项？",
+          1,
+          54,
+          "表现支持典型肛裂，先保守润便、坐浴；无效再评估手术，不能与脓肿或血栓处理混淆。"
+        ],
+        [
+          "肛周持续跳痛、红肿发热，压痛性肿块已触及波动感，讲义配伍哪项处理？",
+          2,
+          55,
+          "波动性肛周脓肿需通畅引流。题干不预先给出答案选项中的完整疾病—处理对应。"
+        ],
+        [
+          "直肠检查见柔软、光滑、可推动的有蒂肿物，可有出血，按讲义相应良性病变的处理应配伍哪项？",
+          3,
+          56,
+          "该组特征支持直肠息肉，讲义列内镜下切除；不与质硬不规则、易出血的直肠癌肿块混同。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-11",
+      "key": "r3-fistula-table",
+      "moduleKey": "treatment",
+      "name": "肛瘘：完整比较高低位与复杂程度",
+      "options": [
+        "低单：切除或挂线；低复：切开或切开加挂线；高单：挂线；高复：切开加挂线",
+        "低单：切开加挂线；低复：切开或切开加挂线；高单：挂线；高复：切除或挂线",
+        "低单：切除或挂线；低复：挂线；高单：切开或切开加挂线；高复：切开加挂线",
+        "低单：挂线；低复：切开加挂线；高单：切除或挂线；高复：切开或切开加挂线"
+      ],
+      "rows": [
+        [
+          "仅比较讲义肛瘘处理表四行所列路径：低位单纯、低位复杂、高位单纯、高位复杂依次应配伍哪组？（低单/低复/高单/高复分别为四类简称）",
+          0,
+          55,
+          "讲义四行依次为低位单纯切除或挂线、低位复杂切开或切开加挂线、高位单纯挂线、高位复杂切开加挂线；其目的在保护括约肌。只考材料表的完整对应，不把选择题当作个体手术方案。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-12",
+      "key": "r3-hernia-components",
+      "moduleKey": "anatomy",
+      "name": "疝的组成：只由定义反认结构名",
+      "options": [
+        "疝囊",
+        "疝内容物",
+        "疝外被盖",
+        "疝囊颈（疝环、疝门）"
+      ],
+      "rows": [
+        [
+          "典型腹外疝中，由壁层腹膜构成的囊壁应称为什么？",
+          0,
+          60,
+          "疝囊来自壁层腹膜；它与囊内的小肠、大网膜等内容物及囊外组织不是同一层次。"
+        ],
+        [
+          "典型腹外疝中，囊内的小肠、大网膜等应称为什么？",
+          1,
+          60,
+          "小肠和大网膜属于疝内容物；不能把内容物当作壁层腹膜构成的囊壁。"
+        ],
+        [
+          "疝囊外的筋膜、肌肉、脂肪和皮肤等腹膜外组织，应称为什么？",
+          2,
+          60,
+          "这些组成疝外被盖；备选项只给结构名，不同时印出定义。"
+        ],
+        [
+          "疝囊中狭小的通道部分，也是疝命名的主要参照，应称为什么？",
+          3,
+          60,
+          "这部分为疝囊颈或疝环、疝门；与囊壁和囊内内容物不同。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-12",
+      "key": "r3-indirect-direct",
+      "moduleKey": "differential",
+      "name": "斜疝与直疝：四字段同结构比较",
+      "options": [
+        "儿童青年男性；梨形蒂柄状；可入阴囊；疝囊颈在腹壁下动脉外侧",
+        "儿童青年男性；梨形蒂柄状；可入阴囊；疝囊颈在腹壁下动脉内侧",
+        "老年男性；半球形宽基底；极少入阴囊；疝囊颈在腹壁下动脉内侧",
+        "老年男性；半球形宽基底；极少入阴囊；疝囊颈在腹壁下动脉外侧"
+      ],
+      "rows": [
+        [
+          "按讲义年龄、外形、阴囊关系、血管位置四字段，腹股沟斜疝应配伍哪组？",
+          0,
+          62,
+          "斜疝典型为儿童青年男性、梨形可入阴囊，疝囊颈位于腹壁下动脉外侧；关键血管关系不能单靠年龄替代。"
+        ],
+        [
+          "同样按四字段比较，腹股沟直疝应配伍哪组？",
+          2,
+          62,
+          "直疝多老年男性、半球形宽基底、极少入阴囊，疝囊颈位于腹壁下动脉内侧；原选项的“直疝”答案标签已去掉。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-09",
+      "key": "r3-rlq-comparison",
+      "moduleKey": "diagnosis",
+      "name": "右下腹痛：阑尾炎与穿孔的跨病比较",
+      "options": [
+        "急性阑尾炎",
+        "胃十二指肠溃疡急性穿孔",
+        "单纯粘连性肠梗阻",
+        "单纯乙状结肠扭转"
+      ],
+      "rows": [
+        [
+          "先上腹或脐周痛，数小时后局限右下腹固定压痛；没有突发刀割样剧痛或游离气体线索，按讲义更支持哪病？",
+          0,
+          43,
+          "渐进转移并局限右下腹的疼痛配阑尾炎；消化性溃疡穿孔也可转移至右下腹，但起病刀割样及游离气等线索不同。"
+        ],
+        [
+          "突发上腹刀割样剧痛后迅速转向右下腹，肝浊音界缩小，膈下可见新月形气体；不能仅凭右下腹痛判断阑尾炎，应配伍哪病？",
+          1,
+          43,
+          "右下腹痛不是阑尾炎专属；刀割样起病、肝浊音界变化和膈下游离气更支持胃十二指肠穿孔。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-14",
+      "key": "r3-flow-fields",
+      "name": "断流与非选择性分流同字段比较",
+      "options": [
+        "门脉压不降；入肝门静脉血流影响较小；肝性脑病较少",
+        "门脉压下降；入肝门静脉血流减少较多；肝性脑病较多",
+        "门脉压不降；入肝门静脉血流减少较多；肝性脑病较多",
+        "门脉压下降；入肝门静脉血流影响较小；肝性脑病较少"
+      ],
+      "rows": [
+        [
+          "按讲义比较表，脾切除加贲门周围血管离断术的压力、入肝血流及脑病特点，配伍哪组？",
+          [
+            0
+          ],
+          70,
+          "断流阻断门奇反常血流，并不建立门腔分流；相比分流，肝血流打击和脑病风险较小，但门脉压不降、再出血相对较多。"
+        ],
+        [
+          "按讲义比较表，门静脉与下腔静脉建立非选择性分流后，上述三个字段最符合哪组？",
+          [
+            1
+          ],
+          70,
+          "非选择性分流降低门脉压，同时较多分走入肝门静脉血流，肝性脑病较多；不能把选择性分流较低的脑病风险混入此题。"
+        ]
+      ],
+      "moduleKey": "operations-prevention"
+    },
+    {
+      "chapter": "surg-16",
+      "key": "r3-pain-fever-jaundice",
+      "name": "胆囊与胆管病变的三字段鉴别",
+      "options": [
+        "持续右上腹痛伴阵发加剧；发热；通常无明显黄疸",
+        "阵发胆绞痛；寒战高热；波动性黄疸",
+        "钻顶样绞痛突发突止；间歇可无症状；通常无或仅轻度黄疸",
+        "上腹隐痛；未伴感染时无发热；进行性加重的黄疸"
+      ],
+      "rows": [
+        [
+          "同样存在结石和右上腹痛，若病变以急性胆囊炎为主、没有胆总管梗阻，疼痛—发热—黄疸的典型组合是？",
+          [
+            0
+          ],
+          82,
+          "急性胆囊炎为持续胆绞痛阵发加剧、发热及Murphy征，多无黄疸；明显波动性黄疸伴寒战高热更指向胆管结石合并感染。"
+        ],
+        [
+          "若结石位于肝外胆管并合并胆管炎，讲义Charcot三联征展开后，疼痛—发热—黄疸组合应配伍哪项？",
+          [
+            1
+          ],
+          84,
+          "肝外胆管结石及炎症常以胆绞痛、寒战高热和波动性黄疸组合出现，不应与主要局限胆囊的炎症互换。"
+        ]
+      ],
+      "moduleKey": "clinical-differential"
+    },
+    {
+      "chapter": "surg-16",
+      "key": "r3-jaundice-fields",
+      "name": "恶性胆道梗阻的时相与胆囊比较",
+      "options": [
+        "进行性黄疸；出现较早；胆囊不增大甚至缩小",
+        "进行性黄疸；出现较早；胆囊可无痛性增大",
+        "进行性黄疸；出现较晚；胆囊可无痛性增大",
+        "波动性黄疸；有减退；胆囊可无痛性增大"
+      ],
+      "rows": [
+        [
+          "已明确为肝门部胆管癌，按本讲义，其黄疸过程、出现时相和胆囊大小对应哪组？",
+          [
+            0
+          ],
+          88,
+          "肝门部位于胆囊管汇入部上方，进行性黄疸可较早出现，胆囊常不大甚至缩小；不能见黄疸就套用无痛性胆囊增大。"
+        ],
+        [
+          "已明确为中下段胆管癌，按本讲义，其黄疸过程、出现时相和胆囊大小对应哪组？",
+          [
+            1
+          ],
+          86,
+          "胆管癌黄疸出现早且进行性；中下段可阻断胆囊远端流出，因此可出现Courvoisier征，与上段胆管癌不同。"
+        ],
+        [
+          "已明确为胰头癌，按本讲义，其黄疸过程、出现时相和胆囊大小对应哪组？",
+          [
+            2
+          ],
+          89,
+          "胰头癌常先上腹隐痛不适，黄疸出现较晚并进行性加重，可有无痛性胆囊增大；CT诊断和可切除性评价另见胰腺章。"
+        ],
+        [
+          "已明确为壶腹癌，按本讲义，其黄疸过程和胆囊大小对应哪组？",
+          [
+            3
+          ],
+          89,
+          "壶腹癌黄疸可波动减退，同时可有无痛性胆囊增大；不能仅凭Courvoisier征将其认作胰头癌。"
+        ]
+      ],
+      "moduleKey": "clinical-differential"
+    },
+    {
+      "chapter": "surg-17",
+      "key": "r3-aso-buerger",
+      "name": "动脉硬化闭塞症与Buerger病完整对照",
+      "options": [
+        "中老年男性；中大动脉；广泛狭窄钙化，可有杂音；常伴高脂血症、高血压或糖尿病",
+        "青壮年吸烟男性；中小动静脉；节段性病变，可伴游走性浅静脉炎；吸烟突出",
+        "中老年男性；中小动静脉；节段性病变，可伴游走性浅静脉炎；常伴高脂血症、高血压或糖尿病",
+        "青壮年吸烟男性；中大动脉；广泛狭窄钙化，可有杂音；吸烟突出"
+      ],
+      "rows": [
+        [
+          "相同的间歇性跛行不能区分病因。按讲义，动脉硬化闭塞症在人群—血管—病变—危险背景四项上应是哪组？",
+          [
+            0
+          ],
+          101,
+          "动脉硬化闭塞症偏中老年、中大动脉，常见广泛狭窄钙化及代谢危险因素；有杂音也不等同于Buerger病。"
+        ],
+        [
+          "相同的远端缺血不能区分病因。按讲义，血栓闭塞性脉管炎在人群—血管—病变—危险背景四项上应是哪组？",
+          [
+            1
+          ],
+          101,
+          "Buerger病偏青壮年吸烟男性，累及中小动静脉，节段性及游走性浅静脉炎有鉴别价值。"
+        ]
+      ],
+      "moduleKey": "arterial-differential-stage"
+    },
+    {
+      "chapter": "surg-17",
+      "key": "r3-artery-vein-fields",
+      "name": "动静脉疾病的皮肤、脉搏和体位对照",
+      "options": [
+        "苍白、发凉；动脉搏动减弱；患肢下垂",
+        "肿胀、暗红、潮热；动脉供血未受累时搏动保留；患肢抬高",
+        "苍白、发凉；动脉搏动减弱；患肢抬高",
+        "肿胀、暗红、潮热；动脉供血未受累时搏动保留；患肢下垂"
+      ],
+      "rows": [
+        [
+          "按讲义“动低静高”，慢性动脉供血不足的皮肤表现—动脉搏动—体位组合是哪项？",
+          [
+            0
+          ],
+          100,
+          "动脉供血不足常苍白发冷、搏动减弱；材料采用下垂患肢的相对体位原则。它不是静脉回流障碍的抬高原则。"
+        ],
+        [
+          "单纯下肢静脉回流障碍、尚无继发动脉灌注受损时，皮肤表现—动脉搏动—体位组合是哪项？",
+          [
+            1
+          ],
+          101,
+          "静脉疾病以肿胀暗红潮热为主，材料强调抬高患肢；本题排除了股青肿等可严重影响动脉灌注的情况。"
+        ]
+      ],
+      "moduleKey": "treatment-principles"
+    },
+    {
+      "chapter": "surg-18",
+      "key": "r3-renal-urothelial",
+      "name": "肾实质癌与上尿路癌的病理及切除范围",
+      "options": [
+        "透明细胞癌为常见类型；肾部分切除或根治性肾切除",
+        "尿路上皮癌为常见类型；肾、全长输尿管及开口部膀胱壁成套切除",
+        "透明细胞癌为常见类型；肾、全长输尿管及开口部膀胱壁成套切除",
+        "尿路上皮癌为常见类型；肾部分切除或根治性肾切除"
+      ],
+      "rows": [
+        [
+          "肿物来自肾实质而非肾盂。按讲义，肾细胞癌的常见病理—局部根治手术范围组合是哪项？",
+          [
+            0
+          ],
+          105,
+          "肾细胞癌常见透明细胞类型，可据具体条件选择部分或根治性肾切除；不是因为“肿物在肾”就必须带全输尿管切除。"
+        ],
+        [
+          "肿物来自肾盂或输尿管，按讲义需作根治性切除。常见病理—切除范围组合是哪项？",
+          [
+            1
+          ],
+          105,
+          "上尿路癌常见尿路上皮癌，经典根治范围包含肾、全输尿管和输尿管口部膀胱壁；与肾实质癌不同。"
+        ]
+      ],
+      "moduleKey": "surgical-extent"
+    },
+    {
+      "chapter": "surg-19",
+      "key": "r3-urethral-fields",
+      "name": "前后尿道损伤的部位、平面和外渗",
+      "options": [
+        "尿道球部；尿生殖膈下；会阴、阴囊、阴茎或下腹壁外渗",
+        "尿道膜部；尿生殖膈上；膀胱周围及耻骨后间隙外渗",
+        "尿道球部；尿生殖膈上；膀胱周围及耻骨后间隙外渗",
+        "尿道膜部；尿生殖膈下；会阴、阴囊、阴茎或下腹壁外渗"
+      ],
+      "rows": [
+        [
+          "会阴骑跨受伤后尿道出血、排尿困难。按讲义，典型损伤部位—尿生殖膈关系—尿外渗区域是哪组？",
+          [
+            0
+          ],
+          110,
+          "“前骑球”展开为前尿道球部损伤，讲义归于膈下外渗；会阴阴囊等区域与后尿道损伤的耻骨后外渗不同。"
+        ],
+        [
+          "骨盆骨折后排尿困难，直肠指检前列腺尖端有浮动感。按讲义，典型损伤部位—尿生殖膈关系—尿外渗区域是哪组？",
+          [
+            1
+          ],
+          110,
+          "“后骨膜”展开为后尿道膜部损伤，讲义强调膀胱周围和耻骨后外渗；注意不能把共同的耻骨后外渗单独作为区别腹膜外膀胱破裂的充分证据。"
+        ]
+      ],
+      "moduleKey": "urinary-trauma"
+    },
+    {
+      "chapter": "surg-22",
+      "key": "r3-neuro-combined",
+      "name": "神经运动与感觉体征交叉定位",
+      "options": [
+        "正中神经",
+        "尺神经",
+        "桡神经",
+        "腓总神经",
+        "胫神经"
+      ],
+      "rows": [
+        [
+          "手外伤后出现垂腕、伸腕伸指无力，同时第一、二掌骨间背侧虎口区感觉减退。运动和感觉共同指向哪条神经？",
+          [
+            2
+          ],
+          127,
+          "桡神经损伤可同时造成伸腕伸指障碍和手背桡侧虎口感觉异常；单有伸指障碍且感觉保留时还需考虑深支平面。"
+        ],
+        [
+          "手部外伤后拇指对掌无力、大鱼际萎缩，伴掌面桡侧3个半手指感觉减退。运动和感觉共同指向哪条神经？",
+          [
+            0
+          ],
+          127,
+          "正中神经同时联系对掌功能与掌面桡侧感觉；不能因有手内在肌障碍就一律选尺神经。"
+        ],
+        [
+          "手指内收外展和夹纸均无力，第4、5指呈爪形，同时小指及环指尺侧半感觉异常。共同定位于哪条神经？",
+          [
+            1
+          ],
+          127,
+          "尺神经病变将手指内收外展、爪形和尺侧手指感觉异常联系起来；与正中神经对掌障碍分开。"
+        ],
+        [
+          "小腿损伤后足背屈、外翻和伸趾无力，出现跨阈步态，并有小腿前外侧及足背感觉减退。共同定位于哪条神经？",
+          [
+            3
+          ],
+          127,
+          "腓总神经损伤造成背屈外翻及伸趾障碍，并累及前外侧小腿和足背感觉；不是胫神经的跖屈及足底感觉模式。"
+        ],
+        [
+          "小腿损伤后足跖屈、屈趾无力，伴小腿后侧和足底感觉减退。运动和感觉共同指向哪条神经？",
+          [
+            4
+          ],
+          127,
+          "胫神经损伤涉及跖屈、屈趾和足底感觉；与腓总神经损伤导致的背屈障碍相对照。"
+        ]
+      ],
+      "moduleKey": "peripheral-localisation"
+    },
+    {
+      "chapter": "surg-23",
+      "key": "r3-infection-focus",
+      "name": "骨髓炎与关节炎的疼痛中心",
+      "options": [
+        "骨髓炎：长骨干骺端深压痛突出；关节炎：关节肿胀、腔内积液突出",
+        "骨髓炎：关节肿胀、腔内积液突出；关节炎：长骨干骺端深压痛突出",
+        "骨髓炎：椎旁冷脓肿突出；关节炎：长骨干骺端深压痛突出",
+        "骨髓炎：关节肿胀、腔内积液突出；关节炎：椎旁冷脓肿突出"
+      ],
+      "rows": [
+        [
+          "儿童高热、膝附近疼痛，急性骨髓炎与化脓性关节炎均有可能。按讲义，两者在疼痛中心及局部体征上的关键对照是哪组？",
+          [
+            0
+          ],
+          132,
+          "骨髓炎尤其重视干骺端深压痛，早期X线可阴性；化脓性关节炎更突出关节肿胀积液，关节穿刺直接获取关节液。本题不能靠“都有发热”鉴别。"
+        ]
+      ],
+      "moduleKey": "acute-pyogenic"
+    },
+    {
+      "chapter": "surg-24",
+      "key": "r3-oa-ra-fields",
+      "name": "骨关节炎与类风湿的组织、分布和晨僵",
+      "options": [
+        "起于软骨；负重关节及远端指间关节、常不对称；晨僵多＜30分钟",
+        "起于滑膜；腕、掌指及近端指间关节、多发对称；晨僵较持久",
+        "起于软骨；腕、掌指及近端指间关节、多发对称；晨僵较持久",
+        "起于滑膜；负重关节及远端指间关节、常不对称；晨僵多＜30分钟"
+      ],
+      "rows": [
+        [
+          "按讲义比较表，原发性骨关节炎在病变起点—受累分布—晨僵时程三项上对应哪组？",
+          [
+            0
+          ],
+          140,
+          "骨关节炎起于软骨，偏负重关节及远端指间关节，不对称和较短晨僵较典型；不能把滑膜炎的分布直接套用。"
+        ],
+        [
+          "按讲义比较表，类风湿关节炎在病变起点—受累分布—晨僵时程三项上对应哪组？",
+          [
+            1
+          ],
+          140,
+          "类风湿起于滑膜，偏对称腕掌指近端指间关节，晨僵较持久。讲义内、外科对具体半小时/1小时界值写法不一，故本题不据该差异强造排他界值。"
+        ]
+      ],
+      "moduleKey": "arthritis-differential"
+    },
+    {
+      "chapter": "surg-25",
+      "key": "r3-sarcoma-fields",
+      "name": "骨肉瘤与尤因肉瘤的部位和骨膜反应",
+      "options": [
+        "青少年；长骨干骺端；形成瘤骨，可见Codman三角和日光射线",
+        "儿童；长骨骨干、骨盆或肩胛骨；葱皮或板层样骨膜反应",
+        "青少年；长骨干骺端；葱皮或板层样骨膜反应",
+        "儿童；长骨骨干、骨盆或肩胛骨；形成瘤骨，可见Codman三角和日光射线"
+      ],
+      "rows": [
+        [
+          "两个儿童青少年恶性骨肿瘤均可出现骨膜反应。按讲义，骨肉瘤的年龄—主要部位—典型影像组合是哪项？",
+          [
+            0
+          ],
+          144,
+          "骨肉瘤常在青少年长骨干骺端，核心为瘤骨及典型骨膜反应；不应与偏骨干骨盆的尤因肉瘤葱皮样反应混记。"
+        ],
+        [
+          "低热、白细胞和血沉升高并不能直接等同于骨髓炎。按讲义，考虑尤因肉瘤时，年龄—主要部位—骨膜反应组合是哪项？",
+          [
+            1
+          ],
+          144,
+          "尤因肉瘤偏儿童长骨骨干、骨盆或肩胛骨，可有葱皮样反应和炎症样全身表现；仍须进一步影像及病理鉴别。"
+        ]
+      ],
+      "moduleKey": "tumor-patterns"
+    },
+    {
+      "chapter": "surg-28",
+      "moduleKey": "hip-differential",
+      "key": "r3-hip-cases",
+      "name": "髋痛病例：股骨颈、转子间与前后脱位",
+      "options": [
+        "股骨颈骨折",
+        "股骨转子间骨折",
+        "髋关节后脱位",
+        "髋关节前脱位"
+      ],
+      "rows": [
+        [
+          "老年人跌倒后髋痛，患肢短缩并外旋约50°，腹股沟中点压痛，髋部肿胀不明显。四种损伤中，最符合哪项？",
+          [
+            0
+          ],
+          181,
+          "股骨颈骨折的典型线索为腹股沟中点压痛、外旋约45–60°、肿胀常不显著。转子间骨折更常见明显肿胀瘀斑，外旋可达90°；不能只凭短缩判断。"
+        ],
+        [
+          "老人跌倒后患侧髋部明显肿胀、瘀斑，压痛以转子间为主，患肢短缩且外旋近90°。最符合哪项？",
+          [
+            1
+          ],
+          177,
+          "转子间骨折为囊外骨折，讲义强调转子间压痛、外旋可达90°及肿胀瘀斑多见。它与股骨颈骨折都可短缩，鉴别在压痛位置、外旋程度与局部肿胀。"
+        ],
+        [
+          "车祸后髋痛、患肢变短，髋保持屈曲、内收、内旋并有弹性固定，臀部可触及股骨头。最符合哪项？",
+          [
+            2
+          ],
+          175,
+          "髋后脱位为屈曲、内收、内旋，股骨头可在臀部触及；股骨颈、转子间骨折典型为外旋畸形。讲义同时提示坐骨神经损伤风险。"
+        ],
+        [
+          "髋外伤后呈屈曲、外展、外旋及弹性固定，腹股沟区可触及股骨头；下肢长度并非固定一种变化。最符合哪项？",
+          [
+            3
+          ],
+          175,
+          "前脱位以屈曲、外展、外旋及腹股沟触及股骨头为线索。需与后脱位的内收内旋、臀部触头，以及骨折的局部压痛鉴别。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-28",
+      "moduleKey": "hip-differential",
+      "key": "r3-hip-tenderness",
+      "name": "股骨颈与转子间：压痛、肿胀瘀斑对照",
+      "options": [
+        "腹股沟中点压痛；肿胀瘀斑不明显",
+        "腹股沟中点压痛；肿胀瘀斑多见",
+        "股骨转子间压痛；肿胀瘀斑不明显",
+        "股骨转子间压痛；肿胀瘀斑多见"
+      ],
+      "rows": [
+        [
+          "按本章典型表现，股骨颈骨折的压痛部位与局部肿胀瘀斑组合，应配伍哪组？",
+          0,
+          181,
+          "第177页列腹股沟中点压痛，第181页病例强调肿胀不明显。另两项仅交换压痛位置或肿胀程度，不能只凭“老人跌倒”判断。"
+        ],
+        [
+          "与股骨颈骨折相比，股骨转子间骨折在压痛部位与局部肿胀瘀斑两项上更典型的组合是哪组？",
+          3,
+          177,
+          "转子间局限压痛、髋部肿胀瘀斑多见，讲义联系其囊外骨折特点；还需结合外旋可达90°。实际诊断不能只凭一项体征。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-28",
+      "moduleKey": "hip-differential",
+      "key": "r3-hip-rotation",
+      "name": "两类近端股骨骨折：外旋程度",
+      "options": [
+        "股骨颈约45–60°；转子间可达90°",
+        "股骨颈可达90°；转子间约45–60°",
+        "股骨颈约45–60°；转子间约45–60°",
+        "股骨颈可达90°；转子间可达90°"
+      ],
+      "rows": [
+        [
+          "按讲义典型表现，股骨颈骨折与股骨转子间骨折的外旋程度，应怎样对应？",
+          [
+            0
+          ],
+          177,
+          "两者均可外旋；程度有助鉴别：股骨颈约45–60°，转子间可达90°。这是典型教学表现，不是排除隐匿骨折的绝对界值。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-28",
+      "moduleKey": "hip-differential",
+      "key": "r3-hip-shortening",
+      "name": "髋伤鉴别：短缩不是定诊依据",
+      "options": [
+        "三者都可短缩，仍须结合旋转方向和局部体征",
+        "仅股骨颈骨折可短缩，已可排除另两者",
+        "仅转子间骨折可短缩，已可排除另两者",
+        "仅髋后脱位可短缩，已可排除另两者"
+      ],
+      "rows": [
+        [
+          "比较股骨颈骨折、股骨转子间骨折与髋后脱位时，若目前只知道“患肢短缩”，正确判断是哪项？",
+          [
+            0
+          ],
+          177,
+          "讲义明确列举上述三者均可下肢缩短。进一步比较股骨颈的腹股沟压痛及外旋45–60°、转子间的肿胀瘀斑及可达90°外旋、后脱位的屈曲内收内旋。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-28",
+      "moduleKey": "hip-differential",
+      "key": "r3-hip-neck-level",
+      "name": "股骨颈骨折：骨折线位置与严重度",
+      "options": [
+        "头下型",
+        "经颈型",
+        "基底型",
+        "三者在该分型中无轻重区别"
+      ],
+      "rows": [
+        [
+          "限定按股骨颈骨折线位置分类，讲义将哪型列为最重，复习时尤其应联系股骨头坏死风险？",
+          [
+            0
+          ],
+          176,
+          "讲义将头下型列为最重、基底型列为最轻；第177页列股骨头坏死为股骨颈骨折的并发症。不要将此逆推为其他髋部损伤绝不会发生股骨头坏死。"
+        ],
+        [
+          "同样按骨折线位置比较，讲义将哪型股骨颈骨折列为相对最轻？",
+          [
+            2
+          ],
+          176,
+          "骨折线部位顺序为头下型、经颈型、基底型，讲义标头下型最重、基底型最轻。这一维度不同于Garden的移位程度或Pauwels的骨折线角度。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-31",
+      "moduleKey": "water-sodium",
+      "key": "r3-water-cases",
+      "name": "同为低钠或脱水：先分水钠与容量",
+      "options": [
+        "等渗性脱水",
+        "低渗性脱水",
+        "高渗性脱水",
+        "水中毒"
+      ],
+      "rows": [
+        [
+          "晚期食管病变者数日饮水困难、口渴明显，血钠158mmol/L，细胞内水向外移动。按讲义应归为哪种体液失衡？",
+          [
+            2
+          ],
+          191,
+          "饮水不足使失水多于失钠，血钠及渗透压升高，细胞内液也减少，符合高渗性脱水。不能认为脱水只减少细胞外液。"
+        ],
+        [
+          "患者持续丢失含盐体液，补入的水多而盐少，出现低容量表现，血钠124mmol/L。此处失钠多于失水，最符合哪项？",
+          [
+            1
+          ],
+          191,
+          "低容量性低钠、失钠超过失水支持低渗性脱水；水中毒则是水潴留与稀释，不以丢钠导致的低容量为本质。"
+        ],
+        [
+          "短期消化道丢失大量水和钠，血钠142mmol/L，出现脉细速、四肢湿冷及血压下降。最符合哪项？",
+          [
+            0
+          ],
+          191,
+          "等渗性脱水的血钠仍可在讲义参考范围内，但细胞外液和有效循环血量明显减少；血钠正常不等于无严重脱水。"
+        ],
+        [
+          "低钠患者并无明显失钠病史，体内总水量增多，血红蛋白、红细胞计数及血细胞比容均被稀释，体钠总量正常或增多。最符合哪项？",
+          [
+            3
+          ],
+          191,
+          "水中毒是高容量性、稀释性低钠；它与低渗性脱水都可低钠，需从容量状态、总水量和血液稀释区分。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-30",
+      "moduleKey": "transfusion-reactions",
+      "key": "r3-transfusion-cases",
+      "name": "输血后发热、呼吸困难与低压的鉴别",
+      "options": [
+        "非溶血性发热反应",
+        "急性溶血性输血反应",
+        "过敏反应",
+        "循环超负荷"
+      ],
+      "rows": [
+        [
+          "输血中寒战发热，血压稳定；对照本组典型模型，未见腰痛、血红蛋白尿或皮疹喘鸣，最相符的是哪项？",
+          [
+            0
+          ],
+          189,
+          "讲义用“发热无低压”区分典型非溶血性发热反应。真实输血发热仍须立即按规范评估、排除溶血与细菌污染，不能只看发热便下结论。"
+        ],
+        [
+          "输血后寒战高热并腰痛，随后血压下降、尿色深且检出血红蛋白尿。相较另三种反应，最支持哪项？",
+          [
+            1
+          ],
+          189,
+          "发热、低血压同时存在，并有腰痛和血红蛋白尿，是急性溶血性反应的关键组合；单纯发热反应通常无这些溶血证据。"
+        ],
+        [
+          "输血后迅速出现瘙痒、荨麻疹、喘鸣和喉部水肿，体温没有升高。按讲义典型表现，最支持哪项？",
+          [
+            2
+          ],
+          189,
+          "皮肤及气道过敏表现、多无发热，支持过敏反应。严重过敏也可低血压，不能把所有输血后低血压归为溶血。"
+        ],
+        [
+          "短时间输入较多血制品后出现急性肺水肿，主要线索是输入速度与容量负荷，而非腰痛、血红蛋白尿或荨麻疹。按讲义最支持哪项？",
+          [
+            3
+          ],
+          189,
+          "循环超负荷与输注过快过多相联系。呼吸困难是多种输血不良反应的共有症状，必须结合负荷、皮肤气道表现和溶血线索。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-36",
+      "moduleKey": "anesthesia-complications",
+      "key": "r3-anesthesia-complication-cases",
+      "name": "麻醉后头痛、低压与呼吸抑制鉴别",
+      "options": [
+        "腰麻后低颅压性头痛",
+        "全脊髓麻醉",
+        "腰麻交感阻滞所致低血压",
+        "阿片药过量所致呼吸抑制"
+      ],
+      "rows": [
+        [
+          "腰麻后出现头痛，坐起加重、平卧减轻；题目强调穿刺孔脑脊液漏出。最相符的并发症是哪项？",
+          [
+            0
+          ],
+          220,
+          "脑脊液漏导致低颅压性头痛，体位相关性有助识别；不是颅压升高。实际术后头痛仍需排除其他病因。"
+        ],
+        [
+          "硬膜外给药误入蛛网膜下腔，随即出现远超过预期的广泛阻滞并明显呼吸、循环抑制。最相符的并发症是哪项？",
+          [
+            1
+          ],
+          220,
+          "讲义将硬膜外误入蛛网膜下腔与全脊髓麻醉联系。其区别不是普通低血压，而是误入位置及异常广泛阻滞。"
+        ],
+        [
+          "腰麻平面未出现异常升高，患者保持清醒、呼吸尚可，却因交感阻滞出现外周血管扩张及血压明显下降。最直接的解释是哪项？",
+          [
+            2
+          ],
+          220,
+          "腰麻可因交感阻滞而低血压；若另有异常广泛阻滞和严重呼吸抑制，应警惕全脊髓麻醉，不能把两者等同。"
+        ],
+        [
+          "使用阿片类镇痛药过量后出现嗜睡、呼吸抑制，题目指出纳洛酮可拮抗。最直接的原因是哪项？",
+          [
+            3
+          ],
+          216,
+          "讲义列阿片类过量的呼吸抑制及纳洛酮拮抗。应从药物暴露与机制区别于椎管内阻滞扩散，不能只凭呼吸慢判为全脊髓麻醉。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-34",
+      "moduleKey": "superficial-hand",
+      "key": "r3-superficial-cases",
+      "name": "红肿皮损：边界、深度与脓点鉴别",
+      "options": [
+        "疖",
+        "痈",
+        "丹毒",
+        "蜂窝织炎"
+      ],
+      "rows": [
+        [
+          "有足癣病史者反复出现小腿片状红斑，边缘鲜红而界限清楚，少见坏死化脓，反复发作可留象皮肿。最符合哪项？",
+          [
+            2
+          ],
+          205,
+          "丹毒累及皮肤淋巴管网，界清、少化脓且易复发。蜂窝织炎累及疏松结缔组织，炎症弥漫而边界不清。"
+        ],
+        [
+          "皮下疏松结缔组织发生弥漫性化脓性炎症，红肿边界不清，随后出现波动。与边界清楚、少化脓的另一病变相比，最符合哪项？",
+          [
+            3
+          ],
+          205,
+          "蜂窝织炎是疏松结缔组织的弥漫化脓性炎症；“界不清”与丹毒的“界清”相对。出现波动提示有脓腔，题目并不要求现场操作。"
+        ],
+        [
+          "糖尿病患者项背部出现一片相邻的多个脓点，病变累及多个邻近毛囊及周围组织。相较只有一个主要脓点的病变，应考虑哪项？",
+          [
+            1
+          ],
+          204,
+          "多个相邻毛囊化脓形成痈；单个毛囊及周围组织感染形成疖。部位与糖尿病提供支持，但关键鉴别是受累毛囊及脓点的数目。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-37",
+      "moduleKey": "shock-cause",
+      "key": "r3-cold-warm-cases",
+      "name": "感染性休克的冷暖型临床线索",
+      "options": [
+        "低排高阻型",
+        "高排低阻型",
+        "高排高阻型",
+        "低排低阻型"
+      ],
+      "rows": [
+        [
+          "限定讲义冷暖休克的教学模型：感染患者皮肤苍白湿冷、毛细血管再充盈延长、脉搏细速且脉压小，最相符的心排量—外周阻力组合是哪项？",
+          [
+            0
+          ],
+          225,
+          "这些是讲义冷休克表现，对应心排血量降低、外周血管收缩。不能仅凭病原菌类别或一次皮温将真实休克绝对分型。"
+        ],
+        [
+          "同一教学模型中，感染患者早期皮肤偏暖、外周血管扩张、脉搏相对有力，与典型冷休克相反。最相符的心排量—外周阻力组合是哪项？",
+          [
+            1
+          ],
+          225,
+          "讲义暖休克模型为高排低阻；冷休克为低排高阻。冷暖表现可随时相变化，不能认为一种菌固定只导致某一种模型。"
+        ]
+      ]
+    },
+    {
+      "chapter": "surg-37",
+      "moduleKey": "shock-stages",
+      "key": "r3-compensated-case",
+      "name": "收缩压尚正常时识别代偿",
+      "options": [
+        "休克代偿期",
+        "休克失代偿期",
+        "休克衰竭并DIC期",
+        "循环状态已经完全恢复"
+      ],
+      "rows": [
+        [
+          "外伤失血后患者四肢湿冷、心率增快，血压120/100mmHg、脉压缩小；尚无意识模糊或DIC线索。按讲义阶段最符合哪项？",
+          [
+            0
+          ],
+          224,
+          "代偿期可维持收缩压正常或稍高，舒张压因外周阻力增加而升高更明显，故脉压小。不能因收缩压120mmHg便认为循环恢复。"
+        ]
+      ]
+    }
+  ],
+  "notes": [
+    "核读范围：PDF第1–64页（颈胸部、胃、腹腔感染、创伤、梗阻、阑尾、结直肠、肛管、疝），包括其所附试题知识线索；不再考年份或题号。",
+    "本范围中主要问题不是完全缺乏鉴别题，而是多个答案选项直接写出待测关系，导致看似覆盖却未实际提取记忆。本次先替换这些问题，非追求净增题数。",
+    "导航方案保留原选项池，不把不同类型候选硬凑一池；大模块涵盖病理、诊断、分期、治疗等完整任务。",
+    "乳腺分子亚型、按距离决定保肛、甲状腺长期抑制及若干传统处理表存在简化或材料年代限制，本次不额外扩成无限定临床决策题。",
+    "股骨颈与转子间骨折不在本分工范围，交由骨科分工补齐；这里新增右下腹痛跨病比较，其他原有有价值的乳腺、胃壁肿瘤、脓肿、斜直疝与鞘膜积液鉴别不应为压缩题数而删除。",
+    "第13–25章全部原有选项池恰好映射一次。模块为页面导航层，不把不同选项池粗暴拼成异类混合池。",
+    "已核读PDF核心正文第65–66、68–70、74–76、78–89、100–102、104–106、108–112、115–116、119–120、123–128、131–134、139–140、143–146页及这些章全部现有题干。神经原图的运动感觉以已核对的现有结构化题库为依据，未重新声称逐像素图像核验。",
+    "新增题主要是已有高频关系的同字段反向鉴别及跨域组合，不以新增数量作为覆盖率。旧题退休逐项指定替代ID；其余红字和真题知识保持原题。",
+    "讲义阿米巴肝脓肿白细胞分类、尿石成分的显影概括、现代肿瘤及胆囊手术阈值存在材料局限，本方案不把它们扩展成无条件临床决策题。",
+    "第16章各模块下仍需以选项池为小节，但导航仅显示7个模块；不应让目前47个细池都成为同层级小章节。",
+    "建议第18章“surgical-extent”只有原手术池但有6题，保留独立临床模块合理；新r3-renal-urothelial放入该模块。第19章尿失禁虽单池但4题，独立模块具有临床意义。",
+    "新增组的模块建议：surg-14-r3-flow-fields→operations-prevention；surg-16-r3-pain-fever-jaundice及r3-jaundice-fields→clinical-differential；surg-17-r3-aso-buerger→arterial-differential-stage，r3-artery-vein-fields→treatment-principles；surg-18-r3-renal-urothelial→surgical-extent；surg-19-r3-urethral-fields→urinary-trauma；surg-22-r3-neuro-combined→peripheral-localisation；surg-23-r3-infection-focus→acute-pyogenic；surg-24-r3-oa-ra-fields→arthritis-differential；surg-25-r3-sarcoma-fields→tumor-patterns。",
+    "本计划范围为第26–38章；原有全部分组各且仅归入一个临床模块。模块不是合并选项池，模块内原共享选项池仍独立。",
+    "第28章将髋部骨折与脱位鉴别设为首个显著模块；股骨颈、转子间和前后脱位以同病种备选比较。Garden/Pauwels/Epstein保留在同模块，不与诊断组选项强行混池。",
+    "源PDF177页红字直接强调股骨颈外旋45–60°、股骨转子间外旋可达90°、囊外肿胀瘀斑；181–182页病例又重复考察。旧库其实有2题但埋在碎组中，本次替换并增强可发现性。",
+    "股骨头坏死风险仅使用讲义明确支持的股骨颈/头下型联系；未编造具体供血动脉、转子间绝不坏死或所有股骨颈骨折一概严格囊内等超出材料的反向结论。",
+    "病例及解释均为讲义知识关系改写，非当年真题答案回忆；输血、液体、麻醉及休克内容保留教学模型限定，不作为临床操作指令。",
+    "新增10道髋部比较题及18道其他临床鉴别题；退休17道明确重复、答案标签泄露或跨部位选项过易题，均给出可迁移的替代题ID。"
+  ]
+}

@@ -1,0 +1,1919 @@
+{
+  "course": "physiology",
+  "entries": [
+    {
+      "key": "fluid-active",
+      "text": "我的血浆最活跃",
+      "meaning": "比较体液区室交换活跃程度时，讲义指出血浆最活跃。",
+      "page": 1,
+      "questionIds": [
+        "phys-01-fluids-q4"
+      ],
+      "rationale": "仅对应题目直接考察的血浆交换活跃性，不把体液分配图附给无关区室题。"
+    },
+    {
+      "key": "neural-fast",
+      "text": "快准短",
+      "meaning": "神经调节一般反应迅速、精确且作用短暂；环式联系的后放电等属于讲义另列的持久例外。",
+      "page": 3,
+      "questionIds": [
+        "phys-01-ways-q1",
+        "phys-01-ways-q5",
+        "phys-01-ways-q8"
+      ],
+      "rationale": "对应神经调节的识别及典型特性。"
+    },
+    {
+      "key": "neurohumoral-examples",
+      "text": "积极催催冷胃液",
+      "meaning": "记讲义神经—体液调节的实例：应激/应急、催乳/射乳相关反射、催产反射、寒冷引起甲状腺激素分泌、胃液头期及夜间迷走神经影响胰岛素。用于复习列举关系，不用谐音替代机制。",
+      "page": 4,
+      "questionIds": [
+        "phys-01-ways-q3",
+        "phys-01-ways-q7",
+        "phys-35-control-mode-q1",
+        "phys-35-posterior-pituitary-q1"
+      ],
+      "rationale": "P4口诀及P5逐项实例；只映射实际涉及神经—体液实例或射乳的题。"
+    },
+    {
+      "key": "autoreg-examples",
+      "text": "嗷嗷待串（求求深深老一点儿）",
+      "meaning": "讲义随后列自身调节实例：肾/脑血流的肌源反应、管球反馈、球管平衡、渗透性利尿、异长调节、碘阻滞及肾上腺髓质的胞内调节；应以这些具体关系为记忆对象。",
+      "page": 6,
+      "questionIds": [
+        "phys-01-ways-q2",
+        "phys-01-ways-q6",
+        "phys-09-regulation-q1",
+        "phys-24-myogenic-response-q1",
+        "phys-39-iodine-block-q1"
+      ],
+      "rationale": "对应题目中明确出现的自身调节例子，未附到所有同页题。"
+    },
+    {
+      "key": "autoreg-pressure",
+      "text": "肾伯伯得脑瘤死了",
+      "meaning": "讲义用谐音记肾灌注压约80—180（材料同时列70—180、80—160）mmHg及脑动脉压60—140mmHg的自身调节教学范围；范围不是所有患者的绝对界值。",
+      "page": 6,
+      "questionIds": [
+        "phys-01-ways-q2",
+        "phys-24-myogenic-response-q1"
+      ],
+      "rationale": "只与肾血流肌源自身调节的背景相连。"
+    },
+    {
+      "key": "positive-feedback",
+      "text": "四排一凝胃胰动恶魔",
+      "meaning": "记讲义正反馈实例：排尿、排便、分娩、排卵前雌激素—LH/FSH高峰，血液凝固，胃/胰蛋白酶原激活，动作电位、疾病恶性循环及心室肌终末复极化等。排卵项须保留“排卵前雌激素”限定。",
+      "page": 8,
+      "questionIds": [
+        "phys-01-feedback-q2",
+        "phys-01-feedback-q5",
+        "phys-01-feedback-q6",
+        "phys-01-feedback-q8",
+        "phys-21-enzyme-activation-q2",
+        "phys-41-ovulation-feedback-q1"
+      ],
+      "rationale": "这些题均考该口诀明确列举的正反馈关系。"
+    },
+    {
+      "key": "simple-diffusion",
+      "text": "屁滚尿流、酒干倘卖无",
+      "meaning": "对应单纯扩散的气体、类固醇激素、尿素、水、乙醇、甘油等讲义例子；水、尿素还可经通道，不能据口诀说其只有单纯扩散一种方式。",
+      "page": 13,
+      "questionIds": [
+        "phys-02-transport-class-q1"
+      ],
+      "rationale": "现有此题直接考氧穿脂质双层的单纯扩散。"
+    },
+    {
+      "key": "peptide-proton",
+      "text": "寡人爱卿更快",
+      "meaning": "寡肽（二、三肽）利用H⁺梯度作继发性主动同向转运，在讲义比较中比氨基酸吸收更快；氨基酸依赖Na⁺。",
+      "page": 18,
+      "questionIds": [
+        "phys-02-same-vs-opposite-q3",
+        "phys-22-apical-transport-q4"
+      ],
+      "rationale": "两题都考寡肽—H⁺耦联的同一关系；P213再次出现同一口诀。"
+    },
+    {
+      "key": "vesicle-reuptake",
+      "text": "小囊泡比较轻（H）、不听话（反向转运）、出血了就听话了（利血平抑制）",
+      "meaning": "突触囊泡装载递质利用H⁺—递质反向转运，利血平抑制囊泡再摄取；区别于突触前膜Na⁺依赖的同向再摄取。",
+      "page": 18,
+      "questionIds": [
+        "phys-02-same-vs-opposite-q4",
+        "phys-02-reuptake-q2",
+        "phys-31-clearance-q3"
+      ],
+      "rationale": "精确对应囊泡膜装载和利血平环节。"
+    },
+    {
+      "key": "exocytosis-area",
+      "text": "出家人",
+      "meaning": "“出—加”：出胞时囊泡膜与细胞膜融合，单次事件使细胞表面膜面积增加。",
+      "page": 19,
+      "questionIds": [
+        "phys-02-vesicle-area-q1"
+      ],
+      "rationale": "只对应膜面积的考点，不给所有膜泡运输题同附此条。"
+    },
+    {
+      "key": "exocytosis-examples",
+      "text": "每年磕基地",
+      "meaning": "记出胞例子：酶原、黏液、肥大细胞颗粒、激素、神经递质；小分子递质也可按囊泡量子式释放。",
+      "page": 19,
+      "questionIds": [
+        "phys-02-vesicle-types-q1"
+      ],
+      "rationale": "该题考神经递质囊泡释放的运输类别。"
+    },
+    {
+      "key": "receptor-endocytosis",
+      "text": "地铁12号线",
+      "meaning": "“地—铁—12”记受体介导入胞的例子：低密度脂蛋白LDL、运铁蛋白及维生素B₁₂/钴胺素结合物。",
+      "page": 20,
+      "questionIds": [
+        "phys-02-vesicle-types-q4",
+        "phys-22-apical-transport-q1"
+      ],
+      "rationale": "两题分别涉及LDL和内因子-B12受体介导摄取。"
+    },
+    {
+      "key": "driving-sign",
+      "text": "外向加分内向减分",
+      "meaning": "按Vm−Ex的记法，正号表示外向电流，负号表示内向电流；符号表示电流方向，不直接等同所有离子的物质移动方向。",
+      "page": 27,
+      "questionIds": [
+        "phys-03-driving-values-q1",
+        "phys-03-driving-values-q2"
+      ],
+      "rationale": "直接对应两道驱动力计算与电流方向题。"
+    },
+    {
+      "key": "block-na-k",
+      "text": "阻断Na降幅度、阻断K延时程",
+      "meaning": "在本节神经动作电位模型中，部分阻断快Na⁺通道降低动作电位幅度；阻断相关K⁺通道可延长动作电位时程。",
+      "page": 33,
+      "questionIds": [
+        "phys-03-blockers-q2",
+        "phys-03-excitability-shifts-q4"
+      ],
+      "rationale": "只映射直接考通道阻断的题。"
+    },
+    {
+      "key": "threshold-excitability",
+      "text": "性欲强",
+      "meaning": "谐音记兴奋性与阈强度的反向关系：其他条件固定，阈强度越小，组织兴奋性越高。",
+      "page": 33,
+      "questionIds": [
+        "phys-03-threshold-q2"
+      ],
+      "rationale": "对应阈强度的定义及其衡量兴奋性的含义。"
+    },
+    {
+      "key": "sarcomere-bands",
+      "text": "在暗处不动、观察明处的人（human-H）在动",
+      "meaning": "肌丝滑行时A暗带长度不变，I明带及H带缩短，相邻Z线距离缩短；粗、细肌丝本身长度不变。",
+      "page": 43,
+      "questionIds": [
+        "phys-04-sarcomere-q1",
+        "phys-04-sarcomere-q2",
+        "phys-04-figure-sarcomere-q1"
+      ],
+      "rationale": "三题均考同一肌节条带长度变化。"
+    },
+    {
+      "key": "t-l-tubules",
+      "text": "T第一笔是一横，L第一笔是一竖",
+      "meaning": "T横管是肌膜内陷、将电兴奋传到深部；L纵管属于肌浆网系统，与肌原纤维平行。",
+      "page": 44,
+      "questionIds": [
+        "phys-04-tubules-q1"
+      ],
+      "rationale": "该题直接比较横管、终池、肌浆网的结构功能。"
+    },
+    {
+      "key": "myosin-actin",
+      "text": "凝固出球；激动个球",
+      "meaning": "肌球蛋白又称肌凝蛋白，位于粗肌丝，横桥具有ATP酶活性；肌动蛋白与肌球蛋白横桥相互结合。",
+      "page": 46,
+      "questionIds": [
+        "phys-04-filament-proteins-q1",
+        "phys-04-filament-proteins-q2",
+        "phys-04-filament-proteins-q5"
+      ],
+      "rationale": "只映射粗肌丝/收缩蛋白/横桥结合对象。"
+    },
+    {
+      "key": "tropomyosin-metaphor",
+      "text": "原肌球蛋白是肌球蛋白的原配，肌动蛋白这种喜欢动的就是小三",
+      "meaning": "此比喻仅用于记忆：静息时原肌球蛋白遮盖肌动蛋白的横桥结合位点；Ca²⁺结合肌钙蛋白后使原肌球蛋白位移，暴露结合位点。",
+      "page": 46,
+      "questionIds": [
+        "phys-04-filament-proteins-q3",
+        "phys-04-filament-proteins-q4",
+        "phys-04-filament-proteins-q6",
+        "phys-04-crossbridge-q2"
+      ],
+      "rationale": "对应调节蛋白与Ca信号开放结合位点；明确比喻无现实含义。"
+    },
+    {
+      "key": "crossbridge-atp-adp",
+      "text": "2人亲、3人分",
+      "meaning": "“2/3”分别借ADP/ATP的磷酸数作记忆：结合ADP时横桥对肌动蛋白亲和较高；ATP结合促使横桥与肌动蛋白分离。ATP水解释放能量使横桥复位。",
+      "page": 47,
+      "questionIds": [
+        "phys-04-crossbridge-q1",
+        "phys-04-crossbridge-q3"
+      ],
+      "rationale": "只对应横桥核苷酸状态与解离/复位。"
+    },
+    {
+      "key": "nuclear-ligands",
+      "text": "和（核受体）李维嘉一起（气体）买华（类花生酸）为（脂溶性维生素）",
+      "meaning": "本页用来串记脂溶性配体：类固醇、维甲酸、甲状腺激素、脂溶性维生素等；原文另列类花生酸和某些气体，不应把所有这类配体都绝对归为仅有核受体。",
+      "page": 56,
+      "questionIds": [
+        "phys-05-receptor-class-q1",
+        "phys-35-hormone-receptors-q1"
+      ],
+      "rationale": "限定为本页脂溶性配体框架，并保留核/膜受体及甲状腺激素例外。"
+    },
+    {
+      "key": "gc-ligands",
+      "text": "一尿GC",
+      "meaning": "“一”记一氧化氮/一氧化碳，“尿”记钠尿肽；讲义把它们与鸟苷酸环化酶GC—cGMP路线相连，NO主要对应可溶性GC。",
+      "page": 61,
+      "questionIds": [
+        "phys-05-second-messenger-q2",
+        "phys-05-pathways-q2",
+        "phys-13-vasoactive-q2"
+      ],
+      "rationale": "这些题直接考GC/cGMP或NO—GC关系。"
+    },
+    {
+      "key": "jak-ligands",
+      "text": "瘦白红乳长干产",
+      "meaning": "本题用其中瘦素、白介素、EPO、催乳素、生长激素、干扰素等记酪氨酸激酶结合型受体。特别注意：不能由句末‘产’把催产素也判为本题JAK受体，缩宫素的主要经典通路为GPCR；该谐音不是无例外的分类标准。",
+      "page": 62,
+      "questionIds": [
+        "phys-05-receptor-class-q7",
+        "phys-05-receptor-class-q9",
+        "phys-05-receptor-structure-q5",
+        "phys-05-pathways-q3",
+        "phys-37-gh-igf-q1"
+      ],
+      "rationale": "只映射GH、EPO及JAK相关题，明确区分口诀中容易引起错误泛化的‘产’。"
+    },
+    {
+      "key": "rtk-ligands",
+      "text": "老医生",
+      "meaning": "“老”提示酪氨酸激酶受体，“医/生”提示胰岛素和生长因子；其受体自身有酪氨酸激酶活性，与GH受体招募JAK有别。",
+      "page": 63,
+      "questionIds": [
+        "phys-05-receptor-class-q6",
+        "phys-05-receptor-structure-q2",
+        "phys-05-kinases-q1",
+        "phys-37-gh-igf-q2",
+        "phys-38-insulin-glucagon-receptor-q1"
+      ],
+      "rationale": "映射受体型酪氨酸激酶的配体/结构差别。"
+    },
+    {
+      "key": "grb-domains",
+      "text": "救命啊富不过三代",
+      "meaning": "Grb2的SH2识别磷酸化酪氨酸（如EGFR）；SH3识别富含脯氨酸蛋白（如SOS），“富—三”用于记后者。",
+      "page": 63,
+      "questionIds": [
+        "phys-05-domains-q1",
+        "phys-05-domains-q2"
+      ],
+      "rationale": "只对应Grb2的SH2/SH3，不附给PH或PTB题。"
+    },
+    {
+      "key": "mapk-order",
+      "text": "吉尔救RAS咳咳咳；RRME的顺序",
+      "meaning": "帮助记EGFR经Grb2/SOS激活Ras及后续Ras→Raf→MEK→ERK级联；应保留各分子顺序，不能仅靠谐音猜酶类别。",
+      "page": 63,
+      "questionIds": [
+        "phys-05-pathways-q4",
+        "phys-05-g-vs-ras-q2",
+        "phys-05-pi3k-q4"
+      ],
+      "rationale": "三题考Ras级联或SOS的上游激活关系。"
+    },
+    {
+      "key": "pi3k-akt",
+      "text": "PI对应PI，3对应3，PK必AK",
+      "meaning": "PI3K把PIP₂变为PIP₃；PIP₃招募Akt/PKB。PLC则把PIP₂分解为IP₃和DAG，不能混用。",
+      "page": 63,
+      "questionIds": [
+        "phys-05-second-messenger-q5",
+        "phys-05-domains-q3",
+        "phys-05-pi3k-q1",
+        "phys-05-pi3k-q2"
+      ],
+      "rationale": "对应PI3K/PLC分流及PIP3—Akt关系。"
+    },
+    {
+      "key": "second-messengers",
+      "text": "AD花生钙奶献给007",
+      "meaning": "记本页第二信使清单中的cAMP、DAG、花生四烯酸衍生物、Ca²⁺、cGMP等；同时保留正文对IP₃、PIP₃等的列举，不能漏成分或把AMP/GMP/PIP₂混作该清单正项。",
+      "page": 69,
+      "questionIds": [
+        "phys-05-messenger-discrimination-q1"
+      ],
+      "rationale": "该题考第二信使集合，口诀作回忆索引而非缩减答案集合。"
+    },
+    {
+      "key": "ser-thr-kinases",
+      "text": "ABCG该死咳咳咳",
+      "meaning": "记丝/苏氨酸激酶家族：PKA、PKB/Akt、PKC、PKG、CaMK、丝苏氨酸激酶受体、Raf、ERK、CDK等本页列举；MEK为另列双重特异性激酶。",
+      "page": 70,
+      "questionIds": [
+        "phys-05-kinases-q3",
+        "phys-05-kinases-q4"
+      ],
+      "rationale": "同一催化类型比较，避免误把MEK按口诀一概归单一类型。"
+    },
+    {
+      "key": "tyr-kinases",
+      "text": "老医生爱玩剑圣TP",
+      "meaning": "本页列酪氨酸激酶包括受体型的胰岛素/生长因子受体，以及ABL、WEE、JAK、SRC、TEC、ZAP等非受体型；用于记忆分类，不改变对应分子的酶活性。",
+      "page": 70,
+      "questionIds": [
+        "phys-05-kinases-q1",
+        "phys-05-kinases-q2"
+      ],
+      "rationale": "只映射受体型/非受体型酪氨酸激酶分类题。"
+    },
+    {
+      "key": "antibody-temperature",
+      "text": "温哥华天天吃冷面",
+      "meaning": "“温—G”记IgG温抗体，可过胎盘；“天—冷—M”记主要天然抗体IgM为冷抗体，分子较大、不通过胎盘。",
+      "page": 75,
+      "questionIds": [
+        "phys-06-antibody-class-q1",
+        "phys-06-antibody-class-q2",
+        "phys-06-rh-sensitization-q1"
+      ],
+      "rationale": "对应天然/免疫抗体类别、温冷性质及胎盘通透性。"
+    },
+    {
+      "key": "esr-slow",
+      "text": "吃鸡蛋对身体有好处",
+      "meaning": "用鸡蛋联想白蛋白和卵磷脂：本页两者增多可减少红细胞叠连、降低血沉、提高悬浮稳定性。",
+      "page": 80,
+      "questionIds": [
+        "phys-07-esr-q2"
+      ],
+      "rationale": "只对应提高悬浮稳定性的血浆成分。"
+    },
+    {
+      "key": "esr-fast",
+      "text": "荡秋千越荡越快",
+      "meaning": "“胆—球—纤”对应胆固醇、球蛋白、纤维蛋白原增多，促叠连、血沉加快、悬浮稳定性下降。",
+      "page": 80,
+      "questionIds": [
+        "phys-07-esr-q1"
+      ],
+      "rationale": "只对应促进血沉的血浆成分。"
+    },
+    {
+      "key": "epo-anti-apoptosis",
+      "text": "现在延迟退休：老头不准死",
+      "meaning": "“晚/老”提示晚期红系祖细胞，EPO主要抑制其凋亡，维持红系细胞数量；不表示EPO使成熟红细胞无限延寿。",
+      "page": 81,
+      "questionIds": [
+        "phys-07-erythropoiesis-q2",
+        "phys-07-erythropoiesis-q3"
+      ],
+      "rationale": "只对应EPO的细胞作用机制。"
+    },
+    {
+      "key": "epo-source",
+      "text": "红遍人间",
+      "meaning": "EPO主要来自肾皮质肾小管周围间质细胞（如成纤维细胞），不是肾小管腔内或球旁颗粒细胞。",
+      "page": 81,
+      "questionIds": [
+        "phys-07-epo-tpo-q1",
+        "phys-24-renal-cells-q2",
+        "phys-40-other-endocrine-sources-q2"
+      ],
+      "rationale": "三题均涉及EPO的主要肾脏来源。"
+    },
+    {
+      "key": "rbc-promoters",
+      "text": "一男的假装是唐僧儿子",
+      "meaning": "本页汇总可使红细胞增多的因素：EPO、雄激素、甲状腺激素、糖皮质激素、生长激素、儿茶酚胺；具体作用环节并不相同。",
+      "page": 81,
+      "questionIds": [
+        "phys-07-erythropoiesis-q2",
+        "phys-41-androgen-metabolism-q1"
+      ],
+      "rationale": "对应红系生成调节及雄激素促进红系的关系。"
+    },
+    {
+      "key": "inflammatory-rbc",
+      "text": "早年计划生育：肿么敢生",
+      "meaning": "记TNF、干扰素、TGF-β等可抑制早期红系祖细胞增殖，导致红细胞生成减少；与EPO抑制晚期凋亡相对照。",
+      "page": 81,
+      "questionIds": [
+        "phys-07-erythropoiesis-q2",
+        "phys-07-erythropoiesis-q3"
+      ],
+      "rationale": "对应同池对早期增殖抑制与晚期凋亡抑制的鉴别。"
+    },
+    {
+      "key": "platelet-ib",
+      "text": "巨大才能做1",
+      "meaning": "巨大血小板综合征对应GPⅠb异常；GPⅠb与vWF参与血小板黏附，区别于GPⅡb/Ⅲa—纤维蛋白原介导聚集。",
+      "page": 82,
+      "questionIds": [
+        "phys-07-adhesion-aggregation-q1",
+        "phys-07-platelet-properties-q1"
+      ],
+      "rationale": "只映射GPⅠb及黏附。"
+    },
+    {
+      "key": "platelet-iibiiia",
+      "text": "三心二意聚精无力",
+      "meaning": "记GPⅡb/Ⅲa—纤维蛋白原参与血小板聚集；GPⅡb/Ⅲa异常引起血小板无力症，也影响凝块收缩。",
+      "page": 82,
+      "questionIds": [
+        "phys-07-adhesion-aggregation-q2",
+        "phys-07-platelet-properties-q2"
+      ],
+      "rationale": "只映射GPⅡb/Ⅲa与聚集。"
+    },
+    {
+      "key": "aspirin-indobufen",
+      "text": "阿姨",
+      "meaning": "此处“阿—吲”记阿司匹林、吲哚布芬，抑制COX-1使TXA₂减少；与其他章节同词口诀按上下文区分。",
+      "page": 83,
+      "questionIds": [
+        "phys-07-antiplatelet-q1"
+      ],
+      "rationale": "该题只问阿司匹林抗聚靶点，未将同页全部药物口诀附入。"
+    },
+    {
+      "key": "adp-antagonists",
+      "text": "2个格格",
+      "meaning": "氯吡格雷与替格瑞洛均对应ADP受体拮抗。",
+      "page": 83,
+      "questionIds": [
+        "phys-07-antiplatelet-q2"
+      ],
+      "rationale": "直接对应ADP受体拮抗药组合。"
+    },
+    {
+      "key": "gpiib-antagonists",
+      "text": "阿昔替我上班",
+      "meaning": "记阿昔单抗、替罗非班拮抗血小板GPⅡb/Ⅲa受体。",
+      "page": 83,
+      "questionIds": [
+        "phys-07-antiplatelet-q3"
+      ],
+      "rationale": "直接对应GPⅡb/Ⅲa拮抗药。"
+    },
+    {
+      "key": "ridogrel",
+      "text": "扫雷玩—扫血栓玩",
+      "meaning": "利多格雷在本讲义表中对应抑制TXA₂合成酶，区别于阿司匹林抑制COX。",
+      "page": 83,
+      "questionIds": [
+        "phys-07-antiplatelet-q4"
+      ],
+      "rationale": "限定本讲义比较表，不扩展真实用药推荐。"
+    },
+    {
+      "key": "dense-granules",
+      "text": "放屁、色魔、gay都是秘密",
+      "meaning": "借谐音记致密体释放ADP、ATP、5-HT和Ca²⁺；“秘密”提示致密体，仅为助记。",
+      "page": 83,
+      "questionIds": [
+        "phys-07-platelet-granules-q1",
+        "phys-07-platelet-properties-q3"
+      ],
+      "rationale": "只对应致密颗粒的物质来源。"
+    },
+    {
+      "key": "alpha-granules",
+      "text": "火拼F4",
+      "meaning": "α颗粒可释放血小板因子PF4及β血小板球蛋白等，区别于致密颗粒的ADP/ATP等。",
+      "page": 83,
+      "questionIds": [
+        "phys-07-platelet-granules-q2"
+      ],
+      "rationale": "只对应α颗粒来源题。"
+    },
+    {
+      "key": "consumed-factors",
+      "text": "小豪是个十三点打我儿一巴掌",
+      "meaning": "记凝固消耗、因此血清较血浆减少的因子Ⅰ、Ⅱ、Ⅴ、Ⅷ、ⅩⅢ；不能据此说血清缺少所有凝血因子。",
+      "page": 83,
+      "questionIds": [
+        "phys-08-factor-sets-q4"
+      ],
+      "rationale": "只对应凝固消耗因子集合。"
+    },
+    {
+      "key": "coag-cascade-core",
+      "text": "10÷5=2÷1；一千零二夜",
+      "meaning": "以Ⅹa和Ⅴa形成凝血酶原酶，促Ⅱ→Ⅱa；凝血酶促Ⅰ纤维蛋白原变为纤维蛋白。数字式只作顺序索引，不是真实算式。",
+      "page": 89,
+      "questionIds": [
+        "phys-08-complexes-q1",
+        "phys-08-factor-cofactors-q1",
+        "phys-08-factor-cofactors-q3",
+        "phys-08-thrombin-q1"
+      ],
+      "rationale": "对应共同途径的顺序及酶/辅助因子分工。"
+    },
+    {
+      "key": "intrinsic-extrinsic-numbers",
+      "text": "98酒吧—男生，37女生节—女生；1年12个月、1季度3个月；外快",
+      "meaning": "记内源性Ⅸa—Ⅷa、外源性组织因子Ⅲ—Ⅶa复合物；经典体外内源起始因子Ⅻ、外源起始因子Ⅲ，外源途径步骤较少较快。",
+      "page": 89,
+      "questionIds": [
+        "phys-08-complexes-q2",
+        "phys-08-complexes-q3",
+        "phys-08-pathway-factor-q1",
+        "phys-08-pathway-factor-q2",
+        "phys-08-factor-cofactors-q2"
+      ],
+      "rationale": "对应两条途径的同字段比较，并保留经典体外接触激活限定。"
+    },
+    {
+      "key": "thrombin-feedback",
+      "text": "双十一医生要我爸查血小板。正反馈为等差数列",
+      "meaning": "凝血酶可作用于Ⅰ及Ⅴ、Ⅷ、Ⅺ、ⅩⅢ和血小板；放大自身生成的反馈包括Ⅴ、Ⅷ、Ⅺ及血小板，ⅩⅢ主要用于已形成纤维蛋白的交联稳定。",
+      "page": 90,
+      "questionIds": [
+        "phys-08-thrombin-q1",
+        "phys-08-thrombin-q2",
+        "phys-08-thrombin-q3"
+      ],
+      "rationale": "区分凝血酶主要作用、反馈作用与交联稳定，避免把所有靶点全算正反馈。"
+    },
+    {
+      "key": "calcium-factor4",
+      "text": "该死",
+      "meaning": "“钙—四”：因子Ⅳ为Ca²⁺，是凝血因子中并非蛋白质的一项。",
+      "page": 90,
+      "questionIds": [
+        "phys-08-pathway-factor-q4"
+      ],
+      "rationale": "只对应因子Ⅳ化学性质。"
+    },
+    {
+      "key": "haemophilia-factors",
+      "text": "学吧友友们，一起出血",
+      "meaning": "记血友病A、B、C分别涉及Ⅷ、Ⅸ、Ⅺ因子遗传缺乏；区别于缺乏vWF的血管性血友病。",
+      "page": 90,
+      "questionIds": [
+        "phys-08-factor-sets-q3",
+        "phys-08-vwd-q2",
+        "phys-08-vwd-q3",
+        "phys-08-vwd-q4"
+      ],
+      "rationale": "只映射A/B/C因子关系。"
+    },
+    {
+      "key": "coag-cofactors",
+      "text": "高腹肌杀死我吧（3—7、8—9、5—10）",
+      "meaning": "本页凝血辅因子列高分子量激肽原、Ⅲ、Ⅳ、Ⅴ、Ⅷ；其中Ⅲ辅助Ⅶa、Ⅷa辅助Ⅸa、Ⅴa辅助Ⅹa。",
+      "page": 91,
+      "questionIds": [
+        "phys-08-factor-cofactors-q1",
+        "phys-08-factor-cofactors-q2",
+        "phys-08-factor-cofactors-q3"
+      ],
+      "rationale": "对应辅助与催化因子的比较，不将辅助因子误称主催化酶。"
+    },
+    {
+      "key": "vitamin-k-factors",
+      "text": "儿妻就是家",
+      "meaning": "记依赖维生素K合成的凝血因子Ⅱ、Ⅶ、Ⅸ、Ⅹ（2、7、9、10）；华法林减少后续合成，而非立即清除已合成因子。",
+      "page": 91,
+      "questionIds": [
+        "phys-08-factor-sets-q1",
+        "phys-08-drug-anticoag-q1"
+      ],
+      "rationale": "对应维K依赖因子集合和华法林起效机制；现有解析已含口诀时应去重。"
+    },
+    {
+      "key": "protein-c-targets",
+      "text": "五八同城不稳定",
+      "meaning": "活化蛋白C灭活Ⅴa、Ⅷa等凝血辅因子；不直接充当维生素K拮抗剂。",
+      "page": 91,
+      "questionIds": [
+        "phys-08-factor-sets-q2",
+        "phys-08-anticoagulants-q3"
+      ],
+      "rationale": "对应蛋白C系统的靶因子。"
+    },
+    {
+      "key": "heparin-source",
+      "text": "减肥",
+      "meaning": "“碱—肥”记肝素来源于嗜碱性粒细胞和肥大细胞；肝素主要增强抗凝血酶活性而间接抗凝。",
+      "page": 91,
+      "questionIds": [
+        "phys-08-anticoagulants-q2"
+      ],
+      "rationale": "给肝素机制题提供同一条来源—机制复盘，不涉及减肥用途。"
+    },
+    {
+      "key": "fibrinolysis-inhibitors",
+      "text": "他发（TAFI）苹果（APPLE）派（PAI）",
+      "meaning": "记纤溶抑制物TAFI、α₂-AP和PAI；α₂-AP作用于纤溶酶，PAI作用于纤溶酶原激活物，层次不同。",
+      "page": 94,
+      "questionIds": [
+        "phys-08-fibrinolysis-q3",
+        "phys-08-fibrinolysis-q4",
+        "phys-08-fibrinolysis-q5"
+      ],
+      "rationale": "只对应纤溶抑制环节，不附给激活物来源题。"
+    },
+    {
+      "key": "pt-aptt-letters",
+      "text": "外源性步骤少对应字母少、内源性步骤多对应字母多",
+      "meaning": "用PT/APTT字母长度作索引：PT主要反映外源性及共同途径，APTT主要反映内源性及共同途径。",
+      "page": 95,
+      "questionIds": [
+        "phys-08-tests-q1",
+        "phys-08-tests-q2"
+      ],
+      "rationale": "只在答后给这条原本会泄题的助记，不放入检测名选项。"
+    },
+    {
+      "key": "heart-sounds",
+      "text": "等长收缩关门有声音",
+      "meaning": "本页把瓣膜关闭与心音联系：房室瓣关闭发生在等容收缩开始并形成S1；动脉瓣关闭发生在等容舒张开始并形成S2。这里“等长”按原蓝字保留，题目术语仍用等容。",
+      "page": 101,
+      "questionIds": [
+        "phys-09-sounds-q1",
+        "phys-09-sounds-q2"
+      ],
+      "rationale": "只映射S1/S2及瓣膜关闭，不误作两者均在收缩期。"
+    },
+    {
+      "key": "rapid-ejection-pressure",
+      "text": "快射—双双GC",
+      "meaning": "快速射血期末，左室压力峰值及主动脉收缩压均达到相应峰值。",
+      "page": 101,
+      "questionIds": [
+        "phys-09-phases-q6"
+      ],
+      "rationale": "只映射两个压力峰值的时相。"
+    },
+    {
+      "key": "pressure-volume-loop",
+      "text": "皇上皇后有钱做寿小顺子",
+      "meaning": "记压力—容积环变化：后负荷增大向上扩、前负荷增大向右扩、收缩力增强向左扩且斜率增大、顺应性降低时舒张曲线左上移/环缩小。对应讲义控制其他条件的模型。",
+      "page": 106,
+      "questionIds": [
+        "phys-09-pv-q1",
+        "phys-09-pv-q2",
+        "phys-09-pv-q3",
+        "phys-09-pv-q4"
+      ],
+      "rationale": "四题均为同一P—V变化表的关系。"
+    },
+    {
+      "key": "coronary-pressure",
+      "text": "右手作书",
+      "meaning": "“右—收、左—舒”：本讲义判断右冠灌注侧重主动脉收缩压；左冠有效灌注压侧重主动脉舒张压减左室舒张末压。",
+      "page": 118,
+      "questionIds": [
+        "phys-11-coronary-pressure-q1",
+        "phys-11-coronary-metabolism-q3"
+      ],
+      "rationale": "仅对应左冠灌注压及主动脉关闭不全降低其舒张灌注压。"
+    },
+    {
+      "key": "slow-response-calcium",
+      "text": "万事开头难—慢慢盖",
+      "meaning": "“慢—钙”：慢反应窦房结、房室结0期依赖L型慢Ca²⁺内流；心房/心室工作肌、浦肯野等快反应细胞0期主要依赖快Na⁺内流。",
+      "page": 123,
+      "questionIds": [
+        "phys-12-cell-types-q1",
+        "phys-12-cell-types-q2",
+        "phys-12-currents-q7",
+        "phys-12-currents-q1"
+      ],
+      "rationale": "对应快/慢反应细胞0期机制，不把4期电流混入。"
+    },
+    {
+      "key": "ik1-barium",
+      "text": "宝贝别内向",
+      "meaning": "本页钡可阻断内向整流钾电流IK1；IK1参与静息电位、平台期及终末复极，内向整流不等于任何时相都只允许K⁺内流。",
+      "page": 124,
+      "questionIds": [
+        "phys-12-blockers-q1",
+        "phys-12-currents-q4",
+        "phys-12-currents-q6"
+      ],
+      "rationale": "只对应IK1及钡的阻断关系。"
+    },
+    {
+      "key": "calcium-current-blockers",
+      "text": "该死的威猛",
+      "meaning": "“钙—四—维—锰”：Ⅳ类抗心律失常药中的维拉帕米及锰对应阻断L型Ca²⁺通道ICa-L。",
+      "page": 125,
+      "questionIds": [
+        "phys-12-blockers-q5",
+        "phys-12-contractile-features-q1",
+        "phys-13-drug-targets-q4"
+      ],
+      "rationale": "对应L型钙通道阻断及由此产生的心肌效应。"
+    },
+    {
+      "key": "if-blockers",
+      "text": "以色列",
+      "meaning": "“伊—铯”记伊伐布雷定、铯对应起搏电流If的阻断。",
+      "page": 126,
+      "questionIds": [
+        "phys-12-blockers-q7"
+      ],
+      "rationale": "只映射If阻断剂。"
+    },
+    {
+      "key": "sinoatrial-kfc",
+      "text": "KFC星期四Thursday、v我50、funny心率60—100",
+      "meaning": "记窦房结4期自动去极化参与的K外向电流减少、If及T型Ca电流；本页T型Ca电流约在−50mV明显激活。窦房结0期另为L型Ca电流。",
+      "page": 126,
+      "questionIds": [
+        "phys-12-currents-q8",
+        "phys-12-currents-q9",
+        "phys-12-activation-q2"
+      ],
+      "rationale": "只对应4期及T型钙激活，防止把0/4期混用。"
+    },
+    {
+      "key": "threshold-ventricle-node",
+      "text": "心急救妻、气死偏房",
+      "meaning": "按本讲义表记工作心室肌静息约−90mV、阈电位约−70mV；窦房结最大复极约−65mV、阈电位约−40mV。数值限定为此教学表。",
+      "page": 127,
+      "questionIds": [
+        "phys-12-activation-q4"
+      ],
+      "rationale": "当前仅该题直接考表内心室肌阈电位，不把所有数值题整池匹配。"
+    },
+    {
+      "key": "currents-metals",
+      "text": "龙（ICa-L）凤（If）胎（ICa-T）萌（锰）死（铯）你（镍）",
+      "meaning": "按同序对应L型Ca电流—锰、If—铯、T型Ca电流—镍。",
+      "page": 134,
+      "questionIds": [
+        "phys-12-blockers-q5",
+        "phys-12-blockers-q6",
+        "phys-12-blockers-q7"
+      ],
+      "rationale": "这三题恰考同一金属/电流比较，不扩到其他通道阻断。"
+    },
+    {
+      "key": "ang3-aldosterone",
+      "text": "三全凌汤圆",
+      "meaning": "本处“三—醛”记血管紧张素Ⅲ直接促醛固酮作用最强；全身缩血管升压作用最强则为血管紧张素Ⅱ。不同于P77输血处同一句口诀。",
+      "page": 140,
+      "questionIds": [
+        "phys-13-angiotensins-q1",
+        "phys-13-angiotensins-q2"
+      ],
+      "rationale": "两题比较不同效应强弱，明确本页口诀语境。"
+    },
+    {
+      "key": "airway-dilator-list",
+      "text": "VIP上网（IE）、喝农夫山泉的汽茶（气体、茶、糖）",
+      "meaning": "记气道舒张因素：VIP、PGI₂/PGE₂、NO/CO₂、儿茶酚胺（β₂）及糖皮质激素；与同表ACh、P物质、PGF₂α等收缩项区分。",
+      "page": 160,
+      "questionIds": [
+        "phys-15-airway-agents-one-q1",
+        "phys-15-airway-agents-one-q2",
+        "phys-15-airway-agents-two-q1",
+        "phys-15-airway-agents-two-q2"
+      ],
+      "rationale": "四题都直接比较同一气道舒缩因子表。"
+    },
+    {
+      "key": "prostaglandin-e-f",
+      "text": "把E最下面一横收缩回去就是F",
+      "meaning": "PGI₂和PGE₂舒张血管、舒张支气管；PGF₂α收缩血管和支气管。字形仅作方向助记。",
+      "page": 160,
+      "questionIds": [
+        "phys-13-prostanoids-q1",
+        "phys-15-airway-agents-one-q1",
+        "phys-15-airway-agents-one-q2"
+      ],
+      "rationale": "对应前列腺素家族及相同气道效应。"
+    },
+    {
+      "key": "diffusion-distance",
+      "text": "水仙沉",
+      "meaning": "“水—纤—尘”记肺水肿、肺纤维化、尘肺增加扩散距离，使扩散速率下降，区别于扩散面积减少。",
+      "page": 166,
+      "questionIds": [
+        "phys-16-membrane-geometry-q1"
+      ],
+      "rationale": "只对应呼吸膜厚度/距离题。"
+    },
+    {
+      "key": "vq-mismatch",
+      "text": "大大短小",
+      "meaning": "比值大时相当于肺泡无效腔增大；比值小时相当于功能性动静脉短路增多。先判断V̇A或Q̇变化，再用口诀核对结果。",
+      "page": 166,
+      "questionIds": [
+        "phys-16-mismatch-q1",
+        "phys-16-mismatch-q2",
+        "phys-16-vq-directions-q1",
+        "phys-16-vq-directions-q2"
+      ],
+      "rationale": "对应比值方向与死腔/分流结果，不附给比值正常值题。"
+    },
+    {
+      "key": "oxygen-affinity-sex",
+      "text": "增高右移；男左女右",
+      "meaning": "CO₂、H⁺、温度及2,3-DPG增高使氧解离曲线右移、P50升高、Hb亲和力降低、释氧较易；“男左女右”是原页另一助记，不替代实际实验条件。",
+      "page": 170,
+      "questionIds": [
+        "phys-16-right-shift-q1",
+        "phys-16-p50-q1",
+        "phys-16-p50-q2"
+      ],
+      "rationale": "只对应氧曲线移动/P50/亲和力的同字段变化。"
+    },
+    {
+      "key": "bohr-acidity",
+      "text": "玻尿酸",
+      "meaning": "“玻/波—酸”记波尔效应是血液酸度影响氧解离曲线；霍尔丹效应反向考氧合作用对CO₂亲和力的影响。",
+      "page": 171,
+      "questionIds": [
+        "phys-16-two-effects-q1",
+        "phys-16-two-effects-q2",
+        "phys-16-two-effects-q3"
+      ],
+      "rationale": "同一效应方向鉴别池。"
+    },
+    {
+      "key": "chemoreceptor-adaptation",
+      "text": "不适应外面，适应家中",
+      "meaning": "外周化学感受器对持续CO₂变化不易适应、反应较快；中枢反应较强但对持续高CO₂可出现适应。",
+      "page": 179,
+      "questionIds": [
+        "phys-17-response-comparison-q1",
+        "phys-17-response-comparison-q2",
+        "phys-17-chronic-adaptation-q1"
+      ],
+      "rationale": "只对应速度/适应性及长期CO2适应，不附给所有化学感受器刺激项。"
+    },
+    {
+      "key": "pons-apneusis",
+      "text": "长吸一口粑粑拉下去；上级调整",
+      "meaning": "记脑桥下部的长吸中枢易化吸气，脑桥上部呼吸调整中枢抑制它；上部与迷走传入均被解除时，按讲义模型可出现长吸。",
+      "page": 181,
+      "questionIds": [
+        "phys-17-pons-sites-q1",
+        "phys-17-pons-sites-q2",
+        "phys-17-apneusis-q1"
+      ],
+      "rationale": "对应脑桥上/下部与长吸模型。"
+    },
+    {
+      "key": "vagal-cut-deep-slow",
+      "text": "声声慢",
+      "meaning": "谐音“深—慢”：讲义家兔双侧颈迷走神经切断后，呼吸幅度增加、频率减慢；须保留脑桥其他调节仍存在等题设。",
+      "page": 181,
+      "questionIds": [
+        "phys-17-vagal-cut-q1"
+      ],
+      "rationale": "只对应此动物实验条件。"
+    },
+    {
+      "key": "saliva-kiss",
+      "text": "学好唾液，还真得打个啵儿",
+      "meaning": "本页“三打啵儿”只为记忆：无咸味对应最终唾液低渗；不辣嘴对应近中性；少量拉丝对应交感也可促唾液、量少黏稠。不能据主观味觉取代真实测量。",
+      "page": 189,
+      "questionIds": [
+        "phys-19-saliva-osmosis-q1",
+        "phys-19-saliva-stimulation-q2",
+        "phys-19-saliva-ph-q1"
+      ],
+      "rationale": "逐项只映射三个口诀所指的唾液性质，不给条件反射题附无关条目。"
+    },
+    {
+      "key": "les-door",
+      "text": "我家大门常打开、开怀容纳反流物",
+      "meaning": "LES张力降低、舒张增多可使抗反流屏障减弱；反流病与贲门失弛缓症中LES不能松弛不同。",
+      "page": 189,
+      "questionIds": [
+        "phys-19-esophageal-dysfunction-q1",
+        "phys-19-esophageal-dysfunction-q2"
+      ],
+      "rationale": "用于复盘LES开放过多与开放不足的鉴别。"
+    },
+    {
+      "key": "les-stomach-direction",
+      "text": "使LES收缩的因素都促进胃运动、而使LES舒张的因素都抑制胃运动",
+      "meaning": "按本页列举帮助对照：胃泌素/胃动素/ACh促进LES收缩；促胰液素、CCK、VIP、前列腺素等促进LES舒张。此为讲义清单简化助记，不扩大为所有条件的绝对生理规律。",
+      "page": 189,
+      "questionIds": [
+        "phys-19-les-hormones-q1",
+        "phys-19-les-hormones-q2"
+      ],
+      "rationale": "只对应本表胃肠激素对LES的作用。"
+    },
+    {
+      "key": "pancreas-secretions",
+      "text": "蛋—酶—消化蛋白质；水管液多酶少；酸—液—碱性水—中和酸",
+      "meaning": "蛋白质消化产物—CCK主要促腺泡分泌胰酶；HCl—促胰液素主要促导管分泌HCO₃⁻和水。区别两种刺激、激素、细胞与成分。",
+      "page": 203,
+      "questionIds": [
+        "phys-21-pancreatic-cell-q1",
+        "phys-21-pancreatic-cell-q2",
+        "phys-21-hormone-stimuli-q1",
+        "phys-21-hormone-stimuli-q2",
+        "phys-21-pancreas-hormone-direction-q2",
+        "phys-21-pancreas-hormone-direction-q3"
+      ],
+      "rationale": "这些题是同一胰液分泌双路线的不同维度。"
+    },
+    {
+      "key": "gut-endocrine-letters",
+      "text": "M动、P多多、I说、K以、S业",
+      "meaning": "记本页胃肠内分泌细胞：M—胃动素，PP/P相关细胞—胰多肽，I—缩胆囊素，K—抑胃肽GIP，S—促胰液素；准确名称仍以原表及具体题目为准。",
+      "page": 210,
+      "questionIds": [
+        "phys-21-gut-endocrine-cells-q2",
+        "phys-21-gut-endocrine-cells-q3",
+        "phys-21-gut-endocrine-cells-q4",
+        "phys-21-gut-endocrine-cells-q5",
+        "phys-21-pancreatic-endocrine-cells-q4"
+      ],
+      "rationale": "逐项映射口诀中实际出现的细胞字母，不包括G细胞等其他行。"
+    },
+    {
+      "key": "ileal-b12-bile",
+      "text": "延毕回家",
+      "meaning": "“盐—B—回”记胆盐与维生素B₁₂主要在回肠吸收；B₁₂需内因子，并非所有营养物均在回肠吸收。",
+      "page": 211,
+      "questionIds": [
+        "phys-22-absorption-sites-q2",
+        "phys-22-absorption-sites-q3",
+        "phys-22-b12-proteins-q2",
+        "phys-07-b12-q1"
+      ],
+      "rationale": "只对应回肠的B12/胆盐例外及必需内因子。"
+    },
+    {
+      "key": "fat-chain-exit",
+      "text": "血管2个字—中短链；淋巴管3个字—长链",
+      "meaning": "中短链脂肪酸主要经血管输出，长链脂质组装乳糜微粒后以淋巴输出为主；脂溶性维生素随长链脂质走淋巴。",
+      "page": 211,
+      "questionIds": [
+        "phys-22-nutrient-exit-q1",
+        "phys-22-fat-soluble-vitamin-exit-q1"
+      ],
+      "rationale": "只映射链长/维生素的输出途径，不附给上皮顶端转运。"
+    },
+    {
+      "key": "amino-absorption-order",
+      "text": "中间酸",
+      "meaning": "按讲义氨基酸吸收速度：中性＞碱性＞酸性。",
+      "page": 213,
+      "questionIds": [
+        "phys-22-amino-order-q1"
+      ],
+      "rationale": "直接对应三类氨基酸吸收次序。"
+    },
+    {
+      "key": "sugar-absorption-order",
+      "text": "半个葡萄果然甘甜",
+      "meaning": "按讲义单糖吸收速度：半乳糖和葡萄糖＞果糖＞甘露糖；己糖又快于戊糖。",
+      "page": 213,
+      "questionIds": [
+        "phys-22-sugar-order-q1"
+      ],
+      "rationale": "直接对应本表完整次序，不把同名糖误判为相同转运方式。"
+    },
+    {
+      "key": "rq-nutrients",
+      "text": "糖衣炮弹、七夕织女、王八蛋",
+      "meaning": "用谐音分别记糖的RQ约1、脂肪约0.7、蛋白质约0.8。RQ为一定时间呼出CO₂量/吸入O₂量。",
+      "page": 215,
+      "questionIds": [
+        "phys-23-rq-values-q1",
+        "phys-23-rq-values-q2",
+        "phys-23-rq-values-q3",
+        "phys-23-rq-definition-q1"
+      ],
+      "rationale": "对应数值及其比值对象，不用于其他热价比较。"
+    },
+    {
+      "key": "bmr-conditions",
+      "text": "清安禁静25度",
+      "meaning": "记BMR测定条件：清醒、安静无精神紧张、禁食至少12小时、静卧无肌紧张/近期剧烈运动、环境约20—25℃。按讲义条件复习。",
+      "page": 216,
+      "questionIds": [
+        "phys-23-bmr-conditions-q1",
+        "phys-23-bmr-definition-q1"
+      ],
+      "rationale": "对应测定状态，计算题不因同页而附加。"
+    },
+    {
+      "key": "bmr-disease-increase",
+      "text": "红白夹心升糖",
+      "meaning": "记本页可升高BMR的红细胞增多、白血病、甲亢、伴呼吸困难的心脏病、体温升高、糖尿病等；甲减等为另一方向。",
+      "page": 217,
+      "questionIds": [
+        "phys-23-bmr-diseases-q1"
+      ],
+      "rationale": "只对应BMR升高疾病的讲义列举。"
+    },
+    {
+      "key": "thermogenesis-hormones",
+      "text": "甲生儿",
+      "meaning": "记甲状腺激素、生长激素、儿茶酚胺参与产热；TH起效慢且持续长，GH/儿茶酚胺较快较短。",
+      "page": 218,
+      "questionIds": [
+        "phys-23-heat-hormones-q1",
+        "phys-23-heat-hormones-q2"
+      ],
+      "rationale": "对应三者产热效应/时程的比较。"
+    },
+    {
+      "key": "thermal-sweat",
+      "text": "温泉蛋",
+      "meaning": "“温—全—胆”记温热性发汗主要为全身小汗腺的交感胆碱能纤维—M受体关系，区别精神性发汗。",
+      "page": 219,
+      "questionIds": [
+        "phys-23-sweat-regulation-q1",
+        "phys-32-ach-subtypes-q4"
+      ],
+      "rationale": "两题均考温热汗腺的胆碱能支配。"
+    },
+    {
+      "key": "cold-neurons",
+      "text": "老公冷",
+      "meaning": "“脑—弓—冷”记脑干网状结构及下丘脑弓状核中冷敏神经元较多；视前区—下丘脑前部热敏神经元较多。",
+      "page": 220,
+      "questionIds": [
+        "phys-23-temperature-centers-q3"
+      ],
+      "rationale": "只对应冷敏神经元分布，P338再现同一助记。"
+    },
+    {
+      "key": "vitd-hydroxylation",
+      "text": "一个羟基一个肝、两个羟基两个肾",
+      "meaning": "维生素D先在肝作25位羟化，再经肾1α-羟化成为1,25-(OH)₂D₃；“两个肾”是记忆词，不是一次羟化发生于两个器官。",
+      "page": 226,
+      "questionIds": [
+        "phys-24-renal-cells-q3",
+        "phys-36-calcium-sources-q3",
+        "phys-36-vitamin-d-organs-q1",
+        "phys-36-vitamin-d-organs-q2"
+      ],
+      "rationale": "只映射维D活化部位及肾脏羟化功能，P346同口诀去重。"
+    },
+    {
+      "key": "pah-clearance",
+      "text": "马尿一点都不要姜",
+      "meaning": "记对氨基马尿酸/碘锐特经滤过和分泌、几乎不被重吸收，在低血浆浓度等讲义条件下清除率估计有效肾血浆流量，不等于GFR。",
+      "page": 228,
+      "questionIds": [
+        "phys-24-clearance-index-q2",
+        "phys-24-clearance-index-q3",
+        "phys-24-corrected-rpf-q1"
+      ],
+      "rationale": "对应PAH估计及提取率校正，保留题设低浓度/提取率前提。"
+    },
+    {
+      "key": "clearance-formula",
+      "text": "尿尿除血清",
+      "meaning": "清除率C=尿中浓度U×每分钟尿量V/血浆浓度P；“血清”是原口诀用字，公式对象按题目使用血浆浓度。",
+      "page": 229,
+      "questionIds": [
+        "phys-24-clearance-calc-q1",
+        "phys-24-clearance-calc-q2"
+      ],
+      "rationale": "只对应U×V/P计算，不改变题干的血浆/单位定义。"
+    },
+    {
+      "key": "renal-vasodilators",
+      "text": "肾输没了—多拿蛋还钱",
+      "meaning": "记本页舒张肾血管的NO、ANP、缓激肽、PGE₂、PGI₂、小剂量多巴胺等，区别腺苷等缩肾血管因素；口诀不构成实际用药建议。",
+      "page": 230,
+      "questionIds": [
+        "phys-24-renal-vascular-factors-q1",
+        "phys-24-renal-vascular-factors-q2"
+      ],
+      "rationale": "两题直接比较同一肾血管舒缩清单。"
+    },
+    {
+      "key": "proximal-proportions",
+      "text": "窝尿、乞丐、算了吧",
+      "meaning": "按讲义近端小管重吸收比例：尿素约40—50%（“窝尿”）、Ca²⁺约70%（“乞丐”）、HCO₃⁻约80%（“算了吧”）；葡萄糖/氨基酸在正常负荷下近100%。",
+      "page": 243,
+      "questionIds": [
+        "phys-26-proximal-fractions-q1",
+        "phys-26-proximal-fractions-q3"
+      ],
+      "rationale": "当前只映射实际考尿素与HCO3比例的题，不伪称钙比例另有题。"
+    },
+    {
+      "key": "magnesium-potassium",
+      "text": "美甲",
+      "meaning": "“镁—钾”：低镁可减弱Mg²⁺对ROMK的限制，增加K⁺丢失；讲义把主细胞比作钾桶、ROMK比作破洞、Mg²⁺比作堵洞物，用于解释补钾不易纠正的低钾。",
+      "page": 244,
+      "questionIds": [
+        "phys-26-magnesium-potassium-q1"
+      ],
+      "rationale": "精确对应本轮改写的低镁—ROMK题，补回原页助记而不提前标钾通道。"
+    },
+    {
+      "key": "adh-inhibitors",
+      "text": "酒心咖啡糖",
+      "meaning": "乙醇、心房钠尿肽ANP、咖啡因、糖皮质激素等可使本页ADH释放减少；“酒”同时提示饮酒后的水利尿联系。",
+      "page": 248,
+      "questionIds": [
+        "phys-26-adh-release-factors-q2",
+        "phys-40-gc-water-q1"
+      ],
+      "rationale": "只对应抑制ADH的集合及GC—ADH方向。"
+    },
+    {
+      "key": "countercurrent-maintenance",
+      "text": "U型锁",
+      "meaning": "U型直小血管的逆流交换像锁住溶质，帮助维持既有髓质高渗梯度；NaCl/尿素和袢段转运用于建立梯度，不能将建立与维持混同。",
+      "page": 250,
+      "questionIds": [
+        "phys-26-countercurrent-components-q2",
+        "phys-26-concentrating-failure-q2"
+      ],
+      "rationale": "对应直小血管维持梯度及血流增多洗出溶质。"
+    },
+    {
+      "key": "thick-ascending-driver",
+      "text": "粗得升起来最厉害",
+      "meaning": "髓袢升支粗段Na⁺-K⁺-2Cl⁻转运是本讲义逆流倍增最重要的起始动力，且该段不通透水。",
+      "page": 251,
+      "questionIds": [
+        "phys-26-renal-segments-q5",
+        "phys-26-transport-proteins-q3",
+        "phys-26-countercurrent-components-q1"
+      ],
+      "rationale": "只对应升支粗段的部位、转运体与建立动力。"
+    },
+    {
+      "key": "descending-water",
+      "text": "降水",
+      "meaning": "髓袢降支细段易通透水而不易通透NaCl，小管液因水重吸收而逐渐浓缩；升支重吸盐而不通水，开始稀释。",
+      "page": 252,
+      "questionIds": [
+        "phys-26-renal-segments-q3",
+        "phys-26-renal-segments-q4",
+        "phys-26-tubular-osmolality-q1"
+      ],
+      "rationale": "对应降/升支通透性及沿程渗透压。"
+    },
+    {
+      "key": "enac-drugs",
+      "text": "阿-a、氨-an、EN“a”C",
+      "meaning": "阿米洛利、氨苯蝶啶抑制集合管主细胞ENaC，属于保钾类利尿剂；不以药名字母推定其他全部机制。",
+      "page": 258,
+      "questionIds": [
+        "phys-26-diuretic-targets-q4",
+        "phys-26-potassium-sparing-agents-q1"
+      ],
+      "rationale": "只对应这两种ENaC抑制剂。"
+    },
+    {
+      "key": "mineralocorticoid-antagonists",
+      "text": "酯、酮和醛固酮偏旁一样",
+      "meaning": "螺内酯、依普利酮拮抗醛固酮受体，属于保钾药；与直接阻断ENaC不同。",
+      "page": 258,
+      "questionIds": [
+        "phys-26-diuretic-targets-q5",
+        "phys-26-potassium-sparing-agents-q1"
+      ],
+      "rationale": "只对应醛固酮受体拮抗剂的靶点/血钾方向。"
+    },
+    {
+      "key": "rod-cone-day-night",
+      "text": "日追夜赶",
+      "meaning": "“日—锥、夜—杆”：视锥为明视觉、分辨率高；视杆为暗视觉、光敏度高但细节/颜色分辨较差。",
+      "page": 267,
+      "questionIds": [
+        "phys-27-rod-cone-spatial-q1",
+        "phys-27-rod-cone-spatial-q2",
+        "phys-27-rod-cone-pigment-speed-q1",
+        "phys-27-rod-cone-pigment-speed-q2",
+        "phys-27-visual-deficits-q1",
+        "phys-27-visual-deficits-q2"
+      ],
+      "rationale": "都是同一视杆/视锥功能鉴别，不扩到眼屈光/房水题。"
+    },
+    {
+      "key": "visual-field-colors",
+      "text": "白色显胖；white yellow blue王一博红绿色盲",
+      "meaning": "按讲义同条件颜色视野大小：白＞黄＞蓝＞红＞绿；口诀只记次序，不表示物体大小决定视野。",
+      "page": 269,
+      "questionIds": [
+        "phys-27-visual-field-colors-q1"
+      ],
+      "rationale": "只对应颜色视野次序。"
+    },
+    {
+      "key": "deafness-sites",
+      "text": "传遍古今中外；螺纹杆",
+      "meaning": "传音性耳聋涉及外耳/中耳（鼓膜、鼓室、咽鼓管、听骨链等）；感音性耳聋对应耳蜗螺旋器、血管纹等受损。",
+      "page": 278,
+      "questionIds": [
+        "phys-28-deafness-structures-q1",
+        "phys-28-deafness-structures-q2",
+        "phys-28-deafness-conduction-q1",
+        "phys-28-deafness-conduction-q2"
+      ],
+      "rationale": "同一受损部位—耳聋类别的四个关系题。"
+    },
+    {
+      "key": "cochlear-potentials",
+      "text": "毛细胞冰火两重天",
+      "meaning": "按本页示意，毛细胞顶端接内淋巴、底部接外淋巴，两侧外液电位不同；顶端内外电位差约160mV，底部约80mV。数值按本讲义模型。",
+      "page": 279,
+      "questionIds": [
+        "phys-28-cochlear-potentials-q1"
+      ],
+      "rationale": "只对应同一毛细胞上下端电位的组合题。"
+    },
+    {
+      "key": "outer-hair-prestin",
+      "text": "快马加鞭",
+      "meaning": "外毛细胞通过快蛋白/马达蛋白产生电致长度改变，放大基底膜振动；内毛细胞主要释放递质驱动听神经。",
+      "page": 281,
+      "questionIds": [
+        "phys-28-cochlear-structures-q2",
+        "phys-28-cochlear-structures-q3",
+        "phys-28-hair-cell-electromechanics-q1"
+      ],
+      "rationale": "只映射内/外毛细胞分工及外毛细胞电致运动。"
+    },
+    {
+      "key": "vestibular-maculae",
+      "text": "求锤得锤；悬壶济世",
+      "meaning": "“球—垂”记球囊感受垂直直线加速度；椭圆囊感受水平直线加速度；“旋—壶”记半规管壶腹嵴感受旋转变速。",
+      "page": 286,
+      "questionIds": [
+        "phys-29-vestibular-sensors-q1",
+        "phys-29-vestibular-sensors-q2",
+        "phys-29-vestibular-sensors-q3"
+      ],
+      "rationale": "只映射三种运动刺激—感受器。"
+    },
+    {
+      "key": "semicircular-canal-axes",
+      "text": "上前来；外语水平；拉屎在后面、冲水旋转；冠垂直戴在上前方",
+      "meaning": "上半规管=前半规管，外半规管=水平半规管；绕垂直轴对应水平/外半规管，冠状轴前后翻滚对应后半规管，矢状轴侧身翻转对应上/前半规管，按本页教学表复习。",
+      "page": 286,
+      "questionIds": [
+        "phys-29-canal-axes-q1",
+        "phys-29-canal-axes-q2",
+        "phys-29-canal-axes-q3"
+      ],
+      "rationale": "对应同一轴—运动平面—半规管比较表，保留参照。"
+    },
+    {
+      "key": "pain-fibers-ac",
+      "text": "A-acute-快，C-chronic-慢",
+      "meaning": "快痛主要经Aδ有髓纤维、定位较清持续短；慢痛主要经C无髓纤维、定位较差持续长。",
+      "page": 290,
+      "questionIds": [
+        "phys-29-pain-fibers-q1",
+        "phys-29-pain-fibers-q2"
+      ],
+      "rationale": "只对应快慢痛纤维，不将所有A类均称快痛。"
+    },
+    {
+      "key": "rapid-adapting-receptors",
+      "text": "快维修麦克风还我",
+      "meaning": "记本页快适应装置：味觉、嗅觉、麦斯纳小体、环层小体等；痛觉等不属于这组快适应例子。",
+      "page": 290,
+      "questionIds": [
+        "phys-29-adaptation-class-q1",
+        "phys-29-chemical-adaptation-q1"
+      ],
+      "rationale": "只对应快适应集合。"
+    },
+    {
+      "key": "thalamic-projections",
+      "text": "联络特工接替；内啡肽",
+      "meaning": "特异性投射起自接替核/联络核，点对点投向特定皮层；非特异性投射起自髓板内核、广泛弥散投射。",
+      "page": 293,
+      "questionIds": [
+        "phys-29-projection-systems-q1",
+        "phys-29-projection-systems-q2"
+      ],
+      "rationale": "同字段比较起始核及投射方式，口诀“内啡肽”在此不是递质结论。"
+    },
+    {
+      "key": "barbiturate-arousal",
+      "text": "巴比龙上网",
+      "meaning": "巴比妥类可阻断脑干网状结构上行唤醒系统，使皮层兴奋状态下降；仅作本讲义药理联系。",
+      "page": 293,
+      "questionIds": [
+        "phys-29-sedative-arousal-q1"
+      ],
+      "rationale": "直接对应上行唤醒系统题。"
+    },
+    {
+      "key": "preganglionic-bc",
+      "text": "前后BC（B-before-前）",
+      "meaning": "自主神经节前纤维为B类，节后纤维为C类；不要与躯体运动的Aα/Aγ混淆。",
+      "page": 297,
+      "questionIds": [
+        "phys-30-fiber-functions-q1",
+        "phys-30-fiber-functions-q4"
+      ],
+      "rationale": "只映射自主节前/节后两题。"
+    },
+    {
+      "key": "axonal-motors",
+      "text": "快驱魔；你（逆向、动力）神经病疯啦；漫威有营养",
+      "meaning": "快速顺向轴浆运输以驱动蛋白为马达，逆向运输以动力蛋白为马达；慢速顺向主要运细胞骨架等，逆向可运神经生长因子、狂犬病毒等本页货物。",
+      "page": 297,
+      "questionIds": [
+        "phys-30-axonal-transport-q1",
+        "phys-30-axonal-transport-q2",
+        "phys-30-transport-cargo-q2"
+      ],
+      "rationale": "对应运输方向/马达及慢速顺向货物，不把营养因子只限定一种方向。"
+    },
+    {
+      "key": "cord-tract-laterality",
+      "text": "本是同根生呀；秋千、侧—交叉",
+      "meaning": "脊髓内薄束楔束传导同侧本体/深感觉与精细触觉；脊髓丘脑侧束传导对侧痛温觉。",
+      "page": 300,
+      "questionIds": [
+        "phys-30-cord-tracts-q1",
+        "phys-30-cord-tracts-q2",
+        "phys-30-posterior-cord-q1"
+      ],
+      "rationale": "只映射传导束及后索损伤对应。"
+    },
+    {
+      "key": "hemisection",
+      "text": "一同运动感情深、对面感情浅",
+      "meaning": "脊髓半切平面以下，同侧运动及本体/深感觉障碍，对侧痛温/浅感觉障碍；保留半切模型与平面限定。",
+      "page": 300,
+      "questionIds": [
+        "phys-30-hemisection-q1"
+      ],
+      "rationale": "仅对应半切损伤侧别组合。"
+    },
+    {
+      "key": "synaptic-vesicle-size",
+      "text": "大mm叫太太、小mm叫女儿",
+      "meaning": "只为记忆本页有致密中心囊泡：大囊泡—神经肽，小囊泡—儿茶酚胺；小而清亮囊泡另存ACh、谷氨酸、GABA等。",
+      "page": 302,
+      "questionIds": [
+        "phys-31-vesicle-class-q1",
+        "phys-31-vesicle-class-q2",
+        "phys-31-vesicle-class-q3"
+      ],
+      "rationale": "三题均考囊泡大小/致密中心—递质类型，避免把所有小泡都归儿茶酚胺。"
+    },
+    {
+      "key": "docking-toxins",
+      "text": "蜘蛛着位伤了肉",
+      "meaning": "记本页列在“影响着位”下的蜘蛛毒、破伤风毒素、肉毒素；三者后续效应不同：蜘蛛毒促持续释放，破伤风抑制甘氨酸释放，肉毒素抑制ACh释放。",
+      "page": 303,
+      "questionIds": [
+        "phys-31-release-sequence-q3",
+        "phys-31-toxins-q1",
+        "phys-31-toxins-q2",
+        "phys-31-toxins-q3"
+      ],
+      "rationale": "补回此前从题干移除的口诀，仍只在对应毒素/步骤的解析显示。"
+    },
+    {
+      "key": "tetanus-glycine",
+      "text": "赶紧疯",
+      "meaning": "“甘—紧—风”记破伤风妨碍闰绍细胞甘氨酸释放，使抑制减弱、出现痉挛性表现；区别肉毒素的弛缓性麻痹。",
+      "page": 303,
+      "questionIds": [
+        "phys-31-toxins-q2"
+      ],
+      "rationale": "只映射破伤风—甘氨酸题。"
+    },
+    {
+      "key": "nmj-antagonists",
+      "text": "拉失射箭",
+      "meaning": "记本页戈拉碘铵、十烃季铵、银环蛇毒、筒箭毒碱阻断终板N₂-ACh受体的列举。",
+      "page": 304,
+      "questionIds": [
+        "phys-31-clearance-q4",
+        "phys-32-blockers-q3"
+      ],
+      "rationale": "当前两题都问筒箭毒碱/N2受体拮抗。"
+    },
+    {
+      "key": "curare-succinylcholine",
+      "text": "筒箭毒碱占茅坑不拉屎、而ACh占茅坑拉屎；琥珀不新",
+      "meaning": "只为记忆：筒箭毒碱竞争占受体而不引起相应去极化，琥珀胆碱为去极化性阻滞；新斯的明可拮抗竞争性非去极化阻滞，不用于按此法解除琥珀胆碱阻滞。",
+      "page": 304,
+      "questionIds": [
+        "phys-31-clearance-q4",
+        "phys-31-neuromuscular-q2"
+      ],
+      "rationale": "对应非去极化与去极化阻滞的机制对照，保持讲义范围而非临床操作指令。"
+    },
+    {
+      "key": "n1-blockers",
+      "text": "六一美",
+      "meaning": "六烃季铵、美加明对应N₁自主神经节受体阻断，区别终板N₂阻断药。",
+      "page": 314,
+      "questionIds": [
+        "phys-32-blockers-q2"
+      ],
+      "rationale": "只对应N1受体拮抗剂。"
+    },
+    {
+      "key": "beta2-relaxation",
+      "text": "舒克贝塔",
+      "meaning": "本表β₂受体效应以支气管、部分血管和无孕子宫平滑肌舒张等为特征；不能套为所有β受体或所有器官均抑制。",
+      "page": 314,
+      "questionIds": [
+        "phys-32-receptor-effects-q3",
+        "phys-15-airway-receptors-q2"
+      ],
+      "rationale": "只映射直接考支气管β2舒张的题。"
+    },
+    {
+      "key": "sympathetic-only",
+      "text": "汗毛肾肾多数血",
+      "meaning": "本页只受交感神经支配的列举：汗腺、立毛肌、肾、肾上腺髓质及多数血管；汗腺可由交感胆碱能而非必须NA支配。",
+      "page": 315,
+      "questionIds": [
+        "phys-32-cholinergic-fibers-q1",
+        "phys-32-ach-subtypes-q3",
+        "phys-32-ach-subtypes-q4"
+      ],
+      "rationale": "用于对应汗腺/髓质等重要支配例外，不因同页而附所有器官效应。"
+    },
+    {
+      "key": "tone-inhibitory-centers",
+      "text": "肚皮纹一只（抑制区）蚯蚓",
+      "meaning": "记本页肌紧张抑制侧包括延髓腹内侧、大脑皮层运动区、纹状体尾核、小脑前叶蚓部等；小脑大部分仍为易化侧。",
+      "page": 325,
+      "questionIds": [
+        "phys-33-tone-facilitators-q1",
+        "phys-33-tone-facilitators-q2"
+      ],
+      "rationale": "对应易化/抑制同一比较表，避免将所有小脑归抑制。"
+    },
+    {
+      "key": "decerebrate-level",
+      "text": "中秋僵尸",
+      "meaning": "“中—丘—僵”记去大脑僵直实验是在中脑上、下丘之间切断；其典型伸肌紧张与去皮层僵直不同。",
+      "page": 326,
+      "questionIds": [
+        "phys-33-rigidity-q1"
+      ],
+      "rationale": "只对应此动物模型的离断水平。"
+    },
+    {
+      "key": "rigidity-tracts",
+      "text": "网易；阿欠",
+      "meaning": "“网—易”记γ僵直经网状脊髓束、提高γ运动神经元活动并经牵张反射；“α—前”记α僵直直接经前庭脊髓束兴奋α运动神经元。",
+      "page": 327,
+      "questionIds": [
+        "phys-33-rigidity-pathway-q1",
+        "phys-33-rigidity-pathway-q2"
+      ],
+      "rationale": "只对应α/γ僵直的下行通路。"
+    },
+    {
+      "key": "parkinson-basal-ganglia",
+      "text": "静静怕黑、爱情少了、外面有色狼、不敢直接发动",
+      "meaning": "记讲义帕金森：静止性震颤、黑质多巴胺神经元受损、ACh相对作用增强、运动减少及运动发动困难；不是按文字自动选择病名。",
+      "page": 328,
+      "questionIds": [
+        "phys-33-basal-lesion-q1",
+        "phys-33-basal-phenotype-q1",
+        "phys-33-basal-paths-q1"
+      ],
+      "rationale": "仅映射帕金森定位、表现和回路关系。"
+    },
+    {
+      "key": "parkinson-ach-blockers",
+      "text": "中东的海",
+      "meaning": "记中枢ACh受体拮抗剂东莨菪碱、苯海索，用于本讲义多巴胺—胆碱能失衡的药理对照。",
+      "page": 328,
+      "questionIds": [
+        "phys-33-basal-drugs-q2"
+      ],
+      "rationale": "只对应中枢胆碱能拮抗机制。"
+    },
+    {
+      "key": "huntington-drugs",
+      "text": "我抚（氟哌啶醇）琴（嗪）你（利血平）尬（GABA）舞",
+      "meaning": "记本讲义舞蹈病相关GABA能病变，以及氟哌啶醇/氯丙嗪的受体拮抗和丁苯那嗪/利血平的单胺耗竭路线；不把它们都称相同药理机制。",
+      "page": 328,
+      "questionIds": [
+        "phys-33-basal-lesion-q2",
+        "phys-33-basal-drugs-q3",
+        "phys-33-basal-drugs-q4"
+      ],
+      "rationale": "只对应舞蹈病定位及药物机制分辨。"
+    },
+    {
+      "key": "cerebellar-signs",
+      "text": "在球上站不稳；脊—肌—济—意；打菜阿姨",
+      "meaning": "前庭小脑（绒球小结叶）病变偏平衡障碍；脊髓小脑病变可肌张力/肌力下降、共济失调、意向性震颤，动作接近终点更明显。",
+      "page": 329,
+      "questionIds": [
+        "phys-33-cerebellar-regions-q1",
+        "phys-33-cerebellar-regions-q2",
+        "phys-33-cerebellar-signs-q1",
+        "phys-33-cerebellar-signs-q2"
+      ],
+      "rationale": "只映射小脑分区和本页临床表现，不把皮层小脑策划问题混入。"
+    },
+    {
+      "key": "umn-reflexes",
+      "text": "大脑喜欢肤浅、不喜欢深奥",
+      "meaning": "按讲义典型非急性休克期，上位中枢正常易化浅反射、抑制部分深反射；上运动神经元损伤可见浅反射减弱、深反射增强。",
+      "page": 331,
+      "questionIds": [
+        "phys-33-motor-neuron-pattern-q1"
+      ],
+      "rationale": "只对应已明确排除急性休克的上运动神经元模式。"
+    },
+    {
+      "key": "eeg-state-sequence",
+      "text": "α早上醒来→β认真上课→θ上课困了→δ上课睡着了",
+      "meaning": "按正常成人本表：安静闭目清醒多α，紧张活动多β，困倦偏θ，深睡偏δ；不是所有睡眠阶段都只有δ。",
+      "page": 335,
+      "questionIds": [
+        "phys-34-eeg-waves-q1",
+        "phys-34-eeg-waves-q2",
+        "phys-34-eeg-waves-q3",
+        "phys-34-eeg-waves-q4"
+      ],
+      "rationale": "只对应成人状态—波型，不把该顺序误作频率大小顺序。"
+    },
+    {
+      "key": "sleep-growth-brain",
+      "text": "长个子，长脑子",
+      "meaning": "慢波NREM与GH增多、体力恢复和生长联系；REM与脑内蛋白合成、神经系统成熟/新突触等联系，分别帮助记忆表内侧重点。",
+      "page": 335,
+      "questionIds": [
+        "phys-34-sleep-phases-q1",
+        "phys-34-sleep-phases-q2",
+        "phys-37-gh-rhythm-q1"
+      ],
+      "rationale": "对应两睡眠阶段及GH节律，不把助记当排他生长机制。"
+    },
+    {
+      "key": "short-memory-prefrontal",
+      "text": "打完电话忘记号码—摸自己额头",
+      "meaning": "暂记电话号码等短时程/工作记忆在本表联系前额叶；海马则与记忆形成和长时程巩固等另有关系。",
+      "page": 337,
+      "questionIds": [
+        "phys-34-memory-brain-q3"
+      ],
+      "rationale": "只对应短时程记忆定位。"
+    },
+    {
+      "key": "language-localization",
+      "text": "我下回BBB；独角兽；e手中握着笔",
+      "meaning": "分别记说话表达的Broca区（额下回后部）、阅读的角回、书写的额中回后部；复述还需Wernicke—Broca的弓状束联系。",
+      "page": 338,
+      "questionIds": [
+        "phys-34-language-localization-q1",
+        "phys-34-language-localization-q2",
+        "phys-34-language-localization-q3"
+      ],
+      "rationale": "逐项对应这三题的语言功能部位，不把无对应口诀的弓状束题也附入。"
+    },
+    {
+      "key": "hypothalamus-feeding",
+      "text": "内；外面摄入；交叉",
+      "meaning": "下丘脑腹内侧核为饱食/拒食中枢，外侧区为摄食/摄水中枢，视交叉上核参与昼夜节律；须区分刺激与损毁。",
+      "page": 338,
+      "questionIds": [
+        "phys-34-hypothalamic-nuclei-q1",
+        "phys-34-hypothalamic-nuclei-q2",
+        "phys-34-hypothalamic-nuclei-q3"
+      ],
+      "rationale": "只对应三个核团功能，不将冷/热敏分布混入。"
+    },
+    {
+      "key": "pituitary-without-target-gland",
+      "text": "长大了乳头就黑了",
+      "meaning": "仅作记忆：GH（长）、PRL（乳）、促黑激素（黑）为本页无靶腺激素列举，受下丘脑释放与抑制激素双重调节。",
+      "page": 344,
+      "questionIds": [
+        "phys-35-control-mode-q4",
+        "phys-35-pituitary-set-q1"
+      ],
+      "rationale": "对应无靶腺激素及腺垂体来源集合。"
+    },
+    {
+      "key": "amine-steroid-class",
+      "text": "安插假腿；胆固醇性",
+      "meaning": "胺类激素列儿茶酚胺、甲状腺激素、褪黑素；类固醇列活化维D、醛固酮、糖皮质激素及性激素等胆固醇衍生物。TH虽属胺类却为脂溶性，不能只按化学类别猜受体。",
+      "page": 344,
+      "questionIds": [
+        "phys-35-chemistry-q1",
+        "phys-35-chemistry-q2",
+        "phys-35-hormone-receptors-q1"
+      ],
+      "rationale": "仅对应化学类别及TH例外。"
+    },
+    {
+      "key": "eicosanoids",
+      "text": "白血病花钱",
+      "meaning": "“白—血—前”记白三烯、血栓素、前列腺素为花生四烯酸衍生物/类花生酸。",
+      "page": 345,
+      "questionIds": [
+        "phys-35-chemistry-q3"
+      ],
+      "rationale": "只对应类花生酸化学分类，P69同词不重复附加。"
+    },
+    {
+      "key": "calcitriol-raises-both",
+      "text": "纯生",
+      "meaning": "“醇—升”：钙三醇在本页净效应为升血钙、升血磷；PTH升钙降磷，降钙素降钙降磷。",
+      "page": 346,
+      "questionIds": [
+        "phys-36-calcium-phosphate-q1",
+        "phys-36-calcium-phosphate-q2",
+        "phys-36-calcium-phosphate-q3"
+      ],
+      "rationale": "同字段比较三种钙调节激素。"
+    },
+    {
+      "key": "pth-dose-bone",
+      "text": "打破骨头；破口大骂、小有成就",
+      "meaning": "PTH大剂量持续作用可促骨吸收；小剂量间歇给药可促成骨。方向由剂量/时相条件决定，不能删条件背成单向口诀。",
+      "page": 347,
+      "questionIds": [
+        "phys-36-bone-pattern-q1"
+      ],
+      "rationale": "只对应明确给药模式的骨重建关系题。"
+    },
+    {
+      "key": "incretin-dpp4",
+      "text": "打屁屁就听话",
+      "meaning": "DPP-4降解GIP/GLP等肠促胰素；西格列汀等通过抑制DPP-4延长作用，区别直接GLP-1受体激动剂。",
+      "page": 355,
+      "questionIds": [
+        "phys-38-dpp4-q1"
+      ],
+      "rationale": "只对应DPP4失活与抑制机制。"
+    },
+    {
+      "key": "insulin-inhibitors",
+      "text": "神医干神外",
+      "meaning": "记本页可抑制胰岛素的生长抑素、胰抑素、甘丙肽、神经肽Y；还需分别保留交感/儿茶酚胺、低血钾等正文因素，不按口诀删减集合。",
+      "page": 356,
+      "questionIds": [
+        "phys-38-inhibitory-insulin-q1"
+      ],
+      "rationale": "只对应抑制β细胞因素集合。"
+    },
+    {
+      "key": "gc-blood-cells",
+      "text": "减少酸雨降临",
+      "meaning": "记糖皮质激素使嗜酸性粒细胞、淋巴细胞减少，而红细胞、血小板、中性粒细胞增多；“降临”联想降低淋巴。",
+      "page": 366,
+      "questionIds": [
+        "phys-40-gc-blood-cells-q1"
+      ],
+      "rationale": "只对应GC血细胞方向，不把同页所有GC效应附加此条。"
+    },
+    {
+      "key": "osteoporosis-endocrine",
+      "text": "家家苦、绝经老人在外关节骨碎骨萎",
+      "meaning": "本页骨质疏松的列举包括甲亢、甲旁亢、库欣、老年绝经、肠外营养代谢骨病、部分关节炎、骨髓瘤及急性骨萎缩等；口诀是清单索引，不说明所有项属于内分泌异常。",
+      "page": 370,
+      "questionIds": [
+        "phys-40-osteoporosis-hormones-q1"
+      ],
+      "rationale": "当前题限定内分泌异常，解析应明确从清单中选对应子集，不因口诀扩大正项。"
+    },
+    {
+      "key": "leydig-androgen",
+      "text": "奸雄",
+      "meaning": "“间—雄”记睾丸间质细胞分泌雄激素，区别支持细胞和生精细胞。",
+      "page": 371,
+      "questionIds": [
+        "phys-41-testicular-cells-q1"
+      ],
+      "rationale": "只对应间质细胞的激素来源。"
+    },
+    {
+      "key": "dht-potency",
+      "text": "氢弹最强",
+      "meaning": "“氢—强”记双氢睾酮为本页比较中生物活性最强的内源性雄激素，由睾酮经5α还原酶生成。",
+      "page": 371,
+      "questionIds": [
+        "phys-41-androgen-activity-q1",
+        "phys-41-androgen-enzymes-q1"
+      ],
+      "rationale": "对应DHT活性及生成酶关系。"
+    },
+    {
+      "key": "lh-leydig",
+      "text": "内奸雄",
+      "meaning": "“LH—间—雄”记LH促进间质细胞分泌睾酮；FSH主要作用支持细胞并参与启动生精。",
+      "page": 372,
+      "questionIds": [
+        "phys-41-gonadal-axis-q1",
+        "phys-41-ovary-testis-parallel-q1"
+      ],
+      "rationale": "只对应男性LH靶细胞；跨性腺比较题可据此核对睾丸部分。"
+    },
+    {
+      "key": "inhibin-fsh",
+      "text": "抑支素、扶持",
+      "meaning": "支持细胞分泌抑制素，选择性抑制FSH；与睾酮对LH/GnRH等更广的负反馈区分。",
+      "page": 372,
+      "questionIds": [
+        "phys-41-inhibin-target-q1",
+        "phys-41-testosterone-feedback-q1",
+        "phys-41-sertoli-products-q1"
+      ],
+      "rationale": "对应抑制素来源/反馈对象与睾酮的比较。"
+    },
+    {
+      "key": "ovarian-two-cell",
+      "text": "L—内；磕CP刺激、香得嘞",
+      "meaning": "LH作用内泡膜细胞促进雄激素合成；FSH作用颗粒细胞、通过芳香化酶使雄激素转为雌激素，即双细胞—双促激素机制。",
+      "page": 377,
+      "questionIds": [
+        "phys-41-two-cell-q1",
+        "phys-41-ovary-testis-parallel-q1"
+      ],
+      "rationale": "只对应卵巢两类细胞与促性腺激素、酶的关系。"
+    }
+  ],
+  "deferred": [
+    {
+      "page": 1,
+      "text": "组织要我机灵些",
+      "reason": "原页助记配合手写体液比例图；现有P1题只直接考血浆活跃性及组织液位置，没有明确考40/15/5比例的题，未为附口诀新增考题。"
+    },
+    {
+      "page": 27,
+      "text": "该哪家女",
+      "reason": "明确对应静息Ca²⁺＞Na⁺＞K⁺＞Cl⁻的电化学驱动力顺序；当前两题为Na/K的独立计算而非完整四离子比较，为防偏题未附。"
+    },
+    {
+      "page": 56,
+      "text": "骨干已设定；尴尬",
+      "reason": "用于离子型受体配体概括，但现有相关受体题与亚型例外相连，未把无亚型限定的口诀当作唯一精确映射；保留原讲义范围。"
+    },
+    {
+      "page": 58,
+      "text": "显灵灵灵安（A）排（P）安（A）排（P）",
+      "reason": "蓝字抽取的字母与相邻AC/PLC/PLA2/PDE/离子通道内容混排，已目视原页；现有题未直接考完整G蛋白效应器清单，不强行附给AC-cAMP题。"
+    },
+    {
+      "page": 70,
+      "text": "福尔摩斯杀了她的三个前女友",
+      "reason": "对应FMS/KIT/TRK/EGFR/HER2等原癌基因受体清单；本轮生理题没有独立承接完整清单的题。"
+    },
+    {
+      "page": 71,
+      "text": "酸谷天、捡来金猪；老鼠屎拌蒜尖",
+      "reason": "对应可磷酸化氨基酸的广泛清单，当前题主要考激酶催化类型；不以整个清单替换具体激酶题的解释。"
+    },
+    {
+      "page": 77,
+      "text": "三全凌汤圆（馅和皮各一半）",
+      "reason": "此处对应讲义失血＞30%时的旧输血清单，现有题仅考交叉配血主次侧，不附无关且可能被误解为临床操作的口诀。"
+    },
+    {
+      "page": 83,
+      "text": "2个嬛嬛",
+      "reason": "对应前列环素/双嘧达莫升高血小板cAMP，但当前抗板药池四题未独立考这组药；不附给其他靶点题。"
+    },
+    {
+      "page": 90,
+      "text": "大五是最不稳定的；拳皇97",
+      "reason": "分别对应因子Ⅴ稳定性、Ⅶ/Ⅸ途径联系；现有题未直接考这两个细分关系，未机械附到同页凝血因子题。"
+    },
+    {
+      "page": 91,
+      "text": "TFPI搞外源、AT搞内源、肝素帮忙、PC搞辅因子",
+      "reason": "其中AT并不限于内源性因子，原句适合讲义口头框架但易形成错误排他认识；已优先使用各系统精确靶点的现有解析和相应更窄口诀。"
+    },
+    {
+      "page": 116,
+      "text": "汗珠珠；一前一后一冠脉",
+      "reason": "与微循环通路和局部调控有关但摘取文字不能完整独立还原每个字的映射，未编造展开。"
+    },
+    {
+      "page": 125,
+      "text": "搞维多利亚的秘密",
+      "reason": "对应缩短动作电位时程的完整因素小结，现有题未直接考该完整集合，未按所在页附给所有通道阻断题。"
+    },
+    {
+      "page": 143,
+      "text": "已辞去、切鸡肝",
+      "reason": "用于促进NO释放的因子集合，当前相关题只问NO经GC的作用机制，不能把完整释放因素清单当同一考点。"
+    },
+    {
+      "page": 144,
+      "text": "机甲吓人地",
+      "reason": "讲义旧ACEI/ARB不宜用条件清单，当前生理题考药物靶点而非该清单；不将旧阈值助记附为现代临床规则。"
+    },
+    {
+      "page": 197,
+      "text": "邪老太尖（间）酸刻薄（少）",
+      "reason": "可还原缬酪肽促进消化间期基础胃酸，但现有胃酸题未单独考缬酪肽；不添加无关条目。"
+    },
+    {
+      "page": 213,
+      "text": "孩子要补钙锁定蓝瓶钙……；谷乳茶",
+      "reason": "前者为商业广告式比喻，且原表肠腔脂肪酸/钙皂促进吸收表述与常见机制有核对边界；后者考抑铁吸收物但当前四题无该精确集合题。不据此新增医学断言。"
+    },
+    {
+      "page": 244,
+      "text": "贾玲美高、那概率低、爱吃醋、三高三低两中毒",
+      "reason": "对应肾衰电解质/酸碱综合清单，当前生理该页只设小管排钾和低镁机制题；不把整张肾衰列表附给局部机制。"
+    },
+    {
+      "page": 262,
+      "text": "摸鼻屎—狐臭",
+      "reason": "对应Mobius辐辏无能征的甲亢串联，而现有眼肌题考正常近反射；不附疾病串联口诀。"
+    },
+    {
+      "page": 286,
+      "text": "皇上皇后请上船",
+      "reason": "对应晕船时前/后半规管受刺激较大，现有题主要为具体旋转轴/运动平面，未单独考晕船清单。"
+    },
+    {
+      "page": 318,
+      "text": "小皮去基地联络大皮；我干几岁啊",
+      "reason": "这两条依赖原页运动调控结构示意图，现有图文抽取未逐字完整还原箭头；不据短语自拟一一对应。"
+    },
+    {
+      "page": 328,
+      "text": "怕皮卡丘垫底",
+      "reason": "对应帕金森高频刺激丘脑底核的串联；当前药物题不考该处置，未额外附加治疗指令。"
+    },
+    {
+      "page": 336,
+      "text": "限制DD生长",
+      "reason": "该条需要睡眠调节因子小结中的字母映射，现有题仅具体考咖啡因阻断腺苷受体；未把不完整字母短语直接附作答案依据。"
+    },
+    {
+      "page": 337,
+      "text": "小飞蚊",
+      "reason": "配合多列记忆—脑区表，词序抽取发生跨列；无清楚逐字展开时不补造含义。"
+    },
+    {
+      "page": 339,
+      "text": "请中秋前割杏叶",
+      "reason": "对应情绪调节结构清单，当前下丘脑题仅考室周器/摄食/节律，没有该清单的独立题。"
+    },
+    {
+      "page": 353,
+      "text": "1骨2肝B、脑汁脑垂",
+      "reason": "对应IRS亚型组织分布，当前胰岛素题考合成代谢与受体通路，未直接考IRS亚型分布。"
+    },
+    {
+      "page": 363,
+      "text": "别合成、别释放、别来刺激我心脏",
+      "reason": "对应甲状腺危象治疗串联；当前生理甲状腺题不考完整危象处置，不附作临床操作。"
+    },
+    {
+      "page": 369,
+      "text": "甲生儿糖糖",
+      "reason": "对应促脂肪分解的跨激素完整小结，当前题各自考具体激素的区域/组织限定，未将广泛集合加到其中任意一题。"
+    },
+    {
+      "page": 370,
+      "text": "小儿长了乳牙非吃盐糖糖",
+      "reason": "对应参与应激的完整激素清单，当前HPA/应急题只考主要系统区别，不据整句扩展为完整治疗或必考集合。"
+    },
+    {
+      "page": 379,
+      "text": "吃他三；阿姨",
+      "reason": "对应乳腺癌内分泌用药串联，当前本页生理题考绝经后雌激素来源，没有独立治疗题。"
+    }
+  ],
+  "notes": [
+    "已完成所给生理PDF全部381页字体/颜色扫描，发现871行含蓝色非宋体候选；主候选为KaiTi（蓝色常见RGB约0.267/0.447/0.769）。通读全部候选短语，并对纳入项回读所在行及相邻正文。",
+    "完整目视复核现有源页图P1、58、90、244：蓝色楷体与正文宋体、蓝色宋体标题可明确区分。文本抽取遗漏的Latin、数字部分通过完整所在行补齐，未凭蓝色短语臆造关系。",
+    "蓝色非宋体是查找线索，不等于全部是口诀：学习建议、题目指令、普通解释、标题、口头语、提示‘记少不记多’等未机械作为口诀收入。",
+    "每条绑定具体知识关系的稳定题号；同页但无关的题不批量附加，同一口诀跨页重复只登记一个规范条目。既有解析已含口诀者仍登记结构化关系，主助手应去重显示。",
+    "所有含义以用户讲义为材料范围，不替代临床诊疗。对数值体系、药理作用、组织/时相例外保留限定；‘酶就是水解同名物’等口头泛化未作为普遍医学规则加入。",
+    "仅补充解析方案：不改变任何现有题干、选项、正确答案、题号、题量及记录版本，不直接编辑网站或发布。未能可靠展开或现有题无承接者已列deferred，而非声称全部候选已附入。"
+  ]
+}

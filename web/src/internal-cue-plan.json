@@ -1,0 +1,493 @@
+{
+  "course": "internal",
+  "questionEdits": [
+    {
+      "id": "rheum-ra-01-q4",
+      "stem": "RA晚期出现天鹅颈、纽扣花和尺侧偏斜。其可逆性、对当前病情活动性的指示意义，以及在本讲义诊断条目中的地位，哪组对应正确？",
+      "reason": "P276三不已在题干透露三个否定方向；去掉口诀，只给需要评价的形态，口诀移入解析。",
+      "explanation": "P276记载：这些晚期畸形不可逆，不反映当前活动性，不属于本讲义列出的诊断条目。可用“三不”复盘，但不能把记忆提示提前给在题干。该结论按本讲义范围理解，不用于否定其他病史、体征的诊断价值。"
+    },
+    {
+      "id": "blood-aa-03-q4",
+      "stem": "按讲义再障治疗分类，睾酮、司坦唑醇和达那唑应归入哪类？",
+      "reason": "P188原问法先限定促造血，只有雄激素选项带同一类别词；去掉预先分类提示，保留药物本身作为证据。"
+    },
+    {
+      "id": "blood-hemolysis-03-q1",
+      "stem": "有家族溶血史，患者红细胞在0.62%NaCl中即开始破裂，正常对照约为0.44%。按讲义的典型对应，最符合哪种溶血病因？",
+      "reason": "P192把球形红细胞增多从题干移走，改用原始脆性试验数据及必要家族史，避免直接重复疾病名称。",
+      "explanation": "患者在较高NaCl浓度即溶血，说明渗透脆性增高；结合家族史符合讲义遗传性球形红细胞增多症的典型对应。球形细胞亦可见于温抗体型自免溶，因此不只凭一个形态词下结论。"
+    },
+    {
+      "id": "endo-overview-01-q1",
+      "stem": "肾上腺皮质腺瘤引起库欣表现，按讲义总论，应归入哪类激素过多机制？",
+      "reason": "P267原题已逐字写出肿瘤自主分泌；用来源中的具体病因作为证据，区分本腺与腺外来源。"
+    },
+    {
+      "id": "endo-overview-01-q2",
+      "stem": "肺小细胞癌患者出现库欣表现，癌细胞可表达并分泌ACTH。按讲义，应归入哪类激素过多机制？",
+      "reason": "P267不再预写异位ACTH这一待选标签，保留肺来源和所分泌激素以判断。"
+    },
+    {
+      "id": "endo-overview-01-q3",
+      "stem": "Graves病患者甲状腺激素升高，按讲义，其激素过多最直接的发生机制是哪项？",
+      "reason": "P267去掉自身免疫机制这一类别提示，需由病名回忆TSAb相关关系。"
+    },
+    {
+      "id": "endo-pheochromocytoma-03-q3",
+      "stem": "嗜铬细胞瘤术前伴明显心动过速。按讲义，需要联合α、β受体阻断时，先后次序及加药条件应如何安排？",
+      "reason": "P265原题先说充分α阻断后，四选项中仅一项符合已给先后；改为不预给顺序的材料内配伍。"
+    },
+    {
+      "id": "o03",
+      "stem": "有机磷中毒时，本组选项中哪些表现属于讲义列举的阿托品作用范围？",
+      "reason": "P289去掉阿托品缓解外周M样症状这一待考对应，不再与同池M类定义题直接互相提示。"
+    },
+    {
+      "id": "supp-endo-cushing-01-q1",
+      "stem": "仅针对双侧肾上腺小结节呈色素性增生这一局部病变本身，本讲义采用的专门名称是哪项？",
+      "reason": "P260选项改为不附疾病定义的名称，题干仍保留区别孤立病变与多器官Carney组合的必要范围。"
+    },
+    {
+      "id": "supp-digest-pancreas-fluid-q4",
+      "stem": "急性胰腺炎形成含有坏死组织的积聚，约1个月后出现包膜。按本讲义，应归入哪类局部并发症？",
+      "reason": "P135上述坏死性积聚依赖随机题序；补全坏死成分与形成包膜时相，不只给时间而丢失假性囊肿鉴别条件。"
+    },
+    {
+      "id": "cardio-hypertension-g1-q9",
+      "stem": "高血压患者眼底出现视网膜出血、渗出，并伴视盘水肿。按本讲义眼底分级，应归入哪一级？",
+      "reason": "P308去掉上述病变基础的跨题依赖，保留本题完整的眼底表现。"
+    },
+    {
+      "id": "supp-endo-diabetes-01-q2",
+      "stem": "本讲义将哪些措施列为糖尿病综合管理的五项基本环节？选择完整的一组。",
+      "reason": "P248去掉已逐项给出的日常同义描述。",
+      "explanation": "本讲义“五架马车”为健康教育、医学营养、运动、病情监测和药物治疗。分型、遗传及并发症评估可能有各自用途，但不能替换本题所问框架中的基本环节；不据此否定其临床价值。"
+    }
+  ],
+  "groupEdits": [
+    {
+      "id": "rheum-ra-v5-ra-late-deformity",
+      "name": "关节畸形的临床评价",
+      "reason": "P276标题保持评价维度，不直接写三不等方向性提示。"
+    },
+    {
+      "id": "endo-cushing-v5-adrenal-named-contrasts",
+      "options": [
+        {
+          "id": "o0",
+          "text": "Meador综合征"
+        },
+        {
+          "id": "o1",
+          "text": "Carney综合征"
+        },
+        {
+          "id": "o2",
+          "text": "食物依赖性库欣"
+        },
+        {
+          "id": "o3",
+          "text": "Nelson综合征"
+        }
+      ],
+      "reason": "P260原选项Meador后附原发性色素结节性肾上腺病，与待选题干逐字重复；四项统一为名称而不附答案定义。"
+    },
+    {
+      "id": "renal-uti-03",
+      "options": [
+        {
+          "id": "renal-uti-03-o1",
+          "text": "急性膀胱炎"
+        },
+        {
+          "id": "renal-uti-03-o2",
+          "text": "急性肾盂肾炎"
+        },
+        {
+          "id": "renal-uti-03-o3",
+          "text": "慢性肾盂肾炎"
+        },
+        {
+          "id": "renal-uti-03-o4",
+          "text": "感染性尿道综合征"
+        },
+        {
+          "id": "renal-uti-03-o5",
+          "text": "非感染性尿道综合征"
+        }
+      ],
+      "reason": "P146该池五题均选临床感染类型；白细胞管型、真性菌尿和尿浓缩功能不是同级诊断选项，删除异类凑数条目。"
+    },
+    {
+      "id": "endo-diabetes-v5-five-pillars-applied",
+      "options": [
+        {
+          "id": "o0",
+          "text": "健康教育；医学营养；运动治疗；病情监测；药物治疗"
+        },
+        {
+          "id": "o1",
+          "text": "健康教育；医学营养；运动治疗；并发症分期评估；药物治疗"
+        },
+        {
+          "id": "o2",
+          "text": "健康教育；医学营养；运动治疗；病情监测；胰岛β细胞分型检查"
+        },
+        {
+          "id": "o3",
+          "text": "健康教育；医学营养；遗传易感性评估；病情监测；药物治疗"
+        }
+      ],
+      "reason": "P248原题只是学习→教育等日常同义匹配；四组均列五项医学管理/评估措施，需回忆本页规定的基本框架，而非按中文同义词连线。"
+    },
+    {
+      "id": "endo-diabetes-10",
+      "options": [
+        {
+          "id": "o1",
+          "text": "G1",
+          "sourceText": "G1：eGFR≥90"
+        },
+        {
+          "id": "o2",
+          "text": "G2",
+          "sourceText": "G2：eGFR60–89"
+        },
+        {
+          "id": "o3",
+          "text": "G3a",
+          "sourceText": "G3a：eGFR45–59"
+        },
+        {
+          "id": "o4",
+          "text": "G3b",
+          "sourceText": "G3b：eGFR30–44"
+        },
+        {
+          "id": "o5",
+          "text": "G4",
+          "sourceText": "G4：eGFR15–29"
+        },
+        {
+          "id": "o6",
+          "text": "G5",
+          "sourceText": "G5：eGFR＜15"
+        },
+        {
+          "id": "o7",
+          "text": "A1",
+          "sourceText": "A1：UACR＜30mg/g"
+        },
+        {
+          "id": "o8",
+          "text": "A2",
+          "sourceText": "A2：UACR30–＜300mg/g"
+        },
+        {
+          "id": "o9",
+          "text": "A3",
+          "sourceText": "A3：UACR≥300mg/g"
+        }
+      ],
+      "name": "肾病G与A分层",
+      "reason": "P247–248功能试验题移走后，该池仅保留G和A分级；各问题仍有六个或三个同类候选。"
+    }
+  ],
+  "splitPools": [
+    {
+      "id": "endo-diabetes-cue-beta-phase-tests",
+      "chapter": "endo-diabetes",
+      "module": "endo-diabetes-module-classification",
+      "name": "胰岛功能试验的目的比较",
+      "options": [
+        "静脉葡萄糖-胰岛素释放试验；高糖钳夹试验",
+        "胰高血糖素-C肽刺激试验；高糖钳夹试验",
+        "精氨酸-C肽刺激试验；静脉葡萄糖-胰岛素释放试验",
+        "胰高血糖素-C肽刺激试验；精氨酸-C肽刺激试验"
+      ],
+      "rows": [
+        {
+          "id": "endo-diabetes-10-q10",
+          "stem": "以下哪组的两项试验均用于反映讲义所述胰岛素释放第一时相？",
+          "answer": [
+            0
+          ],
+          "page": 248,
+          "reason": "P248原池混G/A肾病分级与功能试验，第一时相题只有一个胰岛素试验串；移至均含两项试验的同构池。",
+          "explanation": "静脉葡萄糖刺激与高糖钳夹对应第一时相；胰高血糖素-C肽、精氨酸-C肽对应非葡萄糖介导的释放功能。不能只选对组合中的一项。"
+        }
+      ]
+    },
+    {
+      "id": "endo-cushing-cue-nodular-pattern",
+      "chapter": "endo-cushing",
+      "module": "endo-cushing-module-diagnosis",
+      "name": "结节性病变的激素与定位组合",
+      "options": [
+        "ACTH降低；双侧肾上腺皮质结节性增生",
+        "ACTH升高；双侧肾上腺皮质弥漫性增生",
+        "ACTH降低；单侧肾上腺占位",
+        "ACTH升高；单侧肾上腺占位"
+      ],
+      "rows": [
+        {
+          "id": "endo-cushing-02-q5",
+          "stem": "原发性肾上腺结节性增生所致库欣综合征，按本讲义典型模式，其ACTH及影像分布应如何组合？",
+          "answer": [
+            0
+          ],
+          "page": 261,
+          "reason": "P261原题把双侧肾上腺结节增生同时写入题干与诊断选项；改为同两字段的功能与定位比较。",
+          "explanation": "P261不依赖ACTH的双侧小/大结节性增生列ACTH降低、双侧皮质结节增生；与异位ACTH的激素升高及双侧弥漫增生不同。"
+        }
+      ]
+    },
+    {
+      "id": "endo-cushing-cue-replacement-duration",
+      "chapter": "endo-cushing",
+      "module": "endo-cushing-module-management",
+      "name": "术后替代与手术范围",
+      "options": [
+        "双侧肾上腺切除",
+        "患侧单侧肾上腺切除",
+        "经蝶垂体肿瘤切除"
+      ],
+      "rows": [
+        {
+          "id": "endo-cushing-03-q5",
+          "stem": "按本讲义的术后管理比较，哪类手术需要终身激素替代，而不是短期或较长期替代？",
+          "answer": [
+            0
+          ],
+          "page": 262,
+          "reason": "P262原题给双侧病变而选项只有一个双侧术式，未必需要知道替代知识；去掉选项附带的答案时程，反向考手术范围与激素替代。",
+          "explanation": "双侧肾上腺切除按讲义需终身替代；单侧肾上腺切除对应较长期替代，垂体经蝶切瘤对应短期替代。仅作本讲义比较，不据此制定个体术后方案。"
+        }
+      ]
+    },
+    {
+      "id": "blood-mds-cue-mds-5q",
+      "chapter": "blood-mds",
+      "module": "blood-mds-module-classification",
+      "name": "遗传定义型的细胞比例与核型条件",
+      "options": [
+        "骨髓＜5%、外周血＜2%；孤立5q缺失，或伴除−7/7q−外的一种异常",
+        "骨髓＜5%、外周血＜2%；5q缺失可合并−7/7q−",
+        "骨髓＜10%、外周血＜5%；孤立5q缺失，或伴除−7/7q−外的一种异常",
+        "骨髓＜20%、外周血＜20%；5q缺失可合并−7/7q−"
+      ],
+      "rows": [
+        {
+          "id": "supp-blood-mds-05-q1",
+          "stem": "按本讲义第五版WHO表，MDS-5q的原始细胞界值及伴随核型条件，哪组完整对应？",
+          "answer": [
+            0
+          ],
+          "page": 206,
+          "reason": "P206图表原题直接把5q缺失写出再选MDS-5q名称；改考相同三个字段的规定界值。",
+          "explanation": "表中为骨髓＜5%、外周＜2%，孤立5q−或伴除−7/7q−之外一种异常。题问本表的完整规定，不能用更宽的百分比范围替代。"
+        }
+      ]
+    },
+    {
+      "id": "blood-mds-cue-mds-sf3b1",
+      "chapter": "blood-mds",
+      "module": "blood-mds-module-classification",
+      "name": "遗传定义型的原始细胞与排除条件",
+      "options": [
+        "骨髓＜5%、外周血＜2%；不伴5q−、−7或复杂核型",
+        "骨髓＜5%、外周血＜2%；允许伴5q−、−7或复杂核型",
+        "骨髓＜10%、外周血＜5%；不伴5q−、−7或复杂核型",
+        "骨髓＜20%、外周血＜20%；允许伴5q−、−7或复杂核型"
+      ],
+      "rows": [
+        {
+          "id": "supp-blood-mds-05-q2",
+          "stem": "按本讲义第五版WHO表，已检出SF3B1突变，MDS-SF3B1的原始细胞比例与排除条件哪组完整正确？",
+          "answer": [
+            0
+          ],
+          "page": 206,
+          "reason": "P206题干SF3B1与唯一带SF3B1名称的答案直接对应；所有候选改为同一突变背景下的比例和排除条件。",
+          "explanation": "P206表列骨髓＜5%、外周＜2%，不伴5q−、−7或复杂核型。该题只复习本讲义表，不当作脱离其他条件的临床分型标准。"
+        }
+      ]
+    },
+    {
+      "id": "blood-mds-cue-mds-tp53",
+      "chapter": "blood-mds",
+      "module": "blood-mds-module-classification",
+      "name": "遗传定义型的比例界限",
+      "options": [
+        "骨髓＜20%；外周血＜20%",
+        "骨髓＜5%；外周血＜2%",
+        "骨髓＜10%；外周血＜5%",
+        "骨髓＜30%；外周血＜5%"
+      ],
+      "rows": [
+        {
+          "id": "supp-blood-mds-05-q3",
+          "stem": "按本讲义表，TP53双等位基因失活型MDS的骨髓与外周血原始细胞规定界值是哪组？",
+          "answer": [
+            0
+          ],
+          "page": 206,
+          "reason": "P206不再给TP53失活后直接选择同名分型；比较同两百分比字段的规定上限。",
+          "explanation": "P206这一行列骨髓和外周血原始细胞均＜20%；较低界值可能是其中患者的数值，但不是本题所问的完整分型规定。"
+        }
+      ]
+    },
+    {
+      "id": "blood-mds-cue-mds-lb",
+      "chapter": "blood-mds",
+      "module": "blood-mds-module-classification",
+      "name": "形态定义型的原始细胞比例",
+      "options": [
+        "骨髓＜5%；外周血＜2%",
+        "骨髓＜10%；外周血＜5%",
+        "骨髓＜20%；外周血＜20%",
+        "骨髓5%–19%；外周血2%–19%"
+      ],
+      "rows": [
+        {
+          "id": "supp-blood-mds-05-q4",
+          "stem": "按本讲义表，形态学定义的低原始细胞MDS（MDS-LB）规定的骨髓与外周血原始细胞比例是哪组？",
+          "answer": [
+            0
+          ],
+          "page": 206,
+          "reason": "P206原题无遗传信息并不能排除遗传分型；改问明确的MDS-LB原始细胞界值，不由缺少信息硬推诊断。",
+          "explanation": "MDS-LB在本表为骨髓＜5%、外周＜2%；不凭缺少突变检测信息就把所有低原始病例归到该类。"
+        }
+      ]
+    },
+    {
+      "id": "blood-mds-cue-mds-h",
+      "chapter": "blood-mds",
+      "module": "blood-mds-module-classification",
+      "name": "低增生型的定义字段",
+      "options": [
+        "≤25%；根据年龄调整",
+        "≤25%；不考虑年龄",
+        "≤50%；根据年龄调整",
+        "≤50%；不考虑年龄"
+      ],
+      "rows": [
+        {
+          "id": "supp-blood-mds-05-q5",
+          "stem": "按本讲义表下注释，低增生MDS的骨髓增生程度界值及年龄处理如何配伍？",
+          "answer": [
+            0
+          ],
+          "page": 206,
+          "reason": "P206原题骨髓增生低与唯一低增生名称直接对应；反向考同样两字段的规定界值及年龄限定。",
+          "explanation": "本表下注为骨髓增生≤25%，根据年龄调整。该脚注是本题的材料范围。"
+        }
+      ]
+    },
+    {
+      "id": "blood-mds-cue-mds-f",
+      "chapter": "blood-mds",
+      "module": "blood-mds-module-classification",
+      "name": "纤维化型的原始细胞界值",
+      "options": [
+        "骨髓5%–19%；外周血2%–19%",
+        "骨髓＜5%；外周血＜2%",
+        "骨髓5%–9%；外周血2%–4%",
+        "骨髓10%–19%；外周血5%–19%"
+      ],
+      "rows": [
+        {
+          "id": "supp-blood-mds-05-q6",
+          "stem": "按本讲义表，MDS伴纤维化（MDS-f）的骨髓与外周血原始细胞规定范围是哪组？",
+          "answer": [
+            0
+          ],
+          "page": 206,
+          "reason": "P206原题把伴纤维化重复到唯一答案名称；改为同两百分比字段比较，并与IB1/IB2较窄范围区分。",
+          "explanation": "P206表列MDS-f骨髓5%–19%、外周血2%–19%。IB1、IB2是另外的规定范围，不能因某个子区间落在更宽范围内就替换本题所问的完整规定。"
+        }
+      ]
+    }
+  ],
+  "retire": [
+    {
+      "id": "supp-rheum-overview-01-q3",
+      "reason": "P269范畴表：未分化脊柱关节病名称与唯一脊柱关节病上位选项字面重复，单独考无有效区分。",
+      "replaceBy": [
+        "supp-rheum-overview-01-q2"
+      ],
+      "coverageLoss": {
+        "page": 269,
+        "knowledge": "未分化脊柱关节病名称的单独归类题",
+        "reason": "因名称直接复述上位类别而不再单独设题；本类别仍由肠病性关节炎的归类题承接，不声称替代题等同考到原名称。",
+        "status": "not-prioritized"
+      }
+    }
+  ],
+  "reviewed": [
+    "resp-copd-03-q1",
+    "resp-copd-06-q9",
+    "resp-pah-04-q1",
+    "resp-ild-01-q11",
+    "resp-pneumonia-01-q1",
+    "resp-pneumonia-03-q2",
+    "resp-asthma-01-q9",
+    "resp-lung-cancer-04-q9",
+    "digest-ulcer-03-q1",
+    "digest-ulcer-03-q2",
+    "digest-ulcer-03-q3",
+    "digest-pancreatitis-01-q1",
+    "digest-pancreatitis-02-q6",
+    "renal-uti-03-q1",
+    "renal-glomerular-05-q11",
+    "blood-aa-01-q1",
+    "blood-aa-03-q4",
+    "blood-hemolysis-03-q1",
+    "supp-blood-mds-05-q2",
+    "blood-mds-02-q3",
+    "supp-blood-mds-01-q1",
+    "supp-blood-mds-01-q3",
+    "supp-blood-mds-01-q5",
+    "endo-diabetes-10-q10",
+    "endo-diabetes-08-q7",
+    "endo-diabetes-09-q5",
+    "endo-diabetes-09-q8",
+    "supp-endo-diabetes-01-q2",
+    "endo-aldosterone-02-q5",
+    "endo-cushing-01-q9",
+    "supp-endo-cushing-01-q1",
+    "endo-cushing-02-q5",
+    "endo-cushing-03-q5",
+    "endo-pheochromocytoma-03-q3",
+    "endo-pheochromocytoma-03-q4",
+    "endo-overview-01-q1",
+    "supp-rheum-overview-01-q3",
+    "supp-rheum-overview-01-q5",
+    "rheum-overview-01-q7",
+    "rheum-ra-01-q4",
+    "rheum-ra-03-q7",
+    "o03",
+    "cardio-hypertension-g2-q1",
+    "cardio-diagnostics-g6-q1",
+    "cardio-coronary-g1-q3",
+    "cardio-coronary-g3-q10",
+    "endo-overview-01-q2",
+    "endo-overview-01-q3",
+    "supp-digest-pancreas-fluid-q4",
+    "cardio-hypertension-g1-q9",
+    "supp-blood-mds-05-q1",
+    "supp-blood-mds-05-q3",
+    "supp-blood-mds-05-q4",
+    "supp-blood-mds-05-q5",
+    "supp-blood-mds-05-q6"
+  ],
+  "notes": [
+    "主助手完整核对全部46条内科规则候选；正常引号、数值标准、诊断所必需的细胞/病原名称不机械停用。",
+    "核读源文本P133、135、146、187、188、192、206、248、260–262、265、267、269、276、308；另整页目视核对P206的WHO分类表及P276三不原文。",
+    "同一患者的A/B节律题自带同张图，语境完整；上述哮喘/心绞痛/雷诺病已在同一题完整列举，不误判为缺失上下文。",
+    "MDS基因名不再与唯一同名答案直接匹配，改用本表规定比例与排除条件；不将子区间病例不满足临床标准作为干扰解释。"
+  ],
+  "flaggedCandidates": 46
+}
