@@ -10,7 +10,7 @@ const AUTO_ADVANCE=(()=>{
   cancel();if(!enabled()||document.hidden||state.review||!graded(q))return;
   const next=subsequent(q),boundary=navigationTarget(1);
   if(!next&&!boundary){toast('已到本次练习最后一题，答案和解析保留。');return;}
-  const card=document.querySelector(`[data-question="${q.id}"]`),review=studyViewport.matches?$('question-grid').querySelector(':scope > .review'):card?.querySelector('.review');if(!review)return;
+  const card=document.querySelector(`[data-question="${q.id}"]`),review=card?.querySelector('.review')||$('question-grid').querySelector(':scope > .review');if(!review)return;
   const seconds=[1,2,3,5].includes(studySettings.advanceDelay)?studySettings.advanceDelay:2;
   const notice=document.createElement('div');notice.className='auto-advance-notice';notice.innerHTML='<span role="status" aria-live="polite"></span><button type="button" class="btn secondary" data-stop-auto-advance>留在本题</button>';review.prepend(notice);
   const token={qid:q.id,group:state.group,batch:state.batchIndex,ids:current().map(x=>x.id).join('|'),deadline:Date.now()+seconds*1000,notice,nextId:next?.id};pending=token;

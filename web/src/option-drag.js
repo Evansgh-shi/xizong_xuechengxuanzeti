@@ -41,7 +41,7 @@
     const g=gesture;if(!g||state.review||state.group!==g.group)return;
     g.active=true;dragged=g.optionId;selected=null;renderSelection();
     document.body.classList.add('option-drag-active');g.source.classList.add('option-drag-source');
-    const preview=g.source.cloneNode(true);preview.className='option drag-preview';preview.removeAttribute('data-option');preview.removeAttribute('title');preview.setAttribute('aria-hidden','true');preview.tabIndex=-1;preview.draggable=false;
+    const preview=g.source.cloneNode(true);preview.classList.remove('option-drag-source','selected','dragging');preview.classList.add('drag-preview');preview.removeAttribute('data-option');preview.removeAttribute('data-mobile-choice');preview.removeAttribute('title');preview.setAttribute('aria-hidden','true');preview.tabIndex=-1;preview.draggable=false;
     preview.style.width=g.width+'px';preview.style.height=g.height+'px';
     const layer=document.createElement('div');layer.className='option-drag-layer';layer.setAttribute('aria-hidden','true');layer.append(preview);document.body.append(layer);g.preview=preview;g.layer=layer;
     try{g.source.setPointerCapture(g.pointerId);}catch{}
