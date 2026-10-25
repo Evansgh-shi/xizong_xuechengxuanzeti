@@ -46,7 +46,8 @@ for(const [id,bank]of Object.entries(banks)){
   html=html.replace(/<strong id="current-chapter-name">[^<]+<\/strong>/,`<strong id="current-chapter-name">${spec[id].name}全章</strong>`);
   // Hide redundant micro-navigation; its handlers remain compatible with old entry points.
   replace('<span class="mobile-help">点选选项，再点右侧答题框</span>','<span class="mobile-help">拖动 ⠿ 把手，或点选后放入答题框</span>');
-  replace('</style>',read('src/surgery-navigation.css')+'\n'+read('src/unified-study.css')+'\n'+read('src/option-drag.css')+'\n'+read('src/study-settings.css')+'\n'+read('src/lecture-mnemonics.css')+'\n'+read('src/practice-experience.css')+'\n'+read('src/auto-advance.css')+'\n</style>');
+  replace('</style>',read('src/surgery-navigation.css')+'\n'+read('src/unified-study.css')+'\n'+read('src/option-drag.css')+'\n'+read('src/study-settings.css')+'\n'+read('src/lecture-mnemonics.css')+'\n'+read('src/practice-experience.css')+'\n'+read('src/auto-advance.css')+'\n'+read('src/visit-counter.css')+'\n</style>');
+  html=html.replace('</body>','<script>'+read('src/visit-counter.js')+'</script>\n</body>');
   new vm.Script(html.match(/<script>([\s\S]*?)<\/script>/)[1]);
   fs.writeFileSync(path.join(root,'dist',spec[id].file),html);
   fs.writeFileSync(path.join(root,'dist',id+'-bank.json'),JSON.stringify(bank,null,2));
@@ -55,7 +56,8 @@ for(const [id,bank]of Object.entries(banks)){
 }
 fs.writeFileSync(path.join(root,'dist/unified-audit.json'),JSON.stringify({revision:CUE_REVISION,courses:summary},null,2));console.log(JSON.stringify(summary));
 fs.writeFileSync(path.join(root,'dist/version.json'),JSON.stringify({version:'v'+release.version,nextVersion:'v'+release.nextVersion},null,2));
-const homeCatalog=Object.entries(banks).map(([id,b])=>({...spec[id],chapters:b.chapters.map(c=>({id:c.id,name:c.name,system:c.system,questions:c.groups.reduce((n,g)=>n+g.questions.length,0),modules:c.modules.map(m=>({id:m.id,name:m.name}))}))}));
-const home=read('src/home.html').replace('__HOME_CATALOG__',safe(homeCatalog)).replaceAll('__RELEASE_VERSION__','v'+release.version);
+const homeCatalog=Object.entries(banks).map(([id,b])=>({...spec[id],chapters:b.chapters.map(c=>({id:c.id,name:c.name,system:c.system,questions:c.groups.reduce((n,g)=>n+g.questions.length,0),modules:c.modules.map(m=>({id:m.id,name:m.name,keywords:c.groups.filter(g=>g.module===m.id).map(g=>g.name)}))}))}));
+let home=read('src/home.html').replace('__HOME_CATALOG__',safe(homeCatalog)).replaceAll('__RELEASE_VERSION__','v'+release.version).replace('__HOME_SEARCH__',read('src/home-search.js'));
+home=home.replace('</style>',read('src/home-search.css')+'\n'+read('src/visit-counter.css')+'\n</style>').replace('</body>','<script>'+read('src/visit-counter.js')+'</script>\n</body>');
 for(const script of home.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(script[1]);
 fs.writeFileSync(path.join(root,'dist/index.html'),home);

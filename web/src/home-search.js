@@ -1,0 +1,16 @@
+// Chapter/topic names only: search does not inspect, transmit or change study records.
+const HOME_SEARCH=(()=>{
+ const normalize=s=>String(s).normalize('NFKC').toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+ const aliases=[['慢阻肺','慢性阻塞性肺疾病'],['copd','慢性阻塞性肺疾病'],['甲亢','甲状腺功能亢进'],['甲减','甲状腺功能减退'],['再障','再生障碍性贫血'],['溶贫','溶血性贫血'],['心梗','心肌梗死'],['急肾炎','急性肾小球肾炎'],['慢肾炎','慢性肾小球肾炎'],['类风关','类风湿关节炎']];
+ const entries=COURSES.flatMap(c=>c.chapters.flatMap(ch=>[{course:c,chapter:ch,module:null,name:ch.name},...ch.modules.map(m=>({course:c,chapter:ch,module:m,name:m.name}))])).map(e=>({...e,text:normalize(e.name),keywords:normalize((e.module?.keywords||[]).join(' ')),context:normalize(e.course.name+e.chapter.name+e.chapter.system)}));
+ for(const e of entries)e.variants=[...new Set([e.text,...aliases.filter(([a,b])=>e.text.includes(normalize(a))||e.keywords.includes(normalize(a))||e.text.includes(normalize(b))).map(([,b])=>normalize(b))])];
+ function subsequence(query,text){let at=0,first=-1,last=-1;for(let i=0;i<text.length&&at<query.length;i++)if(text[i]===query[at]){if(first<0)first=i;last=i;at++;}return at===query.length&&last-first+1-query.length<=Math.max(3,query.length*2);}
+ function approximate(query,text){let row=Array(text.length+1).fill(0);for(let i=1;i<=query.length;i++){const next=[i];for(let j=1;j<=text.length;j++)next[j]=Math.min(row[j]+1,next[j-1]+1,row[j-1]+(query[i-1]===text[j-1]?0:1));row=next;}return Math.min(...row);}
+ function search(raw){let query=normalize(raw).slice(0,80);if(!query)return[];const course=COURSES.find(c=>query.startsWith(normalize(c.name))&&query.length>normalize(c.name).length);if(course)query=query.slice(normalize(course.name).length);const expanded=aliases.filter(([a])=>normalize(a)===query).map(([,b])=>normalize(b));
+  const hits=entries.filter(e=>!course||e.course.id===course.id).map(e=>{let score=0,reason='';if(e.text===query){score=120;reason='精确匹配';}else if(e.text.includes(query)){score=105-Math.min(15,e.text.length-query.length);reason='关键词匹配';}else if(expanded.some(a=>e.text.includes(a)||a.includes(e.text)&&e.text.length>=4)||e.variants.slice(1).some(t=>t.includes(query))){score=93;reason='简称／别名';}else if(e.keywords.includes(query)){score=86;reason='相关知识点';}else if(query.length>=3&&e.variants.some(t=>subsequence(query,t))){score=80-Math.min(15,Math.abs(e.text.length-query.length));reason='近似文字';}else if(query.length>=3&&query.length<=32){const d=Math.min(...e.variants.map(t=>approximate(query,t))),allowed=query.length>=6?2:1;if(d<=allowed){score=65-d*8;reason='可能的拼写';}}if(!score&&e.context.includes(query)){score=42;reason='相关章节';}if(!score&&normalize(e.course.name)===query){score=40;reason='课程匹配';}return{...e,score,reason};}).filter(e=>e.score>0).sort((a,b)=>b.score-a.score||(a.module?1:0)-(b.module?1:0)||a.name.length-b.name.length||a.course.id.localeCompare(b.course.id));
+  for(const e of hits)if(e.reason==='近似文字')e.score=80-Math.min(15,...e.variants.filter(t=>subsequence(query,t)).map(t=>Math.abs(t.length-query.length)));
+  hits.sort((a,b)=>b.score-a.score||(a.module?1:0)-(b.module?1:0)||a.name.length-b.name.length||a.course.id.localeCompare(b.course.id));
+  return hits[0]?.score>=85?hits.filter(e=>e.score>=hits[0].score-30):hits;
+ }
+ return{search,normalize};
+})();
