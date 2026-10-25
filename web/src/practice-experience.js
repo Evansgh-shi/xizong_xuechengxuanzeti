@@ -18,12 +18,13 @@ function restoreMobilePosition(){
   const s=commonSession();if(s&&s.id===state.commonSessionId&&state.wrongOnly){const id=s.courseOrder[s.courseOrder.indexOf(SOURCE.courseId)+direction];if(id)return{course:id,edge:direction<0?'last':'first'};}return null;
  };
  navigateBatch=function(direction){if(!mobile())return base.navigateBatch(direction);const next=navigationTarget(direction);if(!next)return;if(next.course){navigateToCourse(next.course,commonSession(),next.edge);return;}state.group=next.group;state.batchIndex=next.batch;state.review=false;state.revealed=false;selected=null;selectedPoolId=null;dragged=null;$('option-search').value='';render();window.scrollTo({top:0,behavior:'instant'});};
- function gradeQuestion(q){
+ function gradeQuestion(q,auto=true){
   if(!q||!current().some(x=>x.id===q.id)||graded(q))return;
   const chosen=answersFor(q),ok=equals(chosen,q.answer),old=state.history[q.id]||{};
   state.grades[q.id]={correct:ok,instant:true,chosen:[...chosen]};
   state.history[q.id]={attempts:(old.attempts||0)+1,correct:ok,last:Date.now()};noteResult(q,ok,chosen);
   selected=null;selectedPoolId=null;save();renderQuestions();renderHeader();updateStats();save();
+  if(auto)AUTO_ADVANCE.schedule(q);
  }
  function solution(q){const before=state.review;try{state.review=true;return reviewHTML(q,answersFor(q));}finally{state.review=before;}}
  function decorateCards(){
@@ -70,7 +71,7 @@ function restoreMobilePosition(){
   if(q&&locked(q)&&e.target.closest('[data-choice-q],[data-drop],[data-remove],[data-clear-q]')){e.preventDefault();e.stopImmediatePropagation();}
  },true);
  // Do not count previously instant-graded cards again when submitting a topic.
- $('submit-btn').addEventListener('click',e=>{if(!studySettings.quick)return;e.preventDefault();e.stopImmediatePropagation();if(state.review){for(const q of current())delete state.grades[q.id];state.review=false;state.revealed=false;render();return;}const list=[...current()];for(const q of list)if(!graded(q))gradeQuestion(q);state.review=true;state.revealed=true;render();},true);
+ $('submit-btn').addEventListener('click',e=>{if(!studySettings.quick)return;e.preventDefault();e.stopImmediatePropagation();if(state.review){for(const q of current())delete state.grades[q.id];state.review=false;state.revealed=false;render();return;}const list=[...current()];for(const q of list)if(!graded(q))gradeQuestion(q,false);state.review=true;state.revealed=true;render();},true);
  renderHeader=function(){base.renderHeader();if(!mobile())return;const q=current()[0],m=currentModule();$('group-title').textContent=m.name;$('group-count').textContent=`第 ${state.batchIndex+1}/${pages().length} 题`;
   const context=$('mobile-study-context');context.querySelector('strong').textContent=SOURCE.courseName+' · '+chapter().name;context.querySelector('.mobile-topic').textContent=m.name;context.querySelector('.mobile-mode').textContent=(studySettings.quick?'快刷':'逐题练习')+' · '+(studySettings.answer==='choice'?'选项模式':'拖拽模式')+' · '+SOURCE.releaseVersion;
   context.querySelector('.mobile-next-chapter').textContent=CHAPTERS[CHAPTERS.indexOf(chapter())+1]?'下一章：'+CHAPTERS[CHAPTERS.indexOf(chapter())+1].name:'本课程最后一章';

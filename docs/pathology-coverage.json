@@ -82,7 +82,7 @@
       "examLabels": 254,
       "note": "全文文本与原题按章核读；全部页面做过版式概览，重点图表另有详细核查。红字行、重复题和题数不是独立知识点覆盖率分母。"
     },
-    "releaseVersion": "v1.1",
+    "releaseVersion": "v1.2",
     "courseId": "pathology",
     "courseName": "病理",
     "poolQualityRevision": "2026-10-25-source-cues-v6",

@@ -28,7 +28,7 @@ for(const [id,bank]of Object.entries(banks)){
   // Keep originals available for migration/record functions, but use one common UI.
   html=html.replaceAll('function normalizeNotebook(){','function legacyNormalizeNotebook(){');
   const tail=html.lastIndexOf('normalizeNotebook();\nrestoreChapterUrl();');if(tail<0)throw Error('missing startup boundary');
-  html=html.slice(0,tail)+`const COMMON_COURSES=${safe(catalogs)};\n`+read('src/unified-study.js')+'\n'+read('src/option-drag.js')+'\n'+read('src/study-settings.js')+'\n'+read('src/lecture-mnemonics.js')+'\n'+read('src/practice-experience.js')+'\nnormalizeNotebook();\nprepareHomeEntry();\nrestoreChapterUrl();\nrestoreCommonPractice();\nrestoreMobilePosition();\nrender();\n</script>\n</body>\n</html>\n';
+  html=html.slice(0,tail)+`const COMMON_COURSES=${safe(catalogs)};\n`+read('src/unified-study.js')+'\n'+read('src/option-drag.js')+'\n'+read('src/study-settings.js')+'\n'+read('src/lecture-mnemonics.js')+'\n'+read('src/practice-experience.js')+'\n'+read('src/auto-advance.js')+'\nnormalizeNotebook();\nprepareHomeEntry();\nrestoreChapterUrl();\nrestoreCommonPractice();\nrestoreMobilePosition();\nrender();\n</script>\n</body>\n</html>\n';
   const controls=html.indexOf('<div class="board-actions">'),controlsEnd=html.indexOf('\n    </section>',controls);if(controls<0||controlsEnd<0)throw Error('dock boundary');
   html=html.slice(0,controls)+`<nav class="study-dock board-actions" aria-label="固定答题操作"><div class="dock-context" aria-label="当前学习位置"><strong id="dock-chapter"></strong><span id="dock-progress"></span></div><div class="dock-inner"><button class="btn secondary" id="prev-btn">← 上一组</button><button class="btn primary" id="submit-btn">提交本组</button><button class="btn secondary" id="answers-btn">核对答案</button><button class="btn secondary" id="redo-batch-btn" title="仅清空当前显示题块的作答和评分，保留历史、错题与收藏">↻ 重做当前题块</button><button class="btn secondary" id="next-btn">下一组 →</button></div></nav>`+html.slice(controlsEnd);
   replace('</div><div class="dock-inner">','</div><div class="dock-chapter-row"><span id="dock-next-chapter"></span><div class="dock-chapter-actions"><button class="btn secondary" id="dock-prev-chapter-btn">‹ 上一章</button><button class="btn secondary" id="dock-next-chapter-btn">下一章 ›</button></div></div><div class="dock-inner">');
@@ -46,7 +46,7 @@ for(const [id,bank]of Object.entries(banks)){
   html=html.replace(/<strong id="current-chapter-name">[^<]+<\/strong>/,`<strong id="current-chapter-name">${spec[id].name}全章</strong>`);
   // Hide redundant micro-navigation; its handlers remain compatible with old entry points.
   replace('<span class="mobile-help">点选选项，再点右侧答题框</span>','<span class="mobile-help">拖动 ⠿ 把手，或点选后放入答题框</span>');
-  replace('</style>',read('src/surgery-navigation.css')+'\n'+read('src/unified-study.css')+'\n'+read('src/option-drag.css')+'\n'+read('src/study-settings.css')+'\n'+read('src/lecture-mnemonics.css')+'\n'+read('src/practice-experience.css')+'\n</style>');
+  replace('</style>',read('src/surgery-navigation.css')+'\n'+read('src/unified-study.css')+'\n'+read('src/option-drag.css')+'\n'+read('src/study-settings.css')+'\n'+read('src/lecture-mnemonics.css')+'\n'+read('src/practice-experience.css')+'\n'+read('src/auto-advance.css')+'\n</style>');
   new vm.Script(html.match(/<script>([\s\S]*?)<\/script>/)[1]);
   fs.writeFileSync(path.join(root,'dist',spec[id].file),html);
   fs.writeFileSync(path.join(root,'dist',id+'-bank.json'),JSON.stringify(bank,null,2));
