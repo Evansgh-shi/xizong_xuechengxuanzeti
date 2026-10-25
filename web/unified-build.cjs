@@ -11,11 +11,11 @@ banks.biochemistry=JSON.parse(read('src/biochemistry-bank.json'));
 banks.pathology=JSON.parse(read('src/pathology-bank.json'));
 for(const id of Object.keys(banks))banks[id]=applyCueQuality(banks[id],JSON.parse(read('src/'+id+'-cue-plan.json')));
 for(const id of Object.keys(banks))banks[id]=applyLectureMnemonics(banks[id],JSON.parse(read('src/'+id+'-mnemonic-plan.json')));
-const spec={internal:{id:'internal',name:'内科',key:'xuecheng-internal-drag-v2',url:'./index.html',file:'index.html'},surgery:{id:'surgery',name:'外科',key:'xuecheng-surgery-drag-v1',url:'./surgery.html',file:'surgery.html'},physiology:{id:'physiology',name:'生理',key:'xuecheng-physiology-drag-v1',url:'./physiology.html',file:'physiology.html'},biochemistry:{id:'biochemistry',name:'生化',key:'xuecheng-biochemistry-drag-v1',url:'./biochemistry.html',file:'biochemistry.html'},pathology:{id:'pathology',name:'病理',key:'xuecheng-pathology-drag-v1',url:'./pathology.html',file:'pathology.html'}};
+const spec={internal:{id:'internal',name:'内科',key:'xuecheng-internal-drag-v2',url:'./internal.html',file:'internal.html'},surgery:{id:'surgery',name:'外科',key:'xuecheng-surgery-drag-v1',url:'./surgery.html',file:'surgery.html'},physiology:{id:'physiology',name:'生理',key:'xuecheng-physiology-drag-v1',url:'./physiology.html',file:'physiology.html'},biochemistry:{id:'biochemistry',name:'生化',key:'xuecheng-biochemistry-drag-v1',url:'./biochemistry.html',file:'biochemistry.html'},pathology:{id:'pathology',name:'病理',key:'xuecheng-pathology-drag-v1',url:'./pathology.html',file:'pathology.html'}};
 const catalogs=Object.entries(banks).map(([id,b])=>({...spec[id],revision:b.contentAudit.revision||REVISION,organization:b.reorganization||null,audit:b.contentAudit,chapters:b.chapters.map(c=>({id:c.id,name:c.name})),groups:b.chapters.flatMap(c=>c.groups.map(g=>({id:g.id,chapter:c.id,module:g.module,options:g.options,questions:g.questions.map(q=>({id:q.id,stem:q.stem,answer:q.answer,page:q.page,type:q.answer.length>1?'multiple':'single',explanation:q.explanation,...(q.mnemonics?{mnemonics:q.mnemonics}:{}),...(q.references?{references:q.references}:{})}))})))}));
 const summary=[];
 for(const [id,bank]of Object.entries(banks)){
-  let html=read('dist/'+spec[id].file);
+  let html=read('dist/'+(id==='internal'?'index.html':spec[id].file));
   const oldSource=JSON.parse(html.match(/const SOURCE=([^\n]+);\nconst CHAPTERS=/)[1]),changed=bank.contentAudit.rewrites.map(r=>r.id);
   // The legacy normalizer stays at v4; incremental content revisions are handled by the common migrator.
   const source={...oldSource,releaseVersion:'v'+release.version,edition:bank.edition,courseId:id,courseName:spec[id].name,qualityRevision:['internal','surgery'].includes(id)?REVISION:bank.revision,poolQualityRevision:bank.contentAudit.revision,changedQuestionIds:[...new Set([...(oldSource.changedQuestionIds||[]),...changed])],qualityChangeSets:Object.fromEntries(Object.entries(oldSource.qualityChangeSets||{}).map(([key,ids])=>[key,[...new Set([...ids,...changed])]])),contentAudit:bank.contentAudit,moduleCount:bank.chapters.reduce((n,c)=>n+c.modules.length,0)};
@@ -28,12 +28,13 @@ for(const [id,bank]of Object.entries(banks)){
   // Keep originals available for migration/record functions, but use one common UI.
   html=html.replaceAll('function normalizeNotebook(){','function legacyNormalizeNotebook(){');
   const tail=html.lastIndexOf('normalizeNotebook();\nrestoreChapterUrl();');if(tail<0)throw Error('missing startup boundary');
-  html=html.slice(0,tail)+`const COMMON_COURSES=${safe(catalogs)};\n`+read('src/unified-study.js')+'\n'+read('src/option-drag.js')+'\n'+read('src/study-settings.js')+'\n'+read('src/lecture-mnemonics.js')+'\nnormalizeNotebook();\nrestoreChapterUrl();\nrestoreCommonPractice();\nrender();\n</script>\n</body>\n</html>\n';
+  html=html.slice(0,tail)+`const COMMON_COURSES=${safe(catalogs)};\n`+read('src/unified-study.js')+'\n'+read('src/option-drag.js')+'\n'+read('src/study-settings.js')+'\n'+read('src/lecture-mnemonics.js')+'\n'+read('src/practice-experience.js')+'\nnormalizeNotebook();\nprepareHomeEntry();\nrestoreChapterUrl();\nrestoreCommonPractice();\nrestoreMobilePosition();\nrender();\n</script>\n</body>\n</html>\n';
   const controls=html.indexOf('<div class="board-actions">'),controlsEnd=html.indexOf('\n    </section>',controls);if(controls<0||controlsEnd<0)throw Error('dock boundary');
   html=html.slice(0,controls)+`<nav class="study-dock board-actions" aria-label="固定答题操作"><div class="dock-context" aria-label="当前学习位置"><strong id="dock-chapter"></strong><span id="dock-progress"></span></div><div class="dock-inner"><button class="btn secondary" id="prev-btn">← 上一组</button><button class="btn primary" id="submit-btn">提交本组</button><button class="btn secondary" id="answers-btn">核对答案</button><button class="btn secondary" id="redo-batch-btn" title="仅清空当前显示题块的作答和评分，保留历史、错题与收藏">↻ 重做当前题块</button><button class="btn secondary" id="next-btn">下一组 →</button></div></nav>`+html.slice(controlsEnd);
   replace('</div><div class="dock-inner">','</div><div class="dock-chapter-row"><span id="dock-next-chapter"></span><div class="dock-chapter-actions"><button class="btn secondary" id="dock-prev-chapter-btn">‹ 上一章</button><button class="btn secondary" id="dock-next-chapter-btn">下一章 ›</button></div></div><div class="dock-inner">');
   replace('<strong id="dock-chapter"></strong>','<div class="dock-location"><strong id="dock-chapter"></strong><small class="quiz-version" id="quiz-version" aria-label="题库版本">v'+release.version+'</small></div>');
   replace('</div>\n  </header>','<button class="quiet settings-open" id="study-settings-btn" type="button" aria-haspopup="dialog">⚙ 设置</button></div>\n  </header>');
+  replace('<header class="topbar">','<header class="topbar"><a class="home-return" href="./index.html?course='+id+'" aria-label="返回题库与章节选择">‹ 题库首页</a>');
   replace('<span class="spacer"></span>','<button class="btn ghost" id="clear-btn">清空本组</button><span class="spacer"></span>');
   replace('<span id="notebook-count">0</span>','<span id="notebook-count">0</span>');
   html=html.replace('错题本 <span id="notebook-count">','通用错题本 <span id="notebook-count">');
@@ -45,7 +46,7 @@ for(const [id,bank]of Object.entries(banks)){
   html=html.replace(/<strong id="current-chapter-name">[^<]+<\/strong>/,`<strong id="current-chapter-name">${spec[id].name}全章</strong>`);
   // Hide redundant micro-navigation; its handlers remain compatible with old entry points.
   replace('<span class="mobile-help">点选选项，再点右侧答题框</span>','<span class="mobile-help">拖动 ⠿ 把手，或点选后放入答题框</span>');
-  replace('</style>',read('src/surgery-navigation.css')+'\n'+read('src/unified-study.css')+'\n'+read('src/option-drag.css')+'\n'+read('src/study-settings.css')+'\n'+read('src/lecture-mnemonics.css')+'\n</style>');
+  replace('</style>',read('src/surgery-navigation.css')+'\n'+read('src/unified-study.css')+'\n'+read('src/option-drag.css')+'\n'+read('src/study-settings.css')+'\n'+read('src/lecture-mnemonics.css')+'\n'+read('src/practice-experience.css')+'\n</style>');
   new vm.Script(html.match(/<script>([\s\S]*?)<\/script>/)[1]);
   fs.writeFileSync(path.join(root,'dist',spec[id].file),html);
   fs.writeFileSync(path.join(root,'dist',id+'-bank.json'),JSON.stringify(bank,null,2));
@@ -54,3 +55,7 @@ for(const [id,bank]of Object.entries(banks)){
 }
 fs.writeFileSync(path.join(root,'dist/unified-audit.json'),JSON.stringify({revision:CUE_REVISION,courses:summary},null,2));console.log(JSON.stringify(summary));
 fs.writeFileSync(path.join(root,'dist/version.json'),JSON.stringify({version:'v'+release.version,nextVersion:'v'+release.nextVersion},null,2));
+const homeCatalog=Object.entries(banks).map(([id,b])=>({...spec[id],chapters:b.chapters.map(c=>({id:c.id,name:c.name,system:c.system,questions:c.groups.reduce((n,g)=>n+g.questions.length,0),modules:c.modules.map(m=>({id:m.id,name:m.name}))}))}));
+const home=read('src/home.html').replace('__HOME_CATALOG__',safe(homeCatalog)).replaceAll('__RELEASE_VERSION__','v'+release.version);
+for(const script of home.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(script[1]);
+fs.writeFileSync(path.join(root,'dist/index.html'),home);

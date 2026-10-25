@@ -9,7 +9,7 @@
       "rewrites": 37,
       "retired": 1,
       "added": 0,
-      "bytes": 11181932
+      "bytes": 11201873
     },
     {
       "course": "surgery",
@@ -19,7 +19,7 @@
       "rewrites": 68,
       "retired": 0,
       "added": 0,
-      "bytes": 7428194
+      "bytes": 7448134
     },
     {
       "course": "physiology",
@@ -29,7 +29,7 @@
       "rewrites": 33,
       "retired": 1,
       "added": 0,
-      "bytes": 6572315
+      "bytes": 6592258
     },
     {
       "course": "biochemistry",
@@ -39,7 +39,7 @@
       "rewrites": 15,
       "retired": 0,
       "added": 0,
-      "bytes": 6124829
+      "bytes": 6144774
     },
     {
       "course": "pathology",
@@ -49,7 +49,7 @@
       "rewrites": 32,
       "retired": 0,
       "added": 0,
-      "bytes": 6527204
+      "bytes": 6547146
     }
   ]
 }

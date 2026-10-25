@@ -10,7 +10,7 @@
 
   function activeTarget(x,y){
     const target=document.elementFromPoint(x,y)?.closest('[data-drop]');
-    return target&&!state.review&&current().some(q=>q.id===target.dataset.drop&&q.group===gesture?.optionGroup)?target:null;
+    return target&&target.getAttribute('aria-disabled')!=='true'&&!state.review&&current().some(q=>q.id===target.dataset.drop&&q.group===gesture?.optionGroup)?target:null;
   }
   function clearTarget(){
     if(gesture?.target){gesture.target.classList.remove('is-drag-target');gesture.target.closest('.card')?.classList.remove('is-drag-card');gesture.target=null;}
