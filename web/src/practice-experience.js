@@ -83,16 +83,5 @@ function restoreMobilePosition(){
  const context=document.createElement('section');context.id='mobile-study-context';context.className='mobile-study-context';context.setAttribute('aria-label','当前学习位置');context.innerHTML='<div><strong></strong><span class="mobile-mode"></span></div><p class="mobile-topic"></p><p class="mobile-next-chapter"></p><p id="mobile-question-progress" aria-live="polite"></p>';
  document.querySelector('.workspace').before(context);
  studyViewport.addEventListener('change',()=>{const id=document.querySelector('[data-question]')?.dataset.question;studySettings=readStudySettings();state.review=false;state.revealed=false;state.batchIndex=mobile()?Math.max(0,pool().findIndex(q=>q.id===id)):0;selected=null;selectedPoolId=null;render();});
- // Horizontal gestures include option text, but never the separate drag grip.
- let gesture=null,suppressSwipeClickUntil=0;
- const excluded='button,a,input,select,textarea,[data-drop],figure,.ecg-figure,.ecg-wrap,.ecg-viewport,.figure-viewer,.dialog-backdrop,img,svg,.image-figure';
- const surface=document.querySelector('.board');
- surface.addEventListener('touchstart',e=>{gesture=null;suppressSwipeClickUntil=0;const option=e.target.closest('[data-mobile-choice]'),control=e.target.closest('.study-dock button');if(!mobile()||e.touches.length!==1||e.target.closest('.handle')||e.target.closest(excluded)&&!option&&!control||!$('dialog-backdrop').hidden)return;const t=e.touches[0];if(t.clientX<18||t.clientX>innerWidth-18)return;gesture={x:t.clientX,y:t.clientY,time:Date.now(),group:state.group,batch:state.batchIndex,horizontal:false,moved:false,tap:option||control,control:!!control};},{passive:true});
- surface.addEventListener('touchmove',e=>{if(!gesture)return;if(e.touches.length!==1){gesture=null;return;}const t=e.touches[0],dx=t.clientX-gesture.x,dy=t.clientY-gesture.y;if(Math.hypot(dx,dy)>8)gesture.moved=true;if(Math.abs(dy)>18&&Math.abs(dy)>Math.abs(dx)){gesture=null;return;}if(!gesture.control&&Math.abs(dx)>20&&Math.abs(dx)>Math.abs(dy)*1.6){gesture.horizontal=true;if(e.cancelable)e.preventDefault();}},{passive:false});
- surface.addEventListener('touchend',e=>{const start=gesture;gesture=null;if(!start)return;if(start.horizontal){suppressSwipeClickUntil=Date.now()+700;if(e.cancelable)e.preventDefault();}if(e.touches.length||!e.changedTouches.length||Date.now()-start.time>1200||start.group!==state.group||start.batch!==state.batchIndex)return;const t=e.changedTouches[0],dx=t.clientX-start.x,dy=t.clientY-start.y;
-  // Commit stationary taps once, even immediately after a swipe replaces the old card.
-  if(start.tap&&!start.moved&&Math.hypot(dx,dy)<=8&&Date.now()-start.time<650&&start.tap.isConnected){if(e.cancelable)e.preventDefault();suppressSwipeClickUntil=Date.now()+700;start.tap.click();return;}
-  if(start.control||Math.abs(dx)<Math.min(65,innerWidth*.18)||Math.abs(dx)<Math.abs(dy)*1.6)return;suppressSwipeClickUntil=Date.now()+700;if(e.cancelable)e.preventDefault();const direction=dx<0?1:-1;if(!navigationTarget(direction)){toast(direction>0?'已经是最后一题':'已经是第一题');return;}navigateBatch(direction);},{passive:false});
- surface.addEventListener('touchcancel',()=>{if(gesture?.horizontal)suppressSwipeClickUntil=Date.now()+700;gesture=null;},{passive:true});
- surface.addEventListener('click',e=>{if(e.detail!==0&&Date.now()<suppressSwipeClickUntil){e.preventDefault();e.stopImmediatePropagation();}},true);
+ // Touch navigation and its visual lifecycle are installed by mobile-swipe.js.
 })();
