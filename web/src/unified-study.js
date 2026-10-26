@@ -116,7 +116,7 @@ function notebookCandidates(scope=notebookUI.scope){
   return result;
 }
 function notebookFiltered(){const term=(notebookUI.term||'').trim().toLowerCase();return notebookCandidates().filter(q=>(!notebookUI.course||notebookUI.course==='all'||q.course===notebookUI.course)&&(notebookUI.chapter==='all'||commonKey(q.course,q.chapter)===notebookUI.chapter)&&(!term||(q.stem+' '+q.chapterName+' '+q.courseName).toLowerCase().includes(term))).sort((a,b)=>(notebookUI.scope==='favorites'?(b.favorite||0)-(a.favorite||0):(b.mistake?.lastWrong||0)-(a.mistake?.lastWrong||0))||a.id.localeCompare(b.id));}
-function commonReferences(q){const refs=(q.references||[]).filter(r=>/^https:\/\//.test(r.url));return lectureMnemonicHTML(q)+(refs.length?`<aside class="supplement-references"><strong>补充核对来源</strong><ul>${refs.map(r=>`<li><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a></li>`).join('')}</ul></aside>`:'');}
+function commonReferences(q){const refs=(q.references||[]).filter(r=>/^https:\/\//.test(r.url)),s=q.sourceLecture;return (s?`<p class="source-ref">出处：${esc(s.title)} · PDF第 ${s.page} 页</p>`:'')+lectureMnemonicHTML(q)+(refs.length?`<aside class="supplement-references"><strong>补充核对来源</strong><ul>${refs.map(r=>`<li><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a></li>`).join('')}</ul></aside>`:'');}
 function notebookEntry(q){
  const names=ids=>(ids||[]).map(id=>esc(q.options.find(o=>o.id===id)?.text||id)).join(' ＋ ')||'未作答',key=commonKey(q.course,q.id);
  const oldChoice=q.mistake&&(Array.isArray(q.mistake.lastWrongChoice)?names(q.mistake.lastWrongChoice):q.mistake.choiceArchived?'改版前错选已归档，请在旧题记录查看':'旧记录未保存具体选项');
