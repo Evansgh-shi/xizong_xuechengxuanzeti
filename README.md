@@ -2,15 +2,15 @@
 
 [打开在线题库](https://evansgh-shi.github.io/xizong_xuechengxuanzeti/)
 
-当前版本 **v1.5**，下一次内容或功能更新为 v1.6。原五科合计 6,622 题；新增与其同级的“人文与口诀”入口，内含 1,775 道练习题。全站合计 8,397 道练习，口诀复练不算新增独立知识点。
+当前版本 **v1.6**，下一次内容或功能更新为 v1.7。原五科合计 6,622 题不变；同级的“人文与口诀”入口现有 660 题（55道人文知识题＋605道新编口诀字词解码题）。全站共 7,282 题，不把助记练习另算新增独立知识覆盖。
 
-## v1.5 人文与口诀
+## v1.6 口诀字词解码，移除普通题搬运
 
-首页第六个同级入口内分“人文知识”和“口诀专项”，并非把人文塞入生化。人文9页讲义逐页核读，形成55道人文知识题与10道人文口诀题；后者覆盖“咏宣言”的6个文献定位及医疗事故“中二”的对应关系。医学伦理个案保留必要情境，不将褒义措辞当答案，不把隐私或拒绝治疗的争议概括为绝对规则；待核项见 `docs/humanities-audit.md`。
+首页第六个同级入口内分“人文知识”和“口诀专项”。专项只考口诀字词所指的疾病、药物、物质或分类，例如核受体“李维嘉”：李→类固醇激素、维→维甲酸（活化维A）、嘉→甲状腺激素。按字词新编题干与同类选项，不复制原章节知识题；同一字词对应同一知识的重复题合并。人文55道知识题保留；人文7条口诀拆成8题，五科278条口诀拆成597题。
 
-五科专项按原科和原章节组织，集中收录974条此前已确认口诀对应的1,710道知识关系题。沿用原题干、同类选项、答案和解析，先考关系，答后对照口诀原句与展开；保留9道相关读图题及放大功能。此前未确认的批注仍暂缓，不把所有蓝字自动认定为口诀。每题展示真实原科、讲义和PDF页码，不能把混合来源的页码当作同一本书。
+v1.5 的1,710道五科搬运题与10道旧式人文口诀题退出专项。已有作答、历史与收藏保留在通用错题本的旧题归档，不继承到新的字词题；原五科及55道人文知识题未改。此前的974条是“口诀—普通题关联”，不是逐字拆解完成数：本版另有696条待核定拆法，明确列在 `docs/humanities-audit.json` 的 pending，不用旧题填充，不声称穷尽全部口诀。每题答后展示原句、展开与真实讲义页码，答前不展示辅助解析。
 
-新入口：[人文与口诀](https://evansgh-shi.github.io/xizong_xuechengxuanzeti/index.html?course=humanities)。专题练习共用快刷、手机吸顶/滑动、桌面整专题、设置和通用错题本。新增独立存储名 `xuecheng-humanities-drag-v1`，不改写五科题库数据或原作答记录；专项与原科是不同练习记录，不自动移植掌握状态。原始PDF未上传，GitHub Pages和ChatGPT Sites同步发布。
+入口：[人文与口诀](https://evansgh-shi.github.io/xizong_xuechengxuanzeti/index.html?course=humanities)。共用快刷、手机吸顶/滑动、桌面整专题、设置和通用错题本。独立存储名 `xuecheng-humanities-drag-v1` 不变；不改写原科记录。人文9页原文与版式核读；争议个案与批注仍列待核，不将褒义措辞或口诀当绝对诊疗/法律规则。原始PDF未上传，两个站点同步发布。
 
 ## v1.4 手机紧凑布局与选项区手势
 
@@ -39,7 +39,7 @@
 | 生理 | 1,401 | [开始练习](https://evansgh-shi.github.io/xizong_xuechengxuanzeti/physiology.html) |
 | 生化 | 729 | [开始练习](https://evansgh-shi.github.io/xizong_xuechengxuanzeti/biochemistry.html) |
 | 病理 | 880 | [开始练习](https://evansgh-shi.github.io/xizong_xuechengxuanzeti/pathology.html) |
-| 人文与口诀 | 1,775（含复练） | [选择分区](https://evansgh-shi.github.io/xizong_xuechengxuanzeti/index.html?course=humanities) |
+| 人文与口诀 | 660 | [选择分区](https://evansgh-shi.github.io/xizong_xuechengxuanzeti/index.html?course=humanities) |
 
 支持拖拽配伍、ABC 选择、整专题练习、答后解析与讲义口诀、固定操作栏、跨科错题本与收藏。
 
