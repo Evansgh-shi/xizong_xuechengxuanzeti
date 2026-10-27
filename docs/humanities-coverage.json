@@ -11481,7 +11481,7 @@
       "pendingWordExpansions": 696,
       "scope": "专项只考口诀中的字词所对应的疾病、药物、物质或分类。未核定逐字拆法的条目暂不展示；原科普通题不搬入，不以原先关联条目数冒充逐字解码完成数。"
     },
-    "releaseVersion": "v1.7",
+    "releaseVersion": "v1.8",
     "courseId": "humanities",
     "courseName": "人文与口诀",
     "poolQualityRevision": "2026-10-26-mnemonic-word-expansion-v2",

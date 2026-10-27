@@ -9,7 +9,7 @@ function restoreMobilePosition(){
  const base={pages,navigationTarget,navigateBatch,render,renderQuestions,renderHeader,addAnswer,removeAnswer,chooseOption,renderStudyTools};
  const mobile=()=>studyViewport.matches;
  const graded=q=>!!state.grades[q.id]?.instant&&equals(state.grades[q.id].chosen||[],answersFor(q));
- const locked=q=>state.review||graded(q);
+ const locked=q=>isMemorizeMode()||state.review||graded(q);
  pages=function(){if(!mobile())return base.pages();const list=pool();return list.length?list.map(q=>[q]):[[]];};
  navigationTarget=function(direction){
   if(!mobile())return base.navigationTarget(direction);
@@ -19,7 +19,7 @@ function restoreMobilePosition(){
  };
  navigateBatch=function(direction){if(!mobile())return base.navigateBatch(direction);const next=navigationTarget(direction);if(!next)return;if(next.course){navigateToCourse(next.course,commonSession(),next.edge);return;}state.group=next.group;state.batchIndex=next.batch;state.review=false;state.revealed=false;selected=null;selectedPoolId=null;dragged=null;$('option-search').value='';render();window.scrollTo({top:0,behavior:'instant'});};
  function gradeQuestion(q,auto=true){
-  if(!q||!current().some(x=>x.id===q.id)||graded(q))return;
+  if(isMemorizeMode()||!q||!current().some(x=>x.id===q.id)||graded(q))return;
   const chosen=answersFor(q),ok=equals(chosen,q.answer),old=state.history[q.id]||{};
   state.grades[q.id]={correct:ok,instant:true,chosen:[...chosen]};
   state.history[q.id]={attempts:(old.attempts||0)+1,correct:ok,last:Date.now()};noteResult(q,ok,chosen);
@@ -27,9 +27,15 @@ function restoreMobilePosition(){
   if(auto)AUTO_ADVANCE.schedule(q);
  }
  function solution(q){const before=state.review;try{state.review=true;return reviewHTML(q,answersFor(q));}finally{state.review=before;}}
+ function memorizeSolution(q){const before=state.review;try{state.review=false;return reviewHTML(q,[]).replace('讲义口诀 · 答后记忆','讲义口诀 · 背题记忆');}finally{state.review=before;}}
  function decorateCards(){
   for(const q of current()){
    const card=document.querySelector(`[data-question="${q.id}"]`);if(!card)continue;
+   if(isMemorizeMode()){
+    card.classList.remove('correct','incorrect');card.classList.add('memorize-card');
+    card.querySelectorAll('.drop-zone,.letter-choices,.choice-help,.status,.clear-question,.instant-actions,.review').forEach(el=>el.remove());
+    card.querySelector('.question-tools')?.insertAdjacentHTML('beforebegin',memorizeSolution(q));continue;
+   }
    const reviewed=locked(q),chosen=answersFor(q),ok=equals(chosen,q.answer);
    if(reviewed){
     card.classList.toggle('correct',ok);card.classList.toggle('incorrect',!ok);
@@ -46,13 +52,14 @@ function restoreMobilePosition(){
   }
  }
  function mobileOptions(q){
-  const chosen=answersFor(q),g=STUDY_UI.poolFor(q),reviewed=locked(q);
-  return `<section class="mobile-options" aria-label="当前题选项池"><div class="mobile-options-heading"><h3>选项池 <small>${q.type==='single'?'单选':'多选 · 选齐后确认'}</small></h3><span>${g.options.length} 项</span></div>${STUDY_UI.orderedOptions(g).map((o,i)=>`<button type="button" class="mobile-answer-option${chosen.includes(o.id)?' chosen':''}${reviewed&&q.answer.includes(o.id)?' answer-correct':''}${reviewed&&chosen.includes(o.id)&&!q.answer.includes(o.id)?' answer-wrong':''}${studySettings.answer==='drag'?' option':''}" data-mobile-choice="${o.id}" data-mobile-question="${q.id}"${studySettings.answer==='drag'?` data-option="${o.id}" data-option-group="${g.id}" draggable="true"`:''} aria-pressed="${chosen.includes(o.id)}"${reviewed?' disabled':''}>${studySettings.answer==='drag'?'<span class="handle" aria-hidden="true">⠿</span>':''}<span class="mobile-answer-letter">${String.fromCharCode(65+i)}</span><span>${esc(o.text)}</span>${reviewed&&q.answer.includes(o.id)?'<span class="mobile-answer-mark" aria-label="正确选项">✓</span>':''}</button>`).join('')}</section>`;
+  const memory=isMemorizeMode(),chosen=memory?[]:answersFor(q),g=STUDY_UI.poolFor(q),reviewed=locked(q),options=STUDY_UI.orderedOptions(g),canDrag=studySettings.answer==='drag'&&!memory;
+  const letters=options.flatMap((o,i)=>q.answer.includes(o.id)?[String.fromCharCode(65+i)]:[]).join('、');
+  return `<section class="mobile-options" aria-label="${memory?'背题选项与正确答案':'当前题选项池'}"><div class="mobile-options-heading"><h3>${memory?'正确答案：'+letters:'选项池'} <small>${q.type==='single'?'单选':'多选 · 选齐后确认'}</small></h3><span>${memory?'背题 · 不计分':g.options.length+' 项'}</span></div>${options.map((o,i)=>`<button type="button" class="mobile-answer-option${chosen.includes(o.id)?' chosen':''}${reviewed&&q.answer.includes(o.id)?' answer-correct':''}${reviewed&&chosen.includes(o.id)&&!q.answer.includes(o.id)?' answer-wrong':''}${canDrag?' option':''}" data-mobile-choice="${o.id}" data-mobile-question="${q.id}"${canDrag?` data-option="${o.id}" data-option-group="${g.id}" draggable="true"`:''} aria-pressed="${chosen.includes(o.id)}"${reviewed?' disabled':''}>${canDrag?'<span class="handle" aria-hidden="true">⠿</span>':''}<span class="mobile-answer-letter">${String.fromCharCode(65+i)}</span><span>${esc(o.text)}</span>${reviewed&&q.answer.includes(o.id)?'<span class="mobile-answer-mark" aria-label="正确选项">✓</span>':''}</button>`).join('')}</section>`;
  }
  renderQuestions=function(){
   if(!mobile()){base.renderQuestions();decorateCards();return;}
   const q=current()[0];if(!q){base.renderQuestions();return;}
-  $('question-grid').innerHTML=STUDY_UI.questionCard(q,state.batchIndex)+mobileOptions(q);
+  const previous={review:state.review,revealed:state.revealed};try{if(isMemorizeMode()){state.review=false;state.revealed=false;}$('question-grid').innerHTML=STUDY_UI.questionCard(q,state.batchIndex)+mobileOptions(q);}finally{state.review=previous.review;state.revealed=previous.revealed;}
   decorateCards();
   const card=$('question-grid').querySelector('.card'),review=card.querySelector('.review'),actions=card.querySelector('.instant-actions');
   if(actions)$('question-grid').append(actions);if(review)$('question-grid').append(review);
@@ -71,15 +78,18 @@ function restoreMobilePosition(){
   if(q&&locked(q)&&e.target.closest('[data-choice-q],[data-drop],[data-remove],[data-clear-q]')){e.preventDefault();e.stopImmediatePropagation();}
  },true);
  // Do not count previously instant-graded cards again when submitting a topic.
- $('submit-btn').addEventListener('click',e=>{if(!studySettings.quick)return;e.preventDefault();e.stopImmediatePropagation();if(state.review){for(const q of current())delete state.grades[q.id];state.review=false;state.revealed=false;render();return;}const list=[...current()];for(const q of list)if(!graded(q))gradeQuestion(q,false);state.review=true;state.revealed=true;render();},true);
+ const baseSubmit=submit;submit=function(){if(isMemorizeMode())return;return baseSubmit();};
+ const baseRedo=redoCurrentBatch;redoCurrentBatch=function(){if(!isMemorizeMode())return baseRedo();AUTO_ADVANCE.cancel();renderQuestions();renderHeader();scrollTo({top:0,behavior:'instant'});};
+ $('redo-batch-btn').addEventListener('click',e=>{if(!isMemorizeMode())return;e.preventDefault();e.stopImmediatePropagation();redoCurrentBatch();},true);
+ $('submit-btn').addEventListener('click',e=>{if(isMemorizeMode()){e.preventDefault();e.stopImmediatePropagation();return;}if(!studySettings.quick)return;e.preventDefault();e.stopImmediatePropagation();if(state.review){for(const q of current())delete state.grades[q.id];state.review=false;state.revealed=false;render();return;}const list=[...current()];for(const q of list)if(!graded(q))gradeQuestion(q,false);state.review=true;state.revealed=true;render();},true);
  renderHeader=function(){base.renderHeader();if(!mobile())return;const q=current()[0],m=currentModule();$('group-title').textContent=m.name;$('group-count').textContent=`第 ${state.batchIndex+1}/${pages().length} 题`;
-  const context=$('mobile-study-context');context.querySelector('strong').textContent=SOURCE.courseName+' · '+chapter().name;context.querySelector('.mobile-topic').textContent=m.name;context.querySelector('.mobile-mode').textContent=(studySettings.quick?'快刷':'逐题练习')+' · '+(studySettings.answer==='choice'?'选项模式':'拖拽模式')+' · '+SOURCE.releaseVersion;
+  const context=$('mobile-study-context');context.querySelector('strong').textContent=SOURCE.courseName+' · '+chapter().name;context.querySelector('.mobile-topic').textContent=m.name;context.querySelector('.mobile-mode').textContent=(isMemorizeMode()?'背题 · 答案同显':(studySettings.quick?'快刷':'逐题练习')+' · '+(studySettings.answer==='choice'?'选项模式':'拖拽模式'))+' · '+SOURCE.releaseVersion;
   context.querySelector('.mobile-next-chapter').textContent=CHAPTERS[CHAPTERS.indexOf(chapter())+1]?'下一章：'+CHAPTERS[CHAPTERS.indexOf(chapter())+1].name:'本课程最后一章';
-  const reviewed=q&&locked(q);$('redo-batch-btn').textContent='重新做题';$('prev-btn').textContent='上一组';$('next-btn').textContent='下一组';
+  const reviewed=q&&locked(q);$('redo-batch-btn').textContent=isMemorizeMode()?'重新浏览':'重新做题';$('redo-batch-btn').title=isMemorizeMode()?'回到本题顶部，不清空作答或历史':'仅清空当前显示题目的作答和评分，保留历史、错题与收藏';$('prev-btn').textContent='上一组';$('next-btn').textContent='下一组';
   $('mobile-question-progress').textContent=q?`本选项组 ${state.batchIndex+1}/${pages().length} 题 · 左右滑动切题${reviewed?' · 已批改':''}`:'暂无符合筛选的题目';
  };
- renderStudyTools=function(){base.renderStudyTools();if(mobile()){$('prev-btn').textContent='上一组';$('next-btn').textContent='下一组';$('redo-batch-btn').textContent='重新做题';}else $('redo-batch-btn').textContent='↻ 重做当前题块';};
- render=function(){document.body.classList.toggle('mobile-practice',mobile());document.body.classList.toggle('quick-practice',!!studySettings.quick);base.render();state.homeChapterId=chapter().id;if(mobile()){state.mobileQuestionId=current()[0]?.id;document.documentElement.style.setProperty('--mobile-context-height',Math.ceil($('mobile-study-context').getBoundingClientRect().height)+'px');}save();syncStudyToolbarHeight();};
+ renderStudyTools=function(){base.renderStudyTools();if(mobile()){$('prev-btn').textContent='上一组';$('next-btn').textContent='下一组';$('redo-batch-btn').textContent=isMemorizeMode()?'重新浏览':'重新做题';}else $('redo-batch-btn').textContent='↻ 重做当前题块';};
+ render=function(){document.body.classList.toggle('mobile-practice',mobile());document.body.classList.toggle('memorize-mode',isMemorizeMode());document.body.classList.toggle('quick-practice',!!studySettings.quick&&!isMemorizeMode());base.render();state.homeChapterId=chapter().id;if(mobile()){state.mobileQuestionId=current()[0]?.id;document.documentElement.style.setProperty('--mobile-context-height',Math.ceil($('mobile-study-context').getBoundingClientRect().height)+'px');}save();syncStudyToolbarHeight();};
  const context=document.createElement('section');context.id='mobile-study-context';context.className='mobile-study-context';context.setAttribute('aria-label','当前学习位置');context.innerHTML='<div><strong></strong><span class="mobile-mode"></span></div><p class="mobile-topic"></p><p class="mobile-next-chapter"></p><p id="mobile-question-progress" aria-live="polite"></p>';
  document.querySelector('.workspace').before(context);
  studyViewport.addEventListener('change',()=>{const id=document.querySelector('[data-question]')?.dataset.question;studySettings=readStudySettings();state.review=false;state.revealed=false;state.batchIndex=mobile()?Math.max(0,pool().findIndex(q=>q.id===id)):0;selected=null;selectedPoolId=null;render();});

@@ -2,7 +2,7 @@
 // No timer is stored in the course record, restored on reload, or used by batch submit.
 const AUTO_ADVANCE=(()=>{
  let pending=null;
- const enabled=()=>studySettings.quick&&studySettings.autoAdvance;
+ const enabled=()=>!isMemorizeMode()&&studySettings.quick&&studySettings.autoAdvance;
  const graded=q=>!!state.grades[q.id]?.instant&&equals(state.grades[q.id].chosen||[],answersFor(q));
  function cancel(){const active=!!pending;if(pending){clearTimeout(pending.timer);clearInterval(pending.ticker);pending=null;}document.querySelectorAll('.auto-advance-notice').forEach(e=>e.remove());return active;}
  function subsequent(q){const qs=current(),index=qs.findIndex(x=>x.id===q.id);return index>=0?qs.slice(index+1).find(x=>!graded(x)):null;}
@@ -30,6 +30,6 @@ const AUTO_ADVANCE=(()=>{
  document.addEventListener('touchstart',e=>{if(!e.target.closest('[data-stop-auto-advance]'))cancel();},{passive:true,capture:true});
  document.addEventListener('wheel',cancel,{passive:true});document.addEventListener('keydown',cancel,true);
  document.addEventListener('visibilitychange',()=>{if(document.hidden)cancel();});window.addEventListener('blur',cancel);window.addEventListener('pagehide',cancel);
- $('dialog-body').addEventListener('change',e=>{if(!['study-quick','study-auto-advance'].includes(e.target.id))return;const quick=$('study-quick'),auto=$('study-auto-advance'),delay=$('study-advance-delay');if(auto)auto.disabled=!quick.checked;if(delay)delay.disabled=!quick.checked||!auto.checked;});
+ $('dialog-body').addEventListener('change',e=>{if(!['study-quick','study-auto-advance'].includes(e.target.id)&&e.target.name!=='study-learning')return;const memory=studyViewport.matches&&document.querySelector('input[name="study-learning"]:checked')?.value==='memorize',quick=$('study-quick'),auto=$('study-auto-advance'),delay=$('study-advance-delay');if(quick)quick.disabled=memory;if(auto)auto.disabled=memory||!quick.checked;if(delay)delay.disabled=memory||!quick.checked||!auto.checked;});
  return{schedule,cancel};
 })();
