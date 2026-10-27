@@ -84,7 +84,7 @@
       "examLabels": 369,
       "note": "红字与试题标签仅用于定位，不是独立知识点分母；题目映射及例外见各章coverage。"
     },
-    "releaseVersion": "v1.8",
+    "releaseVersion": "v1.9",
     "courseId": "physiology",
     "courseName": "生理",
     "poolQualityRevision": "2026-10-25-source-cues-v6",

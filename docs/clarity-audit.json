@@ -1,0 +1,1633 @@
+{
+  "revision": "2026-10-27-clear-relations-v7",
+  "scans": {
+    "internal": {
+      "questions": 2214,
+      "candidates": [
+        {
+          "id": "blood-hemolysis-04-q4",
+          "chapter": "blood-hemolysis",
+          "page": 192,
+          "stem": "按讲义，切脾效果与溶血主要破坏部位的完整配伍是？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "blood-bleeding-01-q5",
+          "chapter": "blood-bleeding",
+          "page": 197,
+          "stem": "按讲义，ITP急症条目提示警惕颅内出血风险的两类警示线索，完整配伍是什么？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "blood-mm-02-q10",
+          "chapter": "blood-mm",
+          "page": 204,
+          "stem": "按讲义预后因素条目，人口学、遗传、分期、器官功能与酶指标的完整配伍是哪项？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "supp-blood-mm-02-q2",
+          "chapter": "blood-mm",
+          "page": 204,
+          "stem": "D-SⅠ期需同时满足的四方面条件组合是什么？",
+          "reason": [
+            "implicit-relation"
+          ]
+        },
+        {
+          "id": "blood-mds-02-q6",
+          "chapter": "blood-mds",
+          "page": 207,
+          "stem": "按讲义常见核型条目，四组染色体改变的完整配伍是哪项？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "blood-lymphoma-05-q5",
+          "chapter": "blood-lymphoma",
+          "page": 224,
+          "stem": "按讲义所列典型免疫表型，滤泡性淋巴瘤六项标记的完整配伍是？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "blood-lymphoma-05-q6",
+          "chapter": "blood-lymphoma",
+          "page": 224,
+          "stem": "按讲义典型免疫表型，Burkitt七项标记的完整配伍是哪组？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "endo-graves-01-q9",
+          "chapter": "endo-graves",
+          "page": 231,
+          "stem": "按讲义，单纯性突眼的主要机制及突眼度超参考值的规定范围，完整配伍是哪项？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "endo-graves-01-q10",
+          "chapter": "endo-graves",
+          "page": 232,
+          "stem": "按讲义，浸润性突眼的主要机制及突眼度超参考值的规定范围，完整配伍是哪项？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "endo-hypothyroid-02-q3",
+          "chapter": "endo-hypothyroid",
+          "page": 240,
+          "stem": "按讲义L-T4调整期，原发性监测指标/间隔与中枢性依据如何完整配伍？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "endo-diabetes-04-q8",
+          "chapter": "endo-diabetes",
+          "page": 245,
+          "stem": "仅按讲义HHS流程，输入生理盐水后考虑低渗液的三项条件完整配伍是哪项？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "endo-diabetes-05-q12",
+          "chapter": "endo-diabetes",
+          "page": 246,
+          "stem": "只按讲义分期治疗表，重度NPDR与存在威胁视力情况的PDR，材料所列主要处理如何配伍？",
+          "reason": [
+            "implicit-relation"
+          ]
+        },
+        {
+          "id": "endo-diabetes-09-q4",
+          "chapter": "endo-diabetes",
+          "page": 252,
+          "stem": "只按讲义选药小结，T2DM合并ASCVD明确列出的三类药完整配伍是哪组？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "endo-cushing-01-q3",
+          "chapter": "endo-cushing",
+          "page": 260,
+          "stem": "只按讲义临床清单，皮肤外貌、骨代谢及精神表现的完整配伍是哪项？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "endo-cushing-01-q7",
+          "chapter": "endo-cushing",
+          "page": 260,
+          "stem": "按讲义异位ACTH病因条目，三种明确列出的肿瘤完整配伍是哪组？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "endo-cushing-01-q8",
+          "chapter": "endo-cushing",
+          "page": 260,
+          "stem": "按讲义，四类病因与ACTH依赖性如何完整配伍？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "supp-endo-cushing-01-q5",
+          "chapter": "endo-cushing",
+          "page": 260,
+          "stem": "按讲义病因链，垂体ACTH、腺外ACTH及罕见腺外CRH三个来源的类别命名，如何完整配伍？",
+          "reason": [
+            "compressed-whole-table",
+            "implicit-relation"
+          ]
+        },
+        {
+          "id": "supp-endo-cushing-02-q1",
+          "chapter": "endo-cushing",
+          "page": 260,
+          "stem": "只按讲义Meador相关病变伴发肿瘤的原文清单，皮肤、乳房、心脏、性腺、垂体五栏完整配伍是哪组？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "endo-pheochromocytoma-03-q6",
+          "chapter": "endo-pheochromocytoma",
+          "page": 265,
+          "stem": "按讲义术后第一周血压仍高的解释清单，四方面完整配伍是哪项？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "rheum-overview-02-q6",
+          "chapter": "rheum-overview",
+          "page": 269,
+          "stem": "按讲义系统性硬化症条目，明确列出的三种抗体完整配伍是哪组？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "rheum-sle-03-q1",
+          "chapter": "rheum-sle",
+          "page": 273,
+          "stem": "按讲义SLE清单，典型皮疹、口鼻溃疡疼痛特点及应避免的刺激，如何完整配伍？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "rheum-sle-03-q9",
+          "chapter": "rheum-sle",
+          "page": 273,
+          "stem": "只按讲义，背景治疗、激素联合免疫抑制及急性危重型的强化方式，三个角色如何完整配伍？",
+          "reason": [
+            "compressed-whole-table",
+            "implicit-relation"
+          ]
+        },
+        {
+          "id": "rheum-ra-03-q6",
+          "chapter": "rheum-ra",
+          "page": 277,
+          "stem": "只按讲义RA治疗清单，明确列出的两种手术方式完整配伍是哪组？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "rheum-sjogren-02-q1",
+          "chapter": "rheum-sjogren",
+          "page": 280,
+          "stem": "按讲义无内脏损害条目，所列两种促腺体分泌对症药完整配伍是哪组？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "rheum-vasculitis-01-q10",
+          "chapter": "rheum-vasculitis",
+          "page": 282,
+          "stem": "按讲义抗体小结，p/MPO-ANCA、c-ANCA、AECA三栏的明确列举病型如何配伍？",
+          "reason": [
+            "implicit-relation"
+          ]
+        },
+        {
+          "id": "rheum-vasculitis-02-q4",
+          "chapter": "rheum-vasculitis",
+          "page": 282,
+          "stem": "只按讲义显微镜下多血管炎肾外条目，明确列举的受累范围完整配伍是哪项？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "rheum-vasculitis-03-q5",
+          "chapter": "rheum-vasculitis",
+          "page": 283,
+          "stem": "只按讲义白塞病三个治疗条目，内脏/眼炎、口腔溃疡、预防皮肤黏膜复发的角色如何完整配伍？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "s14",
+          "chapter": "toxicology",
+          "page": 286,
+          "stem": "按讲义，硝基苯的特征气味及先后可能的皮肤颜色变化，完整配伍是哪项？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "tox-additional-q2",
+          "chapter": "toxicology",
+          "page": 287,
+          "stem": "按讲义三条安全警示，强腐蚀物情况下插管、食管静脉曲张情况下插管、强酸强碱互相中和，各自重点担心的风险如何配伍？",
+          "reason": [
+            "implicit-relation"
+          ]
+        },
+        {
+          "id": "cardio-endocarditis-g2-q1",
+          "chapter": "cardio-endocarditis",
+          "page": 305,
+          "stem": "按本页急性/亚急性感染性心内膜炎对照，瓣膜背景与热型的完整配伍是哪组？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "cardio-diagnostics-g1-q3",
+          "chapter": "cardio-diagnostics",
+          "page": 315,
+          "stem": "第一、第二心音各标志哪一阶段开始，完整配伍为？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        },
+        {
+          "id": "cardio-arrest-g1-q4",
+          "chapter": "cardio-arrest",
+          "page": 394,
+          "stem": "本讲义初级心肺复苏三个缩写环节的完整配伍是哪组？",
+          "reason": [
+            "compressed-whole-table"
+          ]
+        }
+      ],
+      "scope": "规则扫描全库；命中题及相关邻题回到讲义核读，不等同于全部医学事实重新审核"
+    },
+    "surgery": {
+      "questions": 1398,
+      "candidates": [],
+      "scope": "规则扫描全库；命中题及相关邻题回到讲义核读，不等同于全部医学事实重新审核"
+    },
+    "physiology": {
+      "questions": 1401,
+      "candidates": [],
+      "scope": "规则扫描全库；命中题及相关邻题回到讲义核读，不等同于全部医学事实重新审核"
+    },
+    "biochemistry": {
+      "questions": 729,
+      "candidates": [],
+      "scope": "规则扫描全库；命中题及相关邻题回到讲义核读，不等同于全部医学事实重新审核"
+    },
+    "pathology": {
+      "questions": 880,
+      "candidates": [],
+      "scope": "规则扫描全库；命中题及相关邻题回到讲义核读，不等同于全部医学事实重新审核"
+    },
+    "humanities": {
+      "questions": 660,
+      "candidates": [],
+      "scope": "规则扫描全库；命中题及相关邻题回到讲义核读，不等同于全部医学事实重新审核"
+    }
+  },
+  "courses": [
+    {
+      "course": "internal",
+      "rewrites": [
+        {
+          "id": "blood-hemolysis-04-q4",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义，切脾效果与溶血主要破坏部位的完整配伍是？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "脾为主血管外有效—血管内及原位无效"
+              },
+              {
+                "id": "o1",
+                "text": "脾为主血管外无效—血管内及原位有效"
+              },
+              {
+                "id": "o2",
+                "text": "血管外和血管内均有效—原位无效"
+              },
+              {
+                "id": "o3",
+                "text": "血管外和原位均有效—血管内无效"
+              }
+            ],
+            "page": 192,
+            "chapter": "blood-hemolysis",
+            "group": "blood-hemolysis-v5-splenectomy-site"
+          }
+        },
+        {
+          "id": "blood-bleeding-01-q5",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义，ITP急症条目提示警惕颅内出血风险的两类警示线索，完整配伍是什么？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "口腔血疱—视物模糊"
+              },
+              {
+                "id": "o1",
+                "text": "口腔无血疱—视物模糊"
+              },
+              {
+                "id": "o2",
+                "text": "口腔血疱—视力不受影响"
+              },
+              {
+                "id": "o3",
+                "text": "口腔无血疱—视力不受影响"
+              }
+            ],
+            "page": 197,
+            "chapter": "blood-bleeding",
+            "group": "blood-bleeding-v5-itp-warning-signs"
+          }
+        },
+        {
+          "id": "blood-mm-02-q10",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义预后因素条目，人口学、遗传、分期、器官功能与酶指标的完整配伍是哪项？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "年龄—细胞遗传学—ISS—肾功能—LDH"
+              },
+              {
+                "id": "o1",
+                "text": "年龄—细胞遗传学—ISS—肝功能—LDH"
+              },
+              {
+                "id": "o2",
+                "text": "年龄—细胞遗传学—D-S—肾功能—ALT"
+              },
+              {
+                "id": "o3",
+                "text": "年龄—细胞遗传学—D-S—肝功能—ALT"
+              }
+            ],
+            "page": 204,
+            "chapter": "blood-mm",
+            "group": "blood-mm-v5-mm-prognostic-factors"
+          }
+        },
+        {
+          "id": "supp-blood-mm-02-q2",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "D-SⅠ期需同时满足的四方面条件组合是什么？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "Hb＞100—Ca≤2.65—低M蛋白—骨正常/孤立浆细胞瘤（均满足）"
+              },
+              {
+                "id": "o1",
+                "text": "Hb＞100—Ca＞2.65—低M蛋白—骨正常/孤立浆细胞瘤（均满足）"
+              },
+              {
+                "id": "o2",
+                "text": "Hb＜85—Ca≤2.65—低M蛋白—溶骨灶＞3（均满足）"
+              },
+              {
+                "id": "o3",
+                "text": "Hb＜85—Ca＞2.65—高M蛋白—溶骨灶＞3（任一满足）"
+              }
+            ],
+            "page": 204,
+            "chapter": "blood-mm",
+            "group": "blood-mm-v5-mm-ds-conditions"
+          }
+        },
+        {
+          "id": "blood-mds-02-q6",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义常见核型条目，四组染色体改变的完整配伍是哪项？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "5/5q缺失—7/7q缺失—20q缺失—8三体"
+              },
+              {
+                "id": "o1",
+                "text": "5/5q增加—7/7q缺失—20q缺失—8三体"
+              },
+              {
+                "id": "o2",
+                "text": "5/5q缺失—7/7q增加—20q缺失—8三体"
+              },
+              {
+                "id": "o3",
+                "text": "5/5q缺失—7/7q缺失—20q增加—8单体"
+              }
+            ],
+            "page": 207,
+            "chapter": "blood-mds",
+            "group": "blood-mds-v5-mds-cytogenetics"
+          }
+        },
+        {
+          "id": "blood-lymphoma-05-q5",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义所列典型免疫表型，滤泡性淋巴瘤六项标记的完整配伍是？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "CD10+—CD19+—CD20+—CD79a+—BCL2+—BCL6+"
+              },
+              {
+                "id": "o1",
+                "text": "CD10−—CD19+—CD20+—CD79a+—BCL2+—BCL6+"
+              },
+              {
+                "id": "o2",
+                "text": "CD10+—CD19+—CD20−—CD79a+—BCL2+—BCL6+"
+              },
+              {
+                "id": "o3",
+                "text": "CD10+—CD19+—CD20+—CD79a+—BCL2−—BCL6−"
+              }
+            ],
+            "page": 224,
+            "chapter": "blood-lymphoma",
+            "group": "blood-lymphoma-v5-follicular-marker-pattern"
+          }
+        },
+        {
+          "id": "blood-lymphoma-05-q6",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义典型免疫表型，Burkitt七项标记的完整配伍是哪组？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "CD10+—CD19+—CD20+—CD22+—CD79a+—BCL6+—Ki67高"
+              },
+              {
+                "id": "o1",
+                "text": "CD10+—CD19+—CD20+—CD22−—CD79a+—BCL6+—Ki67高"
+              },
+              {
+                "id": "o2",
+                "text": "CD10−—CD19+—CD20+—CD22+—CD79a+—BCL6+—Ki67高"
+              },
+              {
+                "id": "o3",
+                "text": "CD10+—CD19+—CD20+—CD22+—CD79a+—BCL6−—Ki67低"
+              }
+            ],
+            "page": 224,
+            "chapter": "blood-lymphoma",
+            "group": "blood-lymphoma-v5-burkitt-marker-pattern"
+          }
+        },
+        {
+          "id": "endo-hypothyroid-02-q3",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义L-T4调整期，原发性监测指标/间隔与中枢性依据如何完整配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "原发：TSH每4–6周；中枢：依据FT4"
+              },
+              {
+                "id": "o1",
+                "text": "原发：FT4每4–6周；中枢：依据TSH"
+              },
+              {
+                "id": "o2",
+                "text": "原发：TSH每4–6天；中枢：依据FT4"
+              },
+              {
+                "id": "o3",
+                "text": "原发：FT4每4–6天；中枢：依据TSH"
+              }
+            ],
+            "page": 240,
+            "chapter": "endo-hypothyroid",
+            "group": "endo-hypothyroid-v5-replacement-monitor"
+          }
+        },
+        {
+          "id": "endo-diabetes-04-q8",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "仅按讲义HHS流程，输入生理盐水后考虑低渗液的三项条件完整配伍是哪项？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "无休克—渗透压＞350—Na＞155"
+              },
+              {
+                "id": "o1",
+                "text": "有休克—渗透压＞350—Na＞155"
+              },
+              {
+                "id": "o2",
+                "text": "无休克—渗透压＜350—Na＞155"
+              },
+              {
+                "id": "o3",
+                "text": "无休克—渗透压＞350—Na＜155"
+              }
+            ],
+            "page": 245,
+            "chapter": "endo-diabetes",
+            "group": "endo-diabetes-v5-hhs-hypotonic-condition"
+          }
+        },
+        {
+          "id": "endo-diabetes-05-q12",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "只按讲义分期治疗表，重度NPDR与存在威胁视力情况的PDR，材料所列主要处理如何配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "重度NPDR：全视网膜光凝；威胁视力PDR：玻切"
+              },
+              {
+                "id": "o1",
+                "text": "重度NPDR：玻切；威胁视力PDR：全视网膜光凝"
+              },
+              {
+                "id": "o2",
+                "text": "重度NPDR：全视网膜光凝；威胁视力PDR：微脉冲+抗VEGF"
+              },
+              {
+                "id": "o3",
+                "text": "重度NPDR：微脉冲+抗VEGF；威胁视力PDR：玻切"
+              }
+            ],
+            "page": 246,
+            "chapter": "endo-diabetes",
+            "group": "endo-diabetes-v5-retinal-treatment-purposes"
+          }
+        },
+        {
+          "id": "endo-diabetes-09-q4",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "只按讲义选药小结，T2DM合并ASCVD明确列出的三类药完整配伍是哪组？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "双胍—SGLT-2i—GLP-1RA"
+              },
+              {
+                "id": "o1",
+                "text": "双胍—磺脲—GLP-1RA"
+              },
+              {
+                "id": "o2",
+                "text": "双胍—SGLT-2i—格列奈"
+              },
+              {
+                "id": "o3",
+                "text": "磺脲—格列奈—噻唑烷二酮"
+              }
+            ],
+            "page": 252,
+            "chapter": "endo-diabetes",
+            "group": "endo-diabetes-v5-ascvd-drug-classes"
+          }
+        },
+        {
+          "id": "endo-cushing-01-q3",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "只按讲义临床清单，皮肤外貌、骨代谢及精神表现的完整配伍是哪项？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "多血质/紫纹—骨疏松—可有精神异常"
+              },
+              {
+                "id": "o1",
+                "text": "多血质/紫纹—骨增密—可有精神异常"
+              },
+              {
+                "id": "o2",
+                "text": "贫血质/无紫纹—骨疏松—可有精神异常"
+              },
+              {
+                "id": "o3",
+                "text": "多血质/紫纹—骨疏松—无精神异常条目"
+              }
+            ],
+            "page": 260,
+            "chapter": "endo-cushing",
+            "group": "endo-cushing-v5-cushing-skin-bone-neuro"
+          }
+        },
+        {
+          "id": "endo-cushing-01-q4",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "多选：按讲义病因分类，哪些属于ACTH依赖型，因而可与该类所述色素沉着相联系？",
+            "answer": [
+              "o0",
+              "o1"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "垂体ACTH病变"
+              },
+              {
+                "id": "o1",
+                "text": "异位ACTH综合征"
+              },
+              {
+                "id": "o2",
+                "text": "肾上腺皮质腺瘤"
+              },
+              {
+                "id": "o3",
+                "text": "双侧肾上腺结节性增生"
+              }
+            ],
+            "page": 260,
+            "chapter": "endo-cushing",
+            "group": "endo-cushing-v5-acth-dependent-etiologies"
+          }
+        },
+        {
+          "id": "endo-cushing-01-q7",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义异位ACTH病因条目，三种明确列出的肿瘤完整配伍是哪组？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "小细胞肺癌—类癌—胸腺癌"
+              },
+              {
+                "id": "o1",
+                "text": "小细胞肺癌—类癌—肾上腺皮质瘤"
+              },
+              {
+                "id": "o2",
+                "text": "小细胞肺癌—垂体ACTH瘤—胸腺癌"
+              },
+              {
+                "id": "o3",
+                "text": "垂体ACTH瘤—肾上腺皮质瘤—类癌"
+              }
+            ],
+            "page": 260,
+            "chapter": "endo-cushing",
+            "group": "endo-cushing-v5-ectopic-acth-tumors"
+          }
+        },
+        {
+          "id": "supp-endo-cushing-01-q4",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义，库欣病可由哪些垂体病变造成？选完整三项配伍。",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "ACTH微腺瘤—ACTH大腺瘤—ACTH细胞增生"
+              },
+              {
+                "id": "o1",
+                "text": "ACTH微腺瘤—ACTH大腺瘤—GH细胞瘤"
+              },
+              {
+                "id": "o2",
+                "text": "ACTH微腺瘤—肾上腺皮质瘤—ACTH细胞增生"
+              },
+              {
+                "id": "o3",
+                "text": "异位ACTH肿瘤—ACTH大腺瘤—GH细胞瘤"
+              }
+            ],
+            "page": 260,
+            "chapter": "endo-cushing",
+            "group": "endo-cushing-v5-cushing-pituitary-lesions"
+          }
+        },
+        {
+          "id": "supp-endo-cushing-01-q5",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义病因链，垂体ACTH、腺外ACTH及罕见腺外CRH三个来源的类别命名，如何完整配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "垂体ACTH→库欣病；腺外ACTH→异位ACTH；腺外CRH→异位CRH"
+              },
+              {
+                "id": "o1",
+                "text": "垂体ACTH→异位ACTH；腺外ACTH→库欣病；腺外CRH→异位CRH"
+              },
+              {
+                "id": "o2",
+                "text": "垂体ACTH→库欣病；腺外ACTH→异位CRH；腺外CRH→异位ACTH"
+              },
+              {
+                "id": "o3",
+                "text": "垂体ACTH→异位CRH；腺外ACTH→异位ACTH；腺外CRH→库欣病"
+              }
+            ],
+            "page": 260,
+            "chapter": "endo-cushing",
+            "group": "endo-cushing-v5-ectopic-hormone-chain"
+          }
+        },
+        {
+          "id": "supp-endo-cushing-02-q1",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "只按讲义Meador相关病变伴发肿瘤的原文清单，皮肤、乳房、心脏、性腺、垂体五栏完整配伍是哪组？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "皮肤黏液瘤—乳房黏液瘤—心房黏液瘤—睾丸肿瘤—垂体GH瘤"
+              },
+              {
+                "id": "o1",
+                "text": "皮肤脂肪瘤—乳房黏液瘤—心房黏液瘤—睾丸肿瘤—垂体GH瘤"
+              },
+              {
+                "id": "o2",
+                "text": "皮肤黏液瘤—乳房黏液瘤—心室黏液瘤—睾丸肿瘤—垂体GH瘤"
+              },
+              {
+                "id": "o3",
+                "text": "皮肤黏液瘤—乳房黏液瘤—心房黏液瘤—睾丸肿瘤—垂体ACTH瘤"
+              }
+            ],
+            "page": 260,
+            "chapter": "endo-cushing",
+            "group": "endo-cushing-v5-carney-complete-tumors"
+          }
+        },
+        {
+          "id": "endo-pheochromocytoma-03-q6",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义术后第一周血压仍高的解释清单，四方面完整配伍是哪项？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "术后应激—储存儿茶酚胺多—血管损伤—合并原发高血压"
+              },
+              {
+                "id": "o1",
+                "text": "术后应激—储存儿茶酚胺少—血管损伤—合并原发高血压"
+              },
+              {
+                "id": "o2",
+                "text": "术后无应激—储存儿茶酚胺多—血管损伤—合并原发高血压"
+              },
+              {
+                "id": "o3",
+                "text": "术后应激—储存儿茶酚胺多—血管未损伤—无原发高血压"
+              }
+            ],
+            "page": 265,
+            "chapter": "endo-pheochromocytoma",
+            "group": "endo-pheochromocytoma-v5-pheo-postop-pressure"
+          }
+        },
+        {
+          "id": "rheum-overview-02-q6",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义系统性硬化症条目，明确列出的三种抗体完整配伍是哪组？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "抗核仁—抗着丝点—抗Scl-70"
+              },
+              {
+                "id": "o1",
+                "text": "抗核仁—抗着丝点—抗Jo-1"
+              },
+              {
+                "id": "o2",
+                "text": "抗SSA—抗着丝点—抗Scl-70"
+              },
+              {
+                "id": "o3",
+                "text": "抗CCP—RF—抗Jo-1"
+              }
+            ],
+            "page": 269,
+            "chapter": "rheum-overview",
+            "group": "rheum-overview-v5-scleroderma-antibody-triplet"
+          }
+        },
+        {
+          "id": "rheum-sle-03-q1",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义SLE清单，典型皮疹、口鼻溃疡疼痛特点及应避免的刺激，如何完整配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "蝶/盘状红斑—口鼻溃疡多无痛—避免紫外线"
+              },
+              {
+                "id": "o1",
+                "text": "蝶/盘状红斑—口鼻溃疡多疼痛—避免紫外线"
+              },
+              {
+                "id": "o2",
+                "text": "结节性红斑—口鼻溃疡多无痛—避免紫外线"
+              },
+              {
+                "id": "o3",
+                "text": "蝶/盘状红斑—口鼻溃疡多无痛—增加紫外线"
+              }
+            ],
+            "page": 273,
+            "chapter": "rheum-sle",
+            "group": "rheum-sle-v5-sle-skin-mouth-trigger"
+          }
+        },
+        {
+          "id": "rheum-sle-03-q9",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "只按讲义，背景治疗、激素联合免疫抑制及急性危重型的强化方式，三个角色如何完整配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "背景：羟氯喹；免疫：激素+CTX/MMF；危象：大剂量甲泼冲击"
+              },
+              {
+                "id": "o1",
+                "text": "背景：CTX/MMF；免疫：激素+羟氯喹；危象：大剂量甲泼冲击"
+              },
+              {
+                "id": "o2",
+                "text": "背景：羟氯喹；免疫：大剂量甲泼冲击；危象：激素+CTX/MMF"
+              },
+              {
+                "id": "o3",
+                "text": "背景：大剂量甲泼冲击；免疫：激素+CTX/MMF；危象：羟氯喹"
+              }
+            ],
+            "page": 273,
+            "chapter": "rheum-sle",
+            "group": "rheum-sle-v5-sle-treatment-roles"
+          }
+        },
+        {
+          "id": "rheum-sjogren-02-q1",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义无内脏损害条目，所列两种促腺体分泌对症药完整配伍是哪组？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "西维美林—毛果芸香碱"
+              },
+              {
+                "id": "o1",
+                "text": "西维美林—环磷酰胺"
+              },
+              {
+                "id": "o2",
+                "text": "羟氯喹—毛果芸香碱"
+              },
+              {
+                "id": "o3",
+                "text": "羟氯喹—环磷酰胺"
+              }
+            ],
+            "page": 280,
+            "chapter": "rheum-sjogren",
+            "group": "rheum-sjogren-v5-sjogren-secretagogues"
+          }
+        },
+        {
+          "id": "rheum-vasculitis-01-q10",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义抗体小结，p/MPO-ANCA、c-ANCA、AECA三栏的明确列举病型如何配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "p/MPO→显微/嗜酸；c→肉芽肿；AECA→大动脉/川崎/白塞"
+              },
+              {
+                "id": "o1",
+                "text": "p/MPO→肉芽肿；c→显微/嗜酸；AECA→大动脉/川崎/白塞"
+              },
+              {
+                "id": "o2",
+                "text": "p/MPO→显微/嗜酸；c→大动脉/川崎/白塞；AECA→肉芽肿"
+              },
+              {
+                "id": "o3",
+                "text": "p/MPO→大动脉/川崎/白塞；c→肉芽肿；AECA→显微/嗜酸"
+              }
+            ],
+            "page": 282,
+            "chapter": "rheum-vasculitis",
+            "group": "rheum-vasculitis-v5-vascular-antibody-relations"
+          }
+        },
+        {
+          "id": "rheum-vasculitis-02-q4",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "只按讲义显微镜下多血管炎肾外条目，明确列举的受累范围完整配伍是哪项？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "肺咯血—皮黏膜—周围神经"
+              },
+              {
+                "id": "o1",
+                "text": "肺咯血—皮黏膜—自主神经"
+              },
+              {
+                "id": "o2",
+                "text": "肺咯血—皮下结节—周围神经"
+              },
+              {
+                "id": "o3",
+                "text": "肺间质纤维化—皮黏膜—周围神经"
+              }
+            ],
+            "page": 282,
+            "chapter": "rheum-vasculitis",
+            "group": "rheum-vasculitis-v5-mpa-extrarenal-pattern"
+          }
+        },
+        {
+          "id": "rheum-vasculitis-03-q5",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "只按讲义白塞病三个治疗条目，内脏/眼炎、口腔溃疡、预防皮肤黏膜复发的角色如何完整配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "内脏/眼：激素+免抑；口腔：沙利度胺；防复发：秋水仙碱"
+              },
+              {
+                "id": "o1",
+                "text": "内脏/眼：激素+免抑；口腔：秋水仙碱；防复发：沙利度胺"
+              },
+              {
+                "id": "o2",
+                "text": "内脏/眼：沙利度胺；口腔：激素+免抑；防复发：秋水仙碱"
+              },
+              {
+                "id": "o3",
+                "text": "内脏/眼：秋水仙碱；口腔：沙利度胺；防复发：激素+免抑"
+              }
+            ],
+            "page": 283,
+            "chapter": "rheum-vasculitis",
+            "group": "rheum-vasculitis-v5-behcet-medication-role"
+          }
+        },
+        {
+          "id": "s14",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义，硝基苯的特征气味及先后可能的皮肤颜色变化，完整配伍是哪项？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "鞋油味—先发绀—后可溶血黄疸"
+              },
+              {
+                "id": "o1",
+                "text": "胶水味—先发绀—后可溶血黄疸"
+              },
+              {
+                "id": "o2",
+                "text": "鞋油味—先黄疸—后可发绀"
+              },
+              {
+                "id": "o3",
+                "text": "胶水味—先黄疸—后可发绀"
+              }
+            ],
+            "page": 286,
+            "chapter": "toxicology",
+            "group": "toxicology-v5-nitrobenzene-odor-skin"
+          }
+        },
+        {
+          "id": "tox-additional-q2",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义三条安全警示，强腐蚀物情况下插管、食管静脉曲张情况下插管、强酸强碱互相中和，各自重点担心的风险如何配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "腐蚀物插管→穿孔；曲张静脉插管→破裂出血；强酸碱中和→大量放热"
+              },
+              {
+                "id": "o1",
+                "text": "腐蚀物插管→破裂出血；曲张静脉插管→穿孔；强酸碱中和→大量放热"
+              },
+              {
+                "id": "o2",
+                "text": "腐蚀物插管→穿孔；曲张静脉插管→大量放热；强酸碱中和→破裂出血"
+              },
+              {
+                "id": "o3",
+                "text": "腐蚀物插管→大量放热；曲张静脉插管→破裂出血；强酸碱中和→穿孔"
+              }
+            ],
+            "page": 287,
+            "chapter": "toxicology",
+            "group": "toxicology-v5-gastric-injury-comparison"
+          }
+        },
+        {
+          "id": "cardio-endocarditis-g2-q1",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按本页急性/亚急性感染性心内膜炎对照，瓣膜背景与热型的完整配伍是哪组？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "急性—可侵犯正常瓣/高热；亚急性—多病变瓣/低热"
+              },
+              {
+                "id": "o1",
+                "text": "急性—多病变瓣/低热；亚急性—可侵犯正常瓣/高热"
+              },
+              {
+                "id": "o2",
+                "text": "两者均—正常瓣/高热"
+              },
+              {
+                "id": "o3",
+                "text": "两者均—病变瓣/低热"
+              }
+            ],
+            "page": 305,
+            "chapter": "cardio-endocarditis",
+            "group": "cardio-endocarditis-v5-g2-288"
+          }
+        },
+        {
+          "id": "cardio-diagnostics-g1-q3",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "第一、第二心音各标志哪一阶段开始，完整配伍为？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "S₁—心室收缩开始；S₂—心室舒张开始"
+              },
+              {
+                "id": "o1",
+                "text": "S₁—心室舒张开始；S₂—心室收缩开始"
+              },
+              {
+                "id": "o2",
+                "text": "两者均—心室收缩开始"
+              },
+              {
+                "id": "o3",
+                "text": "两者均—心室舒张开始"
+              }
+            ],
+            "page": 315,
+            "chapter": "cardio-diagnostics",
+            "group": "cardio-diagnostics-v5-g1-311"
+          }
+        },
+        {
+          "id": "cardio-arrest-g1-q4",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "本讲义初级心肺复苏三个缩写环节的完整配伍是哪组？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "C—胸外按压；A—开通气道；B—人工呼吸"
+              },
+              {
+                "id": "o1",
+                "text": "C—人工呼吸；A—开通气道；B—胸外按压"
+              },
+              {
+                "id": "o2",
+                "text": "C—胸外按压；A—人工呼吸；B—开通气道"
+              },
+              {
+                "id": "o3",
+                "text": "C—开通气道；A—胸外按压；B—人工呼吸"
+              }
+            ],
+            "page": 394,
+            "chapter": "cardio-arrest",
+            "group": "cardio-arrest-v5-g1-401"
+          }
+        },
+        {
+          "id": "renal-failure-04-q5",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "讲义肾性贫血治疗条目完整列出的四项组合是？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "EPO、罗沙司他、铁、叶酸"
+              },
+              {
+                "id": "o1",
+                "text": "EPO、罗沙司他、B₁₂、叶酸"
+              },
+              {
+                "id": "o2",
+                "text": "EPO、铁、B₁₂、叶酸"
+              },
+              {
+                "id": "o3",
+                "text": "罗沙司他、铁、B₁₂、叶酸"
+              }
+            ],
+            "page": 152,
+            "chapter": "renal-failure",
+            "group": "renal-failure-v5-anemia-regimen"
+          }
+        },
+        {
+          "id": "renal-failure-04-q8",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "本页明确列出的慢性肾衰神经系统表现及其感觉分布，完整组合是哪项？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "尿毒症脑病及癫痫、袜套样感觉丧失、不宁腿"
+              },
+              {
+                "id": "o1",
+                "text": "尿毒症脑病及癫痫、单侧偏身感觉丧失、不宁腿"
+              },
+              {
+                "id": "o2",
+                "text": "尿毒症脑病及癫痫、袜套样感觉丧失、单侧舞蹈动作"
+              },
+              {
+                "id": "o3",
+                "text": "单侧舞蹈动作及癫痫、单侧偏身感觉丧失、不宁腿"
+              }
+            ],
+            "page": 153,
+            "chapter": "renal-failure",
+            "group": "renal-failure-v5-neuro-fields"
+          }
+        },
+        {
+          "id": "blood-hemolysis-02-q7",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义，急性血管内溶血所列全身、腰部和肾脏典型表现的完整组合是？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "寒战发热—腰痛—急性肾损伤"
+              },
+              {
+                "id": "o1",
+                "text": "无寒战发热—腰痛—急性肾损伤"
+              },
+              {
+                "id": "o2",
+                "text": "寒战发热—无腰痛—急性肾损伤"
+              },
+              {
+                "id": "o3",
+                "text": "寒战发热—腰痛—无急性肾损伤"
+              }
+            ],
+            "page": 191,
+            "chapter": "blood-hemolysis",
+            "group": "blood-hemolysis-v5-acute-intravascular-pattern"
+          }
+        },
+        {
+          "id": "blood-lymphoma-01-q1",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义的血液病确证检查框架，淋巴瘤、白血病、溶贫三类的主要检查角色如何配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "淋巴瘤：淋巴结活检—白血病：骨髓细胞学—溶贫：病因特异检查"
+              },
+              {
+                "id": "o1",
+                "text": "淋巴瘤：骨髓细胞学—白血病：淋巴结活检—溶贫：病因特异检查"
+              },
+              {
+                "id": "o2",
+                "text": "淋巴瘤：淋巴结活检—白血病：病因特异检查—溶贫：骨髓细胞学"
+              },
+              {
+                "id": "o3",
+                "text": "淋巴瘤：病因特异检查—白血病：骨髓细胞学—溶贫：淋巴结活检"
+              }
+            ],
+            "page": 219,
+            "chapter": "blood-lymphoma",
+            "group": "blood-lymphoma-v5-blood-diagnostic-purpose"
+          }
+        },
+        {
+          "id": "rheum-sjogren-02-q4",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按本页皮疹小结，两组疾病分别对应的红斑类型如何配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "白塞/IBD/结节病/结核风湿→结节性；风湿/结核风湿→环形"
+              },
+              {
+                "id": "o1",
+                "text": "白塞/IBD/结节病/结核风湿→环形；风湿/结核风湿→结节性"
+              },
+              {
+                "id": "o2",
+                "text": "白塞/IBD/结节病/结核风湿→蝶形；风湿/结核风湿→环形"
+              },
+              {
+                "id": "o3",
+                "text": "白塞/IBD/结节病/结核风湿→结节性；风湿/结核风湿→蝶形"
+              }
+            ],
+            "page": 281,
+            "chapter": "rheum-sjogren",
+            "group": "rheum-sjogren-v5-erythema-comparison"
+          }
+        },
+        {
+          "id": "t11",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "按讲义，中间型综合征已出现呼吸肌麻痹时的支持、外周M样解毒、外周N样解毒，三种作用如何配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "呼吸肌麻痹：机械通气；外周M：阿托品；外周N：氯解磷定"
+              },
+              {
+                "id": "o1",
+                "text": "呼吸肌麻痹：机械通气；外周M：氯解磷定；外周N：阿托品"
+              },
+              {
+                "id": "o2",
+                "text": "呼吸肌麻痹：阿托品；外周M：机械通气；外周N：氯解磷定"
+              },
+              {
+                "id": "o3",
+                "text": "呼吸肌麻痹：氯解磷定；外周M：阿托品；外周N：机械通气"
+              }
+            ],
+            "page": 289,
+            "chapter": "toxicology",
+            "group": "toxicology-v5-opi-resp-support-drug-roles"
+          }
+        },
+        {
+          "id": "tox-additional-q5",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "只按讲义解毒药表，二巯基类药物明确对应的四种金属完整组合是哪组？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "砷—汞—铜—锑"
+              },
+              {
+                "id": "o1",
+                "text": "铅—汞—铜—锑"
+              },
+              {
+                "id": "o2",
+                "text": "砷—铁—铜—锑"
+              },
+              {
+                "id": "o3",
+                "text": "铅—铁—镍—铊"
+              }
+            ],
+            "page": 287,
+            "chapter": "toxicology",
+            "group": "toxicology-v5-dithiol-metal-groups"
+          }
+        }
+      ],
+      "retired": [
+        {
+          "course": "internal",
+          "id": "endo-cushing-01-q8",
+          "replaceBy": [
+            "endo-cushing-01-q4"
+          ],
+          "reason": "停用四类病因整表编码题，合并至逐项列出病因的ACTH依赖性多选；原发性肾上腺结节性病变与继发性增生明确区分。",
+          "previousQuestion": {
+            "stem": "按讲义，四类病因与ACTH依赖性如何完整配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "垂体瘤/异位ACTH：依赖；肾上腺瘤/双侧结节：不依赖"
+              },
+              {
+                "id": "o1",
+                "text": "垂体瘤/异位ACTH：不依赖；肾上腺瘤/双侧结节：依赖"
+              },
+              {
+                "id": "o2",
+                "text": "垂体瘤/双侧结节：依赖；肾上腺瘤/异位ACTH：不依赖"
+              },
+              {
+                "id": "o3",
+                "text": "肾上腺瘤/异位ACTH：依赖；垂体瘤/双侧结节：不依赖"
+              }
+            ],
+            "page": 260,
+            "chapter": "endo-cushing",
+            "group": "endo-cushing-v5-adrenal-independent-pair"
+          }
+        }
+      ],
+      "addedQuestionIds": [
+        "clarity-lt4-central-q1",
+        "clarity-lt4-interval-q1",
+        "clarity-retina-pdr-q1",
+        "clarity-carney-gh-q1",
+        "clarity-sle-uv-q1",
+        "clarity-behcet-recurrence-q1",
+        "clarity-behcet-systemic-q1",
+        "clarity-nitrobenzene-jaundice-q1",
+        "clarity-varices-lavage-q1",
+        "clarity-neutralization-heat-q1",
+        "clarity-ie-subacute-q1",
+        "clarity-s2-phase-q1",
+        "clarity-cab-a-q1",
+        "clarity-cab-b-q1",
+        "clarity-annular-erythema-q1"
+      ],
+      "presentationEdits": [
+        {
+          "id": "endo-graves-01-q9",
+          "reason": "仅明确对象与提问方式，保留原候选含义、答案及判分依据。"
+        },
+        {
+          "id": "endo-graves-01-q10",
+          "reason": "仅明确对象与提问方式，保留原候选含义、答案及判分依据。"
+        },
+        {
+          "id": "rheum-ra-03-q6",
+          "reason": "仅明确对象与提问方式，保留原候选含义、答案及判分依据。"
+        }
+      ],
+      "externalCrossChecks": [
+        {
+          "questionIds": [
+            "endo-cushing-01-q4",
+            "supp-endo-cushing-01-q5"
+          ],
+          "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK279088/table/cushings-disease.T.etiology_of_cushings/",
+          "scope": "ACTH依赖性/非依赖性病因分类与罕见异位CRH"
+        }
+      ]
+    },
+    {
+      "course": "surgery",
+      "rewrites": [
+        {
+          "id": "surg-28-x-common-dislocation-q1",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "讲义三个大关节脱位最常见方向的组合，应配伍哪组？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "肩前、肘后、髋后"
+              },
+              {
+                "id": "o1",
+                "text": "肩后、肘前、髋前"
+              },
+              {
+                "id": "o2",
+                "text": "肩前、肘前、髋后"
+              },
+              {
+                "id": "o3",
+                "text": "肩后、肘后、髋前"
+              }
+            ],
+            "page": 174,
+            "chapter": "surg-28",
+            "group": "surg-28-x-common-dislocation"
+          }
+        },
+        {
+          "id": "surg-38-x-drug-members-q1",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+          "previousQuestion": {
+            "stem": "讲义抗代谢药的完整三药组合，应配伍？",
+            "answer": [
+              "o0"
+            ],
+            "options": [
+              {
+                "id": "o0",
+                "text": "氟尿嘧啶、甲氨蝶呤、阿糖胞苷"
+              },
+              {
+                "id": "o1",
+                "text": "放线菌素、丝裂霉素、阿霉素"
+              },
+              {
+                "id": "o2",
+                "text": "长春碱、紫杉醇、博来霉素"
+              },
+              {
+                "id": "o3",
+                "text": "伊马替尼、曲妥珠单抗、利妥昔单抗"
+              }
+            ],
+            "page": 229,
+            "chapter": "surg-38",
+            "group": "surg-38-x-drug-members"
+          }
+        }
+      ],
+      "retired": [],
+      "addedQuestionIds": [
+        "clarity-elbow-direction-q1",
+        "clarity-hip-direction-q1"
+      ],
+      "presentationEdits": [],
+      "externalCrossChecks": []
+    }
+  ]
+}

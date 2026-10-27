@@ -6,148 +6,16 @@
     "chapterCount": 38,
     "qualityRevision": "2026-10-23-unified-focus-v4",
     "changedQuestionIds": [
-      "surg-01-x-surgical-indications-q1",
-      "surg-01-x-protection-q1",
-      "surg-02-x-layer-q1",
-      "surg-03-x-inversion-causes-q1",
-      "surg-03-x-receptor-combinations-q2",
-      "surg-03-r3-lactation-drugs-q1",
-      "surg-04-x-rib-sites-q1",
-      "surg-05-x-small-threshold-q1",
-      "surg-05-x-outside-d2-q1",
-      "surg-05-x-endoscopic-set-q1",
-      "surg-07-x-trauma-frequency-q1",
-      "surg-07-x-trauma-specific-q2",
-      "surg-07-x-trauma-specific-q4",
-      "surg-07-x-trauma-specific-q5",
-      "surg-10-r3-colon-sides-q1",
-      "surg-10-x-margins-q1",
-      "surg-11-hemorrhoids-q1",
-      "surg-11-hemorrhoids-q2",
-      "surg-11-hemorrhoids-q3",
-      "surg-11-x-clock-q1",
-      "surg-11-x-fissure-triad-q1",
-      "surg-12-x-cord-q1",
-      "surg-12-x-contents-frequency-q1",
-      "surg-14-child-q1",
-      "surg-14-x-devessels-q1",
-      "surg-14-r3-flow-fields-q2",
-      "surg-15-x-pancreatic-prognosis-q1",
-      "surg-15-x-gemcitabine-q1",
-      "surg-16-x-lc-risk-list-q1",
-      "surg-16-x-atresia-q1",
-      "surg-17-stage-q1",
-      "surg-17-x-abi-q1",
-      "surg-17-r3-artery-vein-fields-q1",
-      "surg-19-bph-stones-q4",
-      "surg-20-deformity-q3",
-      "surg-22-x-necrosis-causes-q1",
-      "surg-22-x-figure-four-q1",
-      "surg-22-x-necrosis-stage-q1",
-      "surg-23-x-tb-sites-q1",
-      "surg-25-x-bone-metastatic-origin-q2",
-      "surg-26-x-fracture-site-q1",
-      "surg-26-x-cord-indications-q1",
-      "surg-27-x-sciatic-scoliosis-q1",
-      "surg-28-x-ankle-fixation-q1",
-      "surg-29-classification-q1",
-      "surg-29-x-healing-criteria-q1",
-      "surg-31-x-fluid-volume-q2",
-      "surg-33-x-fluid-amount-q2",
-      "surg-35-x-suture-time-q1",
-      "surg-35-x-suture-time-q5",
-      "surg-36-x-inhaled-q3",
-      "surg-36-x-neuraxial-order-q1",
-      "surg-07-x-trauma-specific-q1",
-      "surg-07-x-trauma-specific-q3",
-      "surg-16-x-stone-complication-q1",
-      "surg-16-x-stone-complication-q2",
-      "surg-20-deformity-q1",
-      "surg-20-deformity-q2",
-      "surg-20-deformity-q4",
-      "surg-22-x-necrosis-test-q1",
-      "surg-22-x-necrosis-test-q2",
-      "surg-38-x-cancer-prevention-q3",
-      "surg-18-diseases-q1",
-      "surg-19-bph-stones-q1",
-      "surg-19-x-retention-q1",
-      "surg-03-x-receptor-combinations-q1",
-      "surg-37-micro-q1",
-      "surg-37-micro-q2"
+      "surg-28-x-common-dislocation-q1",
+      "surg-38-x-drug-members-q1"
     ],
     "qualityChangeSets": {
       "2026-10-23-surgery-reorganized-v3": [
-        "surg-01-x-surgical-indications-q1",
-        "surg-01-x-protection-q1",
-        "surg-02-x-layer-q1",
-        "surg-03-x-inversion-causes-q1",
-        "surg-03-x-receptor-combinations-q2",
-        "surg-03-r3-lactation-drugs-q1",
-        "surg-04-x-rib-sites-q1",
-        "surg-05-x-small-threshold-q1",
-        "surg-05-x-outside-d2-q1",
-        "surg-05-x-endoscopic-set-q1",
-        "surg-07-x-trauma-frequency-q1",
-        "surg-07-x-trauma-specific-q2",
-        "surg-07-x-trauma-specific-q4",
-        "surg-07-x-trauma-specific-q5",
-        "surg-10-r3-colon-sides-q1",
-        "surg-10-x-margins-q1",
-        "surg-11-hemorrhoids-q1",
-        "surg-11-hemorrhoids-q2",
-        "surg-11-hemorrhoids-q3",
-        "surg-11-x-clock-q1",
-        "surg-11-x-fissure-triad-q1",
-        "surg-12-x-cord-q1",
-        "surg-12-x-contents-frequency-q1",
-        "surg-14-child-q1",
-        "surg-14-x-devessels-q1",
-        "surg-14-r3-flow-fields-q2",
-        "surg-15-x-pancreatic-prognosis-q1",
-        "surg-15-x-gemcitabine-q1",
-        "surg-16-x-lc-risk-list-q1",
-        "surg-16-x-atresia-q1",
-        "surg-17-stage-q1",
-        "surg-17-x-abi-q1",
-        "surg-17-r3-artery-vein-fields-q1",
-        "surg-19-bph-stones-q4",
-        "surg-20-deformity-q3",
-        "surg-22-x-necrosis-causes-q1",
-        "surg-22-x-figure-four-q1",
-        "surg-22-x-necrosis-stage-q1",
-        "surg-23-x-tb-sites-q1",
-        "surg-25-x-bone-metastatic-origin-q2",
-        "surg-26-x-fracture-site-q1",
-        "surg-26-x-cord-indications-q1",
-        "surg-27-x-sciatic-scoliosis-q1",
-        "surg-28-x-ankle-fixation-q1",
-        "surg-29-classification-q1",
-        "surg-29-x-healing-criteria-q1",
-        "surg-31-x-fluid-volume-q2",
-        "surg-33-x-fluid-amount-q2",
-        "surg-35-x-suture-time-q1",
-        "surg-35-x-suture-time-q5",
-        "surg-36-x-inhaled-q3",
-        "surg-36-x-neuraxial-order-q1",
-        "surg-07-x-trauma-specific-q1",
-        "surg-07-x-trauma-specific-q3",
-        "surg-16-x-stone-complication-q1",
-        "surg-16-x-stone-complication-q2",
-        "surg-20-deformity-q1",
-        "surg-20-deformity-q2",
-        "surg-20-deformity-q4",
-        "surg-22-x-necrosis-test-q1",
-        "surg-22-x-necrosis-test-q2",
-        "surg-38-x-cancer-prevention-q3",
-        "surg-18-diseases-q1",
-        "surg-19-bph-stones-q1",
-        "surg-19-x-retention-q1",
-        "surg-03-x-receptor-combinations-q1",
-        "surg-37-micro-q1",
-        "surg-37-micro-q2"
+        "surg-28-x-common-dislocation-q1",
+        "surg-38-x-drug-members-q1"
       ]
     },
-    "edition": "题干与选项提示复核版 v6",
+    "edition": "题干与关系清晰化复核版 v7",
     "diagramCount": 10,
     "priorityAudit": {
       "sourcePages": 230,
@@ -3255,2364 +3123,96 @@
         "新增10道髋部比较题及18道其他临床鉴别题；退休17道明确重复、答案标签泄露或跨部位选项过易题，均给出可迁移的替代题ID。"
       ]
     },
-    "releaseVersion": "v1.8",
+    "releaseVersion": "v1.9",
     "courseId": "surgery",
     "courseName": "外科",
-    "poolQualityRevision": "2026-10-25-source-cues-v6",
+    "poolQualityRevision": "2026-10-27-clear-relations-v7",
     "contentAudit": {
-      "revision": "2026-10-25-source-cues-v6",
+      "revision": "2026-10-27-clear-relations-v7",
       "rewrites": [
         {
-          "id": "surg-01-x-surgical-indications-q1",
-          "reason": "P4正文明确指征；删除“我高中姐凶呀”对各正项名称的谐音提示，保留指征与禁忌鉴别。",
+          "id": "surg-28-x-common-dislocation-q1",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
           "previousQuestion": {
-            "stem": "“我高中姐凶呀”展开后，本组选项中哪些属于讲义列出的甲状腺手术指征？",
-            "answer": [
-              "o0",
-              "o1",
-              "o4",
-              "o5"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "高功能腺瘤"
-              },
-              {
-                "id": "o1",
-                "text": "胸骨后甲状腺肿伴压迫"
-              },
-              {
-                "id": "o2",
-                "text": "严重心肝肾功能不全的甲亢"
-              },
-              {
-                "id": "o3",
-                "text": "单纯青春期轻度弥漫甲状腺肿"
-              },
-              {
-                "id": "o4",
-                "text": "结节性甲状腺肿继发甲亢"
-              },
-              {
-                "id": "o5",
-                "text": "中重度原发性甲亢（BMR＞30%）"
-              }
-            ],
-            "page": 4,
-            "chapter": "surg-01",
-            "group": "surg-01-x-surgical-indications"
-          }
-        },
-        {
-          "id": "surg-01-x-protection-q1",
-          "reason": "P5结扎位置与神经保护直接相连；“拍马屁留后路”中的方位提示移出题干。",
-          "previousQuestion": {
-            "stem": "“拍马屁留后路”对应讲义的血管结扎和背面保护组合是哪项？",
+            "stem": "讲义三个大关节脱位最常见方向的组合，应配伍哪组？",
             "answer": [
               "o0"
             ],
             "options": [
               {
                 "id": "o0",
-                "text": "上动脉紧贴上极，下动脉远离下极并保护背面"
+                "text": "肩前、肘后、髋后"
               },
               {
                 "id": "o1",
-                "text": "上动脉远离上极，下动脉紧贴下极并剥离背面"
+                "text": "肩后、肘前、髋前"
               },
               {
                 "id": "o2",
-                "text": "上、下动脉都远离腺体并剥离背面"
+                "text": "肩前、肘前、髋后"
               },
               {
                 "id": "o3",
-                "text": "上、下动脉都紧贴腺体并剥离背面"
+                "text": "肩后、肘后、髋前"
               }
             ],
-            "page": 5,
-            "chapter": "surg-01",
-            "group": "surg-01-x-protection"
-          }
-        },
-        {
-          "id": "surg-02-x-layer-q1",
-          "reason": "P12以不侵犯肌层定义，且不论局部淋巴结转移；删“不是直径/淋巴结”排除提示，并将全池统一为深度—区域淋巴结字段。；P12定义；原池混用直径、症状与不同侵犯结构，现全池统一为“深度/区域淋巴结”字段，题干明确考完整定义，避免将正确定义的子集误设为病例不符合。",
-          "previousQuestion": {
-            "stem": "“早期食管癌”的定义应配伍哪项，而不是仅凭直径或淋巴结判断？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "局限黏膜或黏膜下层，不问有无区域淋巴结转移"
-              },
-              {
-                "id": "o1",
-                "text": "已侵犯固有肌层，但没有区域淋巴结转移"
-              },
-              {
-                "id": "o2",
-                "text": "已侵犯外膜，但肿瘤直径较小"
-              },
-              {
-                "id": "o3",
-                "text": "已侵犯邻近气管，但吞咽症状较轻"
-              }
-            ],
-            "page": 12,
-            "chapter": "surg-02",
-            "group": "surg-02-x-layer"
-          }
-        },
-        {
-          "id": "surg-03-x-inversion-causes-q1",
-          "reason": "P19正文列四项原因；删除“天酱陷爱河”对选项词根的逐项提示。",
-          "previousQuestion": {
-            "stem": "“天酱陷爱河”按讲义小结展开，本组哪些可作为乳头凹陷的原因？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2",
-              "o3"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "乳头先天发育不良"
-              },
-              {
-                "id": "o1",
-                "text": "浆细胞乳腺炎"
-              },
-              {
-                "id": "o2",
-                "text": "乳腺癌"
-              },
-              {
-                "id": "o3",
-                "text": "乳腺结核"
-              },
-              {
-                "id": "o4",
-                "text": "乳管内乳头状瘤"
-              }
-            ],
-            "page": 19,
-            "chapter": "surg-03",
-            "group": "surg-03-x-inversion-causes"
-          }
-        },
-        {
-          "id": "surg-03-x-receptor-combinations-q2",
-          "reason": "P18分别写ER阳性对应内分泌治疗、HER2阳性对应曲妥珠单抗；原题先给HER2过表达且激素受体阴性，直接复述全部待选字段，现反向考治疗—受体关系。",
-          "previousQuestion": {
-            "stem": "按本页表，HER2过表达型同时激素受体阴性的受体组合是哪项？",
-            "answer": [
-              "o1"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "ER阴、PR阴、HER2阴"
-              },
-              {
-                "id": "o1",
-                "text": "ER阴、PR阴、HER2阳"
-              },
-              {
-                "id": "o2",
-                "text": "ER阳、PR阳、HER2阴"
-              },
-              {
-                "id": "o3",
-                "text": "ER阳、PR阳、HER2阳"
-              }
-            ],
-            "page": 16,
-            "chapter": "surg-03",
-            "group": "surg-03-x-receptor-combinations"
-          }
-        },
-        {
-          "id": "surg-03-r3-lactation-drugs-q1",
-          "reason": "P18明确四环素对应牙变色；删“四黄同堂”中的药名首字提示。",
-          "previousQuestion": {
-            "stem": "只按讲义“四黄同堂”的对应表，可能造成儿童牙齿永久性变色的是哪类？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "四环素类"
-              },
-              {
-                "id": "o1",
-                "text": "磺胺类"
-              },
-              {
-                "id": "o2",
-                "text": "喹诺酮类"
-              },
-              {
-                "id": "o3",
-                "text": "氨基糖苷类"
-              }
-            ],
-            "page": 18,
-            "chapter": "surg-03",
-            "group": "surg-03-r3-lactation-drugs"
-          }
-        },
-        {
-          "id": "surg-04-x-rib-sites-q1",
-          "reason": "P22列第4—7肋；“死期到了”直接谐音四七，必须从题干移走。",
-          "previousQuestion": {
-            "stem": "“死期到了”对应讲义最易骨折的肋骨节段是哪项？",
-            "answer": [
-              "o1"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "第1–3肋"
-              },
-              {
-                "id": "o1",
-                "text": "第4–7肋"
-              },
-              {
-                "id": "o2",
-                "text": "第8–10肋"
-              },
-              {
-                "id": "o3",
-                "text": "第11–12肋"
-              }
-            ],
-            "page": 22,
-            "chapter": "surg-04",
-            "group": "surg-04-x-rib-sites"
-          }
-        },
-        {
-          "id": "surg-05-x-small-threshold-q1",
-          "reason": "P25明确≤5mm与6—10mm；“威武、小时”直接给出5与10的数字线索，删除。",
-          "previousQuestion": {
-            "stem": "“威武、小时”对应微小癌与小胃癌的讲义规定界值是哪组？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "微小癌≤5mm；小胃癌6–10mm"
-              },
-              {
-                "id": "o1",
-                "text": "微小癌≤3mm；小胃癌4–8mm"
-              },
-              {
-                "id": "o2",
-                "text": "微小癌≤8mm；小胃癌9–15mm"
-              },
-              {
-                "id": "o3",
-                "text": "微小癌≤10mm；小胃癌11–20mm"
-              }
-            ],
-            "page": 25,
-            "chapter": "surg-05",
-            "group": "surg-05-x-small-threshold"
-          }
-        },
-        {
-          "id": "surg-05-x-outside-d2-q1",
-          "reason": "P26表述13—16组及解剖名称；删除逐一映射这些名称的“以后场上不请介种辅助”，保留材料范围而不扩大为现代全部D2标准。",
-          "previousQuestion": {
-            "stem": "按讲义“以后场上不请介种辅助”所记范围，本组哪些属于其全胃及远端胃D2一般不清扫的淋巴结？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2",
-              "o3"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "第13组—胰头后"
-              },
-              {
-                "id": "o1",
-                "text": "第14组—肠系膜上血管旁"
-              },
-              {
-                "id": "o2",
-                "text": "第15组—结肠中血管旁"
-              },
-              {
-                "id": "o3",
-                "text": "第16组—腹主动脉旁"
-              },
-              {
-                "id": "o4",
-                "text": "第9组—腹腔动脉旁"
-              }
-            ],
-            "page": 26,
-            "chapter": "surg-05",
-            "group": "surg-05-x-outside-d2"
-          }
-        },
-        {
-          "id": "surg-05-x-endoscopic-set-q1",
-          "reason": "P25列<2cm、分化型、黏膜内、无溃疡；“小二分手内心无愧”已经按字段给出四个答案方向，移至解析。",
-          "previousQuestion": {
-            "stem": "只按讲义“小二分手内心无愧”的简化适应证，哪组对应内镜剥离或切除？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "＜2cm、分化型、黏膜内、无溃疡"
-              },
-              {
-                "id": "o1",
-                "text": "＜2cm、分化型、固有肌层、无溃疡"
-              },
-              {
-                "id": "o2",
-                "text": "＜2cm、分化型、黏膜内、有溃疡"
-              },
-              {
-                "id": "o3",
-                "text": "＜2cm、未分化型、黏膜下层、无溃疡"
-              }
-            ],
-            "page": 25,
-            "chapter": "surg-05",
-            "group": "surg-05-x-endoscopic-set"
-          }
-        },
-        {
-          "id": "surg-07-x-trauma-frequency-q1",
-          "reason": "P31明确闭合脾、开放肝；删除“开干、其它都是屁”的器官谐音。",
-          "previousQuestion": {
-            "stem": "“开干、其它都是屁”对应讲义常见损伤器官组合是哪组？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "闭合伤以脾；开放伤以肝"
-              },
-              {
-                "id": "o1",
-                "text": "闭合伤以肝；开放伤以脾"
-              },
-              {
-                "id": "o2",
-                "text": "闭合伤以小肠；开放伤以胰腺"
-              },
-              {
-                "id": "o3",
-                "text": "闭合伤以胰腺；开放伤以小肠"
-              }
-            ],
-            "page": 31,
-            "chapter": "surg-07",
-            "group": "surg-07-x-trauma-frequency"
-          }
-        },
-        {
-          "id": "surg-07-x-trauma-specific-q2",
-          "reason": "P32列肝损伤血液经胆道入肠导致呕血黑便；原题已把“血液经胆道”直接给成答案定义，现只留鉴别所需背景与表现。；P32—33；去除选项中与题干完全相同的病因长串，尤其o4不再复印肝静脉/下腔静脉损伤。五题答案ID不变。q2、q4另改为表内必要临床证据，避免同义重复与证据不足。",
-          "previousQuestion": {
-            "stem": "右上腹损伤后血液经胆道进入十二指肠，出现呕血或黑便，配伍哪项？",
-            "answer": [
-              "o1"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "延迟性脾破裂"
-              },
-              {
-                "id": "o1",
-                "text": "肝损伤胆道出血"
-              },
-              {
-                "id": "o2",
-                "text": "中央型肝破裂继发肝脓肿"
-              },
-              {
-                "id": "o3",
-                "text": "胰腺损伤后假性囊肿"
-              },
-              {
-                "id": "o4",
-                "text": "肝静脉或下腔静脉损伤相关空气栓塞"
-              }
-            ],
-            "page": 32,
-            "chapter": "surg-07",
-            "group": "surg-07-x-trauma-specific"
-          }
-        },
-        {
-          "id": "surg-07-x-trauma-specific-q4",
-          "reason": "P33同时列腹穿淀粉酶高和假性囊肿（左上腹包块）；原题仅方向盘伤加包块，尚不能可靠排除实质脏器血肿等近邻，补入正文可鉴别的酶学证据而不直给胰腺损伤名称。；P32—33；去除选项中与题干完全相同的病因长串，尤其o4不再复印肝静脉/下腔静脉损伤。五题答案ID不变。q2、q4另改为表内必要临床证据，避免同义重复与证据不足。",
-          "previousQuestion": {
-            "stem": "方向盘伤后左上腹逐渐出现包块，材料联系哪种并发症？",
-            "answer": [
-              "o3"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "延迟性脾破裂"
-              },
-              {
-                "id": "o1",
-                "text": "肝损伤胆道出血"
-              },
-              {
-                "id": "o2",
-                "text": "中央型肝破裂继发肝脓肿"
-              },
-              {
-                "id": "o3",
-                "text": "胰腺损伤后假性囊肿"
-              },
-              {
-                "id": "o4",
-                "text": "肝静脉或下腔静脉损伤相关空气栓塞"
-              }
-            ],
-            "page": 33,
-            "chapter": "surg-07",
-            "group": "surg-07-x-trauma-specific"
-          }
-        },
-        {
-          "id": "surg-07-x-trauma-specific-q5",
-          "reason": "P32关系明确；选项删除肝静脉/下腔静脉这一完整题干复述，使正确项不再凭最长同词串直接定位。；P32—33；去除选项中与题干完全相同的病因长串，尤其o4不再复印肝静脉/下腔静脉损伤。五题答案ID不变。q2、q4另改为表内必要临床证据，避免同义重复与证据不足。",
-          "previousQuestion": {
-            "stem": "肝损伤累及肝静脉主干或下腔静脉，材料特别提示哪种风险？",
-            "answer": [
-              "o4"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "延迟性脾破裂"
-              },
-              {
-                "id": "o1",
-                "text": "肝损伤胆道出血"
-              },
-              {
-                "id": "o2",
-                "text": "中央型肝破裂继发肝脓肿"
-              },
-              {
-                "id": "o3",
-                "text": "胰腺损伤后假性囊肿"
-              },
-              {
-                "id": "o4",
-                "text": "肝静脉或下腔静脉损伤相关空气栓塞"
-              }
-            ],
-            "page": 32,
-            "chapter": "surg-07",
-            "group": "surg-07-x-trauma-specific"
-          }
-        },
-        {
-          "id": "surg-10-r3-colon-sides-q1",
-          "reason": "P48列右侧隆起、肿块及全身症状；“左亲右拢”直接提示右侧隆起，移出题干。",
-          "previousQuestion": {
-            "stem": "按“左亲右拢”的讲义对照，右侧结肠癌的常见大体类型与突出表现，应配伍哪组？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "隆起型；肿块、贫血消瘦等全身症状突出"
-              },
-              {
-                "id": "o1",
-                "text": "浸润型；肿块、贫血消瘦等全身症状突出"
-              },
-              {
-                "id": "o2",
-                "text": "隆起型；梗阻、大便变细和便血突出"
-              },
-              {
-                "id": "o3",
-                "text": "浸润型；梗阻、大便变细和便血突出"
-              }
-            ],
-            "page": 48,
-            "chapter": "surg-10",
-            "group": "surg-10-r3-colon-sides"
-          }
-        },
-        {
-          "id": "surg-10-x-margins-q1",
-          "reason": "P48列≥10cm；“师姐”谐音十截，在数值选择题中直接提示答案。",
-          "previousQuestion": {
-            "stem": "只按讲义结肠切除章节，“师姐”所记远端距肿瘤的界值是哪项？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "结肠癌远端切缘≥10cm"
-              },
-              {
-                "id": "o1",
-                "text": "结肠癌远端切缘≥2cm"
-              },
-              {
-                "id": "o2",
-                "text": "结肠癌远端切缘≥1cm"
-              },
-              {
-                "id": "o3",
-                "text": "结肠癌远端切缘≥5cm"
-              }
-            ],
-            "page": 48,
-            "chapter": "surg-10",
-            "group": "surg-10-x-margins"
-          }
-        },
-        {
-          "id": "surg-11-hemorrhoids-q1",
-          "reason": "P54分度表是有效必要证据；删除“空挡”这一额外记忆提示，不删除出血/脱出判别条件。",
-          "previousQuestion": {
-            "stem": "仅出血，无脱出，对应“空挡”哪一度？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "Ⅰ度内痔"
-              },
-              {
-                "id": "o1",
-                "text": "Ⅱ度内痔"
-              },
-              {
-                "id": "o2",
-                "text": "Ⅲ度内痔"
-              },
-              {
-                "id": "o3",
-                "text": "Ⅳ度内痔"
-              }
-            ],
-            "page": 54,
-            "chapter": "surg-11",
-            "group": "surg-11-hemorrhoids"
-          }
-        },
-        {
-          "id": "surg-11-hemorrhoids-q2",
-          "reason": "P54以自行回纳定义Ⅱ度；删除“自动挡”，保留充分分度条件。",
-          "previousQuestion": {
-            "stem": "脱出可自行回纳，对应“自动挡”哪一度？",
-            "answer": [
-              "o1"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "Ⅰ度内痔"
-              },
-              {
-                "id": "o1",
-                "text": "Ⅱ度内痔"
-              },
-              {
-                "id": "o2",
-                "text": "Ⅲ度内痔"
-              },
-              {
-                "id": "o3",
-                "text": "Ⅳ度内痔"
-              }
-            ],
-            "page": 54,
-            "chapter": "surg-11",
-            "group": "surg-11-hemorrhoids"
-          }
-        },
-        {
-          "id": "surg-11-hemorrhoids-q3",
-          "reason": "P54以手法回纳定义Ⅲ度；删除“手动挡”，保留充分分度条件。",
-          "previousQuestion": {
-            "stem": "脱出需用手回纳，对应“手动挡”哪一度？",
-            "answer": [
-              "o2"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "Ⅰ度内痔"
-              },
-              {
-                "id": "o1",
-                "text": "Ⅱ度内痔"
-              },
-              {
-                "id": "o2",
-                "text": "Ⅲ度内痔"
-              },
-              {
-                "id": "o3",
-                "text": "Ⅳ度内痔"
-              }
-            ],
-            "page": 54,
-            "chapter": "surg-11",
-            "group": "surg-11-hemorrhoids"
-          }
-        },
-        {
-          "id": "surg-11-x-clock-q1",
-          "reason": "P54列内痔3/7/11点、肛裂6点；删除直接编码钟点的“姐是打光棍女生”和“石榴”，必须保留截石位限定以免与膝胸位混淆。",
-          "previousQuestion": {
-            "stem": "“姐是打光棍女生”和“石榴”配合体位，正确组合是哪组？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "内痔：截石位3、7、11点；肛裂：截石位6点"
-              },
-              {
-                "id": "o1",
-                "text": "内痔：截石位2、6、10点；肛裂：截石位6点"
-              },
-              {
-                "id": "o2",
-                "text": "内痔：截石位3、7、11点；肛裂：截石位12点"
-              },
-              {
-                "id": "o3",
-                "text": "内痔：截石位2、6、10点；肛裂：截石位12点"
-              }
-            ],
-            "page": 54,
-            "chapter": "surg-11",
-            "group": "surg-11-x-clock"
-          }
-        },
-        {
-          "id": "surg-11-x-fissure-triad-q1",
-          "reason": "P54三联征明确；删除“前列腺肥大”谐音展开提示，并把全池整理成同一肛周部位、同为三项的组合。；P54三联征为正项；各候选均为三个肛周病变，删除前列腺增生等明显异器官凑项，统一成分数量，答案o0不变。",
-          "previousQuestion": {
-            "stem": "“前列腺肥大”在肛裂口诀中展开的三联征应配伍哪项？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "肛裂、前哨痔、肛乳头肥大"
-              },
-              {
-                "id": "o1",
-                "text": "肛裂、外痔血栓、前列腺增生"
-              },
-              {
-                "id": "o2",
-                "text": "肛瘘、前哨痔、直肠脱垂"
-              },
-              {
-                "id": "o3",
-                "text": "肛裂、直肠息肉、盆腔脓肿"
-              }
-            ],
-            "page": 54,
-            "chapter": "surg-11",
-            "group": "surg-11-x-fissure-triad"
-          }
-        },
-        {
-          "id": "surg-12-x-cord-q1",
-          "reason": "P62精索位置表；删除“小孩滑梯、老直男顶出来”对后方/前外方的方向提示。",
-          "previousQuestion": {
-            "stem": "“小孩滑梯、老直男顶出来”所记精索与疝囊的关系配伍哪组？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "斜疝精索在囊后；直疝精索在囊前外"
-              },
-              {
-                "id": "o1",
-                "text": "斜疝精索在囊前外；直疝精索在囊后"
-              },
-              {
-                "id": "o2",
-                "text": "斜疝和直疝精索均在囊前外"
-              },
-              {
-                "id": "o3",
-                "text": "斜疝和直疝精索均在囊后"
-              }
-            ],
-            "page": 62,
-            "chapter": "surg-12",
-            "group": "surg-12-x-cord"
-          }
-        },
-        {
-          "id": "surg-12-x-contents-frequency-q1",
-          "reason": "P60分别列小肠及大网膜；删“小的难忘”对小肠/网膜的词形提示。",
-          "previousQuestion": {
-            "stem": "“小的难忘”展开为讲义两类疝最常见内容物，应配伍哪组？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "易复疝—小肠；难复疝—大网膜"
-              },
-              {
-                "id": "o1",
-                "text": "易复疝—大网膜；难复疝—小肠"
-              },
-              {
-                "id": "o2",
-                "text": "易复疝—膀胱；难复疝—阑尾"
-              },
-              {
-                "id": "o3",
-                "text": "易复疝—阑尾；难复疝—膀胱"
-              }
-            ],
-            "page": 60,
-            "chapter": "surg-12",
-            "group": "surg-12-x-contents-frequency"
-          }
-        },
-        {
-          "id": "surg-14-child-q1",
-          "reason": "P69五项明确；删除“白富美单干”，避免按谐音逐项勾选，不把池外或其他评分因素误加进五项。",
-          "previousQuestion": {
-            "stem": "口诀“白富美单干”对应的Child-Pugh评分项目有哪些？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2",
-              "o3",
-              "o4"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "血清白蛋白"
-              },
-              {
-                "id": "o1",
-                "text": "血清胆红素"
-              },
-              {
-                "id": "o2",
-                "text": "凝血酶原时间延长"
-              },
-              {
-                "id": "o3",
-                "text": "腹水"
-              },
-              {
-                "id": "o4",
-                "text": "肝性脑病"
-              },
-              {
-                "id": "o5",
-                "text": "血小板计数"
-              },
-              {
-                "id": "o6",
-                "text": "脾脏大小"
-              },
-              {
-                "id": "o7",
-                "text": "下肢水肿"
-              }
-            ],
-            "page": 69,
-            "chapter": "surg-14",
-            "group": "surg-14-v5-child-23"
-          }
-        },
-        {
-          "id": "surg-14-x-devessels-q1",
-          "reason": "P70列胃冠状、胃短、胃后、左膈下静脉；“管哥断后”逐字指向正项名称，删除。",
-          "previousQuestion": {
-            "stem": "口诀“管哥断后”在本讲义对应需离断的静脉有哪些？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2",
-              "o3"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "胃冠状静脉"
-              },
-              {
-                "id": "o1",
-                "text": "胃短静脉"
-              },
-              {
-                "id": "o2",
-                "text": "胃后静脉"
-              },
-              {
-                "id": "o3",
-                "text": "左膈下静脉"
-              },
-              {
-                "id": "o4",
-                "text": "肝静脉"
-              },
-              {
-                "id": "o5",
-                "text": "肾静脉"
-              }
-            ],
-            "page": 70,
-            "chapter": "surg-14",
-            "group": "surg-14-x-devessels"
-          }
-        },
-        {
-          "id": "surg-14-r3-flow-fields-q2",
-          "reason": "P70断流/分流表；题目随机排序时“上述三个字段”可能失去前题，现逐一写明三个字段但不提供其变化方向。",
-          "previousQuestion": {
-            "stem": "按讲义比较表，门静脉与下腔静脉建立非选择性分流后，上述三个字段最符合哪组？",
-            "answer": [
-              "o1"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "门脉压不降；入肝门静脉血流影响较小；肝性脑病较少"
-              },
-              {
-                "id": "o1",
-                "text": "门脉压下降；入肝门静脉血流减少较多；肝性脑病较多"
-              },
-              {
-                "id": "o2",
-                "text": "门脉压不降；入肝门静脉血流减少较多；肝性脑病较多"
-              },
-              {
-                "id": "o3",
-                "text": "门脉压下降；入肝门静脉血流影响较小；肝性脑病较少"
-              }
-            ],
-            "page": 70,
-            "chapter": "surg-14",
-            "group": "surg-14-r3-flow-fields"
-          }
-        },
-        {
-          "id": "surg-15-x-pancreatic-prognosis-q1",
-          "reason": "P74正文明确临床隐匿、早诊困难和放化疗敏感性差；原题“癌中之王”直接暗示低预后，且5年生存定量只在P77无答案原题选项出现，故将不稳的统计字段替换为正文可核的早期识别字段。；P74正文可直接支持这两个字段；不以P77无答案原题中的旧5年生存定量作唯一依据，保留初诊困难和治疗反应的同字段对照。旧统计字段不再单独考查，见notes覆盖边界。",
-          "previousQuestion": {
-            "stem": "按讲义“癌中之王”的概括，胰腺导管腺癌的治疗敏感性与总体预后组合是？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "放化疗敏感性差；总体5年生存率低"
-              },
-              {
-                "id": "o1",
-                "text": "放化疗敏感性高；总体5年生存率低"
-              },
-              {
-                "id": "o2",
-                "text": "放化疗敏感性差；总体5年生存率高"
-              },
-              {
-                "id": "o3",
-                "text": "放化疗敏感性高；总体5年生存率高"
-              }
-            ],
-            "page": 77,
-            "chapter": "surg-15",
-            "group": "surg-15-x-pancreatic-prognosis"
-          }
-        },
-        {
-          "id": "surg-15-x-gemcitabine-q1",
-          "reason": "P75正文明确吉西他滨；原P77指向原题页，现更正为正文页，并删除“给姨弹个吉他”的吉字提示。",
-          "previousQuestion": {
-            "stem": "按本讲义“给姨弹个吉他”，胰腺导管腺癌所列化疗药是？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "吉西他滨"
-              },
-              {
-                "id": "o1",
-                "text": "长春新碱"
-              },
-              {
-                "id": "o2",
-                "text": "甲氨蝶呤"
-              },
-              {
-                "id": "o3",
-                "text": "顺铂"
-              }
-            ],
-            "page": 77,
-            "chapter": "surg-15",
-            "group": "surg-15-x-gemcitabine"
-          }
-        },
-        {
-          "id": "surg-16-x-lc-risk-list-q1",
-          "reason": "P82列旧版适应证；删除“123盖茨慢糖心”的数量/病名词根线索，继续保留仅考讲义清单的边界，不扩为现代人人应手术。",
-          "previousQuestion": {
-            "stem": "按讲义“123盖茨慢糖心”，本组选项中列为预防性手术考虑因素的有哪些？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2",
-              "o3",
-              "o4"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "慢性胆囊炎、壁厚＞3mm"
-              },
-              {
-                "id": "o1",
-                "text": "瓷性胆囊"
-              },
-              {
-                "id": "o2",
-                "text": "糖尿病"
-              },
-              {
-                "id": "o3",
-                "text": "心肺功能障碍"
-              },
-              {
-                "id": "o4",
-                "text": "伴≥1cm胆囊息肉"
-              },
-              {
-                "id": "o5",
-                "text": "单纯年轻且无症状无高危因素"
-              }
-            ],
-            "page": 82,
-            "chapter": "surg-16",
-            "group": "surg-16-x-lc-risk-list"
-          }
-        },
-        {
-          "id": "surg-16-x-atresia-q1",
-          "reason": "P87胆总管/肝管/肝门三分型；删除“胆肝门”对编号顺序的直接编码。",
-          "previousQuestion": {
-            "stem": "按讲义胆管闭锁“胆肝门”分型，只涉及胆总管者是？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "Ⅰ型"
-              },
-              {
-                "id": "o1",
-                "text": "Ⅱ型"
-              },
-              {
-                "id": "o2",
-                "text": "Ⅲ型"
-              }
-            ],
-            "page": 87,
-            "chapter": "surg-16",
-            "group": "surg-16-v5-x-atresia-34"
-          }
-        },
-        {
-          "id": "surg-17-stage-q1",
-          "reason": "P100以症状和体征分期；删除“一麻二跛三静四坏”直接给出Ⅰ期编号，保留充分分期条件。",
-          "previousQuestion": {
-            "stem": "“一麻二跛三静四坏”中，仅麻木寒冷、脉搏减弱，对应？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "Ⅰ期"
-              },
-              {
-                "id": "o1",
-                "text": "Ⅱ期"
-              },
-              {
-                "id": "o2",
-                "text": "Ⅲ期"
-              },
-              {
-                "id": "o3",
-                "text": "Ⅳ期"
-              }
-            ],
-            "page": 100,
-            "chapter": "surg-17",
-            "group": "surg-17-stage"
-          }
-        },
-        {
-          "id": "surg-17-x-abi-q1",
-          "reason": "P100分别列ABI<0.9、Ⅱa>200m、Ⅳ期ABI<0.4；删除分期口诀，不删除不同分级系统的材料限定。",
-          "previousQuestion": {
-            "stem": "按讲义“一麻二跛三静四坏”旁的参考值，正确组合是？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "ABI＜0.9；Ⅱa跛行＞200m；Ⅳ期ABI＜0.4"
-              },
-              {
-                "id": "o1",
-                "text": "ABI＜0.4；Ⅱa跛行＞200m；Ⅳ期ABI＜0.9"
-              },
-              {
-                "id": "o2",
-                "text": "ABI＜0.9；Ⅱa跛行＜200m；Ⅳ期ABI＜0.4"
-              },
-              {
-                "id": "o3",
-                "text": "ABI＜0.4；Ⅱa跛行＜200m；Ⅳ期ABI＜0.9"
-              }
-            ],
-            "page": 100,
-            "chapter": "surg-17",
-            "group": "surg-17-x-abi"
-          }
-        },
-        {
-          "id": "surg-17-r3-artery-vein-fields-q1",
-          "reason": "P100动脉治疗与动静脉比较；“动低静高”已经泄露体位字段方向，移至解析。",
-          "previousQuestion": {
-            "stem": "按讲义“动低静高”，慢性动脉供血不足的皮肤表现—动脉搏动—体位组合是哪项？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "苍白、发凉；动脉搏动减弱；患肢下垂"
-              },
-              {
-                "id": "o1",
-                "text": "肿胀、暗红、潮热；动脉供血未受累时搏动保留；患肢抬高"
-              },
-              {
-                "id": "o2",
-                "text": "苍白、发凉；动脉搏动减弱；患肢抬高"
-              },
-              {
-                "id": "o3",
-                "text": "肿胀、暗红、潮热；动脉供血未受累时搏动保留；患肢下垂"
-              }
-            ],
-            "page": 100,
-            "chapter": "surg-17",
-            "group": "surg-17-r3-artery-vein-fields"
-          }
-        },
-        {
-          "id": "surg-19-bph-stones-q4",
-          "reason": "P108—109表现对照；原题已写“影像见输尿管内结石”后再选择输尿管结石，属于诊断名称复述；现不直接给结石或器官定位，只用正文所列的症状对照。",
-          "previousQuestion": {
-            "stem": "腰腹部绞痛沿输尿管走行放射，影像见输尿管内结石，配伍？",
-            "answer": [
-              "o3"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "前列腺增生"
-              },
-              {
-                "id": "o1",
-                "text": "前列腺癌"
-              },
-              {
-                "id": "o2",
-                "text": "膀胱结石"
-              },
-              {
-                "id": "o3",
-                "text": "输尿管结石"
-              }
-            ],
-            "page": 109,
-            "chapter": "surg-19",
-            "group": "surg-19-bph-stones"
-          }
-        },
-        {
-          "id": "surg-20-deformity-q3",
-          "reason": "P116明确特发性为最常见结构性侧凸；原混合颈/髋/脊柱池中按身体部位可排除多数选项，改用全为脊柱侧凸病因的同类池，各项均用原因或背景而不以唯一“性脊柱侧凸”字串提示。；P116；q1、q2和q4移入同字段池，剩余q3改考最常见结构性类型。四候选均为本页侧凸病因，正项仍为o2，避免只有一个颈或髋病名即可定位，也去除唯一候选完整复现“性脊柱侧凸”的形式差异。",
-          "previousQuestion": {
-            "stem": "胸廓不对称、剃刀背，并有脊柱固有结构变化，配伍？",
-            "answer": [
-              "o2"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "先天性肌性斜颈"
-              },
-              {
-                "id": "o1",
-                "text": "发育性髋关节脱位"
-              },
-              {
-                "id": "o2",
-                "text": "特发性结构性脊柱侧凸"
-              },
-              {
-                "id": "o3",
-                "text": "非结构性脊柱侧凸"
-              }
-            ],
-            "page": 116,
-            "chapter": "surg-20",
-            "group": "surg-20-deformity"
-          }
-        },
-        {
-          "id": "surg-22-x-necrosis-causes-q1",
-          "reason": "P123列激素/酒精、减压病、血红蛋白病；删“GC地易建联”按缩写及词根解码正项。",
-          "previousQuestion": {
-            "stem": "口诀“GC地易建联”涉及的非创伤性股骨头坏死原因，本组选项中有哪些？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "糖皮质激素或乙醇相关损伤"
-              },
-              {
-                "id": "o1",
-                "text": "减压病氮气栓塞"
-              },
-              {
-                "id": "o2",
-                "text": "镰状细胞贫血或地中海贫血"
-              },
-              {
-                "id": "o3",
-                "text": "单纯原发髋关节软骨退变"
-              }
-            ],
-            "page": 123,
-            "chapter": "surg-22",
-            "group": "surg-22-x-necrosis-causes"
-          }
-        },
-        {
-          "id": "surg-22-x-figure-four-q1",
-          "reason": "P124四项相关疾病直接列举；删除“4字是姑姑的盒子”对应股/股/核/子词根的提示，仍不声称单个阳性可确诊某病。",
-          "previousQuestion": {
-            "stem": "“4字是姑姑的盒子”涉及的4字试验相关疾病，本组选项中有哪些？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2",
-              "o3"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "股内收肌损伤"
-              },
-              {
-                "id": "o1",
-                "text": "股骨头坏死"
-              },
-              {
-                "id": "o2",
-                "text": "髋关节结核"
-              },
-              {
-                "id": "o3",
-                "text": "强直性脊柱炎"
-              },
-              {
-                "id": "o4",
-                "text": "单纯髌骨软骨软化症"
-              }
-            ],
-            "page": 124,
-            "chapter": "surg-22",
-            "group": "surg-22-x-figure-four"
-          }
-        },
-        {
-          "id": "surg-22-x-necrosis-stage-q1",
-          "reason": "P124列本讲义X线编号；删除“约硬头塌头脱”顺序提示。不同体系编号不能混用的限定保留。",
-          "previousQuestion": {
-            "stem": "按讲义“约硬头塌头脱”，软骨下新月征、尚未塌陷的分期是？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "Ⅰ期"
-              },
-              {
-                "id": "o1",
-                "text": "Ⅱ期"
-              },
-              {
-                "id": "o2",
-                "text": "Ⅲ期"
-              },
-              {
-                "id": "o3",
-                "text": "Ⅳ期"
-              }
-            ],
-            "page": 124,
-            "chapter": "surg-22",
-            "group": "surg-22-v5-x-necrosis-stage-47"
-          }
-        },
-        {
-          "id": "surg-23-x-tb-sites-q1",
-          "reason": "P133顺序为脊柱、膝、髋；“鸡西宽冷面”直接按谐音给出顺序，删除。",
-          "previousQuestion": {
-            "stem": "按讲义“鸡西宽冷面”，骨关节结核常见部位顺序是？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "脊柱＞膝关节＞髋关节"
-              },
-              {
-                "id": "o1",
-                "text": "膝关节＞髋关节＞脊柱"
-              },
-              {
-                "id": "o2",
-                "text": "髋关节＞脊柱＞膝关节"
-              },
-              {
-                "id": "o3",
-                "text": "腕关节＞膝关节＞脊柱"
-              }
-            ],
-            "page": 133,
-            "chapter": "surg-23",
-            "group": "surg-23-x-tb-sites"
-          }
-        },
-        {
-          "id": "surg-25-x-bone-metastatic-origin-q2",
-          "reason": "P143逐项列乳腺、前列腺、甲状腺、肺、肾；删“甲乳fei省钱”给出对应病名首字。",
-          "previousQuestion": {
-            "stem": "口诀“甲乳fei省钱”涉及本组选项哪些常见骨转移来源？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2",
-              "o3",
-              "o4"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "乳腺癌"
-              },
-              {
-                "id": "o1",
-                "text": "前列腺癌"
-              },
-              {
-                "id": "o2",
-                "text": "甲状腺癌"
-              },
-              {
-                "id": "o3",
-                "text": "肺癌"
-              },
-              {
-                "id": "o4",
-                "text": "肾癌"
-              },
-              {
-                "id": "o5",
-                "text": "阑尾类癌"
-              }
-            ],
-            "page": 143,
-            "chapter": "surg-25",
-            "group": "surg-25-x-bone-metastatic-origin"
-          }
-        },
-        {
-          "id": "surg-26-x-fracture-site-q1",
-          "reason": "P151列T10—L2；“012”直接提供数字，删除。",
-          "previousQuestion": {
-            "stem": "讲义“012”记忆的脊柱骨折好发范围是？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "T10–L2"
-              },
-              {
-                "id": "o1",
-                "text": "C1–C2"
-              },
-              {
-                "id": "o2",
-                "text": "T2–T6"
-              },
-              {
-                "id": "o3",
-                "text": "L4–S2"
-              }
-            ],
-            "page": 151,
-            "chapter": "surg-26",
-            "group": "surg-26-x-fracture-site"
-          }
-        },
-        {
-          "id": "surg-26-x-cord-indications-q1",
-          "reason": "P155列脱位/复位不满意、骨片入椎管、活动出血；删除“拖布入血”对选项词根的提示，不涉及本页甲泼尼龙等争议处置。",
-          "previousQuestion": {
-            "stem": "按讲义“拖布入血”串联，哪些属于脊髓损伤的手术指征？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "骨折脱位或复位不满意"
-              },
-              {
-                "id": "o1",
-                "text": "碎骨片突入椎管"
-              },
-              {
-                "id": "o2",
-                "text": "椎管内活动性出血"
-              },
-              {
-                "id": "o3",
-                "text": "仅有可迅速恢复的脊髓震荡"
-              }
-            ],
-            "page": 155,
-            "chapter": "surg-26",
-            "group": "surg-26-x-cord-indications"
-          }
-        },
-        {
-          "id": "surg-27-x-sciatic-scoliosis-q1",
-          "reason": "P160正文口诀及P163应用题支持内侧健侧/外侧患侧；删除“内奸外患”，将全部选项改为同一“内侧—外侧”两字段比较，避免原题已指定外侧便排除半池。；P160及P163；统一内/外侧两种场景的完整对应，去掉“内奸外患”及原池唯一无侧凸等异质项，答案o0。",
-          "previousQuestion": {
-            "stem": "按讲义“内奸外患”，为减少神经根张力，髓核位于神经根外侧时的代偿配伍？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "髓核在神经根外侧→腰椎凸向患侧"
-              },
-              {
-                "id": "o1",
-                "text": "髓核在神经根内侧→腰椎凸向患侧"
-              },
-              {
-                "id": "o2",
-                "text": "髓核在神经根外侧→腰椎凸向健侧"
-              },
-              {
-                "id": "o3",
-                "text": "两种相对位置都不发生侧凸"
-              }
-            ],
-            "page": 163,
-            "chapter": "surg-27",
-            "group": "surg-27-x-sciatic-scoliosis"
-          }
-        },
-        {
-          "id": "surg-28-x-ankle-fixation-q1",
-          "reason": "P179列内踝螺钉、外踝接骨板；“内螺外板”就是完整答案，必须删去。",
-          "previousQuestion": {
-            "stem": "讲义“内螺外板”对应的三踝骨折固定配伍？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "内踝螺钉、外踝接骨板"
-              },
-              {
-                "id": "o1",
-                "text": "内踝接骨板、外踝螺钉"
-              },
-              {
-                "id": "o2",
-                "text": "内踝螺钉、外踝张力带"
-              },
-              {
-                "id": "o3",
-                "text": "内踝张力带、外踝接骨板"
-              }
-            ],
-            "page": 179,
+            "page": 174,
             "chapter": "surg-28",
-            "group": "surg-28-x-ankle-fixation"
+            "group": "surg-28-x-common-dislocation"
           }
         },
         {
-          "id": "surg-29-classification-q1",
-          "reason": "P183列横形、青枝、嵌插、裂缝、压缩；“横青插裂压”已逐项给出正项，删除，保留讲义形态归类而非真实病例绝对稳定性。",
+          "id": "surg-38-x-drug-members-q1",
+          "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
           "previousQuestion": {
-            "stem": "口诀“横青插裂压”中，本组哪些属于讲义所列稳定性形态？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2",
-              "o3"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "横形骨折"
-              },
-              {
-                "id": "o1",
-                "text": "青枝骨折"
-              },
-              {
-                "id": "o2",
-                "text": "裂缝骨折"
-              },
-              {
-                "id": "o3",
-                "text": "嵌插骨折"
-              },
-              {
-                "id": "o4",
-                "text": "斜形骨折"
-              },
-              {
-                "id": "o5",
-                "text": "螺旋形骨折"
-              }
-            ],
-            "page": 183,
-            "chapter": "surg-29",
-            "group": "surg-29-classification"
-          }
-        },
-        {
-          "id": "surg-29-x-healing-criteria-q1",
-          "reason": "P184列异常活动、压叩痛、连续骨痂；“不动不痛见骨痂”直接给出全部正项，删除。",
-          "previousQuestion": {
-            "stem": "“不动不痛见骨痂”对应哪些临床愈合标准？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "局部无异常活动"
-              },
-              {
-                "id": "o1",
-                "text": "无局部压痛和纵向叩击痛"
-              },
-              {
-                "id": "o2",
-                "text": "连续性骨痂、骨折线模糊"
-              },
-              {
-                "id": "o3",
-                "text": "局部无红肿和皮温升高"
-              }
-            ],
-            "page": 184,
-            "chapter": "surg-29",
-            "group": "surg-29-x-healing-criteria"
-          }
-        },
-        {
-          "id": "surg-31-x-fluid-volume-q2",
-          "reason": "P194补液算术模型；去掉“上述”依赖，所需两项数据在本题独立给出。不改变计算目标或临床边界。",
-          "previousQuestion": {
-            "stem": "按讲义成人生理需要约2500ml，加上述1000ml额外损失，估算次日总补液量？",
-            "answer": [
-              "o2"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "1000ml"
-              },
-              {
-                "id": "o1",
-                "text": "2500ml"
-              },
-              {
-                "id": "o2",
-                "text": "3500ml"
-              },
-              {
-                "id": "o3",
-                "text": "4500ml"
-              }
-            ],
-            "page": 194,
-            "chapter": "surg-31",
-            "group": "surg-31-x-fluid-volume"
-          }
-        },
-        {
-          "id": "surg-33-x-fluid-amount-q2",
-          "reason": "P201文字及公式图已核：成人30×60×1.5=2700ml晶胶液，第二24h为2700/2+2000=3350ml。原题“同例”在随机排序时可能失去病例，且预给计算公式；现独立补全数据，不预给公式。",
-          "previousQuestion": {
-            "stem": "同例第二个24小时按讲义“晶胶液减半＋2000ml”估算总量？",
-            "answer": [
-              "o2"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "4700ml"
-              },
-              {
-                "id": "o1",
-                "text": "2700ml"
-              },
-              {
-                "id": "o2",
-                "text": "3350ml"
-              },
-              {
-                "id": "o3",
-                "text": "6700ml"
-              }
-            ],
-            "page": 201,
-            "chapter": "surg-33",
-            "group": "surg-33-x-fluid-amount"
-          }
-        },
-        {
-          "id": "surg-35-x-suture-time-q1",
-          "reason": "P212列四肢10—12天；“双11剁手”把中间数11直接放在题干，删除。",
-          "previousQuestion": {
-            "stem": "“双11剁手”对应哪项拆线记忆？",
-            "answer": [
-              "o3"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "4–5天"
-              },
-              {
-                "id": "o1",
-                "text": "6–7天"
-              },
-              {
-                "id": "o2",
-                "text": "7–9天"
-              },
-              {
-                "id": "o3",
-                "text": "10–12天"
-              },
-              {
-                "id": "o4",
-                "text": "约14天"
-              }
-            ],
-            "page": 212,
-            "chapter": "surg-35",
-            "group": "surg-35-x-suture-time"
-          }
-        },
-        {
-          "id": "surg-35-x-suture-time-q5",
-          "reason": "P212列约14天；“剪了要死”谐音十四直接泄露数值，删除。",
-          "previousQuestion": {
-            "stem": "“剪了要死”对应减张缝合拆线参考时间？",
-            "answer": [
-              "o4"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "4–5天"
-              },
-              {
-                "id": "o1",
-                "text": "6–7天"
-              },
-              {
-                "id": "o2",
-                "text": "7–9天"
-              },
-              {
-                "id": "o3",
-                "text": "10–12天"
-              },
-              {
-                "id": "o4",
-                "text": "约14天"
-              }
-            ],
-            "page": 212,
-            "chapter": "surg-35",
-            "group": "surg-35-x-suture-time"
-          }
-        },
-        {
-          "id": "surg-36-x-inhaled-q3",
-          "reason": "P216列地氟烷适合心脏手术；删除“心地善良”的地字提示，仅作为本页表内关系，不声称其他药绝不用于心脏手术。",
-          "previousQuestion": {
-            "stem": "讲义“心地善良”在吸入药中对应哪项？",
-            "answer": [
-              "o2"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "氧化亚氮"
-              },
-              {
-                "id": "o1",
-                "text": "七氟烷"
-              },
-              {
-                "id": "o2",
-                "text": "地氟烷"
-              },
-              {
-                "id": "o3",
-                "text": "异氟烷"
-              }
-            ],
-            "page": 216,
-            "chapter": "surg-36",
-            "group": "surg-36-x-inhaled"
-          }
-        },
-        {
-          "id": "surg-36-x-neuraxial-order-q1",
-          "reason": "P219明确给出该教学顺序；原“交朋友、有感觉、再运动、深入了解”按字词直接排列全部选项成分，删除。仍限定讲义小结，不把该简化排序扩成所有临床条件下的绝对顺序。",
-          "previousQuestion": {
-            "stem": "按讲义“交朋友、有感觉、再运动、深入了解”，阻滞顺序是？",
+            "stem": "讲义抗代谢药的完整三药组合，应配伍？",
             "answer": [
               "o0"
             ],
             "options": [
               {
                 "id": "o0",
-                "text": "交感→副交感→感觉→运动→本体感觉"
+                "text": "氟尿嘧啶、甲氨蝶呤、阿糖胞苷"
               },
               {
                 "id": "o1",
-                "text": "运动→感觉→交感→副交感→本体感觉"
+                "text": "放线菌素、丝裂霉素、阿霉素"
               },
               {
                 "id": "o2",
-                "text": "本体感觉→运动→感觉→副交感→交感"
+                "text": "长春碱、紫杉醇、博来霉素"
               },
               {
                 "id": "o3",
-                "text": "感觉→运动→本体感觉→交感→副交感"
-              }
-            ],
-            "page": 219,
-            "chapter": "surg-36",
-            "group": "surg-36-x-neuraxial-order"
-          }
-        },
-        {
-          "id": "surg-07-x-trauma-specific-q1",
-          "reason": "P32—33；去除选项中与题干完全相同的病因长串，尤其o4不再复印肝静脉/下腔静脉损伤。五题答案ID不变。q2、q4另改为表内必要临床证据，避免同义重复与证据不足。",
-          "previousQuestion": {
-            "stem": "左下胸外伤后短暂稳定，一周后负重又突发休克，配伍哪种并发症？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "延迟性脾破裂"
-              },
-              {
-                "id": "o1",
-                "text": "肝损伤胆道出血"
-              },
-              {
-                "id": "o2",
-                "text": "中央型肝破裂继发肝脓肿"
-              },
-              {
-                "id": "o3",
-                "text": "胰腺损伤后假性囊肿"
-              },
-              {
-                "id": "o4",
-                "text": "肝静脉或下腔静脉损伤相关空气栓塞"
-              }
-            ],
-            "page": 35,
-            "chapter": "surg-07",
-            "group": "surg-07-x-trauma-specific"
-          }
-        },
-        {
-          "id": "surg-07-x-trauma-specific-q3",
-          "reason": "P32—33；去除选项中与题干完全相同的病因长串，尤其o4不再复印肝静脉/下腔静脉损伤。五题答案ID不变。q2、q4另改为表内必要临床证据，避免同义重复与证据不足。",
-          "previousQuestion": {
-            "stem": "肝中央破裂形成血肿，后续继发感染，材料特别联系哪项？",
-            "answer": [
-              "o2"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "延迟性脾破裂"
-              },
-              {
-                "id": "o1",
-                "text": "肝损伤胆道出血"
-              },
-              {
-                "id": "o2",
-                "text": "中央型肝破裂继发肝脓肿"
-              },
-              {
-                "id": "o3",
-                "text": "胰腺损伤后假性囊肿"
-              },
-              {
-                "id": "o4",
-                "text": "肝静脉或下腔静脉损伤相关空气栓塞"
-              }
-            ],
-            "page": 32,
-            "chapter": "surg-07",
-            "group": "surg-07-x-trauma-specific"
-          }
-        },
-        {
-          "id": "surg-16-x-stone-complication-q1",
-          "reason": "P81；原标题在病因线索题上直接列出正确诊断“胆石性肠梗阻”，去掉该结论，选项与答案不变。",
-          "previousQuestion": {
-            "stem": "胆囊结石可能形成或促成哪些并发情况？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2",
-              "o3"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "胆总管结石及梗阻性黄疸"
-              },
-              {
-                "id": "o1",
-                "text": "急性胰腺炎"
-              },
-              {
-                "id": "o2",
-                "text": "胆石性肠梗阻"
-              },
-              {
-                "id": "o3",
-                "text": "胆囊癌"
-              },
-              {
-                "id": "o4",
-                "text": "原发性肝细胞癌"
-              }
-            ],
-            "page": 94,
-            "chapter": "surg-16",
-            "group": "surg-16-x-stone-complication"
-          }
-        },
-        {
-          "id": "surg-16-x-stone-complication-q2",
-          "reason": "P81；原标题在病因线索题上直接列出正确诊断“胆石性肠梗阻”，去掉该结论，选项与答案不变。",
-          "previousQuestion": {
-            "stem": "胆囊炎慢性穿孔形成胆肠瘘，大结石进入肠腔后出现机械性梗阻，对应？",
-            "answer": [
-              "o2"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "胆总管结石及梗阻性黄疸"
-              },
-              {
-                "id": "o1",
-                "text": "急性胰腺炎"
-              },
-              {
-                "id": "o2",
-                "text": "胆石性肠梗阻"
-              },
-              {
-                "id": "o3",
-                "text": "胆囊癌"
-              },
-              {
-                "id": "o4",
-                "text": "原发性肝细胞癌"
-              }
-            ],
-            "page": 81,
-            "chapter": "surg-16",
-            "group": "surg-16-x-stone-complication"
-          }
-        },
-        {
-          "id": "surg-20-deformity-q1",
-          "reason": "P116；q1、q2和q4移入同字段池，剩余q3改考最常见结构性类型。四候选均为本页侧凸病因，正项仍为o2，避免只有一个颈或髋病名即可定位，也去除唯一候选完整复现“性脊柱侧凸”的形式差异。；P115—116；原标题单独写出先天性肌性斜颈，与颈/髋/脊柱混池合用会泄露q1。保留现有模块ID和题目入口，仅中性命名。；P115正文直接支持；原混合池只有一个颈部疾病，题干已给头颈部位即能选，无需知道方向，改考有效的两轴方向关系。",
-          "previousQuestion": {
-            "stem": "头偏向患侧、下颌转向健侧，伴单侧胸锁乳突肌挛缩，配伍？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "先天性肌性斜颈"
-              },
-              {
-                "id": "o1",
-                "text": "发育性髋关节脱位"
-              },
-              {
-                "id": "o2",
-                "text": "特发性结构性脊柱侧凸"
-              },
-              {
-                "id": "o3",
-                "text": "非结构性脊柱侧凸"
-              }
-            ],
-            "page": 115,
-            "chapter": "surg-20",
-            "group": "surg-20-deformity"
-          }
-        },
-        {
-          "id": "surg-20-deformity-q2",
-          "reason": "P116；q1、q2和q4移入同字段池，剩余q3改考最常见结构性类型。四候选均为本页侧凸病因，正项仍为o2，避免只有一个颈或髋病名即可定位，也去除唯一候选完整复现“性脊柱侧凸”的形式差异。；P115原文逐项支持；从跨器官病名匹配改为同一疾病的三字段解剖组合，保留该材料的病理关系，不添加材料外疾病负例。",
-          "previousQuestion": {
-            "stem": "婴幼儿患侧下肢短缩、皮纹不对称，髋臼浅，配伍？",
-            "answer": [
-              "o1"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "先天性肌性斜颈"
-              },
-              {
-                "id": "o1",
-                "text": "发育性髋关节脱位"
-              },
-              {
-                "id": "o2",
-                "text": "特发性结构性脊柱侧凸"
-              },
-              {
-                "id": "o3",
-                "text": "非结构性脊柱侧凸"
-              }
-            ],
-            "page": 115,
-            "chapter": "surg-20",
-            "group": "surg-20-deformity"
-          }
-        },
-        {
-          "id": "surg-20-deformity-q4",
-          "reason": "P116；q1、q2和q4移入同字段池，剩余q3改考最常见结构性类型。四候选均为本页侧凸病因，正项仍为o2，避免只有一个颈或髋病名即可定位，也去除唯一候选完整复现“性脊柱侧凸”的形式差异。；P116定义及例子均明确；不在题干先写“非结构性”，改从原因反推结构和可复性，四选项同字段。",
-          "previousQuestion": {
-            "stem": "下肢不等长引起侧弯，纠正病因后可消除，配伍？",
-            "answer": [
-              "o3"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "先天性肌性斜颈"
-              },
-              {
-                "id": "o1",
-                "text": "发育性髋关节脱位"
-              },
-              {
-                "id": "o2",
-                "text": "特发性结构性脊柱侧凸"
-              },
-              {
-                "id": "o3",
-                "text": "非结构性脊柱侧凸"
-              }
-            ],
-            "page": 116,
-            "chapter": "surg-20",
-            "group": "surg-20-deformity"
-          }
-        },
-        {
-          "id": "surg-22-x-necrosis-test-q1",
-          "reason": "P124；前3项均为影像而原第4项“常规血培养”不属于同类候选，改为同类影像CT，仅作本页特征检查的近邻负例，不声称CT对该病无任何价值。两题答案仍o0/o1。",
-          "previousQuestion": {
-            "stem": "股骨头坏死早期需观察双线征等，配伍哪项？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "MRI"
-              },
-              {
-                "id": "o1",
-                "text": "放射性核素骨显像"
-              },
-              {
-                "id": "o2",
-                "text": "普通X线"
-              },
-              {
-                "id": "o3",
-                "text": "常规血培养"
-              }
-            ],
-            "page": 124,
-            "chapter": "surg-22",
-            "group": "surg-22-x-necrosis-test"
-          }
-        },
-        {
-          "id": "surg-22-x-necrosis-test-q2",
-          "reason": "P124；前3项均为影像而原第4项“常规血培养”不属于同类候选，改为同类影像CT，仅作本页特征检查的近邻负例，不声称CT对该病无任何价值。两题答案仍o0/o1。",
-          "previousQuestion": {
-            "stem": "股骨头坏死“热区中有冷区”的讲义征象来自哪项？",
-            "answer": [
-              "o1"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "MRI"
-              },
-              {
-                "id": "o1",
-                "text": "放射性核素骨显像"
-              },
-              {
-                "id": "o2",
-                "text": "普通X线"
-              },
-              {
-                "id": "o3",
-                "text": "常规血培养"
-              }
-            ],
-            "page": 124,
-            "chapter": "surg-22",
-            "group": "surg-22-x-necrosis-test"
-          }
-        },
-        {
-          "id": "surg-38-x-cancer-prevention-q3",
-          "reason": "P229；“三级预防配伍”既可能指三种层级，也可能直接指第三级。在q3风险筛查中统一改成中性层级题名，三个原题与答案不变。",
-          "previousQuestion": {
-            "stem": "对已患肿瘤进行姑息、对症支持，讲义对应？",
-            "answer": [
-              "o2"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "一级预防"
-              },
-              {
-                "id": "o1",
-                "text": "二级预防"
-              },
-              {
-                "id": "o2",
-                "text": "三级预防"
+                "text": "伊马替尼、曲妥珠单抗、利妥昔单抗"
               }
             ],
             "page": 229,
             "chapter": "surg-38",
-            "group": "surg-38-x-cancer-prevention"
-          }
-        },
-        {
-          "id": "surg-18-diseases-q1",
-          "reason": "P104—106鉴别池含肾结核及多种泌外癌；去除模块标题单独点名肾结核对q1的提前提示，正文治疗题仍在同专题。",
-          "previousQuestion": {
-            "stem": "慢性膀胱刺激症先于血尿，尿路造影呈虫蚀样空洞，配伍？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "肾结核"
-              },
-              {
-                "id": "o1",
-                "text": "肾细胞癌"
-              },
-              {
-                "id": "o2",
-                "text": "上尿路尿路上皮癌"
-              },
-              {
-                "id": "o3",
-                "text": "膀胱癌"
-              },
-              {
-                "id": "o4",
-                "text": "前列腺癌"
-              }
-            ],
-            "page": 104,
-            "chapter": "surg-18",
-            "group": "surg-18-diseases"
-          }
-        },
-        {
-          "id": "surg-19-bph-stones-q1",
-          "reason": "P108—109原模块也放置癌与结石鉴别；删标题唯一点名良性前列腺增生，避免根据专题标题就选择诊断。",
-          "previousQuestion": {
-            "stem": "移行带增生、尿频后进行性排尿困难，配伍？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "前列腺增生"
-              },
-              {
-                "id": "o1",
-                "text": "前列腺癌"
-              },
-              {
-                "id": "o2",
-                "text": "膀胱结石"
-              },
-              {
-                "id": "o3",
-                "text": "输尿管结石"
-              }
-            ],
-            "page": 108,
-            "chapter": "surg-19",
-            "group": "surg-19-bph-stones"
-          }
-        },
-        {
-          "id": "surg-19-x-retention-q1",
-          "reason": "P108—109原模块也放置癌与结石鉴别；删标题唯一点名良性前列腺增生，避免根据专题标题就选择诊断。",
-          "previousQuestion": {
-            "stem": "本组选项中，哪些是讲义列出的男性急性尿潴留常见原因？",
-            "answer": [
-              "o0",
-              "o1",
-              "o2",
-              "o3"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "尿路结石"
-              },
-              {
-                "id": "o1",
-                "text": "尿路狭窄"
-              },
-              {
-                "id": "o2",
-                "text": "前列腺炎"
-              },
-              {
-                "id": "o3",
-                "text": "良性前列腺增生"
-              },
-              {
-                "id": "o4",
-                "text": "局限肾透明细胞癌且无血块、梗阻"
-              }
-            ],
-            "page": 113,
-            "chapter": "surg-19",
-            "group": "surg-19-x-retention"
-          }
-        },
-        {
-          "id": "surg-03-x-receptor-combinations-q1",
-          "reason": "P16标题明确列ER、PR、HER2、Ki-67，表中三阴涉及前三项；原题给出三阴性后只有一个阴阴阴组合，无医学知识也能选。现四选项均为三项阴性、只交换标记项目；不把三阴性与所有基底样分子谱完全等同。",
-          "previousQuestion": {
-            "stem": "按定义，三阴性乳腺癌的三个受体状态应配伍哪组？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "ER阴、PR阴、HER2阴"
-              },
-              {
-                "id": "o1",
-                "text": "ER阴、PR阴、HER2阳"
-              },
-              {
-                "id": "o2",
-                "text": "ER阳、PR阳、HER2阴"
-              },
-              {
-                "id": "o3",
-                "text": "ER阳、PR阳、HER2阳"
-              }
-            ],
-            "page": 16,
-            "chapter": "surg-03",
-            "group": "surg-03-x-receptor-combinations"
-          }
-        },
-        {
-          "id": "surg-37-micro-q1",
-          "reason": "P223原文明确；将本来已在题干给出的流入流出口诀移为待选字段，改从阶段反推模式。",
-          "previousQuestion": {
-            "stem": "口诀“只出不进”，优先保证心脑灌注，对应哪期？",
-            "answer": [
-              "o0"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "收缩代偿期"
-              },
-              {
-                "id": "o1",
-                "text": "扩张淤血期"
-              },
-              {
-                "id": "o2",
-                "text": "衰竭期"
-              }
-            ],
-            "page": 223,
-            "chapter": "surg-37",
-            "group": "surg-37-micro"
-          }
-        },
-        {
-          "id": "surg-37-micro-q2",
-          "reason": "P223原文明确；避免题干“微循环淤滞”与选项“扩张淤血期”的同词直接配对，改用同一流量字段池反向考察。",
-          "previousQuestion": {
-            "stem": "口诀“只进不出”，微循环淤滞，对应哪期？",
-            "answer": [
-              "o1"
-            ],
-            "options": [
-              {
-                "id": "o0",
-                "text": "收缩代偿期"
-              },
-              {
-                "id": "o1",
-                "text": "扩张淤血期"
-              },
-              {
-                "id": "o2",
-                "text": "衰竭期"
-              }
-            ],
-            "page": 223,
-            "chapter": "surg-37",
-            "group": "surg-37-micro"
+            "group": "surg-38-x-drug-members"
           }
         }
       ],
       "retired": [],
-      "addedQuestionIds": [],
-      "groupAliases": {},
-      "presentationEdits": [],
-      "notes": [
-        "已完整读73个外科规则候选，并按同池复核扩查有关邻题。对本文件修改项回查源文重点段落，使用work/surgery/pages.json；完整目视P16分子分型表、P160侧凸相关页、P201烧伤公式图。",
-        "原候选中保留：退热不等于好转的病例、热区中有冷区、通心粉征、虎口区、Ortolani/Barlow弹入弹出、一大块后壁骨折等。它们是必要观察或正式检查/形态用语，不因带引号就机械删除。",
-        "仅标题更名：上下运动神经元鉴别、三类脱水及水中毒鉴别等本来同时列出近邻对象，不是唯一答案标题，保留；肾结核、BPH、斜颈等单独点名且池内另有多病者用moduleEdits中性化。",
-        "范围边界：P77原题旧统计“5年总体生存率低于10%”本次不单独判分。原prognosis题改由P74正文的早期隐匿与敏感性差承接；若需继续考定量生存率，应按现代分期、人群和年份另查权威来源，而非把旧无答案原题当恒定统计。",
-        "P18哺乳用药及P82预防性胆囊切除、P219简化阻滞顺序等仅限定本讲义条目，不把这些考试清单改写为真实临床操作指令；本轮没有外部临床指南更新。",
-        "所有新组合池的正项来自同一源文显式关系，负例为同字段交换；三阴性池仅取P16已列的四种检测指标。q2治疗反推另有P18 ER及HER2受体条件支持。",
-        "新pool局部o编号会变化，必须由父助手迁移层保存旧题干/选项/作答快照并仅重置受影响题的当前作答及评分；不沿用旧掌握状态。",
-        "原始73个候选+本次同池和随机排序依赖扩查的题，均在reviewed中列出；未声称全外科1398题逐题作了独立临床指南复审。"
+      "addedQuestionIds": [
+        "clarity-elbow-direction-q1",
+        "clarity-hip-direction-q1"
       ],
+      "groupAliases": {
+        "surg-28-x-common-dislocation": "surg-28-clarity-joint-directions"
+      },
+      "presentationEdits": [],
       "scan": {
         "questions": 1398,
-        "flaggedCandidates": 73,
-        "reviewedQuestionIds": [
-          "surg-01-x-surgical-indications-q1",
-          "surg-01-x-protection-q1",
-          "surg-02-x-layer-q1",
-          "surg-03-x-inversion-causes-q1",
-          "surg-03-x-receptor-combinations-q1",
-          "surg-03-r3-lactation-drugs-q1",
-          "surg-04-x-rib-sites-q1",
-          "surg-05-x-small-threshold-q1",
-          "surg-05-x-outside-d2-q1",
-          "surg-05-x-endoscopic-set-q1",
-          "surg-06-x-peritonitis-severity-q2",
-          "surg-07-x-trauma-frequency-q1",
-          "surg-07-x-trauma-specific-q5",
-          "surg-10-r3-colon-sides-q1",
-          "surg-10-x-margins-q1",
-          "surg-11-hemorrhoids-q1",
-          "surg-11-hemorrhoids-q2",
-          "surg-11-hemorrhoids-q3",
-          "surg-11-x-clock-q1",
-          "surg-11-x-fissure-triad-q1",
-          "surg-12-x-cord-q1",
-          "surg-12-x-contents-frequency-q1",
-          "surg-13-x-puncture-caution-q1",
-          "surg-13-x-management-q1",
-          "surg-14-child-q1",
-          "surg-14-x-devessels-q1",
-          "surg-15-x-pancreatic-prognosis-q1",
-          "surg-15-x-gemcitabine-q1",
-          "surg-16-ultrasound-q4",
-          "surg-16-x-stone-complication-q2",
-          "surg-16-x-lc-risk-list-q1",
-          "surg-16-x-polyp-risk-q2",
-          "surg-16-x-atresia-q1",
-          "surg-17-stage-q1",
-          "surg-17-x-abi-q1",
-          "surg-17-r3-artery-vein-fields-q1",
-          "surg-18-diseases-q1",
-          "surg-18-x-renal-tb-treatment-q3",
-          "surg-19-bph-stones-q1",
-          "surg-20-deformity-q1",
-          "surg-20-hip-tests-q1",
-          "surg-20-hip-tests-q2",
-          "surg-22-x-necrosis-causes-q1",
-          "surg-22-x-necrosis-test-q2",
-          "surg-22-x-figure-four-q1",
-          "surg-22-x-necrosis-stage-q1",
-          "surg-22-x-knee-tests-q2",
-          "surg-22-x-peripheral-sensory-q3",
-          "surg-23-x-tb-sites-q1",
-          "surg-25-x-bone-metastatic-origin-q2",
-          "surg-26-x-fracture-site-q1",
-          "surg-26-x-cord-indications-q1",
-          "surg-27-x-sciatic-scoliosis-q1",
-          "surg-27-x-motor-other-q2",
-          "surg-28-x-epstein-q2",
-          "surg-28-x-ankle-fixation-q1",
-          "surg-29-classification-q1",
-          "surg-29-x-healing-criteria-q1",
-          "surg-31-r3-water-cases-q4",
-          "surg-31-water-q4",
-          "surg-31-x-kcl-urine-q1",
-          "surg-31-x-fluid-calculation-q1",
-          "surg-33-x-fluid-amount-q2",
-          "surg-34-x-sepsis-organisms-q2",
-          "surg-35-x-suture-time-q1",
-          "surg-35-x-suture-time-q5",
-          "surg-36-x-inhaled-q3",
-          "surg-36-local-q4",
-          "surg-36-x-neuraxial-order-q1",
-          "surg-37-micro-q1",
-          "surg-37-micro-q2",
-          "surg-38-x-cancer-prevention-q3",
-          "surg-38-x-drug-members-q3",
-          "surg-03-x-receptor-combinations-q2",
-          "surg-07-x-trauma-specific-q2",
-          "surg-07-x-trauma-specific-q4",
-          "surg-14-r3-flow-fields-q2",
-          "surg-19-bph-stones-q4",
-          "surg-20-deformity-q3",
-          "surg-31-x-fluid-volume-q2",
-          "surg-20-deformity-q2",
-          "surg-20-deformity-q4"
-        ],
-        "mode": "all-question-rule-scan-and-source-based-candidate-review",
-        "scope": "mnemonic, wording, heading and option-form cues; not a new full clinical guideline review"
+        "candidates": [],
+        "scope": "规则扫描全库；命中题及相关邻题回到讲义核读，不等同于全部医学事实重新审核"
       },
+      "notes": [
+        "整表编码改为明确对象、独立关系或逐项多选；必要的联合诊断条件保留。",
+        "原科题保留讲义口诀，未复制至口诀专项。",
+        "只让实质变化的旧题重新作答；仅措辞调整不重置记录。"
+      ],
+      "externalCrossChecks": [],
       "revisions": [
         {
           "revision": "2026-10-23-unified-focus-v4",
@@ -15074,6 +12674,81 @@
           "retired": [],
           "addedQuestionIds": [],
           "groupAliases": {}
+        },
+        {
+          "revision": "2026-10-27-clear-relations-v7",
+          "rewrites": [
+            {
+              "id": "surg-28-x-common-dislocation-q1",
+              "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+              "previousQuestion": {
+                "stem": "讲义三个大关节脱位最常见方向的组合，应配伍哪组？",
+                "answer": [
+                  "o0"
+                ],
+                "options": [
+                  {
+                    "id": "o0",
+                    "text": "肩前、肘后、髋后"
+                  },
+                  {
+                    "id": "o1",
+                    "text": "肩后、肘前、髋前"
+                  },
+                  {
+                    "id": "o2",
+                    "text": "肩前、肘前、髋后"
+                  },
+                  {
+                    "id": "o3",
+                    "text": "肩后、肘后、髋前"
+                  }
+                ],
+                "page": 174,
+                "chapter": "surg-28",
+                "group": "surg-28-x-common-dislocation"
+              }
+            },
+            {
+              "id": "surg-38-x-drug-members-q1",
+              "reason": "原题把多项知识压成符号串或整表对应；明确考察对象，拆开独立关系或逐项多选，补全术语。",
+              "previousQuestion": {
+                "stem": "讲义抗代谢药的完整三药组合，应配伍？",
+                "answer": [
+                  "o0"
+                ],
+                "options": [
+                  {
+                    "id": "o0",
+                    "text": "氟尿嘧啶、甲氨蝶呤、阿糖胞苷"
+                  },
+                  {
+                    "id": "o1",
+                    "text": "放线菌素、丝裂霉素、阿霉素"
+                  },
+                  {
+                    "id": "o2",
+                    "text": "长春碱、紫杉醇、博来霉素"
+                  },
+                  {
+                    "id": "o3",
+                    "text": "伊马替尼、曲妥珠单抗、利妥昔单抗"
+                  }
+                ],
+                "page": 229,
+                "chapter": "surg-38",
+                "group": "surg-38-x-drug-members"
+              }
+            }
+          ],
+          "retired": [],
+          "addedQuestionIds": [
+            "clarity-elbow-direction-q1",
+            "clarity-hip-direction-q1"
+          ],
+          "groupAliases": {
+            "surg-28-x-common-dislocation": "surg-28-clarity-joint-directions"
+          }
         }
       ]
     },
@@ -44222,7 +41897,7 @@
     {
       "id": "surg-28",
       "name": "四肢骨折和脱位",
-      "questionCount": 69,
+      "questionCount": 71,
       "startPage": 168,
       "endPage": 182,
       "modules": [
@@ -44364,7 +42039,7 @@
           "groups": [
             "surg-28-dislocations",
             "surg-28-nerves",
-            "surg-28-x-common-dislocation",
+            "surg-28-clarity-joint-directions",
             "surg-28-v5-x-normal-angles-72",
             "surg-28-v5-x-normal-angles-73",
             "surg-28-v5-x-shoulder-methods-74"
@@ -44379,6 +42054,8 @@
             "surg-28-nerves-q4",
             "surg-28-nerves-q5",
             "surg-28-x-common-dislocation-q1",
+            "clarity-elbow-direction-q1",
+            "clarity-hip-direction-q1",
             "surg-28-x-normal-angles-q1",
             "surg-28-x-normal-angles-q4",
             "surg-28-x-normal-angles-q2",
@@ -46277,12 +43954,16 @@
             "supplement": false
           },
           {
-            "name": "肩肘髋脱位的常见方向",
-            "group": "surg-28-x-common-dislocation",
+            "name": "常见关节脱位方向",
+            "group": "surg-28-clarity-joint-directions",
             "questionIds": [
-              "surg-28-x-common-dislocation-q1"
+              "surg-28-x-common-dislocation-q1",
+              "clarity-elbow-direction-q1",
+              "clarity-hip-direction-q1"
             ],
             "pages": [
+              169,
+              172,
               174
             ],
             "supplement": false
@@ -46327,7 +44008,19 @@
             "supplement": false
           }
         ],
-        "cueRevision": "2026-10-25-source-cues-v6"
+        "cueRevision": "2026-10-25-source-cues-v6",
+        "clarityRevision": "2026-10-27-clear-relations-v7",
+        "clarityReview": {
+          "rewrittenQuestionIds": [
+            "surg-28-x-common-dislocation-q1"
+          ],
+          "addedQuestionIds": [
+            "clarity-elbow-direction-q1",
+            "clarity-hip-direction-q1"
+          ],
+          "retiredQuestionIds": [],
+          "presentationEditIds": []
+        }
       }
     },
     {
@@ -56777,6 +54470,7 @@
           "groups": [
             "surg-38-drugs",
             "surg-38-x-drug-members",
+            "surg-38-clarity-antimetabolites",
             "surg-38-x-additional-drug-class",
             "surg-38-x-pain-ladder",
             "surg-38-v5-x-drug-members-99"
@@ -56788,8 +54482,8 @@
             "surg-38-drugs-q4",
             "surg-38-drugs-q5",
             "surg-38-drugs-q6",
-            "surg-38-x-drug-members-q1",
             "surg-38-x-drug-members-q2",
+            "surg-38-x-drug-members-q1",
             "surg-38-x-additional-drug-class-q1",
             "surg-38-x-additional-drug-class-q2",
             "surg-38-x-additional-drug-class-q3",
@@ -57599,8 +55293,18 @@
             "name": "抗肿瘤药类别成员补全",
             "group": "surg-38-x-drug-members",
             "questionIds": [
-              "surg-38-x-drug-members-q1",
               "surg-38-x-drug-members-q2"
+            ],
+            "pages": [
+              229
+            ],
+            "supplement": false
+          },
+          {
+            "name": "抗代谢类抗肿瘤药",
+            "group": "surg-38-clarity-antimetabolites",
+            "questionIds": [
+              "surg-38-x-drug-members-q1"
             ],
             "pages": [
               229
@@ -57643,7 +55347,16 @@
             "supplement": false
           }
         ],
-        "cueRevision": "2026-10-25-source-cues-v6"
+        "cueRevision": "2026-10-25-source-cues-v6",
+        "clarityRevision": "2026-10-27-clear-relations-v7",
+        "clarityReview": {
+          "rewrittenQuestionIds": [
+            "surg-38-x-drug-members-q1"
+          ],
+          "addedQuestionIds": [],
+          "retiredQuestionIds": [],
+          "presentationEditIds": []
+        }
       }
     }
   ]

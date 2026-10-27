@@ -1,5 +1,5 @@
 {
-  "version": "1.8",
-  "nextVersion": "1.9",
+  "version": "1.9",
+  "nextVersion": "1.10",
   "note": "Rebuilding or publishing the same release must not increment this number. Increment to nextVersion for the next user-facing update."
 }

@@ -4,6 +4,7 @@ const mobileBoot=html=>html.replace('</head>',read('src/mobile-boot-head.html')+
 const {applyQuestionPolicy}=require('./src/question-policy.cjs'),{applyReorganization}=require('./src/surgery-reorganization.cjs'),{applyInternalModules,applyContentPolicy,REVISION}=require('./src/unified-content-policy.cjs');
 const {applyPoolQuality}=require('./src/pool-quality-policy.cjs');
 const {applyCueQuality,REVISION:CUE_REVISION}=require('./src/cue-quality-policy.cjs');
+const {applyClarity,scanClarity,REVISION:CLARITY_REVISION}=require('./src/clarity-content-policy.cjs');
 const {applyLectureMnemonics}=require('./src/lecture-mnemonic-policy.cjs'),release=JSON.parse(read('src/release.json'));
 const banks={internal:applyContentPolicy(applyInternalModules(applyQuestionPolicy(JSON.parse(read('src/full-bank.json'))),JSON.parse(read('src/internal-modules.json'))),JSON.parse(read('src/internal-content-plan.json'))),surgery:applyContentPolicy(applyReorganization(JSON.parse(read('src/surgery-bank.json')),JSON.parse(read('src/surgery-reorg-plan.json'))),JSON.parse(read('src/surgery-content-plan.json')))};
 for(const id of ['internal','surgery'])banks[id]=applyPoolQuality(banks[id],JSON.parse(read('src/'+id+'-pool-plan.json')));
@@ -12,7 +13,10 @@ banks.biochemistry=JSON.parse(read('src/biochemistry-bank.json'));
 banks.pathology=JSON.parse(read('src/pathology-bank.json'));
 for(const id of Object.keys(banks))banks[id]=applyCueQuality(banks[id],JSON.parse(read('src/'+id+'-cue-plan.json')));
 for(const id of Object.keys(banks))banks[id]=applyLectureMnemonics(banks[id],JSON.parse(read('src/'+id+'-mnemonic-plan.json')));
+const clarityScans=Object.fromEntries(Object.entries(banks).map(([id,b])=>[id,scanClarity(b)]));
+for(const id of Object.keys(banks))banks[id]=applyClarity(banks[id],id);
 const humanities=require('./src/humanities-bank.cjs').prepareHumanities(banks,root);banks.humanities=humanities.bank;fs.writeFileSync(path.join(root,'dist/humanities.html'),humanities.html);
+clarityScans.humanities=scanClarity(banks.humanities);
 const spec={internal:{id:'internal',name:'内科',key:'xuecheng-internal-drag-v2',url:'./internal.html',file:'internal.html'},surgery:{id:'surgery',name:'外科',key:'xuecheng-surgery-drag-v1',url:'./surgery.html',file:'surgery.html'},physiology:{id:'physiology',name:'生理',key:'xuecheng-physiology-drag-v1',url:'./physiology.html',file:'physiology.html'},biochemistry:{id:'biochemistry',name:'生化',key:'xuecheng-biochemistry-drag-v1',url:'./biochemistry.html',file:'biochemistry.html'},pathology:{id:'pathology',name:'病理',key:'xuecheng-pathology-drag-v1',url:'./pathology.html',file:'pathology.html'}};
 spec.humanities={id:'humanities',name:'人文与口诀',key:'xuecheng-humanities-drag-v1',url:'./humanities.html',file:'humanities.html'};
 const catalogs=Object.entries(banks).map(([id,b])=>({...spec[id],revision:b.contentAudit.revision||REVISION,organization:b.reorganization||null,audit:b.contentAudit,chapters:b.chapters.map(c=>({id:c.id,name:c.name})),groups:b.chapters.flatMap(c=>c.groups.map(g=>({id:g.id,chapter:c.id,module:g.module,options:g.options,questions:g.questions.map(q=>({id:q.id,stem:q.stem,answer:q.answer,page:q.page,type:q.answer.length>1?'multiple':'single',explanation:q.explanation,...(q.mnemonics?{mnemonics:q.mnemonics}:{}),...(q.references?{references:q.references}:{}),...(q.sourceLecture?{sourceLecture:q.sourceLecture,drillSection:q.drillSection}:{} )}))})))}));
@@ -57,7 +61,8 @@ for(const [id,bank]of Object.entries(banks)){
   fs.writeFileSync(path.join(root,'dist',id==='internal'?'coverage.json':id+'-coverage.json'),JSON.stringify({source,chapters:meta.map(c=>({id:c.id,name:c.name,questionCount:c.questionCount,startPage:c.startPage,endPage:c.endPage,modules:c.modules,coverage:c.coverage}))},null,2));
   summary.push({course:id,chapters:meta.length,modules:source.moduleCount,questions:data.reduce((n,g)=>n+g.questions.length,0),rewrites:changed.length,retired:bank.contentAudit.retired.length,added:bank.contentAudit.addedQuestionIds.length,bytes:Buffer.byteLength(html)});
 }
-fs.writeFileSync(path.join(root,'dist/unified-audit.json'),JSON.stringify({revision:CUE_REVISION,courses:summary},null,2));console.log(JSON.stringify(summary));
+fs.writeFileSync(path.join(root,'dist/unified-audit.json'),JSON.stringify({revision:CLARITY_REVISION,courses:summary},null,2));console.log(JSON.stringify(summary));
+fs.writeFileSync(path.join(root,'dist/clarity-audit.json'),JSON.stringify({revision:CLARITY_REVISION,scans:clarityScans,courses:Object.entries(banks).filter(([,b])=>b.contentAudit.revision===CLARITY_REVISION).map(([course,b])=>({course,rewrites:b.contentAudit.rewrites,retired:b.contentAudit.retired,addedQuestionIds:b.contentAudit.addedQuestionIds,presentationEdits:b.contentAudit.presentationEdits,externalCrossChecks:b.contentAudit.externalCrossChecks}))},null,2));
 fs.writeFileSync(path.join(root,'dist/version.json'),JSON.stringify({version:'v'+release.version,nextVersion:'v'+release.nextVersion},null,2));
 const humanAudit=banks.humanities.priorityAudit;
 fs.writeFileSync(path.join(root,'dist/humanities-audit.json'),JSON.stringify({version:'v'+release.version,...humanAudit,mnemonics:banks.humanities.lectureMnemonicAudit},null,2));
