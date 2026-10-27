@@ -3123,7 +3123,7 @@
         "新增10道髋部比较题及18道其他临床鉴别题；退休17道明确重复、答案标签泄露或跨部位选项过易题，均给出可迁移的替代题ID。"
       ]
     },
-    "releaseVersion": "v1.9",
+    "releaseVersion": "v1.10",
     "courseId": "surgery",
     "courseName": "外科",
     "poolQualityRevision": "2026-10-27-clear-relations-v7",

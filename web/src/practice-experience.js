@@ -85,7 +85,7 @@ function restoreMobilePosition(){
  renderHeader=function(){base.renderHeader();if(!mobile())return;const q=current()[0],m=currentModule();$('group-title').textContent=m.name;$('group-count').textContent=`第 ${state.batchIndex+1}/${pages().length} 题`;
   const context=$('mobile-study-context');context.querySelector('strong').textContent=SOURCE.courseName+' · '+chapter().name;context.querySelector('.mobile-topic').textContent=m.name;context.querySelector('.mobile-mode').textContent=(isMemorizeMode()?'背题 · 答案同显':(studySettings.quick?'快刷':'逐题练习')+' · '+(studySettings.answer==='choice'?'选项模式':'拖拽模式'))+' · '+SOURCE.releaseVersion;
   context.querySelector('.mobile-next-chapter').textContent=CHAPTERS[CHAPTERS.indexOf(chapter())+1]?'下一章：'+CHAPTERS[CHAPTERS.indexOf(chapter())+1].name:'本课程最后一章';
-  const reviewed=q&&locked(q);$('redo-batch-btn').textContent=isMemorizeMode()?'重新浏览':'重新做题';$('redo-batch-btn').title=isMemorizeMode()?'回到本题顶部，不清空作答或历史':'仅清空当前显示题目的作答和评分，保留历史、错题与收藏';$('prev-btn').textContent='上一组';$('next-btn').textContent='下一组';
+  const reviewed=q&&locked(q);$('redo-batch-btn').textContent=isMemorizeMode()?'重新浏览':'重新做题';$('redo-batch-btn').title=isMemorizeMode()?'回到本题顶部，不清空作答或历史':'清空当前题目的作答与评分并打乱同组选项；保留题序、历史、错题与收藏';$('prev-btn').textContent='上一组';$('next-btn').textContent='下一组';
   $('mobile-question-progress').textContent=q?`本选项组 ${state.batchIndex+1}/${pages().length} 题 · 左右滑动切题${reviewed?' · 已批改':''}`:'暂无符合筛选的题目';
  };
  renderStudyTools=function(){base.renderStudyTools();if(mobile()){$('prev-btn').textContent='上一组';$('next-btn').textContent='下一组';$('redo-batch-btn').textContent=isMemorizeMode()?'重新浏览':'重新做题';}else $('redo-batch-btn').textContent='↻ 重做当前题块';};

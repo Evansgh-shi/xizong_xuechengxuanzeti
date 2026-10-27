@@ -2,6 +2,7 @@
 const COMMON_SESSION_KEY='xuecheng-common-practice-v1';
 // UI topics are the navigation contract; source pools may be interleaved in DATA.
 const PRACTICE_GROUPS=CHAPTERS.flatMap(c=>c.modules.flatMap(m=>m.groups.map(id=>DATA.find(g=>g.id===id))));
+const BASE_TOPIC_GROUPS=new Map(CHAPTERS.flatMap(c=>c.modules.map(m=>[m.id,[...m.groups]])));
 const ownCourse=()=>COMMON_COURSES.find(c=>c.id===SOURCE.courseId);
 const commonKey=(course,id)=>course+':'+id;
 const COMMON_QUESTIONS=new Map(COMMON_COURSES.flatMap(c=>c.groups.flatMap(g=>g.questions.map(q=>[commonKey(c.id,q.id),{...q,course:c.id,courseName:c.name,chapter:g.chapter,group:g.id,module:g.module,options:g.options,chapterName:c.chapters.find(ch=>ch.id===g.chapter).name}]))));
@@ -47,7 +48,27 @@ function normalizeNotebook(){
 }
 function noteResult(q,correct,chosen){delete state.needsReview[q.id];if(correct)return;const previous=state.mistakes[q.id]||{};state.mistakes[q.id]={...previous,lastWrong:Date.now(),wrongCount:(previous.wrongCount||0)+1,lastWrongChoice:[...chosen]};}
 function currentModule(){return chapter().modules.find(m=>m.id===group().module)||chapter().modules[0];}
-function ensureOrders(){for(const g of DATA){const valid=(a,ids)=>Array.isArray(a)&&a.length===ids.length&&new Set(a).size===ids.length&&a.every(id=>ids.includes(id));const qids=g.questions.map(q=>q.id),oids=g.options.map(o=>o.id);if(!valid(state.orders[g.id],qids))state.orders[g.id]=shuffle(qids);if(!valid(state.optionOrders[g.id],oids))state.optionOrders[g.id]=shuffle(oids);}}
+function ensureOrders(){
+ const valid=(a,ids)=>Array.isArray(a)&&a.length===ids.length&&new Set(a).size===ids.length&&a.every(id=>ids.includes(id));
+ for(const g of DATA){const qids=g.questions.map(q=>q.id),oids=g.options.map(o=>o.id);if(!valid(state.orders[g.id],qids))state.orders[g.id]=shuffle(qids);if(!valid(state.optionOrders[g.id],oids))state.optionOrders[g.id]=shuffle(oids);}
+ if(!state.topicPoolOrders||typeof state.topicPoolOrders!=='object'||Array.isArray(state.topicPoolOrders))state.topicPoolOrders={};
+ // Pool cards stay intact. Every navigation path uses this same persisted order.
+ for(const c of CHAPTERS){for(const m of c.modules){const ids=BASE_TOPIC_GROUPS.get(m.id),saved=state.topicPoolOrders[m.id];if(saved&&!valid(saved,ids))delete state.topicPoolOrders[m.id];m.groups=[...(valid(saved,ids)?saved:ids)];}c.groups=c.modules.flatMap(m=>m.groups);}
+ PRACTICE_GROUPS.splice(0,PRACTICE_GROUPS.length,...CHAPTERS.flatMap(c=>c.modules.flatMap(m=>m.groups.map(id=>DATA.find(g=>g.id===id)))));
+}
+function reshuffledOrder(ids){
+ const next=shuffle(ids);if(next.length>1&&next.every((id,i)=>id===ids[i])){const i=Math.floor(Math.random()*(next.length-1));[next[i],next[i+1]]=[next[i+1],next[i]];}return next;
+}
+function reorderPracticeSubset(order,ids){const members=new Set(ids),next=reshuffledOrder(order.filter(id=>members.has(id)));let i=0;return order.map(id=>members.has(id)?next[i++]:id);}
+function shuffleCurrentTopic(){
+ ensureOrders();const m=currentModule(),groups=m.groups.map(id=>DATA.find(g=>g.id===id)),eligible=groups.filter(g=>pool(g).length),before=eligible.flatMap(g=>pool(g).map(q=>q.id));
+ if(!before.length){toast('当前专题没有符合筛选的题目，未改动作答。');return;}
+ for(const g of eligible)for(const type of ['single','multiple'])state.orders[g.id]=reorderPracticeSubset(state.orders[g.id],pool(g).filter(q=>q.type===type).map(q=>q.id));
+ state.topicPoolOrders[m.id]=reorderPracticeSubset(m.groups,eligible.map(g=>g.id));ensureOrders();
+ const after=m.groups.map(id=>DATA.find(g=>g.id===id)).filter(g=>pool(g).length);state.group=after[0].id;state.batchIndex=0;state.review=false;state.revealed=false;selected=null;selectedPoolId=null;dragged=null;$('option-search').value='';
+ render();if(studyViewport.matches)scrollTo({top:0,behavior:'instant'});else document.querySelector('.board').scrollIntoView({behavior:'instant',block:'start'});
+ const changed=after.flatMap(g=>pool(g).map(q=>q.id)).some((id,i)=>id!==before[i]);toast(changed?'已打乱本专题题序并回到首题；原作答、评分、错题和收藏保留。':'本专题当前分区内没有可交换的题目；作答与记录保留。');
+}
 function commonSession(){try{
   const s=JSON.parse(localStorage.getItem(COMMON_SESSION_KEY)||'null');if(!(s?.version===1&&s.active&&Array.isArray(s.items)))return null;
   const before=JSON.stringify([s.items,s.courseOrder]);
@@ -79,14 +100,17 @@ function renderHeader(){const parts=pages(),qs=current(),g=group();$('group-numb
 function redoCurrentBatch(){
   const qs=current();if(!qs.length)return;
   for(const q of qs){delete state.answers[q.id];delete state.grades[q.id];}
-  state.review=false;state.revealed=false;selected=null;dragged=null;
+  for(const id of new Set(qs.map(q=>q.group)))state.optionOrders[id]=reshuffledOrder(state.optionOrders[id]);
+  state.review=false;state.revealed=false;selected=null;selectedPoolId=null;dragged=null;$('option-search').value='';
   render();
-  toast(`已清空当前题块（${qs.length}题），可以重新作答；历史、错题与收藏保留。`);
+  toast(`已清空当前题块（${qs.length}题）并打乱同组选项；题序、历史、错题与收藏保留。`);
 }
 function syncStudyToolbarHeight(){const dock=document.querySelector('.study-dock');if(typeof dock?.getBoundingClientRect==='function')document.documentElement?.style.setProperty('--dock-height',Math.max(72,Math.ceil(dock.getBoundingClientRect().height))+'px');}
 function renderStudyTools(){
   const before=navigationTarget(-1),after=navigationTarget(1),m=currentModule(),qs=current();
   $('redo-batch-btn').disabled=!qs.length;
+  $('redo-batch-btn').title='清空当前题块作答与评分并打乱同组选项；保留题序、历史、错题与收藏';
+  $('shuffle-btn').textContent='⇄ 打乱本专题题序';$('shuffle-btn').title='只打乱当前专题内题目和选项卡的先后顺序，不清空答案或评分';$('shuffle-btn').disabled=!m.groups.some(id=>pool(DATA.find(g=>g.id===id)).length);
   for(const [ids,t,label]of [[['prev-btn','prev-top-btn'],before,'← 上一组'],[['next-btn','next-top-btn'],after,'下一组 →']])for(const id of ids){$(id).disabled=!t;$(id).textContent=label;$(id).title=t?.course?'切换至'+COMMON_COURSES.find(c=>c.id===t.course).name+'错题':t?'已有作答保留；切换练习组':'已到本次练习边界';}
   $('batch-position').textContent=`${SOURCE.courseName} · ${currentModule().name} · 练习 ${m.groups.indexOf(state.group)+1}/${m.groups.length} · 当前${qs.length}题`;
   $('dock-chapter').textContent=`${SOURCE.courseName} · ${chapter().name}`;
@@ -105,12 +129,12 @@ function restoreCommonPractice(explicitId){
   }
   const ids=s.items.filter(x=>x.course===SOURCE.courseId&&QMAP.has(x.id)).map(x=>x.id);if(!ids.length){delete state.commonSessionId;state.wrongOnly=false;state.wrongIds=[];state.practiceLabel='';restoreCommonModuleUrl();return;}
   state.commonSessionId=s.id;state.wrongOnly=true;state.wrongIds=ids;state.practiceLabel=s.label+' · 跨科重练';state.type='all';state.difficulty='all';
-  const eligible=PRACTICE_GROUPS.filter(g=>g.questions.some(q=>ids.includes(q.id)));ensureOrders();
+  ensureOrders();const eligible=PRACTICE_GROUPS.filter(g=>g.questions.some(q=>ids.includes(q.id)));
   if(u.searchParams.get('edge')==='last'){state.group=eligible.at(-1).id;state.batchIndex=pages().length-1;}
   else if(u.searchParams.get('edge')==='first'||explicitId||!eligible.some(g=>g.id===state.group)){state.group=eligible[0].id;state.batchIndex=0;}
   state.review=false;state.revealed=false;
 }
-function restoreCommonModuleUrl(){try{const m=chapter().modules.find(m=>m.id===new URL(location.href).searchParams.get('module'));if(m&&!m.groups.includes(state.group)){state.group=m.groups[0];state.batchIndex=0;state.review=false;state.revealed=false;}}catch{}}
+function restoreCommonModuleUrl(){try{ensureOrders();const m=chapter().modules.find(m=>m.id===new URL(location.href).searchParams.get('module'));if(m&&!m.groups.includes(state.group)){state.group=m.groups[0];state.batchIndex=0;state.review=false;state.revealed=false;}}catch{}}
 function notebookCandidates(scope=notebookUI.scope){
   const result=[];for(const c of COMMON_COURSES){const r=readCourseRecord(c);for(const g of c.groups)for(const q of g.questions){const favorite=r.favorites?.[q.id],mistake=r.mistakes?.[q.id],mastered=!!r.history?.[q.id]?.correct&&!r.needsReview?.[q.id];if(scope==='favorites'?favorite:scope==='unmastered'?mistake&&!mastered:mistake)result.push({...COMMON_QUESTIONS.get(commonKey(c.id,q.id)),favorite,mistake,mastered,needsReview:!!r.needsReview?.[q.id]});}}
   return result;
@@ -155,5 +179,7 @@ $('dialog-body').addEventListener('click',e=>{
 $('dialog-body').addEventListener('change',e=>{if(e.target.id==='common-notebook-course'){notebookUI.course=e.target.value;notebookUI.chapter='all';notebookUI.page=0;showNotebook(false);}if(e.target.id==='common-notebook-chapter'){notebookUI.chapter=e.target.value;notebookUI.page=0;renderNotebookList();}});
 $('dialog-body').addEventListener('input',e=>{if(e.target.id==='common-notebook-search'){notebookUI.term=e.target.value;notebookUI.page=0;renderNotebookList();}});
 $('redo-batch-btn').addEventListener('click',redoCurrentBatch);
+// Override the legacy clearing shuffle button in every generated course template.
+$('shuffle-btn').addEventListener('click',e=>{e.preventDefault();e.stopImmediatePropagation();shuffleCurrentTopic();},true);
 if(typeof ResizeObserver!=='undefined')new ResizeObserver(syncStudyToolbarHeight).observe(document.querySelector('.study-dock'));
 if(typeof window!=='undefined')window.addEventListener('storage',e=>{if(COMMON_COURSES.some(c=>c.key===e.key)){if(e.key===KEY){try{const r=JSON.parse(e.newValue).state;state.favorites=r.favorites||{};state.mistakes=r.mistakes||{};}catch{}}renderQuestions();renderStudyTools();}});
