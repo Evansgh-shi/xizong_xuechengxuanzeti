@@ -28,7 +28,7 @@
   if(actions)card.append(actions);if(review)card.append(review);
   schedule();
  };
- const baseHeader=renderHeader;renderHeader=function(){baseHeader();if(studyViewport.matches){const progress=$('mobile-question-progress'),q=current()[0];if(q)progress.textContent=`${state.batchIndex+1}/${pages().length} 题 · 左右滑动`;for(const el of document.querySelectorAll('#mobile-study-context strong,.mobile-topic,.mobile-next-chapter'))el.title=el.textContent;schedule();}};
+ const baseHeader=renderHeader;renderHeader=function(){baseHeader();if(studyViewport.matches){const progress=$('mobile-question-progress'),q=current()[0];if(q)progress.textContent=`本选项组 ${state.batchIndex+1}/${pages().length} 题 · 左右滑动`;renderTopicProgress();for(const el of document.querySelectorAll('#mobile-study-context strong,.mobile-topic,.mobile-next-chapter'))el.title=el.textContent;schedule();}};
  const baseRender=render;render=function(){baseRender();schedule();};
  window.addEventListener('resize',schedule);window.visualViewport?.addEventListener('resize',schedule);document.fonts?.ready.then(schedule);
 })();

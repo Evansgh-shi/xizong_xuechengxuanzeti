@@ -105,6 +105,22 @@ function redoCurrentBatch(){
   render();
   toast(`已清空当前题块（${qs.length}题）并打乱同组选项；题序、历史、错题与收藏保留。`);
 }
+function topicProgress(){
+ const m=currentModule(),questions=m.groups.flatMap(id=>pool(DATA.find(g=>g.id===id))),total=questions.length,answered=questions.filter(q=>answersFor(q).length).length;
+ return {total,answered,percent:total?Math.round(answered/total*100):0,label:(state.wrongOnly||state.type!=='all'||state.difficulty!=='all')?'当前练习已作答':'专题已作答'};
+}
+function renderTopicProgress(){
+ const p=topicProgress(),track=$('topic-progress-fill')?.parentElement;
+ if($('topic-progress-label'))$('topic-progress-label').textContent=p.label;
+ if($('topic-progress-count'))$('topic-progress-count').textContent=`${p.answered} / ${p.total} 题 · ${p.percent}%`;
+ if($('topic-progress-fill'))$('topic-progress-fill').style.width=p.percent+'%';
+ if(track){track.setAttribute('aria-valuemax',String(p.total));track.setAttribute('aria-valuenow',String(p.answered));track.setAttribute('aria-valuetext',`${p.label} ${p.answered} / ${p.total} 题`);}
+ const mobileTrack=$('mobile-topic-progress-fill')?.parentElement;
+ if($('mobile-topic-progress-fill'))$('mobile-topic-progress-fill').style.width=p.percent+'%';
+ if($('mobile-topic-progress-label'))$('mobile-topic-progress-label').textContent=`${p.label} ${p.answered}/${p.total}题`;
+ if(mobileTrack){mobileTrack.setAttribute('aria-valuemax',String(p.total));mobileTrack.setAttribute('aria-valuenow',String(p.answered));mobileTrack.setAttribute('aria-valuetext',`${p.label} ${p.answered} / ${p.total} 题`);}
+ return p;
+}
 function syncStudyToolbarHeight(){const dock=document.querySelector('.study-dock');if(typeof dock?.getBoundingClientRect==='function')document.documentElement?.style.setProperty('--dock-height',Math.max(72,Math.ceil(dock.getBoundingClientRect().height))+'px');}
 function renderStudyTools(){
   const before=navigationTarget(-1),after=navigationTarget(1),m=currentModule(),qs=current();
@@ -117,7 +133,7 @@ function renderStudyTools(){
   $('dock-progress').textContent=`${m.name} · 第${m.groups.indexOf(state.group)+1}/${m.groups.length}部分 · 第${state.batchIndex+1}/${pages().length}组`;
   const wrong=state.review?qs.filter(q=>!equals(answersFor(q),q.answer)):[];$('collect-wrong-btn').disabled=!wrong.length;$('collect-wrong-btn').textContent=state.review?`☆ 收藏本组错题（${wrong.length}）`:'☆ 收藏本组错题';
   $('exit-wrong-inline').textContent=state.commonSessionId?'退出跨科重练':state.practiceLabel?.includes('专题连练')?'退出专题连练':'退出筛选练习';
-  $('notebook-count').textContent=notebookCandidates('all').length;syncStudyToolbarHeight();
+  $('notebook-count').textContent=notebookCandidates('all').length;renderTopicProgress();syncStudyToolbarHeight();
 }
 function catalogItems(term=''){const lower=term.trim().toLowerCase();return [...new Set(CHAPTERS.map(c=>c.system))].map(system=>{const list=CHAPTERS.filter(c=>c.system===system&&(!lower||(c.name+' '+c.modules.map(m=>m.name).join(' ')+' '+c.groups.map(id=>DATA.find(g=>g.id===id).name).join(' ')).toLowerCase().includes(lower)));return list.length?`<section class="catalog-group"><h3>${esc(system)}</h3><div class="catalog-list">${list.map(c=>`<button class="catalog-item" data-catalog-chapter="${c.id}"><span>${esc(c.name)}</span><small>${c.modules.length}个知识专题 · ${c.questionCount}题 · 已练 ${chapterPracticed(c)}</small><small>${esc(c.modules.map(m=>m.name).join(' / '))}</small></button>`).join('')}</div></section>`:'';}).join('')||'<p class="catalog-empty">没有匹配的章节或专题。</p>';}
 function showCatalog(){openDialog(SOURCE.courseName+'章节与知识专题',`<p class="catalog-count">${CHAPTERS.length}章 · ${SOURCE.moduleCount}个知识专题 · ${ALL.length}题</p><input id="catalog-search" class="catalog-search" type="search" aria-label="搜索章节或专题" placeholder="搜索章节、疾病或专题…"><div id="catalog-items">${catalogItems()}</div>`);document.querySelector('.dialog').classList.add('wide');}

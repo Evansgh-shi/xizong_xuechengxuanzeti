@@ -66,7 +66,7 @@ function restoreMobilePosition(){
   renderSelection();
  };
  addAnswer=function(qid,optionId,owner){const q=QMAP.get(qid);if(!q||locked(q)){if(q)toast('本题已批改，点“重新做题”后可再答。');return;}base.addAnswer(qid,optionId,owner);if(studySettings.quick&&q.type==='single'&&answersFor(q).includes(optionId))gradeQuestion(q);};
- removeAnswer=function(qid,id){const q=QMAP.get(qid);if(q&&locked(q))return;base.removeAnswer(qid,id);};
+ removeAnswer=function(qid,id){const q=QMAP.get(qid);if(q&&locked(q))return;base.removeAnswer(qid,id);renderTopicProgress();};
  chooseOption=function(id,owner){if(mobile()){const q=current()[0];if(!q||locked(q))return;if(studySettings.answer==='choice'){addAnswer(q.id,id,q.group);return;}}return base.chooseOption(id,owner);};
  $('question-grid').addEventListener('click',e=>{
   const confirm=e.target.closest('[data-confirm-question]');if(confirm){e.preventDefault();e.stopImmediatePropagation();gradeQuestion(QMAP.get(confirm.dataset.confirmQuestion));return;}
@@ -86,11 +86,12 @@ function restoreMobilePosition(){
   const context=$('mobile-study-context');context.querySelector('strong').textContent=SOURCE.courseName+' · '+chapter().name;context.querySelector('.mobile-topic').textContent=m.name;context.querySelector('.mobile-mode').textContent=(isMemorizeMode()?'背题 · 答案同显':(studySettings.quick?'快刷':'逐题练习')+' · '+(studySettings.answer==='choice'?'选项模式':'拖拽模式'))+' · '+SOURCE.releaseVersion;
   context.querySelector('.mobile-next-chapter').textContent=CHAPTERS[CHAPTERS.indexOf(chapter())+1]?'下一章：'+CHAPTERS[CHAPTERS.indexOf(chapter())+1].name:'本课程最后一章';
   const reviewed=q&&locked(q);$('redo-batch-btn').textContent=isMemorizeMode()?'重新浏览':'重新做题';$('redo-batch-btn').title=isMemorizeMode()?'回到本题顶部，不清空作答或历史':'清空当前题目的作答与评分并打乱同组选项；保留题序、历史、错题与收藏';$('prev-btn').textContent='上一组';$('next-btn').textContent='下一组';
-  $('mobile-question-progress').textContent=q?`本选项组 ${state.batchIndex+1}/${pages().length} 题 · 左右滑动切题${reviewed?' · 已批改':''}`:'暂无符合筛选的题目';
+  $('mobile-question-progress').textContent=q?`本选项组 ${state.batchIndex+1}/${pages().length} 题 · 左右滑动切题${reviewed?' · 已批改':''}`:'暂无符合筛选的题目';renderTopicProgress();
  };
  renderStudyTools=function(){base.renderStudyTools();if(mobile()){$('prev-btn').textContent='上一组';$('next-btn').textContent='下一组';$('redo-batch-btn').textContent=isMemorizeMode()?'重新浏览':'重新做题';}else $('redo-batch-btn').textContent='↻ 重做当前题块';};
  render=function(){document.body.classList.toggle('mobile-practice',mobile());document.body.classList.toggle('memorize-mode',isMemorizeMode());document.body.classList.toggle('quick-practice',!!studySettings.quick&&!isMemorizeMode());base.render();state.homeChapterId=chapter().id;if(mobile()){state.mobileQuestionId=current()[0]?.id;document.documentElement.style.setProperty('--mobile-context-height',Math.ceil($('mobile-study-context').getBoundingClientRect().height)+'px');}save();syncStudyToolbarHeight();};
  const context=document.createElement('section');context.id='mobile-study-context';context.className='mobile-study-context';context.setAttribute('aria-label','当前学习位置');context.innerHTML='<div><strong></strong><span class="mobile-mode"></span></div><p class="mobile-topic"></p><p class="mobile-next-chapter"></p><p id="mobile-question-progress" aria-live="polite"></p>';
+ context.insertAdjacentHTML('beforeend','<div class="mobile-topic-progress"><span id="mobile-topic-progress-label">专题已作答 0/0题</span><div class="mobile-topic-progress-track" role="progressbar" aria-labelledby="mobile-topic-progress-label" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0"><i id="mobile-topic-progress-fill"></i></div></div>');
  document.querySelector('.workspace').before(context);
  studyViewport.addEventListener('change',()=>{const id=document.querySelector('[data-question]')?.dataset.question;studySettings=readStudySettings();state.review=false;state.revealed=false;state.batchIndex=mobile()?Math.max(0,pool().findIndex(q=>q.id===id)):0;selected=null;selectedPoolId=null;render();});
  // Touch navigation and its visual lifecycle are installed by mobile-swipe.js.
